@@ -2,10 +2,13 @@
 
 import * as photoStore from '../photos.js';
 import { photos as photoDb } from '../db.js';
+import { createCropper } from '../cropper.js';
 import {
-  el, modal, toast, confirmDialog, blobUrlFor,
+  el, modal, toast, confirmDialog,
   toLocalInput, fromLocalInput, formatDate,
 } from '../ui.js';
+
+const THUMB_SIZE = 640;   // トリミング後の正方形サムネの一辺(px)
 
 /**
  * 新規登録。file と speciesId を渡す。
@@ -13,7 +16,7 @@ import {
  */
 export async function open({ speciesId, file, record, onSaved }) {
   let prepared = null;
-  let previewSrc = '';
+  let fullBlob = null;      // 保存する元画像（1600px）
 
   if (file) {
     try {
@@ -22,9 +25,20 @@ export async function open({ speciesId, file, record, onSaved }) {
       toast(err.message || '写真を読み込めませんでした');
       return;
     }
-    previewSrc = blobUrlFor(prepared.full);
+    fullBlob = prepared.full;
   } else if (record) {
-    previewSrc = blobUrlFor(record.blob);
+    fullBlob = record.blob;
+  }
+
+  // トリミング画面（正方形）。元画像から作り、既存写真なら前回の枠を復元する。
+  let cropper = null;
+  if (fullBlob) {
+    try {
+      cropper = await createCropper({ blob: fullBlob, crop: record?.crop || null });
+    } catch (err) {
+      toast(err.message || '写真を表示できませんでした');
+      return;
+    }
   }
 
   const exif = prepared?.exif || null;
@@ -206,7 +220,7 @@ export async function open({ speciesId, file, record, onSaved }) {
     : null;
 
   const body = el('div', {},
-    previewSrc ? el('img', { class: 'preview', src: previewSrc, alt: '' }) : null,
+    cropper ? cropper.element : null,
     exifNote,
     contextArea,
     detailArea,
@@ -241,7 +255,12 @@ export async function open({ speciesId, file, record, onSaved }) {
     saveBtn,
   ];
 
-  const m = modal({ title: record ? '写真を編集' : '写真を登録', body, footer });
+  const m = modal({
+    title: record ? '写真を編集' : '写真を登録',
+    body,
+    footer,
+    onClose: () => cropper?.destroy(),
+  });
 
   setContext(context);
 
@@ -258,6 +277,16 @@ export async function open({ speciesId, file, record, onSaved }) {
 
     saveBtn.disabled = true;
     try {
+      // トリミング枠から正方形サムネを作る。失敗しても既存サムネで保存を続ける。
+      let thumb = record?.thumb || null;
+      let crop = record?.crop || null;
+      if (cropper) {
+        try {
+          crop = cropper.getCrop();
+          thumb = await cropper.render(THUMB_SIZE);
+        } catch { /* サムネ生成に失敗しても登録自体は通す */ }
+      }
+
       const rec = {
         id: record?.id,
         speciesId: record?.speciesId || speciesId,
@@ -270,7 +299,8 @@ export async function open({ speciesId, file, record, onSaved }) {
         note: noteInput.value,
         createdAt: record?.createdAt,
         blob: record?.blob || prepared.full,
-        thumb: record?.thumb || prepared.thumb,
+        thumb: thumb || record?.blob || prepared.full,
+        crop,
         width: record?.width ?? prepared?.width,
         height: record?.height ?? prepared?.height,
       };

@@ -744,6 +744,57 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   display: block;
 }
 
+/* ---------- Cropper（正方形トリミング） ---------- */
+.cropper { margin-bottom: 14px; }
+.crop-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #000;
+  border-radius: var(--radius-sm);
+  touch-action: none;            /* ドラッグ中にモーダルがスクロールしないように */
+  cursor: grab;
+  user-select: none;
+}
+.crop-frame:active { cursor: grabbing; }
+/* 三分割ガイド。中心にカエルを合わせやすくする。 */
+.crop-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 33.33% 0 / 1px 100% no-repeat,
+    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 66.66% 0 / 1px 100% no-repeat,
+    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 33.33% / 100% 1px no-repeat,
+    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 66.66% / 100% 1px no-repeat;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .25);
+}
+.crop-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.crop-controls input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+  height: 26px;
+}
+.crop-btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  min-width: 38px;
+  height: 34px;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+  flex: none;
+}
+.crop-btn.reset { font-size: 12.5px; font-weight: 600; color: var(--text-dim); }
+
 /* ---------- Facility list ---------- */
 .list-rows {
   background: var(--surface);

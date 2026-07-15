@@ -2,14 +2,14 @@
  * 写真の取り込み・リサイズ・登録。
  *
  * 元ファイル（数MB）をそのまま IndexedDB に入れると端末容量をすぐ食い潰すので、
- * 長辺 1600px の表示用と 400px のサムネの 2 枚を作って保存する。
+ * 長辺 1600px に縮小した「元画像」(blob) を保存する。
+ * サムネ (thumb) はユーザーがトリミングした正方形を cropper.js が作る。
  */
 
 import { photos } from './db.js';
 import { parseExif } from './exif.js';
 
 const FULL_MAX = 1600;
-const THUMB_MAX = 400;
 
 /** ファイルから EXIF を読む（撮影日時・GPS） */
 export async function readExif(file) {
@@ -70,18 +70,17 @@ function resize(source, maxSide, quality) {
 
 /**
  * ファイルを読み込み、登録用の下書きを作る（まだ保存はしない）。
- * @returns {{full: Blob, thumb: Blob, width, height, exif}}
+ * サムネはトリミング画面（cropper）で作るので、ここでは元画像だけ用意する。
+ * @returns {{full: Blob, width, height, exif}}
  */
 export async function prepare(file) {
   const exif = await readExif(file);
   const bmp = await toBitmap(file);
   const full = await resize(bmp, FULL_MAX, 0.85);
-  const thumb = await resize(bmp, THUMB_MAX, 0.72);
   if (bmp.close) bmp.close();
 
   return {
     full: full.blob,
-    thumb: thumb.blob,
     width: full.w,
     height: full.h,
     exif: exif || null,
@@ -96,7 +95,10 @@ export function newId() {
 /**
  * 写真レコードを保存。
  * rec: { id?, speciesId, context:'wild'|'captive', facility, placeName, lat, lng,
- *        takenAt (ISO文字列|null), note, blob, thumb, width, height }
+ *        takenAt (ISO文字列|null), note, blob, thumb, crop, width, height }
+ *   blob  … 長辺1600pxの元画像（ライトボックスで全体を表示）
+ *   thumb … ユーザーがトリミングした正方形（カード・ギャラリー・ヒーローで表示）
+ *   crop  … トリミング位置 {cx,cy,z}（再編集時に枠を復元する）
  */
 export async function save(rec) {
   const now = new Date().toISOString();
@@ -112,6 +114,7 @@ export async function save(rec) {
     note: (rec.note || '').trim(),
     blob: rec.blob,
     thumb: rec.thumb,
+    crop: rec.crop || null,
     width: rec.width || null,
     height: rec.height || null,
     createdAt: rec.createdAt || now,

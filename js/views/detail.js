@@ -26,8 +26,10 @@ export async function render(view, id, { refresh }) {
   const cover = list.find((p) => p.context === 'wild') || list[0];
   const hero = el('div', { class: 'hero' + (cover ? '' : ' empty') });
   if (cover) {
+    // ヒーローはトリミング済みサムネ（カエルを枠の中心に据えた正方形）を表示し、
+    // タップ時のライトボックスでは元画像（全体）を見せる。
     hero.append(el('img', {
-      src: blobUrlFor(cover.blob),
+      src: blobUrlFor(cover.thumb || cover.blob),
       alt: s.nameJa,
       onclick: () => lightbox(blobUrlFor(cover.blob)),
     }));
