@@ -1,0 +1,44 @@
+[
+  {
+    "id": "odorrana-supranarina",
+    "nameJa": "オオハナサキガエル",
+    "nameSci": "Odorrana supranarina",
+    "nameEn": "Owston's Green Frog",
+    "family": "アカガエル科",
+    "familySci": "Ranidae",
+    "sizeMm": [58, 115],
+    "description": "石垣島と西表島だけに分布する大型のハナサキガエル。メスは最大11cmを超え、日本のカエルでは最大級。山地の渓流沿いに生息し、冬から早春にかけて流れの緩い淵に集まって産卵する。開発や外来種の影響で個体数が減少している。",
+    "tags": {
+      "habitat": ["流水性", "地表棲"],
+      "origin": "在来",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "12〜2月",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "rana-neba",
+    "nameJa": "ネバタゴガエル",
+    "nameSci": "Rana neba",
+    "nameEn": "Neba Brown Frog",
+    "family": "アカガエル科",
+    "familySci": "Ranidae",
+    "sizeMm": [35, 55],
+    "description": "長野県根羽村で見つかり2014年に新種記載された、タゴガエルによく似た小型のアカガエル。ネコの鳴き声のような特徴的な声で鳴くことで区別される。渓流沿いの伏流水中で産卵し、繁殖期以外は林床で暮らす。分布は中部地方の限られた山地に限られる。",
+    "tags": {
+      "habitat": ["流水性", "地中棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "3〜5月",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  }
+]

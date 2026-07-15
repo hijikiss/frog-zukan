@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="カエル図鑑">
+  <rect width="512" height="512" rx="112" fill="#2f6b46"/>
+  <g>
+    <ellipse cx="256" cy="312" rx="176" ry="150" fill="#6fc98d"/>
+    <circle cx="164" cy="182" r="76" fill="#6fc98d"/>
+    <circle cx="348" cy="182" r="76" fill="#6fc98d"/>
+    <circle cx="164" cy="182" r="52" fill="#ffffff"/>
+    <circle cx="348" cy="182" r="52" fill="#ffffff"/>
+    <circle cx="168" cy="188" r="28" fill="#17251d"/>
+    <circle cx="344" cy="188" r="28" fill="#17251d"/>
+    <circle cx="176" cy="178" r="9" fill="#ffffff"/>
+    <circle cx="352" cy="178" r="9" fill="#ffffff"/>
+    <circle cx="226" cy="300" r="8" fill="#2a5f3f"/>
+    <circle cx="286" cy="300" r="8" fill="#2a5f3f"/>
+    <path d="M150 344a106 106 0 0 0 212 0 106 78 0 0 1-212 0z" fill="#2a5f3f"/>
+  </g>
+</svg>

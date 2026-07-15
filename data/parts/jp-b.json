@@ -1,0 +1,359 @@
+[
+  {
+    "id": "zhangixalus-schlegelii",
+    "nameJa": "シュレーゲルアオガエル",
+    "nameSci": "Zhangixalus schlegelii",
+    "nameEn": "Schlegel's Green Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [32, 60],
+    "description": "本州・四国・九州の水田や湿地の周辺に広く分布する日本固有種。背は鮮やかな緑色一色で腹は白く、虹彩は金色を帯びる。繁殖期には田の畦や水際の土中に白い泡状の卵塊を産みつけ、オスは「コロコロ」と転がすような声で鳴く。国内の動物園・水族館の日本産両生類コーナーで定番の展示種。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "4〜6月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "zhangixalus-arboreus",
+    "nameJa": "モリアオガエル",
+    "nameSci": "Zhangixalus arboreus",
+    "nameEn": "Forest Green Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [42, 82],
+    "description": "本州と佐渡島に分布する日本固有の大型アオガエル。池や湿地に張り出した木の枝に白い泡の卵塊を産み、孵化した幼生が水面へ落下することで知られる。体色は緑一色から褐色の斑紋を持つものまで変異に富む。産卵地が天然記念物に指定された例もあり、動物園・水族館でもよく展示される。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "4〜7月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "zhangixalus-viridis",
+    "nameJa": "オキナワアオガエル",
+    "nameSci": "Zhangixalus viridis",
+    "nameEn": "Okinawa Green Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [41, 68],
+    "description": "沖縄島と伊平屋島に分布する固有種。緑色の体に黒い小斑点が散る個体が多く、まれに褐色や青みがかった個体も現れる。低地から山地の樹林に暮らし、冬から初夏にかけて水辺の土中や斜面に泡状の卵塊を産む。沖縄県内の動物園や自然観察施設で展示されることがある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "12〜翌7月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "zhangixalus-amamiensis",
+    "nameJa": "アマミアオガエル",
+    "nameSci": "Zhangixalus amamiensis",
+    "nameEn": "Amami Green Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [40, 65],
+    "description": "奄美大島・加計呂麻島・徳之島に分布する固有種で、沖縄島にも人為的に持ち込まれ定着している。明るい緑色の体に不規則な黒斑を持つ。森林の樹上で暮らし、冬から春に林道脇の水たまりや湿った土の窪みに泡巣をつくる。奄美群島の展示施設で見られることがある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "12〜翌5月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "zhangixalus-owstoni",
+    "nameJa": "ヤエヤマアオガエル",
+    "nameSci": "Zhangixalus owstoni",
+    "nameEn": "Owston's Green Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [42, 67],
+    "description": "石垣島と西表島に分布する固有種。ほぼ無斑の緑色で、体側から後肢の内側にかけて白色斑が並ぶ。八重山では主に冬季が繁殖期で、水田や湿地に面した草や木の枝に泡状の卵塊をつくる。鳴き声は「キョロロロ」と細かく震える。国内の水族館・動物園で展示例がある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "11〜翌4月（冬季）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "buergeria-buergeri",
+    "nameJa": "カジカガエル",
+    "nameSci": "Buergeria buergeri",
+    "nameEn": "Kajika Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [35, 69],
+    "description": "本州・四国・九州の渓流沿いに生息する日本固有種。灰褐色の地味な体色は川原の石によく溶け込み、扁平な体と発達した吸盤で流れの速い岩場に張りつく。オスは「フィフィフィ」と澄んだ美声で鳴き、古来「河鹿」として親しまれた。水族館の渓流水槽で展示される。",
+    "tags": {
+      "habitat": ["流水性", "地表棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "buergeria-japonica",
+    "nameJa": "リュウキュウカジカガエル",
+    "nameSci": "Buergeria japonica",
+    "nameEn": "Ryukyu Kajika Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [22, 35],
+    "description": "トカラ列島から八重山諸島、台湾に分布する小型種。灰褐色でX字状の暗色斑を持ち、渓流だけでなく水田・側溝・温泉の流出水など多様な水辺に現れる南西諸島で最も普通のカエル。ほぼ一年中「リリリ」という虫のような声で鳴く。沖縄の展示施設で見られる。",
+    "tags": {
+      "habitat": ["流水性", "地表棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "ほぼ通年",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "kurixalus-eiffingeri",
+    "nameJa": "アイフィンガーガエル",
+    "nameSci": "Kurixalus eiffingeri",
+    "nameEn": "Eiffinger's Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [30, 40],
+    "description": "石垣島・西表島と台湾に分布する小型の樹上性カエル。樹洞やクワズイモの葉柄にたまったわずかな水に産卵し、メスが未受精卵を幼生に与えて育てる「子育て」をする日本唯一のカエルとして知られる。樹皮に似た灰褐色で見つけにくい。国内の動物園で繁殖展示例がある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "ほぼ通年（春〜秋が盛期）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "polypedates-leucomystax",
+    "nameJa": "シロアゴガエル",
+    "nameSci": "Polypedates leucomystax",
+    "nameEn": "Common Tree Frog",
+    "family": "アオガエル科",
+    "familySci": "Rhacophoridae",
+    "sizeMm": [50, 80],
+    "description": "東南アジア原産で、戦後に沖縄島へ持ち込まれ南西諸島各地に広がった外来種。灰褐色の体に4本の縦条が入り、水面上の草や壁面にクリーム色の泡巣を産みつける。在来のカエルとの競合が懸念され特定外来生物に指定されている。動物園で外来種として展示されることがある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "外来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "東南アジア"],
+      "breeding": "4〜9月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "fejervarya-kawamurai",
+    "nameJa": "ヌマガエル",
+    "nameSci": "Fejervarya kawamurai",
+    "nameEn": "Japanese Rice Frog",
+    "family": "ヌマガエル科",
+    "familySci": "Dicroglossidae",
+    "sizeMm": [30, 50],
+    "description": "本州中部以西から九州、南西諸島にかけての水田や湿地にごく普通に見られる小型のカエル。背中線を持つ個体が多く、腹面は白い。近年は関東などにも人為的に分布を広げている。昼夜を問わず活動し、水田の畦を歩くとよく跳ね出す。水族館の里山展示などで見られる。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "5〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "fejervarya-sakishimensis",
+    "nameJa": "サキシマヌマガエル",
+    "nameSci": "Fejervarya sakishimensis",
+    "nameEn": "Sakishima Rice Frog",
+    "family": "ヌマガエル科",
+    "familySci": "Dicroglossidae",
+    "sizeMm": [35, 55],
+    "description": "宮古諸島と八重山諸島に分布する固有種で、かつてヌマガエルと同種とされたが遺伝的・形態的に区別された。ヌマガエルよりやや大きく後肢が長い。水田や湿地、河川の低地に多く、雨後にはよく道路上にも現れる。展示施設で扱われることは少ない南西諸島の普通種。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "3〜9月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "nidirana-okinavana",
+    "nameJa": "ヤエヤマハラブチガエル",
+    "nameSci": "Nidirana okinavana",
+    "nameEn": "Ryukyu Tip-nosed Frog",
+    "family": "アカガエル科",
+    "familySci": "Ranidae",
+    "sizeMm": [40, 55],
+    "description": "石垣島・西表島と台湾に分布する希少種。褐色の体に黒い斑紋があり、腹面に暗色のまだら模様が入ることが和名の由来。山地の湿地や細流沿いに生息し、オスは水際の泥に浅い巣穴を掘って「ポコッ」と響く声で鳴く。生息地が限られ環境省レッドリストで絶滅危惧II類。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "4〜9月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "microhyla-okinavensis",
+    "nameJa": "ヒメアマガエル",
+    "nameSci": "Microhyla okinavensis",
+    "nameEn": "Okinawa Narrow-mouthed Toad",
+    "family": "ヒメアマガエル科",
+    "familySci": "Microhylidae",
+    "sizeMm": [20, 30],
+    "description": "奄美群島から八重山諸島に分布する日本最小級のカエル。頭が小さく体は三角形に近く、背中に暗褐色のV字模様が並ぶ。指に吸盤がなく、林床の落葉下や石の下に潜んでアリなどの小さな昆虫を食べる。雨後の水たまりに集まり「ジー」と虫のような声で鳴く。沖縄の施設で展示例あり。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "3〜9月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "lithobates-catesbeianus",
+    "nameJa": "ウシガエル",
+    "nameSci": "Lithobates catesbeianus",
+    "nameEn": "American Bullfrog",
+    "family": "アカガエル科",
+    "familySci": "Ranidae",
+    "sizeMm": [110, 180],
+    "description": "北アメリカ原産で、大正時代に食用として輸入され全国の池沼や河川に定着した大型の外来種。ウシのような「ブォー」という低い鳴き声が名の由来。魚類や昆虫、小型のカエルまで幅広く捕食し、在来種への影響が大きく特定外来生物に指定されている。動物園で外来種として展示される。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "外来",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "北アメリカ"],
+      "breeding": "5〜9月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "rhinella-marina",
+    "nameJa": "オオヒキガエル",
+    "nameSci": "Rhinella marina",
+    "nameEn": "Cane Toad",
+    "family": "ヒキガエル科",
+    "familySci": "Bufonidae",
+    "sizeMm": [90, 150],
+    "description": "中南米原産の大型ヒキガエル。害虫防除の目的で持ち込まれ、小笠原諸島・大東諸島・石垣島などに定着した外来種。目の後ろの大きな耳腺から強力なブフォトキシンを分泌し、捕食した動物を死なせることもある。特定外来生物。動物園でも外来種の代表として展示される。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "外来",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "中央アメリカ", "南アメリカ"],
+      "breeding": "ほぼ通年（雨期が中心）",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "xenopus-laevis",
+    "nameJa": "アフリカツメガエル",
+    "nameSci": "Xenopus laevis",
+    "nameEn": "African Clawed Frog",
+    "family": "ピパ科",
+    "familySci": "Pipidae",
+    "sizeMm": [50, 130],
+    "description": "アフリカ南部原産の完全水生種。舌がなく、扁平な体と大きな水かき、後肢の黒い爪が特徴。実験動物やペットとして輸入されたものが遺棄され、静岡県や和歌山県などの水路で定着している。発生学の研究材料として世界中で使われ、水族館でも飼育展示される。特定外来生物。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "外来",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "アフリカ"],
+      "breeding": "春〜夏（水温上昇期）",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "eleutherodactylus-planirostris",
+    "nameJa": "コヤスガエル",
+    "nameSci": "Eleutherodactylus planirostris",
+    "nameEn": "Greenhouse Frog",
+    "family": "コヤスガエル科",
+    "familySci": "Eleutherodactylidae",
+    "sizeMm": [17, 32],
+    "description": "キューバやバハマなどカリブ海地域原産の超小型種。園芸植物などに紛れて沖縄島に持ち込まれ定着した外来種。落ち葉や鉢の下の湿った場所に産卵し、オタマジャクシの時期を経ずに卵から直接子ガエルが孵る直接発生を行う。夜に「チッチッ」と虫のような声で鳴く。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "外来",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "カリブ"],
+      "breeding": "4〜9月（雨期）",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": false
+  }
+]

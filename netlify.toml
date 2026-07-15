@@ -1,0 +1,26 @@
+# ビルド不要の静的サイト。リポジトリのルートをそのまま公開する。
+[build]
+  publish = "."
+
+# Service Worker は必ず新しいものを取りに行かせる（更新が反映されなくなるのを防ぐ）
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# 種データはアプリ更新時に差し替わるので、キャッシュを短めに
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"

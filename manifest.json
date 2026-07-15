@@ -1,0 +1,50 @@
+{
+  "name": "カエル図鑑",
+  "short_name": "カエル図鑑",
+  "description": "日本と世界のカエルの図鑑。観察したカエルを自分の写真で記録していく個人用アプリ。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7f4",
+  "theme_color": "#2f6b46",
+  "categories": ["education", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "施設別に見る",
+      "url": "./#/facilities"
+    },
+    {
+      "name": "設定・バックアップ",
+      "url": "./#/settings"
+    }
+  ]
+}

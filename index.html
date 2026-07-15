@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6b46">
+<meta name="description" content="自分だけのカエル図鑑。観察したカエルを写真で記録する。">
+<title>カエル図鑑</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="カエル図鑑">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header class="appbar">
+  <div class="appbar-inner">
+    <button class="back-btn" id="backBtn" aria-label="戻る" hidden>‹</button>
+    <h1 class="appbar-title" id="appTitle">カエル図鑑</h1>
+    <button class="icon-btn" id="themeBtn" aria-label="テーマ切替">◐</button>
+  </div>
+  <div class="progress-strip" id="progressStrip">
+    <div class="progress-text">
+      <span id="progressText">読み込み中…</span>
+    </div>
+    <div class="progress-bar" role="progressbar" aria-label="観察達成率">
+      <div class="progress-fill wild" id="progressWild"></div>
+      <div class="progress-fill captive" id="progressCaptive"></div>
+    </div>
+  </div>
+</header>
+
+<main id="view" class="view" aria-live="polite"></main>
+
+<nav class="tabbar" id="tabbar">
+  <a href="#/" class="tab" data-tab="list"><span class="tab-ico">📖</span><span>図鑑</span></a>
+  <a href="#/facilities" class="tab" data-tab="facilities"><span class="tab-ico">🏛</span><span>施設</span></a>
+  <a href="#/settings" class="tab" data-tab="settings"><span class="tab-ico">⚙</span><span>設定</span></a>
+</nav>
+
+<div id="modalRoot"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
