@@ -668,6 +668,9 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 .modal-backdrop {
   position: fixed;
   inset: 0;
+  /* VisualViewport 非対応ブラウザ用のフォールバック。
+     dvh はブラウザのツールバー分を除いた高さになる（キーボードは JS 側の fit() で吸収）。 */
+  height: 100dvh;
   z-index: 60;
   background: rgba(0, 0, 0, .45);
   display: flex;
@@ -681,7 +684,7 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 .modal {
   width: 100%;
   max-width: 560px;
-  max-height: 92vh;
+  max-height: 100%;
   background: var(--bg);
   border-radius: 18px 18px 0 0;
   display: flex;
@@ -691,7 +694,7 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 }
 @media (min-width: 600px) {
   .modal-backdrop { align-items: center; }
-  .modal { border-radius: 18px; max-height: 88vh; }
+  .modal { border-radius: 18px; max-height: 88dvh; }
 }
 .modal-head {
   display: flex;
@@ -716,6 +719,10 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   flex: 1;
+  /* min-height:auto（既定）だと本文が中身より縮まず、フォームが長いとモーダルが
+     max-height を超えてフッター（登録ボタン）が画面外へ押し出される。0 にして
+     本文をスクロール領域にし、フッターを常にモーダル内に留める。 */
+  min-height: 0;
 }
 .modal-foot {
   display: flex;
@@ -723,6 +730,7 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   padding: 12px 14px calc(12px + var(--safe-bottom));
   border-top: 1px solid var(--border);
   background: var(--surface);
+  flex: none;
 }
 .modal-foot .btn { flex: 1; }
 

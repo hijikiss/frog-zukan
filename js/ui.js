@@ -51,7 +51,23 @@ export function modal({ title, body, footer, onClose }) {
   const bodyEl = el('div', { class: 'modal-body' }, body);
   const footEl = footer ? el('div', { class: 'modal-foot' }, footer) : null;
 
+  const vv = window.visualViewport;
+
+  // スマホのソフトキーボードが出ると表示領域（visualViewport）が縮む。
+  // 背景を「実際に見えている領域」ぴったりに合わせることで、
+  // 下端のフッター（登録ボタン）がキーボードに隠れて押せなくなるのを防ぐ。
+  const fit = () => {
+    if (!vv) return;
+    backdrop.style.height = `${vv.height}px`;
+    backdrop.style.top = `${vv.offsetTop}px`;
+    backdrop.style.bottom = 'auto';
+  };
+
   const close = () => {
+    if (vv) {
+      vv.removeEventListener('resize', fit);
+      vv.removeEventListener('scroll', fit);
+    }
     backdrop.remove();
     document.body.style.overflow = '';
     if (onClose) onClose();
@@ -73,6 +89,12 @@ export function modal({ title, body, footer, onClose }) {
 
   root.append(backdrop);
   document.body.style.overflow = 'hidden';
+
+  if (vv) {
+    vv.addEventListener('resize', fit);
+    vv.addEventListener('scroll', fit);
+    fit();
+  }
 
   return { close, body: bodyEl, foot: footEl };
 }
