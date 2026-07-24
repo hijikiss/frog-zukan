@@ -1,0 +1,212 @@
+[
+  {
+    "id": "andrias-davidianus",
+    "nameJa": "チュウゴクオオサンショウウオ",
+    "nameSci": "Andrias davidianus",
+    "nameEn": "Chinese Giant Salamander",
+    "family": "オオサンショウウオ科",
+    "familySci": "Cryptobranchidae",
+    "sizeMm": [600, 1150],
+    "description": "中国中南部の山地渓流にすむ世界最大級の両生類で、日本のオオサンショウウオの近縁種。夜行性で川底の岩陰に潜み、魚や甲殻類を吸い込むように捕食する。食用や薬用の乱獲と生息地の悪化で激減し、絶滅危惧IA類に指定される。日本にも持ち込まれ、在来オオサンショウウオとの交雑が問題化している。",
+    "tags": {
+      "habitat": ["水棲", "流水性"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "8〜9月",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "andrias-sligoi",
+    "nameJa": "スライゴオオサンショウウオ",
+    "nameSci": "Andrias sligoi",
+    "nameEn": "South China Giant Salamander",
+    "family": "オオサンショウウオ科",
+    "familySci": "Cryptobranchidae",
+    "sizeMm": [700, 1800],
+    "description": "中国南部の華南地方に分布する大型のオオサンショウウオで、近年チュウゴクオオサンショウウオから分割された別種。全長1.5mを超えるとされ、現生両生類の中でも最大級とされる。かつてロンドンの動物園で長く飼育された巨大個体が本種にあたる。生息数はごくわずかで、最も絶滅が危惧される両生類のひとつ。",
+    "tags": {
+      "habitat": ["水棲", "流水性"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "夏〜秋",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hynobius-leechii",
+    "nameJa": "チョウセンサンショウウオ",
+    "nameSci": "Hynobius leechii",
+    "nameEn": "Korean Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [80, 135],
+    "description": "朝鮮半島と中国東北部に広く分布する小型のサンショウウオ。褐色から暗色の体に不明瞭な斑紋をもち、山地や丘陵の林床で暮らす。早春に湿地や水路の浅い水へ移動し、コイル状に巻いた卵嚢を水中の枝などに産みつける。分布が広く、この仲間では比較的普通に見られる。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "3〜4月（早春）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hynobius-quelpaertensis",
+    "nameJa": "サイシュウサンショウウオ",
+    "nameSci": "Hynobius quelpaertensis",
+    "nameEn": "Jeju Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [80, 130],
+    "description": "韓国南部と済州島（チェジュ島）に分布する小型のサンショウウオ。かつてチョウセンサンショウウオに含められていたが、別種として区別された。低山の落葉樹林の林床にすみ、早春に山あいの浅い水域で繁殖する。開発による産卵環境の減少で数を減らし、絶滅危惧に位置づけられている。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "早春",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hynobius-formosanus",
+    "nameJa": "タイワンサンショウウオ",
+    "nameSci": "Hynobius formosanus",
+    "nameEn": "Taiwan Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [58, 98],
+    "description": "台湾の標高2000m前後の高山帯に固有の小型サンショウウオ。全長10cmほどで、湿った針葉樹林や高山草地の石や倒木の下に隠れてすむ。冷涼な環境を好み、渓流沿いで繁殖する。分布が限られ生息数も少ないため、絶滅危惧IB類に評価される台湾固有の希少種。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "秋〜冬",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hynobius-arisanensis",
+    "nameJa": "アリサンサンショウウオ",
+    "nameSci": "Hynobius arisanensis",
+    "nameEn": "Alishan Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [70, 95],
+    "description": "台湾中南部の阿里山・玉山などの高山に分布する固有の小型サンショウウオ。全長10cm弱で、標高の高い森林の林床や渓流沿いの石の下にすむ。生息地が山ごとに分断され、分布範囲が狭いことから絶滅危惧IB類とされる。台湾を代表する希少な有尾類のひとつ。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "秋〜冬",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hynobius-glacialis",
+    "nameJa": "ヒョウガサンショウウオ",
+    "nameSci": "Hynobius glacialis",
+    "nameEn": "Nanhu Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [95, 125],
+    "description": "台湾北部の南湖大山の高山帯に固有のサンショウウオで、台湾のサンショウウオ属では最大種。氷河地形の名残る標高の高い草地や礫地にすみ、冷涼な環境に強く依存する。分布はごく狭く、生息地の脆弱さから絶滅危惧IA類とされ、台湾で最も希少な両生類のひとつに数えられる。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "秋〜冬",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ranodon-sibiricus",
+    "nameJa": "セイホウサンショウウオ",
+    "nameSci": "Ranodon sibiricus",
+    "nameEn": "Central Asian Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [150, 200],
+    "description": "カザフスタンと中国新疆の天山山系周辺の、冷たい山地渓流にすむサンショウウオ。旧世界の有尾類の中でも特に珍しい種とされる。ずんぐりした体つきで、幼生は流れの中で数年かけて育つ。放牧や水利用による生息地の劣化で減少し、絶滅危惧IB類に指定されている。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["中央アジア"],
+      "breeding": "5〜6月",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "liua-shihi",
+    "nameJa": "リュウサンショウウオ",
+    "nameSci": "Liua shihi",
+    "nameEn": "Shih's Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [140, 200],
+    "description": "中国中部の山地を流れる冷たい渓流にすむサンショウウオ。四川・湖北・陝西などの標高の高い流れに分布する。扁平な頭部と丈夫な四肢をもち、流れの中の石の下に潜む。幼生は渓流内で長い時間をかけて成長する。分布が広く、低懸念に評価されている。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "春〜夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "onychodactylus-fischeri",
+    "nameJa": "ハコネサンショウウオモドキ",
+    "nameSci": "Onychodactylus fischeri",
+    "nameEn": "Fischer's Clawed Salamander",
+    "family": "サンショウウオ科",
+    "familySci": "Hynobiidae",
+    "sizeMm": [170, 200],
+    "description": "ロシア極東から朝鮮半島、中国東北部の山地渓流に分布するハコネサンショウウオの仲間。肺をもたず皮膚呼吸に頼り、四肢の指先に黒い爪をもつ。冷たく酸素の豊富な清流を好み、成体も水辺を離れない。生息環境の悪化により準絶滅危惧に評価されている。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア"],
+      "breeding": "5〜7月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  }
+]

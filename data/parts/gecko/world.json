@@ -1,0 +1,332 @@
+[
+ {
+  "id": "pachydactylus-rangei",
+  "nameJa": "ナミブスナヤモリ",
+  "nameSci": "Pachydactylus rangei",
+  "nameEn": "Namib Web-footed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   100,
+   140
+  ],
+  "description": "アフリカ南西部のナミブ砂漠に固有の砂漠性ヤモリ。指の間に水かき状の膜が発達し、さらさらの砂の上を歩き、素早く潜る。淡いピンク色で体は半透明。大きな目をもつ夜行性で、体表に付いた霧の水滴をなめて水分を得る。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chondrodactylus-angulifer",
+  "nameJa": "グローブヤモリ",
+  "nameSci": "Chondrodactylus angulifer",
+  "nameEn": "Common Giant Ground Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "アフリカ南部の砂漠や乾燥草原に分布する大型の地表性ヤモリ。ずんぐりした体と大きな頭、太い指をもち、夜間に砂の上を歩いて昆虫やクモを捕らえる。危険を感じると脚を伸ばして体を高く持ち上げ、大きな口を開けて威嚇する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tarentola-chazaliae",
+  "nameJa": "ヘルメットヤモリ",
+  "nameSci": "Tarentola chazaliae",
+  "nameEn": "Helmethead Gecko",
+  "family": "ユビワレヤモリ科",
+  "familySci": "Phyllodactylidae",
+  "sizeMm": [
+   60,
+   90
+  ],
+  "description": "モロッコからモーリタニアにかけての大西洋岸の砂漠に分布する小型のヤモリ。頭が大きく角ばり、兜をかぶったように見えることが和名・英名の由来。地表性で夜行性、海からの霧を水源とする。国内では爬虫類イベントで流通する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "thecadactylus-rapicauda",
+  "nameJa": "カブラオヤモリ",
+  "nameSci": "Thecadactylus rapicauda",
+  "nameEn": "Turnip-tailed Gecko",
+  "family": "ユビワレヤモリ科",
+  "familySci": "Phyllodactylidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "メキシコから中南米、カリブの熱帯林に広く分布する樹上性のヤモリ。灰褐色で樹皮に溶け込むように擬態する。名の通り、自切して再生した尾がカブのように太くなることが多い。夜行性で昆虫を捕らえ、はっきりした声で鳴く。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ",
+    "カリブ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "geckolepis-maculata",
+  "nameJa": "オオバクチヤモリ",
+  "nameSci": "Geckolepis maculata",
+  "nameEn": "Common Fish-scale Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "マダガスカルと周辺の島に分布するヤモリ。大きな瓦状の鱗で全身が覆われ、捕まれると鱗ごと皮膚をはがして逃げ、後に再生する。この性質が「博打（バクチ）」の名の由来。夜行性で、樹幹や人家の壁で昆虫を捕らえる。国内での流通は少ない。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "strophurus-taenicauda",
+  "nameJa": "キスジイシヤモリ",
+  "nameSci": "Strophurus taenicauda",
+  "nameEn": "Golden-tailed Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   120,
+   150
+  ],
+  "description": "オーストラリア東部の乾いた林にすむ樹上性のヤモリ。淡い灰色の体に黒い小斑が散り、目は金色に輝く。危険を感じると尾の背にある腺から、粘つく刺激性の分泌液を噴き出して身を守る。夜行性で昆虫を捕らえる。専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "oedura-castelnaui",
+  "nameJa": "ハスオビビロードヤモリ",
+  "nameSci": "Oedura castelnaui",
+  "nameEn": "Northern Velvet Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   120,
+   160
+  ],
+  "description": "オーストラリア北部に分布する樹上性・岩場性のヤモリ。ビロードのようになめらかな皮膚をもち、褐色の地に淡い横帯が入る。平たい体で樹皮や岩の隙間に潜む。夜行性で昆虫を食べる。飼育しやすく、専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "underwoodisaurus-milii",
+  "nameJa": "ナキツギオヤモリ",
+  "nameSci": "Underwoodisaurus milii",
+  "nameEn": "Thick-tailed Gecko",
+  "family": "カワリオヤモリ科",
+  "familySci": "Carphodactylidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "オーストラリア南部の岩場や乾いた林の地表にすむヤモリ。暗褐色の体に黄色い小斑が散り、ずんぐりした太い尾をもつ。危険を感じると口を開けて体を持ち上げ、吠えるような声を出すことから「バーキングゲッコー」とも呼ばれる。夜行性。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "teratoscincus-scincus",
+  "nameJa": "トルキスタンスキンクヤモリ",
+  "nameSci": "Teratoscincus scincus",
+  "nameEn": "Common Wonder Gecko",
+  "family": "チビヤモリ科",
+  "familySci": "Sphaerodactylidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "中央アジアからカスピ海周辺の砂漠に分布する地表性のヤモリ。大きな目と、光沢のある魚のうろこのような大きな鱗をもつ。危険を感じると尾を震わせ、鱗をすり合わせて音を立てる。夜行性で巣穴を掘る。「ワンダーゲッコー」の名で流通する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アジア",
+    "西アジア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lialis-burtonis",
+  "nameJa": "バートンヒレアシトカゲ",
+  "nameSci": "Lialis burtonis",
+  "nameEn": "Burton's Snake-lizard",
+  "family": "ヒレアシトカゲ科",
+  "familySci": "Pygopodidae",
+  "sizeMm": [
+   500,
+   620
+  ],
+  "description": "オーストラリアとニューギニアに広く分布する、四肢がほぼ失われたヤモリの仲間。後肢はひれ状の小さな痕跡だけが残り、細長い体は一見ヘビのよう。くさび形の細長い頭で、主に他のトカゲを捕らえて丸のみにする。夜行性〜薄明性。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lialis-jicari",
+  "nameJa": "ジカリーヒレアシトカゲ",
+  "nameSci": "Lialis jicari",
+  "nameEn": "New Guinea Snake-lizard",
+  "family": "ヒレアシトカゲ科",
+  "familySci": "Pygopodidae",
+  "sizeMm": [
+   500,
+   700
+  ],
+  "description": "ニューギニアとインドネシアに分布するヒレアシトカゲ科のヤモリの仲間。四肢はほぼ失われ、細長い体はヘビのよう。くさび形の口先で主にトカゲを捕らえて丸のみにする。バートンヒレアシトカゲに似るが口先がより細い。夜行性で環境への適応力が高い。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ }
+]

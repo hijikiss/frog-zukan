@@ -1,0 +1,536 @@
+[
+ {
+  "id": "plestiodon-finitimus",
+  "nameJa": "ヒガシニホントカゲ",
+  "nameSci": "Plestiodon finitimus",
+  "nameEn": "Far Eastern Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   160,
+   250
+  ],
+  "description": "東日本と北海道に分布する光沢の強いトカゲ。西日本のニホントカゲとよく似るが遺伝的に区別される別種で、両種は中部地方付近で境を接する。幼体は黒地に金色の縦条と青い尾をもち、成長すると褐色になる。日当たりのよい石垣や林縁で日光浴し、驚くと尾を自切して逃げる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "plestiodon-latiscutatus",
+  "nameJa": "オカダトカゲ",
+  "nameSci": "Plestiodon latiscutatus",
+  "nameEn": "Okada's Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   150,
+   220
+  ],
+  "description": "伊豆半島と伊豆諸島に分布する日本固有のトカゲ。ニホントカゲ類に似た体形で、島ごとに体色や斑紋、尾の青みが変異する。海岸の岩場から草地まで幅広く生息し、島によっては非常に高密度で見られる。捕食者相の違いによる進化生態の研究対象として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-oshimensis",
+  "nameJa": "オオシマトカゲ",
+  "nameSci": "Plestiodon oshimensis",
+  "nameEn": "Oshima Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   140,
+   220
+  ],
+  "description": "奄美群島に分布する固有のトカゲ。褐色の体に金属光沢があり、幼体は黒地に淡い縦条と青い尾をもつ。森林の林床や石垣、耕作地の周辺で日光浴し、昆虫やクモを捕食する。長らくオキナワトカゲと同種とされてきたが、現在は別種として扱われる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-marginatus",
+  "nameJa": "オキナワトカゲ",
+  "nameSci": "Plestiodon marginatus",
+  "nameEn": "Okinawa Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   140,
+   220
+  ],
+  "description": "沖縄諸島を中心に分布する固有のトカゲ。金属光沢のある褐色の体をもち、幼体は黒地に淡い縦条と青い尾が目立つ。林縁や畑、石垣など日当たりのよい場所を好み、素早く動いて昆虫を捕らえる。近縁のオオシマトカゲやバーバートカゲと分布域を分ける。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-barbouri",
+  "nameJa": "バーバートカゲ",
+  "nameSci": "Plestiodon barbouri",
+  "nameEn": "Barbour's Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   100,
+   160
+  ],
+  "description": "トカラ列島から奄美・沖縄の島々に分布する小型のトカゲ。褐色の地に不明瞭な縦条があり、湿った森林の落ち葉の下や倒木のまわりで見られる。地表性が強く、驚くと素早く物陰に隠れる。島ごとに変異があり、生息地が限られるため保全上注目される。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-kishinouyei",
+  "nameJa": "キシノウエトカゲ",
+  "nameSci": "Plestiodon kishinouyei",
+  "nameEn": "Kishinoue's Giant Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   250,
+   400
+  ],
+  "description": "宮古・八重山諸島に分布する日本最大のトカゲ科で、全長は40cm近くに達する。太くがっしりした体つきで、成体は褐色、幼体は縦条と青い尾をもつ。海岸林や農地の石積みにすみ、昆虫のほか小動物も食べる。国の天然記念物に指定され、絶滅が危惧される希少種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "plestiodon-stimpsonii",
+  "nameJa": "イシガキトカゲ",
+  "nameSci": "Plestiodon stimpsonii",
+  "nameEn": "Ishigaki Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   130,
+   200
+  ],
+  "description": "石垣島・西表島に分布する固有のトカゲ。細身の体に金属光沢があり、幼体は黒地に金色の縦条と鮮やかな青い尾をもつ。森林の林床や渓流沿いの岩場で日光浴し、昆虫を捕食する。分布が八重山の一部に限られ、保全上重要な種とされる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ateuchosaurus-pellopleurus",
+  "nameJa": "アオスジトカゲ",
+  "nameSci": "Ateuchosaurus pellopleurus",
+  "nameEn": "Japanese Short-legged Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   100,
+   150
+  ],
+  "description": "奄美・沖縄の島々に分布するトカゲ科の一種。ずんぐりした体形で四肢が短く、体側に暗色の帯が走る。湿った常緑林の落ち葉や倒木の下にひそみ、地表を這うように移動して小さな昆虫を探す。目立たず、生息状況の把握が難しい種として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "scincella-boettgeri",
+  "nameJa": "ヘリグロヒメトカゲ",
+  "nameSci": "Scincella boettgeri",
+  "nameEn": "Boettger's Ground Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "奄美・沖縄の森林にすむ小型のトカゲ。細長い体に短い四肢をもち、体側の縁が黒っぽく縁取られる。落ち葉の積もった湿った林床をすばやく縫うように動き、微小な昆虫やクモを食べる。地味で小さく、林床の色にまぎれて見つけにくい。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "emoia-atrocostata",
+  "nameJa": "ミヤコトカゲ",
+  "nameSci": "Emoia atrocostata",
+  "nameEn": "Littoral Whiptail Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   150,
+   200
+  ],
+  "description": "南西諸島の海岸に分布するトカゲ科で、潮間帯の岩礁やマングローブ周辺という珍しい環境にすむ。オリーブ褐色のすらりとした体をもち、岩の上を敏捷に走って甲殻類や昆虫を捕らえる。海水しぶきのかかる岩場で日光浴する姿が見られる。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "cryptoblepharus-nigropunctatus",
+  "nameJa": "オガサワラトカゲ",
+  "nameSci": "Cryptoblepharus nigropunctatus",
+  "nameEn": "Ogasawara Snake-eyed Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "小笠原諸島に分布する固有の小型トカゲ。褐色の体に細かな黒点が散り、まぶたが透明な膜状で目を閉じない。岩場や樹幹、人家の壁を活発に動き回り昆虫を捕食する。移入されたグリーンアノールに捕食され、各地で減少が懸念されている。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "takydromus-smaragdinus",
+  "nameJa": "アオカナヘビ",
+  "nameSci": "Takydromus smaragdinus",
+  "nameEn": "Emerald Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   200,
+   280
+  ],
+  "description": "南西諸島に分布する鮮やかな緑色のカナヘビ。全長の大半を占める長い尾をもち、草やススキの葉上を軽やかに移動する。オスは繁殖期に体色がより濃い緑になる。開けた草地や林縁で日光浴し、昆虫を捕食する。飼育例もあり爬虫類イベントで見られることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "takydromus-dorsalis",
+  "nameJa": "サキシマカナヘビ",
+  "nameSci": "Takydromus dorsalis",
+  "nameEn": "Sakishima Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   250,
+   320
+  ],
+  "description": "八重山諸島に分布する日本最大級のカナヘビで、鮮緑色の細長い体と非常に長い尾をもつ。低木や草やぶの上を器用に伝い歩き、昆虫やクモを捕食する。森林の縁や耕作地周辺で見られるが、生息地の環境変化により数を減らし準絶滅危惧とされる。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "takydromus-toyamai",
+  "nameJa": "ミヤコカナヘビ",
+  "nameSci": "Takydromus toyamai",
+  "nameEn": "Miyako Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   200,
+   280
+  ],
+  "description": "宮古諸島に固有のカナヘビ。緑色から緑褐色の体に長い尾をもち、草地や農地の茂みで昆虫を捕らえる。生息地が狭く、開発や外来種の影響で個体数が激減し、環境省の絶滅危惧IA類に指定される。飼育下繁殖を含む保全の取り組みが進められている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "zootoca-vivipara",
+  "nameJa": "コモチカナヘビ",
+  "nameSci": "Zootoca vivipara",
+  "nameEn": "Viviparous Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "ユーラシアに広く分布し、日本では北海道北部のサロベツ原野などの湿原に隔離分布する小型のカナヘビ。多くのトカゲと異なり卵ではなく仔を産む卵胎生で、寒冷地への適応と考えられる。国内では分布が極めて限られ、保全上重要な種として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "diploderma-brevipes",
+  "nameJa": "サキシマキノボリトカゲ",
+  "nameSci": "Diploderma brevipes",
+  "nameEn": "Sakishima Tree Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   150,
+   240
+  ],
+  "description": "石垣島・西表島に固有の樹上性アガマ。緑褐色の体色を周囲に合わせて変化させ、樹幹に縦に止まってじっと獲物を待つ。オスは喉の袋を広げて縄張りを主張する。原生林の樹上で暮らす森林性の強い種で、爬虫類施設で展示されることもある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anolis-carolinensis",
+  "nameJa": "グリーンアノール",
+  "nameSci": "Anolis carolinensis",
+  "nameEn": "Green Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   120,
+   200
+  ],
+  "description": "北アメリカ南東部原産の小型トカゲで、緑と褐色を素早く切り替える。オスは喉のピンク色の袋（デューラップ）を広げて誇示する。日本では小笠原諸島や沖縄本島に定着し、在来の昆虫や固有トカゲを捕食して生態系に深刻な影響を与える特定外来生物。ペットとしても流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "外来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "北アメリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "diploderma-swinhonis",
+  "nameJa": "スウィンホーキノボリトカゲ",
+  "nameSci": "Diploderma swinhonis",
+  "nameEn": "Swinhoe's Tree Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   180,
+   260
+  ],
+  "description": "台湾原産の樹上性アガマで、日本では静岡県などに人為的に持ち込まれた個体群が定着している。灰褐色の体に淡い斑紋があり、樹幹や石垣に縦に止まる。オスは喉を膨らませて縄張りを誇示する。在来のキノボリトカゲとの競合が懸念される外来種。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "外来",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ }
+]

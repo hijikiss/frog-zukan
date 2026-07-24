@@ -1,0 +1,543 @@
+[
+ {
+  "id": "caiman-yacare",
+  "nameJa": "ヤカレカイマン",
+  "nameSci": "Caiman yacare",
+  "nameEn": "Yacare Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   2000,
+   3000
+  ],
+  "description": "ブラジルのパンタナルを中心とした南米中部の湿地や河川に大群ですむ中型のワニ。下顎の歯がしばしば上顎の外に突き出て見えるのが特徴で、乾季には残った水たまりに密集する。かつては皮革目的の乱獲で減ったが現在は回復し、管理下で利用されている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "caiman-latirostris",
+  "nameJa": "クチヒロカイマン",
+  "nameSci": "Caiman latirostris",
+  "nameEn": "Broad-snouted Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   2000,
+   3000
+  ],
+  "description": "南米南東部の河川や沼、マングローブ域にすむ中型のワニ。名の通り幅広く丸みのある吻を持ち、貝や甲殻類など硬い殻の獲物も砕いて食べる。人里近くの環境にも適応し、アルゼンチンなどでは飼育下繁殖と放流による保護が進められている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季（夏）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "melanosuchus-niger",
+  "nameJa": "クロカイマン",
+  "nameSci": "Melanosuchus niger",
+  "nameEn": "Black Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   3500,
+   5000
+  ],
+  "description": "アマゾン川流域にすむカイマン類最大の種で、全長5mを超えることもある大型のワニ。名の通り成体は黒っぽく、幼体には黄白色の横帯が並ぶ。乱獲でいったん激減したが保護によって回復しつつある。アマゾンの水辺の頂点捕食者のひとつ。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "paleosuchus-palpebrosus",
+  "nameJa": "コビトカイマン",
+  "nameSci": "Paleosuchus palpebrosus",
+  "nameEn": "Cuvier's Dwarf Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   1200,
+   1600
+  ],
+  "description": "南米の熱帯林を流れる川にすむ現生ワニ類で最小の種のひとつ。全長は大きくても1.5m前後で、体を覆う硬い骨質のうろこと反り上がった短い吻を持つ。流れの速い清流や森の水路を好む。小型で飼育しやすく、日本の爬虫類ショップやイベントでも見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "paleosuchus-trigonatus",
+  "nameJa": "ブラジルカイマン",
+  "nameSci": "Paleosuchus trigonatus",
+  "nameEn": "Schneider's Smooth-fronted Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   1700,
+   2300
+  ],
+  "description": "アマゾン流域の森林内の細流にすむ小型のワニ。コビトカイマンに近縁だが眼の間の骨のふくらみが目立たず、やや大きくなる。日中は倒木の陰や巣穴に隠れ、夜に活動して昆虫や魚、小動物を食べる。落ち葉を積んだ塚に産卵し、シロアリの塚に営巣することもある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-acutus",
+  "nameJa": "アメリカワニ",
+  "nameSci": "Crocodylus acutus",
+  "nameEn": "American Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   3000,
+   5000
+  ],
+  "description": "アメリカ大陸の熱帯沿岸に広く分布する大型のワニ。河口やマングローブ、汽水の潟を好み、塩類腺で余分な塩分を排出できる。細めのとがった吻を持ちアリゲーターより攻撃性は低いとされる。フロリダ半島南端が分布の北限で、開発による生息地の減少が課題となっている。",
+  "tags": {
+   "habitat": [
+    "汽水棲",
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ",
+    "カリブ"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-moreletii",
+  "nameJa": "モレレットワニ",
+  "nameSci": "Crocodylus moreletii",
+  "nameEn": "Morelet's Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2500,
+   3500
+  ],
+  "description": "メキシコからベリーズ、グアテマラにかけての淡水の沼や湿地にすむ中型のワニ。比較的幅の広い吻を持つ。皮革目的の乱獲で一時激減したが、保護策と管理繁殖により個体数が回復した。人目につきにくい閉じた水域を好み、夜間に活動する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "crocodylus-rhombifer",
+  "nameJa": "キューバワニ",
+  "nameSci": "Crocodylus rhombifer",
+  "nameEn": "Cuban Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2100,
+   3500
+  ],
+  "description": "キューバの限られた湿地だけに残る中型のワニ。がっしりした体と黄と黒のまだら模様が美しく、陸上での運動能力が高く跳躍もする活発な種。分布が非常に狭く近縁種との交雑も進み、野生個体は極めて少ない。日本の一部施設でも飼育・展示されている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-intermedius",
+  "nameJa": "オリノコワニ",
+  "nameSci": "Crocodylus intermedius",
+  "nameEn": "Orinoco Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   4000,
+   5000
+  ],
+  "description": "南米オリノコ川水系だけにすむ大型のワニで、細長い吻を持ち全長5mを超える個体も記録される。かつては皮革目的の乱獲で壊滅的に減少し、現在は野生に数百頭ほどしか残らないとされる最も絶滅の危機にあるワニの一種。保護区での繁殖と再導入が続けられている。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "crocodylus-johnstoni",
+  "nameJa": "オーストラリアワニ",
+  "nameSci": "Crocodylus johnstoni",
+  "nameEn": "Freshwater Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2000,
+   3000
+  ],
+  "description": "オーストラリア北部の河川や湿地にすむ中型のワニ。細くとがった吻を持ち、主に魚や小動物を食べるおとなしい種で人を襲うことはまれ。乾季には水辺の砂に穴を掘って産卵する。イリエワニと分布が重なる地域では奥地の淡水域にすみ分けている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-mindorensis",
+  "nameJa": "フィリピンワニ",
+  "nameSci": "Crocodylus mindorensis",
+  "nameEn": "Philippine Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   1500,
+   3000
+  ],
+  "description": "フィリピンの淡水の沼や川だけにすむ小型のワニ。比較的幅の広い吻を持ち、成体でも3m前後にとどまる。生息地の破壊や漁業との軋轢で野生個体は数百頭ほどとされ、世界で最も絶滅の危機に瀕したワニの一種。飼育下繁殖と再導入で保全が図られている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "crocodylus-novaeguineae",
+  "nameJa": "ニューギニアワニ",
+  "nameSci": "Crocodylus novaeguineae",
+  "nameEn": "New Guinea Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2500,
+   3500
+  ],
+  "description": "ニューギニア島の淡水の沼や湖にすむ中型のワニ。夜間に活動し魚や水鳥、小型哺乳類を食べる。皮革の質が良く管理下で利用されるが、資源としての管理が比較的うまくいっている種とされる。かつて島の南北の個体群は別種として分けられるようになった。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "crocodylus-palustris",
+  "nameJa": "ヌマワニ",
+  "nameSci": "Crocodylus palustris",
+  "nameEn": "Mugger Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   3000,
+   4000
+  ],
+  "description": "インド亜大陸の川や湖、ため池に広くすむ大型のワニ。ワニ類のなかでも特に幅の広い吻を持ち、乾季には巣穴を掘って暑さや乾燥をしのぐ。人の作った貯水池にも入り込む適応力の高い種。インドの寺院や保護区の池では人に慣れた個体が見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アジア"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-siamensis",
+  "nameJa": "シャムワニ",
+  "nameSci": "Crocodylus siamensis",
+  "nameEn": "Siamese Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2500,
+   4000
+  ],
+  "description": "東南アジアの淡水の沼や緩やかな川にすむ中型のワニ。野生ではほとんど姿を消し絶滅寸前とされる一方、養殖場では大量に飼育され皮革が利用される。イリエワニとの交雑個体も多い。日本の動物園や爬虫類施設でも飼育例があり比較的目にする機会がある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-suchus",
+  "nameJa": "ニシアフリカワニ",
+  "nameSci": "Crocodylus suchus",
+  "nameEn": "West African Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2500,
+   4000
+  ],
+  "description": "西アフリカから中央アフリカの川や湿地にすむワニで、長らくナイルワニと同種とされてきたが遺伝的な違いから別種に分けられた。ナイルワニよりやや小型でおとなしいとされる。古代エジプトで神聖視されミイラにされたワニは本種だったと考えられている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "情報不足(DD)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "mecistops-cataphractus",
+  "nameJa": "ホソユビワニ",
+  "nameSci": "Mecistops cataphractus",
+  "nameEn": "Central African Slender-snouted Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   2500,
+   4000
+  ],
+  "description": "中央アフリカの熱帯林を流れる川にすむ、細長い吻を持つワニ。かつてクロコダイル属に含められたが、独立したホソユビワニ属に分けられた。魚を主食とし、水草の茂る流れの遅い水域を好む。生息地の破壊が進み野生個体は少なく、絶滅が強く危惧されている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "osteolaemus-tetraspis",
+  "nameJa": "コビトワニ",
+  "nameSci": "Osteolaemus tetraspis",
+  "nameEn": "African Dwarf Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   1500,
+   1900
+  ],
+  "description": "西・中央アフリカの熱帯林の川や沼にすむ現生最小のワニ。全長はふつう1.5m前後で、短く丸みのある吻と厚い骨質のうろこで身を守る。夜行性で単独生活を送り、日中は水辺に掘った巣穴に潜む。丈夫で飼育しやすく、日本の動物園や水族館でもよく展示される。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tomistoma-schlegelii",
+  "nameJa": "マレーガビアル",
+  "nameSci": "Tomistoma schlegelii",
+  "nameEn": "False Gharial",
+  "family": "ガビアル科",
+  "familySci": "Gavialidae",
+  "sizeMm": [
+   3500,
+   5000
+  ],
+  "description": "マレー半島やスマトラ、ボルネオの泥炭湿地林や川にすむ大型のワニ。インドガビアルに似た細長い吻を持つが幅はやや広く、魚のほか小動物も食べる。近年の研究でガビアルに近い仲間とされる。生息地の湿地林の減少で数を減らしており、日本でも飼育例がある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ }
+]

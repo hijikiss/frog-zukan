@@ -1,5 +1,67 @@
 [
  {
+  "id": "rhacodactylus-auriculatus",
+  "group": "gecko",
+  "nameJa": "ガーゴイルゲッコー",
+  "nameSci": "Rhacodactylus auriculatus",
+  "nameEn": "Gargoyle Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   200,
+   250
+  ],
+  "description": "ニューカレドニア南部の低木林にすむ樹上性ヤモリ。頭部に一対のこぶ状の突起があり、これが石像のガーゴイルに見立てられた。褐色や赤、橙のまだら模様をもつ。果実や昆虫のほか小動物も食べる。丈夫で飼育しやすく、専門店やイベントで人気が高い。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "strophurus-taenicauda",
+  "group": "gecko",
+  "nameJa": "キスジイシヤモリ",
+  "nameSci": "Strophurus taenicauda",
+  "nameEn": "Golden-tailed Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   120,
+   150
+  ],
+  "description": "オーストラリア東部の乾いた林にすむ樹上性のヤモリ。淡い灰色の体に黒い小斑が散り、目は金色に輝く。危険を感じると尾の背にある腺から、粘つく刺激性の分泌液を噴き出して身を守る。夜行性で昆虫を捕らえる。専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "correlophus-ciliatus",
   "group": "gecko",
   "nameJa": "クレステッドゲッコー",
@@ -31,6 +93,419 @@
   "zooDisplay": true
  },
  {
+  "id": "correlophus-sarasinorum",
+  "group": "gecko",
+  "nameJa": "サラシンミカドヤモリ",
+  "nameSci": "Correlophus sarasinorum",
+  "nameEn": "Sarasin's Giant Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   180,
+   240
+  ],
+  "description": "ニューカレドニア南部の森林にすむ樹上性ヤモリ。クレステッドゲッコーに近縁だが眼上の突起はなく、褐色や赤褐色の体に喉から白い斑が入る個体が多い。果実や昆虫を食べる。分布が限られる。丈夫で繁殖もしやすく、専門店や爬虫類イベントで流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "rhacodactylus-leachianus",
+  "group": "gecko",
+  "nameJa": "ツギオミカドヤモリ",
+  "nameSci": "Rhacodactylus leachianus",
+  "nameEn": "New Caledonian Giant Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   300,
+   430
+  ],
+  "description": "ニューカレドニア固有で、現生のヤモリ最大級とされる樹上性種。灰緑色や褐色にまだら模様が入り、短い尾と重量感のある体つきをもつ。樹洞にすみ、果実や昆虫、小動物を食べる。低い唸り声を出す。「リーチェ」の愛称で人気が高く、専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "mniarogekko-chahoua",
+  "group": "gecko",
+  "nameJa": "ツノミカドヤモリ",
+  "nameSci": "Mniarogekko chahoua",
+  "nameEn": "Mossy New Caledonian Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   200,
+   260
+  ],
+  "description": "ニューカレドニアの森林にすむ樹上性ヤモリ。地衣類やコケのような灰緑色の斑模様をまとい、樹皮に溶け込む。眼の上にわずかな突起があり、体側や尾の縁のひだで輪郭を消す。果実や昆虫を食べる。「シャホア」の名で流通し、専門店やイベントで人気がある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "oedura-castelnaui",
+  "group": "gecko",
+  "nameJa": "ハスオビビロードヤモリ",
+  "nameSci": "Oedura castelnaui",
+  "nameEn": "Northern Velvet Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   120,
+   160
+  ],
+  "description": "オーストラリア北部に分布する樹上性・岩場性のヤモリ。ビロードのようになめらかな皮膚をもち、褐色の地に淡い横帯が入る。平たい体で樹皮や岩の隙間に潜む。夜行性で昆虫を食べる。飼育しやすく、専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "nephrurus-amyae",
+  "group": "gecko",
+  "nameJa": "オニタマオヤモリ",
+  "nameSci": "Nephrurus amyae",
+  "nameEn": "Centralian Rough Knob-tailed Gecko",
+  "family": "カワリオヤモリ科",
+  "familySci": "Carphodactylidae",
+  "sizeMm": [
+   140,
+   180
+  ],
+  "description": "オーストラリア中央部の岩がちな乾燥地にすむタマオヤモリ属最大種。大きな頭とずんぐりした体、とげ状の粒に覆われたごつごつした赤褐色の体をもつ。尾の先に小さな玉がつく。夜行性で地表を歩き昆虫を捕らえる。迫力ある姿で専門店やイベントで人気がある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "nephrurus-levis",
+  "group": "gecko",
+  "nameJa": "オビタマオヤモリ",
+  "nameSci": "Nephrurus levis",
+  "nameEn": "Smooth Knob-tailed Gecko",
+  "family": "カワリオヤモリ科",
+  "familySci": "Carphodactylidae",
+  "sizeMm": [
+   100,
+   130
+  ],
+  "description": "オーストラリア内陸の乾燥地にすむ地表性ヤモリ。大きな頭と丸くふくらんだ体、そして先端に小さなこぶ状の玉がつく短い尾が特徴。淡い紫褐色に白い帯が入る。夜間に地表を歩き昆虫を捕らえ、昼は巣穴に潜む。かわいらしい姿で専門店やイベントで人気がある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "underwoodisaurus-milii",
+  "group": "gecko",
+  "nameJa": "ナキツギオヤモリ",
+  "nameSci": "Underwoodisaurus milii",
+  "nameEn": "Thick-tailed Gecko",
+  "family": "カワリオヤモリ科",
+  "familySci": "Carphodactylidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "オーストラリア南部の岩場や乾いた林の地表にすむヤモリ。暗褐色の体に黄色い小斑が散り、ずんぐりした太い尾をもつ。危険を感じると口を開けて体を持ち上げ、吠えるような声を出すことから「バーキングゲッコー」とも呼ばれる。夜行性。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "teratoscincus-scincus",
+  "group": "gecko",
+  "nameJa": "トルキスタンスキンクヤモリ",
+  "nameSci": "Teratoscincus scincus",
+  "nameEn": "Common Wonder Gecko",
+  "family": "チビヤモリ科",
+  "familySci": "Sphaerodactylidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "中央アジアからカスピ海周辺の砂漠に分布する地表性のヤモリ。大きな目と、光沢のある魚のうろこのような大きな鱗をもつ。危険を感じると尾を震わせ、鱗をすり合わせて音を立てる。夜行性で巣穴を掘る。「ワンダーゲッコー」の名で流通する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アジア",
+    "西アジア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "goniurosaurus-toyamai",
+  "group": "gecko",
+  "nameJa": "イヘヤトカゲモドキ",
+  "nameSci": "Goniurosaurus toyamai",
+  "nameEn": "Iheya Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   140,
+   180
+  ],
+  "description": "沖縄諸島の伊平屋島だけにすむ日本固有のトカゲモドキ。細かい黄白色の斑点が背中一面に散るのが特徴。まぶたを閉じて眠り、湿った森林の林床や岩場で夜に活動する。分布が極めて狭く生息数も少ないため絶滅危惧IA類とされ、天然記念物に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "eublepharis-angramainyu",
+  "group": "gecko",
+  "nameJa": "イラントカゲモドキ",
+  "nameSci": "Eublepharis angramainyu",
+  "nameEn": "Iranian Fat-tailed Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   250,
+   300
+  ],
+  "description": "イランからイラク、シリアにかけての乾燥した岩場や荒れ地にすむ大型のトカゲモドキ。ヒョウモントカゲモドキに似るが四肢が長く体つきがすらりとする。淡黄色の地に暗色の斑紋が散る。夜間に地表を歩き昆虫を捕らえる。近年は繁殖個体が爬虫類イベントで流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "西アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "eublepharis-hardwickii",
+  "group": "gecko",
+  "nameJa": "インドトカゲモドキ",
+  "nameSci": "Eublepharis hardwickii",
+  "nameEn": "East Indian Leopard Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   180,
+   230
+  ],
+  "description": "インド東部からバングラデシュの乾いた林や岩場にすむトカゲモドキ。暗褐色の地に太く明瞭な黄白色の帯が入り、頭部にも独特の縞模様が走るコントラストの強い体色をもつ。まぶたを持ち地表を歩く。飼育例は多くないが爬虫類イベントで見かける機会がある。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "goniurosaurus-splendens",
+  "group": "gecko",
+  "nameJa": "オビトカゲモドキ",
+  "nameSci": "Goniurosaurus splendens",
+  "nameEn": "Banded Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   130,
+   180
+  ],
+  "description": "奄美群島の徳之島にのみ分布する日本固有種。暗褐色の地に鮮やかな橙色の帯が入る美しいトカゲモドキで、湿った林床や渓流沿いにすむ。夜間に地表を歩き回り小動物を捕食する。国の天然記念物で、生息地の開発や密猟により数を減らしている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "goniurosaurus-yamashinae",
+  "group": "gecko",
+  "nameJa": "クメトカゲモドキ",
+  "nameSci": "Goniurosaurus yamashinae",
+  "nameEn": "Kumejima Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   130,
+   170
+  ],
+  "description": "沖縄諸島の久米島にのみ分布する日本固有のトカゲモドキ。他のクロイワトカゲモドキ類より斑紋が細かく、背に小さな白斑が散る。湿潤な森林の林床にすみ夜に活動する。分布が久米島に限られ生息数も少なく、絶滅危惧IA類で天然記念物に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
   "id": "goniurosaurus-kuroiwae",
   "group": "gecko",
   "nameJa": "クロイワトカゲモドキ",
@@ -58,6 +533,101 @@
     "日本"
    ],
    "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "goniurosaurus-sengokui",
+  "group": "gecko",
+  "nameJa": "ケラマトカゲモドキ",
+  "nameSci": "Goniurosaurus sengokui",
+  "nameEn": "Kerama Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   120,
+   160
+  ],
+  "description": "慶良間諸島の渡嘉敷島と阿嘉島に分布する日本固有種。褐色の体に淡い帯と黒い斑が入る。壁を登れず林床を歩く地表性のヤモリで、湿った森の落ち葉や岩の間にひそむ。島ごとに孤立した小さな個体群しかなく、天然記念物として保護されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hemitheconyx-caudicinctus",
+  "group": "gecko",
+  "nameJa": "ニシアフリカトカゲモドキ",
+  "nameSci": "Hemitheconyx caudicinctus",
+  "nameEn": "African Fat-tailed Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "西アフリカのサバンナや疎林の地表にすむトカゲモドキ。まぶたを持ち壁は登らない。褐色の地に太い横帯が入り、背に白い縦線が入る個体もいる。太い尾に栄養を蓄える。「ニシアフ」の愛称でヒョウモントカゲモドキと並ぶ入門種として爬虫類ショップやイベントで広く流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "goniurosaurus-hainanensis",
+  "group": "gecko",
+  "nameJa": "ハイナントカゲモドキ",
+  "nameSci": "Goniurosaurus hainanensis",
+  "nameEn": "Hainan Cave Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   150,
+   180
+  ],
+  "description": "中国の海南島に固有のトカゲモドキ。湿った森林の岩場や洞窟の入り口付近にすみ、暗褐色の地に橙色の横帯と赤い眼が目を引く。壁は登れず林床を歩く。日本のクロイワトカゲモドキに近縁で、狭い分布と乱獲により生息数が減っている。爬虫類イベントで見られることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
    "redlist": "絶滅危惧IB類(EN)"
   },
   "zooDisplay": true
@@ -97,6 +667,643 @@
   "zooDisplay": true
  },
  {
+  "id": "goniurosaurus-orientalis",
+  "group": "gecko",
+  "nameJa": "マダラトカゲモドキ",
+  "nameSci": "Goniurosaurus orientalis",
+  "nameEn": "Spotted Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   130,
+   170
+  ],
+  "description": "沖縄諸島の渡名喜島だけに分布する日本固有のトカゲモドキ。まぶたを持ち、指に吸盤がないため壁は登らず林床や岩の間を歩く。褐色の地に不規則な暗色斑が散る。国の天然記念物で国内希少野生動植物種に指定され、捕獲や飼育が禁じられている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "goniurosaurus-nebulozonatus",
+  "group": "gecko",
+  "nameJa": "ヤンバルトカゲモドキ",
+  "nameSci": "Goniurosaurus nebulozonatus",
+  "nameEn": "Yambaru Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   130,
+   175
+  ],
+  "description": "沖縄島北部のやんばると古宇利島に分布し、2024年に新種として記載された日本固有のトカゲモドキ。クロイワトカゲモドキに似るが、背の帯が不明瞭でぼやける点で区別される。湿った常緑林の林床にすみ夜に活動する。分布が狭く保護の必要性が高い。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "情報不足(DD)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "lialis-jicari",
+  "group": "gecko",
+  "nameJa": "ジカリーヒレアシトカゲ",
+  "nameSci": "Lialis jicari",
+  "nameEn": "New Guinea Snake-lizard",
+  "family": "ヒレアシトカゲ科",
+  "familySci": "Pygopodidae",
+  "sizeMm": [
+   500,
+   700
+  ],
+  "description": "ニューギニアとインドネシアに分布するヒレアシトカゲ科のヤモリの仲間。四肢はほぼ失われ、細長い体はヘビのよう。くさび形の口先で主にトカゲを捕らえて丸のみにする。バートンヒレアシトカゲに似るが口先がより細い。夜行性で環境への適応力が高い。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lialis-burtonis",
+  "group": "gecko",
+  "nameJa": "バートンヒレアシトカゲ",
+  "nameSci": "Lialis burtonis",
+  "nameEn": "Burton's Snake-lizard",
+  "family": "ヒレアシトカゲ科",
+  "familySci": "Pygopodidae",
+  "sizeMm": [
+   500,
+   620
+  ],
+  "description": "オーストラリアとニューギニアに広く分布する、四肢がほぼ失われたヤモリの仲間。後肢はひれ状の小さな痕跡だけが残り、細長い体は一見ヘビのよう。くさび形の細長い頭で、主に他のトカゲを捕らえて丸のみにする。夜行性〜薄明性。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gekko-vertebralis",
+  "group": "gecko",
+  "nameJa": "アマミヤモリ",
+  "nameSci": "Gekko vertebralis",
+  "nameEn": "Amami Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "奄美群島に分布する日本固有のヤモリ。長らくミナミヤモリと混同されてきたが、遺伝的・形態的な違いから別種とされた。自然林の樹幹や岩場、人家の壁で夜に活動し、灯りに集まる虫を待ち伏せる。背面は灰褐色で暗色の斑がある。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "geckolepis-maculata",
+  "group": "gecko",
+  "nameJa": "オオバクチヤモリ",
+  "nameSci": "Geckolepis maculata",
+  "nameEn": "Common Fish-scale Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "マダガスカルと周辺の島に分布するヤモリ。大きな瓦状の鱗で全身が覆われ、捕まれると鱗ごと皮膚をはがして逃げ、後に再生する。この性質が「博打（バクチ）」の名の由来。夜行性で、樹幹や人家の壁で昆虫を捕らえる。国内での流通は少ない。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phelsuma-grandis",
+  "group": "gecko",
+  "nameJa": "オオヒルヤモリ",
+  "nameSci": "Phelsuma grandis",
+  "nameEn": "Madagascar Giant Day Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   250,
+   300
+  ],
+  "description": "マダガスカル北部の林にすむヒルヤモリ属で最大級の昼行性ヤモリ。鮮やかな緑の体に赤い斑紋や線が入り、指下の吸盤でガラス面も登る。花の蜜や果実、昆虫を食べる。丈夫で見栄えがよく、動物園の温室展示や爬虫類ショップで最もよく見るヒルヤモリ。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "uroplatus-fimbriatus",
+  "group": "gecko",
+  "nameJa": "オオヘラオヤモリ",
+  "nameSci": "Uroplatus fimbriatus",
+  "nameEn": "Giant Leaf-tailed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   250,
+   330
+  ],
+  "description": "マダガスカル東部の雨林にすむヘラオヤモリ属で最大級の種。灰褐色の体と平たい木の葉状の尾をもち、体側のひだで樹皮に溶け込む。大きく開く口の中は赤く、驚くと口を開けて威嚇する。夜行性で大きな昆虫を捕らえる。動物園や専門店で見られることがある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lepidodactylus-lugubris",
+  "group": "gecko",
+  "nameJa": "オガサワラヤモリ",
+  "nameSci": "Lepidodactylus lugubris",
+  "nameEn": "Mourning Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   70,
+   100
+  ],
+  "description": "小笠原諸島や大東諸島、南西諸島などに分布する小型のヤモリ。ほとんどがメスだけからなり、単為生殖で殖える珍しい種として知られる。人家や樹皮のすき間にすみ夜に活動する。太平洋の島々に広く分布し、船や漂流物で分布を広げてきたと考えられる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東南アジア",
+    "オセアニア"
+   ],
+   "breeding": "ほぼ通年",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "gehyra-mutilata",
+  "group": "gecko",
+  "nameJa": "オンナダケヤモリ",
+  "nameSci": "Gehyra mutilata",
+  "nameEn": "Stump-toed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   70,
+   100
+  ],
+  "description": "東南アジア原産で沖縄や八重山に定着した外来のヤモリ。和名は沖縄本島の恩納岳で見つかったことにちなむ。皮膚が非常に弱く、つかむと鱗ごとはがれやすい。半透明がかった淡い体色で、人家の壁や樹幹で夜に小さな虫を捕らえる。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "外来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "ほぼ通年",
+   "redlist": "評価対象外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hemidactylus-platyurus",
+  "group": "gecko",
+  "nameJa": "キノボリヤモリ",
+  "nameSci": "Hemidactylus platyurus",
+  "nameEn": "Flat-tailed House Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   80,
+   110
+  ],
+  "description": "東南アジア原産で沖縄島などに定着した外来のヤモリ。体と尾が平たく、体の縁に皮膚のひだをもつため木から木へ滑るように移動できる。人家や樹幹の壁面で夜に昆虫を捕らえる。人の物流に伴って分布を広げてきた種である。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "外来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "ほぼ通年",
+   "redlist": "評価対象外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phelsuma-klemmeri",
+  "group": "gecko",
+  "nameJa": "クレメリヒルヤモリ",
+  "nameSci": "Phelsuma klemmeri",
+  "nameEn": "Neon Day Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   80,
+   100
+  ],
+  "description": "マダガスカル北西部の竹林にすむ小型のヒルヤモリ。頭部の黄色、体側の水色、背の茶色が鮮やかに分かれるネオンのような体色をもつ。平たい体で竹の隙間に潜り込む。昼行性で花の蜜や小さな昆虫を食べる。分布が極めて狭い希少種。専門店で流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chondrodactylus-angulifer",
+  "group": "gecko",
+  "nameJa": "グローブヤモリ",
+  "nameSci": "Chondrodactylus angulifer",
+  "nameEn": "Common Giant Ground Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   110,
+   150
+  ],
+  "description": "アフリカ南部の砂漠や乾燥草原に分布する大型の地表性ヤモリ。ずんぐりした体と大きな頭、太い指をもち、夜間に砂の上を歩いて昆虫やクモを捕らえる。危険を感じると脚を伸ばして体を高く持ち上げ、大きな口を開けて威嚇する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "uroplatus-sikorae",
+  "group": "gecko",
+  "nameJa": "コケヘラオヤモリ",
+  "nameSci": "Uroplatus sikorae",
+  "nameEn": "Mossy Leaf-tailed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   150,
+   200
+  ],
+  "description": "マダガスカル東部の雨林にすむヘラオヤモリ。灰緑色の体に地衣類やコケのような斑模様をまとい、体の縁のひだを樹皮に密着させて輪郭を消す。日中は木の幹に張り付き、夜に活動して昆虫を捕食する。優れた擬態で知られ、爬虫類ショップやイベントで見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "uroplatus-phantasticus",
+  "group": "gecko",
+  "nameJa": "サタンヘラオヤモリ",
+  "nameSci": "Uroplatus phantasticus",
+  "nameEn": "Satanic Leaf-tailed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   70,
+   95
+  ],
+  "description": "マダガスカル東部の雨林にすむ小型のヘラオヤモリ。枯れ葉そっくりの茶色い体と葉脈のような模様、切れ込みの入った尾で擬態する。眼の上の突起が悪魔の角に見えることが名の由来。日中は枝先で枯れ葉に紛れ、夜に小さな虫を捕らえる。専門店で見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "phelsuma-standingi",
+  "group": "gecko",
+  "nameJa": "スタンディングヒルヤモリ",
+  "nameSci": "Phelsuma standingi",
+  "nameEn": "Standing's Day Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   220,
+   270
+  ],
+  "description": "マダガスカル南西部の乾いた林にすむ大型のヒルヤモリ。幼体は緑色だが成長すると青灰色に網目模様が入る渋い体色に変わる。昼行性で樹上を活発に動き、昆虫や花の蜜、果実を食べる。分布が限られ保護対象となっている。動物園や専門店で見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "paroedura-picta",
+  "group": "gecko",
+  "nameJa": "ソメワケササクレヤモリ",
+  "nameSci": "Paroedura picta",
+  "nameEn": "Ocelot Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   120,
+   160
+  ],
+  "description": "マダガスカル南部の乾いた林の地表にすむヤモリ。ざらついた鱗と褐色の斑模様をもち、背に淡い縦線が入る型もある。地上性で丈夫、繁殖も容易なため「ソメワケ」の愛称で入門種として親しまれる。爬虫類ショップやイベントで安価に流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "ほぼ通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gekko-shibatai",
+  "group": "gecko",
+  "nameJa": "タカラヤモリ",
+  "nameSci": "Gekko shibatai",
+  "nameEn": "Takara Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "トカラ列島の宝島などに分布する日本固有のヤモリ。ミナミヤモリの仲間から2008年に別種として記載された。岩場や樹幹、人家の壁で夜に活動し昆虫を捕らえる。分布する島が限られる島嶼固有種で、生息環境の保全が課題となっている。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hemidactylus-bowringii",
+  "group": "gecko",
+  "nameJa": "タシロヤモリ",
+  "nameSci": "Hemidactylus bowringii",
+  "nameEn": "Oriental Leaf-toed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   80,
+   110
+  ],
+  "description": "奄美から八重山にかけての南西諸島に点在するヤモリ。指先が幅広く樹幹や人家の壁をよく登る。夜行性で灯りに集まる昆虫を捕らえる。褐色の地に不明瞭な斑がある。国内での自然分布かどうかは議論があり、記録が少なく生息状況がよく分かっていない。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "4〜9月",
+   "redlist": "情報不足(DD)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "gekko-tawaensis",
+  "group": "gecko",
+  "nameJa": "タワヤモリ",
+  "nameSci": "Gekko tawaensis",
+  "nameEn": "Tawa Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "近畿から四国・九州の瀬戸内海沿岸と島々に分布する日本固有のヤモリ。ニホンヤモリに似るが、より自然の岩場や石垣を好み人家周辺は少ない。夜間に岩壁を歩き昆虫を捕食する。背面は灰褐色で環境に紛れる。地域によっては数が減り保護対象とされる。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
   "id": "gekko-gecko",
   "group": "gecko",
   "nameJa": "トッケイヤモリ",
@@ -124,6 +1331,69 @@
     "南アジア"
    ],
    "breeding": "通年（熱帯）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ptychozoon-kuhli",
+  "group": "gecko",
+  "nameJa": "トビヤモリ",
+  "nameSci": "Ptychozoon kuhli",
+  "nameEn": "Kuhl's Flying Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   150,
+   200
+  ],
+  "description": "東南アジアの熱帯林にすむ樹上性ヤモリ。体の縁や四肢、尾、指の間に皮膚のひだをもち、樹間を滑空して移動する。灰褐色のまだら模様で樹皮に擬態する。夜行性で昆虫を捕らえる。ユニークな姿で専門店や爬虫類イベントで見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pachydactylus-rangei",
+  "group": "gecko",
+  "nameJa": "ナミブスナヤモリ",
+  "nameSci": "Pachydactylus rangei",
+  "nameEn": "Namib Web-footed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   100,
+   140
+  ],
+  "description": "アフリカ南西部のナミブ砂漠に固有の砂漠性ヤモリ。指の間に水かき状の膜が発達し、さらさらの砂の上を歩き、素早く潜る。淡いピンク色で体は半透明。大きな目をもつ夜行性で、体表に付いた霧の水滴をなめて水分を得る。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
    "redlist": "低懸念(LC)"
   },
   "zooDisplay": true
@@ -162,6 +1432,134 @@
   "zooDisplay": true
  },
  {
+  "id": "phelsuma-laticauda",
+  "group": "gecko",
+  "nameJa": "ヒロオビヒルヤモリ",
+  "nameSci": "Phelsuma laticauda",
+  "nameEn": "Gold Dust Day Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   110,
+   130
+  ],
+  "description": "マダガスカル北部やコモロ諸島の林や人家周辺にすむ小型のヒルヤモリ。黄緑色の体に金粉をまいたような細かい斑点と、腰の三本の赤い帯が特徴。昼行性で日光浴を好み、花の蜜や果実、昆虫を食べる。ハワイなどにも移入している。専門店でよく見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "uroplatus-henkeli",
+  "group": "gecko",
+  "nameJa": "ヘンケルヘラオヤモリ",
+  "nameSci": "Uroplatus henkeli",
+  "nameEn": "Henkel's Leaf-tailed Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   220,
+   280
+  ],
+  "description": "マダガスカル北部の湿った林にすむ大型のヘラオヤモリ。灰色から褐色の体色を周囲に合わせて変え、幅広く平たい尾と体側のひだで樹皮に擬態する。夜行性で樹上を歩き昆虫を捕らえる。生息地の減少で数を減らしている。専門店や爬虫類イベントで見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hemidactylus-frenatus",
+  "group": "gecko",
+  "nameJa": "ホオグロヤモリ",
+  "nameSci": "Hemidactylus frenatus",
+  "nameEn": "Common House Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "東南アジア原産で、南西諸島の人家周辺に広く定着した外来のヤモリ。夜になると壁や天井で「チッチッチッ」と鳴くのが特徴。灯りに集まる虫を活発に捕らえる。世界の熱帯に人とともに広がり、在来のヤモリと生息場所を競合することが問題視される。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "外来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "4〜9月",
+   "redlist": "評価対象外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "gekko-vittatus",
+  "group": "gecko",
+  "nameJa": "ホワイトラインゲッコー",
+  "nameSci": "Gekko vittatus",
+  "nameEn": "White-lined Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   200,
+   250
+  ],
+  "description": "東南アジアからニューギニアの林にすむ樹上性ヤモリ。褐色の体の背に、首から尾にかけて一本の白い縦線が走り、尾で二股に分かれるのが名の由来。指下の吸盤で木を登る。夜行性で昆虫を捕らえる。丈夫で安価なため専門店やイベントでよく流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "オセアニア"
+   ],
+   "breeding": "通年（熱帯）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "gekko-hokouensis",
   "group": "gecko",
   "nameJa": "ミナミヤモリ",
@@ -193,5 +1591,133 @@
    "redlist": "ランク外"
   },
   "zooDisplay": false
+ },
+ {
+  "id": "gekko-yakuensis",
+  "group": "gecko",
+  "nameJa": "ヤクヤモリ",
+  "nameSci": "Gekko yakuensis",
+  "nameEn": "Yakushima Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "九州南部から大隅諸島、トカラ列島にかけて分布する日本固有のヤモリ。かつてミナミヤモリと同一とされたが別種として分けられた。指下の趾下薄板で岩や樹幹を登り、夜間に人家の壁や自然林で昆虫を捕らえる。屋久島や種子島では普通に見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phelsuma-quadriocellata",
+  "group": "gecko",
+  "nameJa": "ヨツメヒルヤモリ",
+  "nameSci": "Phelsuma quadriocellata",
+  "nameEn": "Peacock Day Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   120
+  ],
+  "description": "マダガスカル東部の湿った林やバナナの葉の上にすむ小型のヒルヤモリ。緑色の体に赤い斑点が散り、前肢の付け根に黒く縁取られた青い眼状斑があるのが名の由来。昼行性で日光浴を好み、花の蜜や昆虫を食べる。専門店や爬虫類イベントで見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "thecadactylus-rapicauda",
+  "group": "gecko",
+  "nameJa": "カブラオヤモリ",
+  "nameSci": "Thecadactylus rapicauda",
+  "nameEn": "Turnip-tailed Gecko",
+  "family": "ユビワレヤモリ科",
+  "familySci": "Phyllodactylidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "メキシコから中南米、カリブの熱帯林に広く分布する樹上性のヤモリ。灰褐色で樹皮に溶け込むように擬態する。名の通り、自切して再生した尾がカブのように太くなることが多い。夜行性で昆虫を捕らえ、はっきりした声で鳴く。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ",
+    "カリブ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "tarentola-chazaliae",
+  "group": "gecko",
+  "nameJa": "ヘルメットヤモリ",
+  "nameSci": "Tarentola chazaliae",
+  "nameEn": "Helmethead Gecko",
+  "family": "ユビワレヤモリ科",
+  "familySci": "Phyllodactylidae",
+  "sizeMm": [
+   60,
+   90
+  ],
+  "description": "モロッコからモーリタニアにかけての大西洋岸の砂漠に分布する小型のヤモリ。頭が大きく角ばり、兜をかぶったように見えることが和名・英名の由来。地表性で夜行性、海からの霧を水源とする。国内では爬虫類イベントで流通する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "不明",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
  }
 ]

@@ -1,0 +1,643 @@
+[
+ {
+  "id": "cuora-amboinensis",
+  "nameJa": "マレーハコガメ",
+  "nameSci": "Cuora amboinensis",
+  "nameEn": "Southeast Asian Box Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   150,
+   250
+  ],
+  "description": "東南アジアの水田や湿地、緩やかな川に広く分布するハコガメ。黒褐色の背甲は丸みを帯び、頭部に黄色い筋模様が入る。腹甲の蝶番で甲をしっかり閉じられる。半水棲で水辺をよく泳ぎ、食用や薬用の乱獲で数を減らしている。ペットとして輸入され国内の専門店でも見かける。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cuora-galbinifrons",
+  "nameJa": "モエギハコガメ",
+  "nameSci": "Cuora galbinifrons",
+  "nameEn": "Indochinese Box Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   140,
+   190
+  ],
+  "description": "ベトナムや中国南部の山地林にすむ陸棲傾向の強いハコガメ。黄褐色の地に暗色の雲状斑が入る、高く盛り上がった背甲が美しい。落ち葉の下などにひそみ、菌類や果実、小動物を食べる。乱獲で激減し絶滅が強く危惧される。国内では愛好家や爬虫類イベントでまれに見られる。",
+  "tags": {
+   "habitat": [
+    "陸棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cuora-trifasciata",
+  "nameJa": "ミスジハコガメ",
+  "nameSci": "Cuora trifasciata",
+  "nameEn": "Chinese Three-striped Box Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "中国南部からベトナム北部に分布するハコガメで、背甲に3本の黒い縦筋が走ることが名の由来。頭部は黄色く、四肢の内側が赤みを帯びる。漢方薬の材料として高値で取引され乱獲が続き、野生ではごく少数しか残らない。飼育下繁殖個体が高価なペットとして流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア",
+    "東南アジア"
+   ],
+   "breeding": "4〜8月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "geoemyda-spengleri",
+  "nameJa": "ヒラセガメ",
+  "nameSci": "Geoemyda spengleri",
+  "nameEn": "Black-breasted Leaf Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   90,
+   115
+  ],
+  "description": "中国南部からベトナム北部の山地渓流沿いの林にすむ小型のヤマガメ。背甲の前後の縁が鋸歯状に尖り、黒褐色で平たい甲と大きな目をもつ。湿った落ち葉の間で小動物を探す半陸棲。愛好家に人気があり、国内の爬虫類専門店でも見かける。",
+  "tags": {
+   "habitat": [
+    "陸棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア",
+    "東南アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "heosemys-spinosa",
+  "nameJa": "トゲヤマガメ",
+  "nameSci": "Heosemys spinosa",
+  "nameEn": "Spiny Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   150,
+   220
+  ],
+  "description": "東南アジアの山地渓流沿いの林にすむヤマガメ。幼体は背甲の周縁の鱗が鋭いトゲ状に張り出し太陽のような姿になることが名の由来で、成長するとトゲはすり減る。落ち葉の多い湿地を好む。乱獲と生息地破壊で激減している。国内の専門店でまれに流通する。",
+  "tags": {
+   "habitat": [
+    "陸棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cyclemys-dentata",
+  "nameJa": "ノコヘリマルガメ",
+  "nameSci": "Cyclemys dentata",
+  "nameEn": "Asian Leaf Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   180,
+   240
+  ],
+  "description": "東南アジアの丘陵地の渓流や湿地にすむ淡水ガメ。若い個体は背甲の後縁が鋸歯状で、成長すると腹甲に蝶番ができて可動になる。半水棲で陸に上がることも多い雑食性。ペットとして輸入され、国内の爬虫類店で見られることがある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sacalia-quadriocellata",
+  "nameJa": "ヨツメイシガメ",
+  "nameSci": "Sacalia quadriocellata",
+  "nameEn": "Four-eyed Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   100,
+   140
+  ],
+  "description": "中国南部からベトナム、ラオスの渓流にすむ淡水ガメ。頭の後方に眼状の斑紋が二対並び、四つの目があるように見えることが名の由来。オスの首は青みを帯びる。乱獲で減少している。愛好家向けに少数が流通し、爬虫類イベントで見られることがある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア",
+    "東南アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "melanochelys-trijuga",
+  "nameJa": "インドヤマガメ",
+  "nameSci": "Melanochelys trijuga",
+  "nameEn": "Indian Black Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   200,
+   350
+  ],
+  "description": "インドやスリランカ、東南アジア西部の池沼や水田に広く分布する大型の淡水ガメ。黒褐色でやや盛り上がった背甲をもち、地域により頭部の斑紋が異なる。水辺と陸を行き来する雑食性。分布は広いが生息地の悪化で減少傾向にある。日本ではあまり見かけない。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アジア",
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "siebenrockiella-crassicollis",
+  "nameJa": "クロハラヤマガメ",
+  "nameSci": "Siebenrockiella crassicollis",
+  "nameEn": "Black Marsh Turtle",
+  "family": "イシガメ科",
+  "familySci": "Geoemydidae",
+  "sizeMm": [
+   140,
+   195
+  ],
+  "description": "東南アジアの流れの緩い川や池、湿地にすむ淡水ガメ。全身が黒っぽく、頭部の側面に淡色の斑が入る。首が太く、水底を歩くように移動して小動物や水草を食べる。夜行性の傾向が強い。ペットとして輸入され、国内の専門店でも見かける。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chrysemys-picta",
+  "nameJa": "ニシキガメ",
+  "nameSci": "Chrysemys picta",
+  "nameEn": "Painted Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   100,
+   250
+  ],
+  "description": "北アメリカに広く分布する美しい淡水ガメ。滑らかな背甲の縁や腹甲、頭や四肢に赤や黄の鮮やかな線が入る。池や緩やかな川で日光浴をよくする姿が見られる。丈夫で飼いやすく、ペットとして輸入され国内の店でも親しまれている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "graptemys-kohnii",
+  "nameJa": "ミシシッピチズガメ",
+  "nameSci": "Graptemys kohnii",
+  "nameEn": "Mississippi Map Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   90,
+   260
+  ],
+  "description": "アメリカ・ミシシッピ川流域にすむチズガメの仲間。背甲の筋模様や体表の細かい線が地図のように見えることが名の由来。目の後ろの三日月状の斑が特徴で、メスはオスよりずっと大きい。ペットとして最もよく流通するチズガメで、国内の店で普通に見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "4〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "graptemys-pseudogeographica",
+  "nameJa": "ニセチズガメ",
+  "nameSci": "Graptemys pseudogeographica",
+  "nameEn": "False Map Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   90,
+   270
+  ],
+  "description": "アメリカ中部の河川に分布するチズガメの仲間。背甲の各甲板に低い突起が並び、頭や首に黄色い細い線が密に走る。流れのある水域を好み、水生昆虫や貝を食べる。ペットとして輸入され、国内の爬虫類店で見かける。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "graptemys-geographica",
+  "nameJa": "チズガメ",
+  "nameSci": "Graptemys geographica",
+  "nameEn": "Northern Map Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   100,
+   270
+  ],
+  "description": "アメリカ北東部から五大湖周辺の河川や湖にすむチズガメ。背甲に地図の等高線のような細かい模様が入ることが名の由来。貝類を好んで食べ、メスは大きな頭をもつ。流れの緩やかな大きな水域を好む。国内では他のチズガメほど多くないが流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pseudemys-nelsoni",
+  "nameJa": "フロリダアカハラガメ",
+  "nameSci": "Pseudemys nelsoni",
+  "nameEn": "Florida Red-bellied Cooter",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   200,
+   375
+  ],
+  "description": "アメリカ・フロリダ半島の池沼や湿地にすむ大型の淡水ガメ。腹甲が赤みを帯びることが名の由来で、成長すると背甲は黒っぽくなる。水草を主に食べる草食傾向の強い雑食性。丈夫でよく育ち、ペットとして輸入され国内の店でも見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜秋",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pseudemys-concinna",
+  "nameJa": "リバークーター",
+  "nameSci": "Pseudemys concinna",
+  "nameEn": "River Cooter",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   250,
+   420
+  ],
+  "description": "アメリカ南東部の流れのある河川にすむ大型の淡水ガメ。背甲は黄褐色の地に暗色の網目模様が入り、頭や四肢に黄色い線が走る。水草を多く食べ、日光浴を好む。丈夫で大きく育つ。ペットとして輸入され、国内の爬虫類店で見かける。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "4〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "clemmys-guttata",
+  "nameJa": "キボシイシガメ",
+  "nameSci": "Clemmys guttata",
+  "nameEn": "Spotted Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   80,
+   125
+  ],
+  "description": "アメリカ北東部の浅い湿地や湿った草地にすむ小型の淡水ガメ。黒い背甲に散らばる黄色い水玉模様が名の由来で、点の数は個体や成長で変わる。冷涼な環境を好み動きは活発。乱獲や湿地破壊で減少している。愛らしさから人気が高く国内でも流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "terrapene-carolina",
+  "nameJa": "アメリカハコガメ",
+  "nameSci": "Terrapene carolina",
+  "nameEn": "Eastern Box Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   110,
+   198
+  ],
+  "description": "アメリカ東部の森林や草地にすむ陸棲傾向の強いハコガメ。腹甲に蝶番があり甲を完全に閉じられる。ドーム状の背甲に黄色や橙色の斑紋が入り、色彩は個体差が大きい。地上で果実や小動物、キノコを食べる。ペットとして親しまれ国内の店でも見られる。",
+  "tags": {
+   "habitat": [
+    "陸棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "emys-orbicularis",
+  "nameJa": "ヨーロッパヌマガメ",
+  "nameSci": "Emys orbicularis",
+  "nameEn": "European Pond Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   120,
+   230
+  ],
+  "description": "ヨーロッパから西アジア、北アフリカにかけて分布する淡水ガメ。黒っぽい背甲に黄色の細かい斑点が散り、放射状に見えることもある。緩やかな水域を好み日光浴をよくする。地域個体群の減少が進む。ペットとして輸入され、国内の専門店でも見かける。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ",
+    "西アジア",
+    "アフリカ"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "emys-blandingii",
+  "nameJa": "ブランディングガメ",
+  "nameSci": "Emys blandingii",
+  "nameEn": "Blanding's Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   150,
+   260
+  ],
+  "description": "北アメリカ五大湖周辺から北東部にすむ淡水ガメ。喉から下あごが鮮やかな黄色で、ドーム状の背甲に淡い斑点が散る。腹甲に蝶番があり半分ほど閉じられる。浅い湿地を好み長寿で知られる。生息地の減少で希少化し、国内では動物園や一部の店で見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "6〜7月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "malaclemys-terrapin",
+  "nameJa": "ダイヤモンドガメ",
+  "nameSci": "Malaclemys terrapin",
+  "nameEn": "Diamondback Terrapin",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   110,
+   230
+  ],
+  "description": "アメリカ大西洋岸の汽水域、塩性湿地やマングローブにすむ淡水ガメの仲間。背甲の各甲板に同心円状の菱形の隆起が並ぶことが名の由来。皮膚は白っぽく黒い斑点が散る個性的な姿で、貝や甲殻類を食べる。ペットとして輸入され国内の専門店で見かける。",
+  "tags": {
+   "habitat": [
+    "汽水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "4〜7月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "glyptemys-insculpta",
+  "nameJa": "モリイシガメ",
+  "nameSci": "Glyptemys insculpta",
+  "nameEn": "Wood Turtle",
+  "family": "ヌマガメ科",
+  "familySci": "Emydidae",
+  "sizeMm": [
+   140,
+   240
+  ],
+  "description": "北アメリカ北東部の森林に近い川や湿地にすむ淡水ガメ。背甲の各甲板が年輪のように盛り上がり、彫刻したような凹凸をもつことが名の由来。陸上でもよく活動し果実や小動物を食べる。乱獲と生息地破壊で激減している。国内では専門店や展示でまれに見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ }
+]

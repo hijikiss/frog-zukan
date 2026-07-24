@@ -1,0 +1,539 @@
+[
+ {
+  "id": "apalone-ferox",
+  "nameJa": "フロリダスッポン",
+  "nameSci": "Apalone ferox",
+  "nameEn": "Florida Softshell Turtle",
+  "family": "スッポン科",
+  "familySci": "Trionychidae",
+  "sizeMm": [
+   150,
+   600
+  ],
+  "description": "北アメリカ南東部の湖沼や河川にすむ大型のスッポン。甲羅は柔らかい皮膚に覆われ、暗褐色の地に不明瞭な斑がある。メスはオスより格段に大きく育つ。砂泥に潜んで魚や貝を捕らえる。ペットとして輸入され、国内の爬虫類ショップで幼体が流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "3〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "apalone-spinifera",
+  "nameJa": "トゲスッポン",
+  "nameSci": "Apalone spinifera",
+  "nameEn": "Spiny Softshell Turtle",
+  "family": "スッポン科",
+  "familySci": "Trionychidae",
+  "sizeMm": [
+   130,
+   460
+  ],
+  "description": "北アメリカ中東部の河川や湖に広く分布するスッポン。甲羅の前縁に小さなとげ状の突起が並ぶことが名の由来。オリーブ色の地に黒い縁取りの斑点が散る。遊泳が得意で流れのある水域を好む。飼育下でも見られ、爬虫類イベントで幼体が出回る。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "amyda-cartilaginea",
+  "nameJa": "マルスッポン",
+  "nameSci": "Amyda cartilaginea",
+  "nameEn": "Asiatic Softshell Turtle",
+  "family": "スッポン科",
+  "familySci": "Trionychidae",
+  "sizeMm": [
+   250,
+   700
+  ],
+  "description": "東南アジアの河川や湿地に広く分布する大型のスッポン。丸みのある甲羅は灰緑色で、幼体には黄色く縁取られた眼状斑が並ぶ。食用や薬用に多量に捕獲され、野生個体は減少している。水族館で飼育される例があり、幼体が観賞用に流通することもある。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "claudius-angustatus",
+  "nameJa": "ハラガケガメ",
+  "nameSci": "Claudius angustatus",
+  "nameEn": "Narrow-bridged Musk Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   100,
+   165
+  ],
+  "description": "メキシコから中米の低地の池沼や水路にすむ小型のドロガメ。腹甲が小さく十字形に退化して四肢がよく動くのが特徴。気が荒く、驚くと大きな口で噛みつく。夜間に活動して小動物を捕食する。丈夫で飼いやすく、爬虫類ショップで人気がある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sternotherus-carinatus",
+  "nameJa": "カブトニオイガメ",
+  "nameSci": "Sternotherus carinatus",
+  "nameEn": "Razor-backed Musk Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   100,
+   150
+  ],
+  "description": "北アメリカ南部の河川にすむ小型のニオイガメ。背甲の中央が鋭く盛り上がって屋根のような稜をつくるのが特徴。危険を感じると臭腺から強いにおいを出す。水底を歩いて貝や昆虫を探す。飼育しやすく、日本の爬虫類ショップで最も普及したカメの一つ。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sternotherus-odoratus",
+  "nameJa": "ミシシッピニオイガメ",
+  "nameSci": "Sternotherus odoratus",
+  "nameEn": "Common Musk Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   50,
+   115
+  ],
+  "description": "北アメリカ東部の池や緩やかな川にすむ超小型のニオイガメ。頭部に二本の黄色い筋が走る。臭腺から強いにおいを放つことから英名はスティンクポット。ほとんど陸に上がらず水底を歩く。小型で丈夫なため、初心者向けの飼育種として広く流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sternotherus-minor",
+  "nameJa": "ヒメニオイガメ",
+  "nameSci": "Sternotherus minor",
+  "nameEn": "Loggerhead Musk Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   80,
+   135
+  ],
+  "description": "北アメリカ南東部の河川や泉にすむ小型のニオイガメ。幼体の背甲には三本の稜があり、成長とともにやや平たくなる。頭部には黒い斑点が密に散る。貝を噛み砕く大きな頭を持つ個体もいる。飼育下で人気があり、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "kinosternon-scorpioides",
+  "nameJa": "サソリドロガメ",
+  "nameSci": "Kinosternon scorpioides",
+  "nameEn": "Scorpion Mud Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "中南米の湿地や一時的な水たまりにすむドロガメ。背甲に三本の低い稜が走り、喉に一対のひげ状突起を持つ。乾季には泥に潜って休眠する。夜行性で小動物や植物を食べる雑食性。丈夫で飼育しやすく、爬虫類ショップで幼体が流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "kinosternon-leucostomum",
+  "nameJa": "シロクチドロガメ",
+  "nameSci": "Kinosternon leucostomum",
+  "nameEn": "White-lipped Mud Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   120,
+   175
+  ],
+  "description": "メキシコから南米北部の森林の水辺にすむドロガメ。名のとおり口の周りが白っぽく、顔に黄色い筋が入る。腹甲に蝶番があり、頭や四肢を引っ込めて甲を閉じられる。夜間に水辺を歩き回る。丈夫で、爬虫類ショップで流通する人気種。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "kinosternon-subrubrum",
+  "nameJa": "ミシシッピドロガメ",
+  "nameSci": "Kinosternon subrubrum",
+  "nameEn": "Eastern Mud Turtle",
+  "family": "ドロガメ科",
+  "familySci": "Kinosternidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "北アメリカ東部の浅い池沼や湿地にすむ小型のドロガメ。黒褐色の丸い甲に目立った模様はなく、地味な外見をもつ。腹甲の蝶番で甲を半ば閉じられる。水底を歩いて雑食性の餌をとる。丈夫で飼いやすく、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chelus-fimbriata",
+  "nameJa": "マタマタ",
+  "nameSci": "Chelus fimbriata",
+  "nameEn": "Mata Mata",
+  "family": "ヘビクビガメ科",
+  "familySci": "Chelidae",
+  "sizeMm": [
+   300,
+   450
+  ],
+  "description": "南米アマゾンやオリノコ川流域の緩やかな水にすむ大型のヘビクビガメ。三角形の平たい頭と枯れ葉に似たごつごつの甲をもち、落ち葉に紛れて獲物を待つ。近づいた魚を口を大きく開けて水ごと吸い込む。独特の姿から水族館や愛好家に人気が高い。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chelodina-rugosa",
+  "nameJa": "ジーベンロックナガクビガメ",
+  "nameSci": "Chelodina rugosa",
+  "nameEn": "Siebenrock's Snake-necked Turtle",
+  "family": "ヘビクビガメ科",
+  "familySci": "Chelidae",
+  "sizeMm": [
+   200,
+   300
+  ],
+  "description": "ニューギニアやオーストラリア北部の川や湿地にすむナガクビガメ。首が甲の長さに迫るほど長く、横に折り曲げて甲の縁に収める。水中で首を伸ばして素早く魚を捕らえる。丈夫で飼いやすく、日本の爬虫類ショップで定番の人気種となっている。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chelodina-longicollis",
+  "nameJa": "オーストラリアナガクビガメ",
+  "nameSci": "Chelodina longicollis",
+  "nameEn": "Eastern Snake-necked Turtle",
+  "family": "ヘビクビガメ科",
+  "familySci": "Chelidae",
+  "sizeMm": [
+   150,
+   250
+  ],
+  "description": "オーストラリア東部の池沼や緩やかな川に広くすむナガクビガメ。長い首を横に曲げて甲に収める。危険を感じるとにおいのある分泌液を出す。乾季には陸を移動して別の水場を探すこともある。丈夫で飼育しやすく、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "emydura-subglobosa",
+  "nameJa": "アカハラマゲクビガメ",
+  "nameSci": "Emydura subglobosa",
+  "nameEn": "Red-bellied Short-necked Turtle",
+  "family": "ヘビクビガメ科",
+  "familySci": "Chelidae",
+  "sizeMm": [
+   150,
+   260
+  ],
+  "description": "ニューギニアやオーストラリア北部の川や湿地にすむマゲクビガメ。首を横に曲げて甲に収める。腹甲や甲の縁、顔の筋が鮮やかな赤や橙に色づき観賞価値が高い。水中の小動物や植物を食べる。丈夫で飼育しやすく、爬虫類ショップで人気がある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "phrynops-hilarii",
+  "nameJa": "ヒラリーカエルガメ",
+  "nameSci": "Phrynops hilarii",
+  "nameEn": "Hilaire's Side-necked Turtle",
+  "family": "ヘビクビガメ科",
+  "familySci": "Chelidae",
+  "sizeMm": [
+   250,
+   400
+  ],
+  "description": "南米南部の池沼や緩やかな川にすむカエルガメの仲間。幅広く平たい甲と、横に曲げてしまう太い首をもつ。口角の上がった愛嬌のある顔つきが特徴。水中の小動物を食べる。比較的丈夫で、日本の爬虫類ショップでも流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pelomedusa-subrufa",
+  "nameJa": "アフリカヨコクビガメ",
+  "nameSci": "Pelomedusa subrufa",
+  "nameEn": "African Helmeted Turtle",
+  "family": "ヨコクビガメ科",
+  "familySci": "Pelomedusidae",
+  "sizeMm": [
+   130,
+   200
+  ],
+  "description": "アフリカ大陸の広い範囲の池沼や一時的な水たまりにすむヨコクビガメ。首を横に曲げて甲の下に収める。乾季には泥に潜って休眠し、雨季に活動を再開する。雑食性で小動物を集団で襲うこともある。丈夫で、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "podocnemis-unifilis",
+  "nameJa": "キバラヨコクビガメ",
+  "nameSci": "Podocnemis unifilis",
+  "nameEn": "Yellow-spotted River Turtle",
+  "family": "ナンベイヨコクビガメ科",
+  "familySci": "Podocnemididae",
+  "sizeMm": [
+   300,
+   500
+  ],
+  "description": "南米アマゾン・オリノコ川流域の大河にすむヨコクビガメ。頭部に黄色い斑があり、腹側が黄色みを帯びる。若い個体は水草の多い岸辺で暮らす。食用や卵の採取で減少し、保護の対象となっている。水族館や愛好家のもとで飼育される。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "carettochelys-insculpta",
+  "nameJa": "スッポンモドキ",
+  "nameSci": "Carettochelys insculpta",
+  "nameEn": "Pig-nosed Turtle",
+  "family": "スッポンモドキ科",
+  "familySci": "Carettochelyidae",
+  "sizeMm": [
+   300,
+   560
+  ],
+  "description": "ニューギニア南部とオーストラリア北部の川にすむ大型の淡水ガメ。四肢がウミガメのようなひれ状で、鼻先が豚のように突き出るのが特徴。一生をほぼ水中で過ごす。独特の姿から水族館で人気が高く、幼体が観賞用に流通する。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ }
+]

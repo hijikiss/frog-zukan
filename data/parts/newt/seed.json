@@ -1,107 +1,126 @@
 [
-  {
-    "id": "cynops-pyrrhogaster",
-    "nameJa": "アカハライモリ",
-    "nameSci": "Cynops pyrrhogaster",
-    "nameEn": "Japanese Fire-bellied Newt",
-    "family": "イモリ科",
-    "familySci": "Salamandridae",
-    "sizeMm": [80, 140],
-    "description": "本州・四国・九州に広く分布する日本固有のイモリ。腹面は鮮やかな赤に黒斑が入り、この体色は捕食者への警告となっている。皮膚からフグと同じテトロドトキシンを分泌する。水田や池、ゆるやかな流れにすみ、水中で交尾・産卵する。動物園や水族館でもよく展示される。",
-    "tags": {
-      "habitat": ["半水棲", "水棲"],
-      "origin": "在来",
-      "size": "中型",
-      "activity": ["昼行性", "夜行性"],
-      "toxic": true,
-      "region": ["日本"],
-      "breeding": "4〜6月",
-      "redlist": "準絶滅危惧(NT)"
-    },
-    "zooDisplay": true
+ {
+  "id": "cynops-pyrrhogaster",
+  "nameJa": "アカハライモリ",
+  "nameSci": "Cynops pyrrhogaster",
+  "nameEn": "Japanese Fire-bellied Newt",
+  "family": "イモリ科",
+  "familySci": "Salamandridae",
+  "sizeMm": [
+   80,
+   140
+  ],
+  "description": "本州・四国・九州に広く分布する日本固有のイモリ。腹面は鮮やかな赤に黒斑が入り、この体色は捕食者への警告となっている。皮膚からフグと同じテトロドトキシンを分泌する。水田や池、ゆるやかな流れにすみ、水中で交尾・産卵する。動物園や水族館でもよく展示される。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性",
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "準絶滅危惧(NT)"
   },
-  {
-    "id": "cynops-ensicauda",
-    "nameJa": "シリケンイモリ",
-    "nameSci": "Cynops ensicauda",
-    "nameEn": "Sword-tailed Newt",
-    "family": "イモリ科",
-    "familySci": "Salamandridae",
-    "sizeMm": [100, 180],
-    "description": "奄美諸島と沖縄諸島に分布する日本固有のイモリ。アカハライモリより大きく、尾の先が剣のように伸びる。背面に金色の斑紋が散る個体が多い。アカハライモリ同様に皮膚毒を持つ。湿った林床にも現れ、陸上で過ごす時間が長い。",
-    "tags": {
-      "habitat": ["半水棲", "地表棲"],
-      "origin": "在来",
-      "size": "超大型",
-      "activity": ["夜行性"],
-      "toxic": true,
-      "region": ["日本"],
-      "breeding": "12〜5月",
-      "redlist": "準絶滅危惧(NT)"
-    },
-    "zooDisplay": true
+  "zooDisplay": true
+ },
+ {
+  "id": "pleurodeles-waltl",
+  "nameJa": "イベリアトゲイモリ",
+  "nameSci": "Pleurodeles waltl",
+  "nameEn": "Iberian Ribbed Newt",
+  "family": "イモリ科",
+  "familySci": "Salamandridae",
+  "sizeMm": [
+   150,
+   300
+  ],
+  "description": "イベリア半島とモロッコに分布する大型のイモリ。危険を感じると肋骨を皮膚から突き出して身を守るという珍しい防御を行う。一生のほとんどを水中で過ごし、丈夫で飼育しやすいため実験動物やペットとしても知られる。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "ヨーロッパ",
+    "アフリカ"
+   ],
+   "breeding": "秋〜春",
+   "redlist": "準絶滅危惧(NT)"
   },
-  {
-    "id": "pleurodeles-waltl",
-    "nameJa": "イベリアトゲイモリ",
-    "nameSci": "Pleurodeles waltl",
-    "nameEn": "Iberian Ribbed Newt",
-    "family": "イモリ科",
-    "familySci": "Salamandridae",
-    "sizeMm": [150, 300],
-    "description": "イベリア半島とモロッコに分布する大型のイモリ。危険を感じると肋骨を皮膚から突き出して身を守るという珍しい防御を行う。一生のほとんどを水中で過ごし、丈夫で飼育しやすいため実験動物やペットとしても知られる。",
-    "tags": {
-      "habitat": ["水棲"],
-      "origin": "国外",
-      "size": "超大型",
-      "activity": ["夜行性"],
-      "toxic": true,
-      "region": ["ヨーロッパ", "アフリカ"],
-      "breeding": "秋〜春",
-      "redlist": "準絶滅危惧(NT)"
-    },
-    "zooDisplay": true
+  "zooDisplay": true
+ },
+ {
+  "id": "salamandra-salamandra",
+  "nameJa": "ファイアサラマンダー",
+  "nameSci": "Salamandra salamandra",
+  "nameEn": "Fire Salamander",
+  "family": "イモリ科",
+  "familySci": "Salamandridae",
+  "sizeMm": [
+   150,
+   250
+  ],
+  "description": "ヨーロッパの落葉樹林にすむ黒地に黄色の斑紋を持つ有尾類。派手な体色は強い皮膚毒の警告色で、耳腺から刺激性の分泌物を出す。雨の夜に地表を歩き回り、多くの個体群は卵ではなく幼生を水中に産む。国内の動物園でも人気の展示種。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
   },
-  {
-    "id": "salamandra-salamandra",
-    "nameJa": "ファイアサラマンダー",
-    "nameSci": "Salamandra salamandra",
-    "nameEn": "Fire Salamander",
-    "family": "イモリ科",
-    "familySci": "Salamandridae",
-    "sizeMm": [150, 250],
-    "description": "ヨーロッパの落葉樹林にすむ黒地に黄色の斑紋を持つ有尾類。派手な体色は強い皮膚毒の警告色で、耳腺から刺激性の分泌物を出す。雨の夜に地表を歩き回り、多くの個体群は卵ではなく幼生を水中に産む。国内の動物園でも人気の展示種。",
-    "tags": {
-      "habitat": ["地表棲"],
-      "origin": "国外",
-      "size": "超大型",
-      "activity": ["夜行性"],
-      "toxic": true,
-      "region": ["ヨーロッパ"],
-      "breeding": "春〜初夏",
-      "redlist": "低懸念(LC)"
-    },
-    "zooDisplay": true
+  "zooDisplay": true
+ },
+ {
+  "id": "triturus-marmoratus",
+  "nameJa": "マダライモリ",
+  "nameSci": "Triturus marmoratus",
+  "nameEn": "Marbled Newt",
+  "family": "イモリ科",
+  "familySci": "Salamandridae",
+  "sizeMm": [
+   110,
+   160
+  ],
+  "description": "フランス南西部からイベリア半島に分布するイモリ。緑と黒の大理石模様が美しく、繁殖期のオスは背に縞模様の水かき状の隆起（クレスト）が発達する。繁殖期は水中、それ以外は林床の落ち葉の下で過ごす。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "3〜6月",
+   "redlist": "準絶滅危惧(NT)"
   },
-  {
-    "id": "triturus-marmoratus",
-    "nameJa": "マダライモリ",
-    "nameSci": "Triturus marmoratus",
-    "nameEn": "Marbled Newt",
-    "family": "イモリ科",
-    "familySci": "Salamandridae",
-    "sizeMm": [110, 160],
-    "description": "フランス南西部からイベリア半島に分布するイモリ。緑と黒の大理石模様が美しく、繁殖期のオスは背に縞模様の水かき状の隆起（クレスト）が発達する。繁殖期は水中、それ以外は林床の落ち葉の下で過ごす。",
-    "tags": {
-      "habitat": ["半水棲", "地表棲"],
-      "origin": "国外",
-      "size": "中型",
-      "activity": ["夜行性"],
-      "toxic": true,
-      "region": ["ヨーロッパ"],
-      "breeding": "3〜6月",
-      "redlist": "準絶滅危惧(NT)"
-    },
-    "zooDisplay": true
-  }
+  "zooDisplay": true
+ }
 ]

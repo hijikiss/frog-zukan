@@ -1,0 +1,502 @@
+[
+  {
+    "id": "ophiophagus-hannah",
+    "nameJa": "キングコブラ",
+    "nameSci": "Ophiophagus hannah",
+    "nameEn": "King Cobra",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [3000, 5500],
+    "description": "南アジアから東南アジアの森林に分布する世界最長の毒蛇。全長5mを超える個体もあり、興奮すると体前部を持ち上げ頸部を広げて低いうなり声を出す。主に他のヘビを食べ、落ち葉を集めて巣を作り卵を守る珍しい習性を持つ。ジャパンスネークセンターなどで展示される。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["南アジア", "東南アジア"],
+      "breeding": "1〜4月（造巣・産卵）",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "naja-naja",
+    "nameJa": "インドコブラ",
+    "nameSci": "Naja naja",
+    "nameEn": "Indian Cobra",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1000, 1500],
+    "description": "インド亜大陸の農地や人家周辺に広く分布するコブラ。威嚇時に広げる頸部の背面に眼鏡状の斑紋を持つ個体が多い。神経毒を持ち、南アジアで咬傷被害の多い「四大毒蛇」の一種として恐れられる一方、蛇使いの笛に合わせて揺れる姿でも知られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["南アジア"],
+      "breeding": "4〜7月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "naja-kaouthia",
+    "nameJa": "タイコブラ",
+    "nameSci": "Naja kaouthia",
+    "nameEn": "Monocled Cobra",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1200, 2100],
+    "description": "東南アジアから南アジア東部の水田や湿地に多いコブラ。広げた頸部の背面に一つの輪（単眼状）の斑紋を持つのが名の由来。水辺を好みカエルやネズミを食べ、強い神経毒を持つ。飼育下では白変個体なども見られ、爬虫類施設で展示されることがある。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東南アジア", "南アジア"],
+      "breeding": "1〜3月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "naja-haje",
+    "nameJa": "エジプトコブラ",
+    "nameSci": "Naja haje",
+    "nameEn": "Egyptian Cobra",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1000, 2000],
+    "description": "北アフリカから中東の乾いた草原や半砂漠に分布する大型のコブラ。褐色から黒褐色で、幅広く広がる頸部が特徴。古代エジプトで王権の象徴とされ、クレオパトラの逸話にも登場する。神経毒を持ち、げっ歯類やヒキガエル、他のヘビを食べる。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "昼行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "春〜夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "naja-nivea",
+    "nameJa": "ケープコブラ",
+    "nameSci": "Naja nivea",
+    "nameEn": "Cape Cobra",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1200, 1600],
+    "description": "アフリカ南部の乾燥地に分布するコブラで、黄褐色から赤褐色、黒に近い個体まで体色変異が大きい。昼行性で機敏に動き、げっ歯類や他のヘビ、鳥のヒナを狙って巣穴にも入る。アフリカのコブラの中でも特に強い神経毒を持つ種として知られる。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "9〜12月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "dendroaspis-polylepis",
+    "nameJa": "ブラックマンバ",
+    "nameSci": "Dendroaspis polylepis",
+    "nameEn": "Black Mamba",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [2000, 3500],
+    "description": "アフリカ東部・南部のサバンナや岩場に分布する大型の毒蛇。体色は灰褐色で、名は口の中が黒いことに由来する。地上を非常に速く這うことで知られ、強力な神経毒を持つため危険視される。ジャパンスネークセンターでも飼育展示されている。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "春（乾季）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "dendroaspis-angusticeps",
+    "nameJa": "グリーンマンバ",
+    "nameSci": "Dendroaspis angusticeps",
+    "nameEn": "Eastern Green Mamba",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1500, 2500],
+    "description": "アフリカ東部の沿岸林や樹上に暮らす鮮やかな緑色の毒蛇。細長い体で枝から枝へ移動し、鳥やその卵、小型哺乳類を捕食する。ブラックマンバより臆病で樹上にひそむため人と出会う機会は少ないが、神経毒は強い。爬虫類施設で展示されることがある。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "oxyuranus-scutellatus",
+    "nameJa": "タイパン",
+    "nameSci": "Oxyuranus scutellatus",
+    "nameEn": "Coastal Taipan",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1500, 2900],
+    "description": "オーストラリア北部とニューギニアの草原や海岸沿いのサトウキビ畑に分布する大型の毒蛇。細身で動きが速く、長い牙と強力な神経毒を併せ持つ。げっ歯類を狙って一撃で咬んですぐ離れる狩り方をする。世界有数の毒の強さで知られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["オセアニア"],
+      "breeding": "春〜夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "oxyuranus-microlepidotus",
+    "nameJa": "ナイリクタイパン",
+    "nameSci": "Oxyuranus microlepidotus",
+    "nameEn": "Inland Taipan",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1500, 2500],
+    "description": "オーストラリア内陸部の乾いた平原にすむ毒蛇で、一咬みあたりの毒の強さは陸生ヘビ最強とされる。季節で体色を変え、夏は淡く冬は黒っぽくなって体温調節に役立てる。げっ歯類を主食とし人里から遠いため咬傷はまれ。実物を見る機会は少ない。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["オセアニア"],
+      "breeding": "春（9〜11月）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pseudonaja-textilis",
+    "nameJa": "トウブブラウンスネーク",
+    "nameSci": "Pseudonaja textilis",
+    "nameEn": "Eastern Brown Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1200, 1800],
+    "description": "オーストラリア東部の乾いた草原や農地に広く分布する細身の毒蛇。淡褐色から濃褐色まで体色は様々で、動きが速く神経質。強い毒を持ち人の生活圏にも現れるため、オーストラリアで最も咬傷被害の多いヘビの一つとされる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["オセアニア"],
+      "breeding": "春〜初夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "notechis-scutatus",
+    "nameJa": "タイガースネーク",
+    "nameSci": "Notechis scutatus",
+    "nameEn": "Tiger Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [900, 1500],
+    "description": "オーストラリア南部の湿地や水辺に多い毒蛇。多くの個体が体に虎縞状の横帯を持つのが名の由来だが、地域変異が大きく無地の個体もいる。カエルを好んで食べ、強い神経毒を持つ。卵ではなく子ヘビを産む卵胎生で、一度に多数を出産する。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["オセアニア"],
+      "breeding": "夏（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "acanthophis-antarcticus",
+    "nameJa": "デスアダー",
+    "nameSci": "Acanthophis antarcticus",
+    "nameEn": "Common Death Adder",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [400, 700],
+    "description": "オーストラリアの森林や草地にすむ、太く短い体でクサリヘビによく似た姿のコブラ科の毒蛇。落ち葉に隠れて細い尾先をルアーのように動かし、寄ってきた小動物を待ち伏せて捕らえる。動きは鈍いが咬みつきは速く、強い神経毒を持つ卵胎生種。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["オセアニア"],
+      "breeding": "夏（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "micrurus-fulvius",
+    "nameJa": "ヒガシサンゴヘビ",
+    "nameSci": "Micrurus fulvius",
+    "nameEn": "Eastern Coral Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [500, 800],
+    "description": "北アメリカ南東部の林床や砂地にすむ細身の毒蛇。赤・黄・黒の環が交互に並ぶ派手な体色を持ち、無毒のミルクスネークとよく似る。地中や落ち葉の下で他の小型ヘビやトカゲを食べる。おとなしいが神経毒は強く、めったに人前に姿を現さない。",
+    "tags": {
+      "habitat": ["地表棲", "地中棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春〜初夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "bitis-gabonica",
+    "nameJa": "ガボンアダー",
+    "nameSci": "Bitis gabonica",
+    "nameEn": "Gaboon Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1200, 2000],
+    "description": "中央・西アフリカの熱帯雨林の林床に暮らす、非常に重厚な体つきのクサリヘビ。落ち葉に紛れる幾何学模様と、ヘビ類最長級の長い牙を持つ。ふだんは動かず獲物を待ち伏せる。国内ではジャパンスネークセンターなどでセイブガボンアダーが飼育される。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "bitis-arietans",
+    "nameJa": "パフアダー",
+    "nameSci": "Bitis arietans",
+    "nameEn": "Puff Adder",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [900, 1400],
+    "description": "アフリカ全土の草原や半砂漠に広く分布する太短いクサリヘビ。危険を感じると体を膨らませ大きく息を吐いて威嚇することが名の由来。動きは鈍いが咬みつきは速く、分布が広く人里にも多いためアフリカで咬傷被害の多い毒蛇とされる。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "夏（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "bitis-nasicornis",
+    "nameJa": "サイガアダー",
+    "nameSci": "Bitis nasicornis",
+    "nameEn": "Rhinoceros Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [700, 1200],
+    "description": "中央・西アフリカの湿った森林や沼沢地にすむクサリヘビ。青・緑・赤・黒の鮮やかな幾何学模様に覆われ、鼻先に角状の突起が並ぶ。水辺を好みカエルや小型哺乳類を待ち伏せる。派手な見た目から爬虫類施設で展示されることもある。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "crotalus-atrox",
+    "nameJa": "ニシダイヤガラガラヘビ",
+    "nameSci": "Crotalus atrox",
+    "nameEn": "Western Diamondback Rattlesnake",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1200, 2000],
+    "description": "北アメリカ南西部からメキシコの乾いた低木地や砂漠にすむ大型のガラガラヘビ。背面に菱形の斑紋が並び、尾端の殻を震わせて警告音を出す。げっ歯類を待ち伏せて赤外線を感じるピット器官で狙う。北米で咬傷被害の多い代表的な毒蛇。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春（交尾）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "crotalus-adamanteus",
+    "nameJa": "ヒガシダイヤガラガラヘビ",
+    "nameSci": "Crotalus adamanteus",
+    "nameEn": "Eastern Diamondback Rattlesnake",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1500, 2400],
+    "description": "北アメリカ南東部の松林や砂地にすむ、世界最大級のガラガラヘビ。黄色い縁取りのある菱形斑が背に連なる。ウサギやリスなどを待ち伏せて捕らえ、脅かされると尾を鳴らして激しく威嚇する。生息地の開発で数を減らしている地域もある。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "夏〜秋（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "crotalus-cerastes",
+    "nameJa": "サイドワインダー",
+    "nameSci": "Crotalus cerastes",
+    "nameEn": "Sidewinder",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [430, 800],
+    "description": "北アメリカ南西部の砂漠にすむ小型のガラガラヘビ。体を横向きに投げ出すように進む独特の横這い運動で、熱い砂の上を素早く移動する。目の上に角状のうろこが立つのも特徴。砂に潜って待ち伏せ、トカゲやげっ歯類を捕食する。",
+    "tags": {
+      "habitat": ["砂漠棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春（交尾）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lachesis-muta",
+    "nameJa": "ブッシュマスター",
+    "nameSci": "Lachesis muta",
+    "nameEn": "Bushmaster",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [2000, 3000],
+    "description": "南アメリカのアマゾンなどの熱帯雨林にすむ、新大陸最大のクサリヘビ。淡褐色の地に黒い菱形斑が並び、長い牙を持つ。ピットバイパー類では珍しく卵を産む。林床で獲物を待ち伏せ、げっ歯類を襲う。分布が広い割に目にする機会は少ない。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["中央アメリカ", "南アメリカ"],
+      "breeding": "不明",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "bothriechis-schlegelii",
+    "nameJa": "マツゲハブ",
+    "nameSci": "Bothriechis schlegelii",
+    "nameEn": "Eyelash Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [550, 750],
+    "description": "中央・南アメリカの熱帯雨林の樹上にすむ小型のピットバイパー。目の上にまつげ状のうろこが突き出るのが名の由来で、黄色や緑、赤褐色など体色変異が豊か。枝に巻きついて鳥やカエル、トカゲを待ち伏せる。派手な色から展示人気が高い。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["中央アメリカ", "南アメリカ"],
+      "breeding": "不明",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "bothrops-asper",
+    "nameJa": "フェルデランス",
+    "nameSci": "Bothrops asper",
+    "nameEn": "Terciopelo",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1200, 2000],
+    "description": "中央アメリカから南米北部の低地林や農園に分布する大型のピットバイパー。灰褐色の地に黒縁の三角斑が並ぶ。水辺や耕作地に多く現れ、気が荒く咬傷被害が多いため中南米で最も危険な毒蛇の一つとされる。一度に多数の子を産む卵胎生。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["中央アメリカ", "南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "daboia-russelii",
+    "nameJa": "ラッセルクサリヘビ",
+    "nameSci": "Daboia russelii",
+    "nameEn": "Russell's Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1000, 1500],
+    "description": "インドやスリランカなど南アジアの農地や草原に多いクサリヘビ。褐色の地に黒縁の楕円斑が三列に連なる。威嚇時に強く息を吐いて大きな音を立てる。農作業中の咬傷が多く、南アジアの「四大毒蛇」の一つとして深刻な被害をもたらす。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["南アジア", "東南アジア"],
+      "breeding": "初夏（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "agkistrodon-contortrix",
+    "nameJa": "カッパーヘッド",
+    "nameSci": "Agkistrodon contortrix",
+    "nameEn": "Copperhead",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [600, 950],
+    "description": "北アメリカ東部の落葉樹林や岩場にすむ中型のピットバイパー。銅色を帯びた地に砂時計形の横帯が並び、落ち葉によく紛れる。北米では咬傷件数が多いが毒は比較的弱く、死亡例はまれ。げっ歯類や昆虫、カエルを待ち伏せて捕らえる。",
+    "tags": {
+      "habitat": ["地表棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "夏〜秋（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "agkistrodon-piscivorus",
+    "nameJa": "ヌママムシ",
+    "nameSci": "Agkistrodon piscivorus",
+    "nameEn": "Cottonmouth",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [600, 1400],
+    "description": "北アメリカ南東部の沼地や川辺にすむ半水生のピットバイパー。威嚇時に大きく口を開けると内側が白いことから英名コットンマウスと呼ばれる。水中を泳いで魚やカエルを捕らえ、水辺で人と遭遇することもある。暗褐色で老成個体は無地に近くなる。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "夏〜秋（出産）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "malayopython-reticulatus",
+    "nameJa": "アミメニシキヘビ",
+    "nameSci": "Malayopython reticulatus",
+    "nameEn": "Reticulated Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [3000, 6500],
+    "description": "東南アジアの熱帯雨林や河川周辺にすむ、最大で7m近くに達する世界最長級のヘビ。網目状の複雑な斑紋が名の由来で、金属光沢のある美しい体をもつ。泳ぎが得意な待ち伏せ型の捕食者。動物園で巨大な個体が展示され人気が高い。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "乾季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "python-bivittatus",
+    "nameJa": "ビルマニシキヘビ",
+    "nameSci": "Python bivittatus",
+    "nameEn": "Burmese Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [3000, 5800],
+    "description": "東南アジアから南アジアの湿地や森林にすむ大型のニシキヘビ。褐色の地に暗色の網目模様が並び、成長すると5mを超える。おとなしい性質から飼育されるが、放されたものが米国フロリダで大繁殖し問題になっている。動物園でよく見られる。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東アジア", "東南アジア", "南アジア"],
+      "breeding": "3〜4月（産卵）",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "python-molurus",
+    "nameJa": "インドニシキヘビ",
+    "nameSci": "Python molurus",
+    "nameEn": "Indian Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [2400, 4000],
+    "description": "南アジアの森林や草原、水辺に分布する大型のニシキヘビ。ビルマニシキヘビに似るが体色が淡く、頭部の斑紋も異なる。かつては同種とされていた。水辺を好み泳ぎもうまい。ワシントン条約で保護され、国内では動物園で見られることがある。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["南アジア"],
+      "breeding": "3〜6月（産卵）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "morelia-viridis",
+    "nameJa": "グリーンパイソン",
+    "nameSci": "Morelia viridis",
+    "nameEn": "Green Tree Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1200, 2000],
+    "description": "ニューギニアやオーストラリア北端の熱帯雨林にすむ樹上性のニシキヘビ。鮮やかな緑色の体で、枝に体を規則正しく巻きつけて休む独特の姿勢で知られる。幼蛇は黄色や赤色で、成長に伴い緑へ変わる。爬虫類イベントや専門店で人気が高い。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東南アジア", "オセアニア"],
+      "breeding": "乾季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "morelia-spilota",
+    "nameJa": "カーペットパイソン",
+    "nameSci": "Morelia spilota",
+    "nameEn": "Carpet Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1500, 3000],
+    "description": "オーストラリアとニューギニアに広く分布するニシキヘビ。じゅうたん模様に例えられる褐色や黒の斑紋をもち、地域ごとに色彩変異が大きい。樹上でも地上でも活動し、性質は比較的おとなしい。飼育しやすく専門店で普通に流通する。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "python-brongersmai",
+    "nameJa": "ブラッドパイソン",
+    "nameSci": "Python brongersmai",
+    "nameEn": "Blood Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1200, 1800],
+    "description": "マレー半島やスマトラの湿地林にすむ、ずんぐりと太いニシキヘビ。赤みの強い体色から「血のニシキヘビ」と呼ばれる。全長は2m未満だが胴が非常に太く重い。やや気が荒いとされるが飼育下で改善された個体も多く、専門店で見られる。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "aspidites-melanocephalus",
+    "nameJa": "ブラックヘッドパイソン",
+    "nameSci": "Aspidites melanocephalus",
+    "nameEn": "Black-headed Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1500, 2600],
+    "description": "オーストラリア北部の乾燥地にすむニシキヘビ。真っ黒な頭部と、褐色の地に濃淡の横帯が並ぶ体が特徴。他のヘビを好んで食べることで知られる。昼間に日光浴をして体を温める。ピット器官を持たない原始的なグループで、爬虫類イベントで見られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "aspidites-ramsayi",
+    "nameJa": "ウォマパイソン",
+    "nameSci": "Aspidites ramsayi",
+    "nameEn": "Woma Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1200, 2300],
+    "description": "オーストラリア内陸部の砂漠や乾燥した草原にすむニシキヘビ。褐色の地に暗色の横帯が並び、頭部は小さい。地中の巣穴を利用し、他のヘビも捕食する。ブラックヘッドパイソンの近縁で、丈夫で飼いやすく専門店で流通する。",
+    "tags": {
+      "habitat": ["砂漠棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "antaresia-childreni",
+    "nameJa": "チルドレンニシキヘビ",
+    "nameSci": "Antaresia childreni",
+    "nameEn": "Children's Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [600, 1000],
+    "description": "オーストラリア北部の岩場や森林にすむ小型のニシキヘビ。全長1m前後で、淡褐色の地に細かな斑点が散らばる。名は発見者の人名にちなむもので子供とは関係ない。おとなしく小型で扱いやすいため、入門種として専門店で人気がある。",
+    "tags": {
+      "habitat": ["地表棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "antaresia-maculosa",
+    "nameJa": "スポッテッドパイソン",
+    "nameSci": "Antaresia maculosa",
+    "nameEn": "Spotted Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [900, 1400],
+    "description": "オーストラリア東部の森林や岩場にすむ小型のニシキヘビ。褐色の地に不規則な暗色斑が散らばるのが名の由来。全長は1.5m未満で、洞窟の入口でコウモリを待ち伏せて捕らえることもある。小型で丈夫なため飼育種として流通する。",
+    "tags": {
+      "habitat": ["地表棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "liasis-olivaceus",
+    "nameJa": "オリーブパイソン",
+    "nameSci": "Liasis olivaceus",
+    "nameEn": "Olive Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [2000, 4000],
+    "description": "オーストラリア北部の岩場や渓谷、水辺にすむ大型のニシキヘビ。斑紋のないオリーブ色から褐色の滑らかな体をもち、全長は4mに達する。夜間に活動して水辺で獲物を狙う。国内で見る機会は少ないが、まれに専門店に入る。",
+    "tags": {
+      "habitat": ["岩場棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "leiopython-albertisii",
+    "nameJa": "ホワイトリップパイソン",
+    "nameSci": "Leiopython albertisii",
+    "nameEn": "White-lipped Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1500, 2100],
+    "description": "ニューギニアの熱帯雨林の林床にすむニシキヘビ。黒褐色や赤褐色の体に、白と黒が交互に並ぶ唇の鱗が名の由来。金属光沢のある美しい体をもつ。やや神経質とされるが独特の色彩から人気があり、爬虫類イベントで見られることがある。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "乾季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "boa-constrictor",
+    "nameJa": "ボアコンストリクター",
+    "nameSci": "Boa constrictor",
+    "nameEn": "Boa Constrictor",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1800, 3000],
+    "description": "中南米の熱帯林から乾燥林まで幅広くすむ大型のボア。地域変異が大きく、褐色の地に鞍状の斑紋が並ぶ。卵ではなく子ヘビを産む卵胎生で、木にも登る。古くから飼育される代表的な大型ヘビで、動物園や専門店でよく見られる。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["中央アメリカ", "南アメリカ"],
+      "breeding": "乾季（交尾）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "eunectes-murinus",
+    "nameJa": "オオアナコンダ",
+    "nameSci": "Eunectes murinus",
+    "nameEn": "Green Anaconda",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [3000, 6000],
+    "description": "南米アマゾンの湿地や河川にすむ、世界最重量のヘビ。全長より胴の太さが際立ち、大きな個体は6mを超える。ほぼ水中で生活し、目と鼻孔が頭の上につく。カピバラやシカも締めつけて捕らえる。動物園や水族館で展示される。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "eunectes-notaeus",
+    "nameJa": "キイロアナコンダ",
+    "nameSci": "Eunectes notaeus",
+    "nameEn": "Yellow Anaconda",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [2000, 3500],
+    "description": "南米パラグアイ川流域などの湿地にすむアナコンダの一種。オオアナコンダより小さく、黄色みの強い地に黒い斑紋が並ぶ。水辺で待ち伏せて魚や水鳥を捕らえる卵胎生の種。オオアナコンダより飼育しやすく、専門店で見られることがある。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["薄明薄暮性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "corallus-caninus",
+    "nameJa": "エメラルドツリーボア",
+    "nameSci": "Corallus caninus",
+    "nameEn": "Emerald Tree Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1500, 2000],
+    "description": "南米アマゾンの熱帯雨林にすむ樹上性のボア。鮮やかな緑色に白い横帯が入り、枝に体を巻きつけて休む姿はグリーンパイソンによく似る。長い牙で鳥やコウモリを捕らえる。幼蛇は赤やオレンジ色。美しさから専門店やイベントで人気が高い。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "乾季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "corallus-hortulanus",
+    "nameJa": "アマゾンツリーボア",
+    "nameSci": "Corallus hortulanus",
+    "nameEn": "Amazon Tree Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1200, 2000],
+    "description": "南米アマゾン流域の樹上にすむ細身のボア。体色の変異が非常に大きく、灰色や褐色から鮮やかな赤や黄色まで多様な個体がいる。夜行性で、熱を感じるピット器官で鳥や小動物を狙う。やや気が荒いが色彩の豊富さから飼育種として流通する。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "epicrates-cenchria",
+    "nameJa": "ニジボア",
+    "nameSci": "Epicrates cenchria",
+    "nameEn": "Brazilian Rainbow Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1200, 2000],
+    "description": "南米に広く分布する地表性のボア。褐色の地に黒い環状や眼状の斑紋が並び、鱗の表面が光を虹色に反射することが名の由来。子ヘビを産む卵胎生で、夜間に活動する。美しい光沢から人気が高く、専門店やイベントでよく見られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "eryx-colubrinus",
+    "nameJa": "ケニアスナボア",
+    "nameSci": "Eryx colubrinus",
+    "nameEn": "Kenyan Sand Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [400, 900],
+    "description": "東アフリカの乾燥地や砂地にすむ小型のボア。オレンジ色の地に濃褐色の斑紋が並び、砂に潜って目だけを出し獲物を待ち伏せる。全長1m未満でずんぐりとし、性質はおとなしい。飼いやすい入門種として専門店で普通に流通する。",
+    "tags": {
+      "habitat": ["砂漠棲", "地中棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "春〜夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "lichanura-trivirgata",
+    "nameJa": "ロージーボア",
+    "nameSci": "Lichanura trivirgata",
+    "nameEn": "Rosy Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [600, 1100],
+    "description": "北米南西部からメキシコの岩場や砂漠にすむ小型のボア。クリーム色の地に赤褐色や黒の3本の縦縞が走る。動きがゆっくりでおとなしく、全長も1m程度と小さい。丈夫で飼いやすいため、専門店で人気のある種のひとつ。",
+    "tags": {
+      "habitat": ["岩場棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春（交尾）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "acrantophis-madagascariensis",
+    "nameJa": "マダガスカルボア",
+    "nameSci": "Acrantophis madagascariensis",
+    "nameEn": "Madagascar Ground Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1500, 3000],
+    "description": "マダガスカルの森林や乾燥林の地上にすむ大型のボア。褐色の地に暗色の斑紋が並び、全長は3m近くに達する島最大級のヘビ。子ヘビを産む卵胎生。ワシントン条約で厳しく保護され、国内で見る機会は少ない。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["薄明薄暮性", "夜行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "sanzinia-madagascariensis",
+    "nameJa": "マダガスカルツリーボア",
+    "nameSci": "Sanzinia madagascariensis",
+    "nameEn": "Madagascar Tree Boa",
+    "family": "ボア科",
+    "familySci": "Boidae",
+    "sizeMm": [1200, 2000],
+    "description": "マダガスカルの湿潤な森林にすむ樹上性のボア。緑色から褐色の体をもち、枝に巻きついて休む。熱を感じるピット器官で獲物を探す卵胎生の種。旧学名にちなみサンジニアボアとも呼ばれる。条約で保護され、国内では流通が限られる。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "南半球の春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  }
+]

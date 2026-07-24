@@ -1,0 +1,666 @@
+[
+ {
+  "id": "lampropeltis-californiae",
+  "nameJa": "カリフォルニアキングスネーク",
+  "nameSci": "Lampropeltis californiae",
+  "nameEn": "California Kingsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   900,
+   1200
+  ],
+  "description": "北アメリカ西部の乾いた草原や岩場に分布する無毒のナミヘビ。黒褐色の地に白い横帯が並ぶバンド型や、縦縞のストライプ型など模様の変異が大きい。ほかのヘビや小動物を絞めて食べる強健な種で、丈夫で扱いやすく世界的に人気が高い。国内の爬虫類ショップやイベントでも定番。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春（3〜5月に交尾）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lampropeltis-nigrita",
+  "nameJa": "メキシカンブラックキングスネーク",
+  "nameSci": "Lampropeltis nigrita",
+  "nameEn": "Mexican Black Kingsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   900,
+   1200
+  ],
+  "description": "メキシコ北西部のソノラ地方に分布する無毒のキングスネーク。成長すると全身が艶やかな漆黒一色になり、光沢の美しさから人気がある。カリフォルニアキングスネークに近縁で丈夫。乾いた低木林や農地周辺にすみ、げっ歯類や他のヘビを食べる。国内でもよく流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lampropeltis-alterna",
+  "nameJa": "グレーバンドキングスネーク",
+  "nameSci": "Lampropeltis alterna",
+  "nameEn": "Gray-banded Kingsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   750,
+   1200
+  ],
+  "description": "アメリカ南部からメキシコ北部の岩石砂漠に分布する無毒のナミヘビ。灰色の地に黒く縁取られた橙や赤の帯が入る美しい模様で、産地ごとの変異が収集家に好まれる。夜行性で岩の隙間にひそみ、主にトカゲを食べる。国内の爬虫類イベントで見かける。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lampropeltis-triangulum",
+  "nameJa": "ミルクスネーク",
+  "nameSci": "Lampropeltis triangulum",
+  "nameEn": "Milk Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   500,
+   1200
+  ],
+  "description": "北アメリカ東部を中心に分布する無毒のナミヘビ。赤・黒・白（黄）の帯が交互に並び、有毒のサンゴヘビに似せた警告的な擬態とされる。近縁種を含む大きな種群で、鮮やかなホンジュラン系などさまざまな品種が流通する。丈夫でペットとして親しまれる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ",
+    "中央アメリカ"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lampropeltis-zonata",
+  "nameJa": "カリフォルニアマウンテンキングスネーク",
+  "nameSci": "Lampropeltis zonata",
+  "nameEn": "California Mountain Kingsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   500,
+   1000
+  ],
+  "description": "北アメリカ西部の山地の岩場や林縁に分布する無毒のキングスネーク。赤・黒・白の鮮やかな帯を持ち、サンゴヘビに似た配色で知られる。やや冷涼な環境を好み、トカゲや小型ヘビを食べる。飼育はやや手がかかるが、爬虫類イベントで流通することがある。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "thamnophis-sirtalis",
+  "nameJa": "アメリカガーターヘビ",
+  "nameSci": "Thamnophis sirtalis",
+  "nameEn": "Common Garter Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   450,
+   1300
+  ],
+  "description": "北アメリカに広く分布する無毒のヘビで、ガーターヘビの代表種。褐色や黒の地に黄色い縦縞が走り、地域ごとに色彩変異が豊富。水辺を好み、カエルやミミズ、魚を食べる。卵ではなく子ヘビを産む卵胎生で、昼行性。丈夫で入門種として流通する。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春に交尾・夏に出産",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "thamnophis-marcianus",
+  "nameJa": "チェッカーガーターヘビ",
+  "nameSci": "Thamnophis marcianus",
+  "nameEn": "Checkered Garter Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   500,
+   900
+  ],
+  "description": "アメリカ南部からメキシコにかけての水辺や半乾燥地に分布するガーターヘビの一種。オリーブ色の地に市松模様と黒斑が並ぶ。昼行性で、カエルや魚、ミミズを食べる。子ヘビを産む卵胎生で繁殖させやすく、比較的安価で流通する人気種。国内の爬虫類ショップでも見られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ",
+    "中央アメリカ"
+   ],
+   "breeding": "春に交尾・夏に出産",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "heterodon-nasicus",
+  "nameJa": "セイブシシバナヘビ",
+  "nameSci": "Heterodon nasicus",
+  "nameEn": "Western Hognose Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   380,
+   900
+  ],
+  "description": "北アメリカ中部の乾いた草原や砂地に分布するナミヘビ。反り返った鼻先で砂を掘り、主にヒキガエルを食べる。奥歯に弱い毒を持つが人にはほぼ無害で、危険を感じると死んだふりをする。小柄で品種も豊富なため、近年最も人気のあるペットスネークの一つ。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pantherophis-emoryi",
+  "nameJa": "グレートプレーンズラットスネーク",
+  "nameSci": "Pantherophis emoryi",
+  "nameEn": "Great Plains Rat Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   900,
+   1500
+  ],
+  "description": "北アメリカ中部の草原や岩場に分布する無毒のナミヘビ。灰色の地に褐色の鞍状斑が並び、コーンスネークに近縁。夜行性でげっ歯類や小鳥を絞めて食べる。丈夫で飼いやすいが地味な色合いのため流通量は多くない。爬虫類イベントで見かけることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pantherophis-obsoletus",
+  "nameJa": "テキサスラットスネーク",
+  "nameSci": "Pantherophis obsoletus",
+  "nameEn": "Texas Rat Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1000,
+   1800
+  ],
+  "description": "北アメリカ南部に分布する大型の無毒ナミヘビで、テキサス産の個体はテキサスラットスネークと呼ばれ流通する。木登りが得意で、げっ歯類や鳥、卵を食べる。黒っぽい地に不明瞭な斑紋を持ち、気の荒い個体も多い。爬虫類ショップで見かける。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "elaphe-schrenckii",
+  "nameJa": "アムールラットスネーク",
+  "nameSci": "Elaphe schrenckii",
+  "nameEn": "Amur Rat Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1300,
+   1800
+  ],
+  "description": "中国東北部から朝鮮半島、ロシア極東に分布する大型の無毒ナミヘビ。黒い地に黄色い横帯が入り、寒冷地にも耐える丈夫な種。アムールラットスネークやロシアンラットスネークの名で流通する。げっ歯類や鳥を食べ、性質は比較的おとなしい。国内でも飼育される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "bogertophis-subocularis",
+  "nameJa": "トランスペコスラットスネーク",
+  "nameSci": "Bogertophis subocularis",
+  "nameEn": "Trans-Pecos Rat Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   900,
+   1400
+  ],
+  "description": "アメリカ南西部からメキシコのチワワ砂漠に分布する無毒のナミヘビ。淡黄色の地に黒いH字状の斑紋が並び、大きな目を持つ。夜行性で岩の隙間にひそみ、げっ歯類を食べる。乾燥に強く丈夫で飼育しやすいため、爬虫類イベントで人気がある。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gonyosoma-oxycephalum",
+  "nameJa": "アオナメラ",
+  "nameSci": "Gonyosoma oxycephalum",
+  "nameEn": "Red-tailed Green Ratsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1500,
+   2400
+  ],
+  "description": "東南アジアから南アジアの熱帯雨林に分布する大型の樹上性ナミヘビ。鮮やかな緑色の体と赤褐色の尾が美しく、グリーンラットスネークとも呼ばれる。樹上で鳥やコウモリ、小動物を待ち伏せる。神経質だが色彩が人気で、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "通年（熱帯）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "rhynchophis-boulengeri",
+  "nameJa": "テングキノボリヘビ",
+  "nameSci": "Rhynchophis boulengeri",
+  "nameEn": "Rhinoceros Ratsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1000,
+   1500
+  ],
+  "description": "ベトナム北部から中国南部の山地林に分布する樹上性の無毒ナミヘビ。吻端に突き出た鱗の突起がサイの角を思わせ、テングキノボリヘビの名で親しまれる。成体は鮮やかな緑色、幼蛇は灰褐色。飼育下繁殖が進み、爬虫類ショップやイベントで見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "dasypeltis-scabra",
+  "nameJa": "アフリカタマゴヘビ",
+  "nameSci": "Dasypeltis scabra",
+  "nameEn": "Common Egg-eater",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   500,
+   1000
+  ],
+  "description": "アフリカに広く分布する無毒のナミヘビで、鳥の卵だけを食べる特異な食性を持つ。歯はほとんど退化し、卵を丸のみして体内で殻を割り、中身だけをのみ込んで殻を吐き出す。細身で夜行性。ユニークな生態から爬虫類イベントで話題になる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季〜春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "boaedon-fuliginosus",
+  "nameJa": "アフリカハウススネーク",
+  "nameSci": "Boaedon fuliginosus",
+  "nameEn": "African House Snake",
+  "family": "ラムプロフィス科",
+  "familySci": "Lamprophiidae",
+  "sizeMm": [
+   600,
+   1200
+  ],
+  "description": "サハラ以南のアフリカに広く分布する無毒のヘビ。褐色で地味だが丈夫で飼いやすく、げっ歯類をよく食べるため入門種として人気がある。夜行性で草地や人家周辺にすむ。メスの方が大きくなる。国内の爬虫類ショップで安価に流通することが多い。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "ほぼ通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pituophis-catenifer",
+  "nameJa": "ゴファースネーク",
+  "nameSci": "Pituophis catenifer",
+  "nameEn": "Gopher Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1000,
+   2100
+  ],
+  "description": "北アメリカ西部の草原や砂地に分布する大型の無毒ナミヘビ。ゴファースネークと呼ばれ、内陸型はブルスネークの名でも知られる。身を守るとき大きく体を膨らませて激しくうなり、ガラガラヘビをまねる。げっ歯類を掘り出して食べる。丈夫で飼育される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "地中棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "zamenis-longissimus",
+  "nameJa": "ヨーロッパナメラ",
+  "nameSci": "Zamenis longissimus",
+  "nameEn": "Aesculapian Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1000,
+   1800
+  ],
+  "description": "ヨーロッパに広く分布する無毒の大型ナミヘビ。医神アスクレピオスの杖に巻きつくヘビのモデルとされ、医療のシンボルの由来になった。光沢のある褐色で木登りが得意、げっ歯類や鳥を絞めて食べる。おとなしく、爬虫類イベントで流通することがある。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "xenopeltis-unicolor",
+  "nameJa": "サンビームヘビ",
+  "nameSci": "Xenopeltis unicolor",
+  "nameEn": "Sunbeam Snake",
+  "family": "サンビームヘビ科",
+  "familySci": "Xenopeltidae",
+  "sizeMm": [
+   800,
+   1300
+  ],
+  "description": "東南アジアの水田や湿った低地に分布する無毒のヘビ。暗褐色だが鱗が虹色に強く輝くことからサンビーム（陽光）ヘビと呼ばれる。地中にもぐって暮らし、カエルやげっ歯類、他のヘビを食べる。夜行性で、独特の光沢から爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "opheodrys-aestivus",
+  "nameJa": "ラフグリーンスネーク",
+  "nameSci": "Opheodrys aestivus",
+  "nameEn": "Rough Green Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   550,
+   900
+  ],
+  "description": "北アメリカ東部の低木林や水辺の茂みに分布する細身で鮮やかな緑色の無毒ナミヘビ。樹上や草むらでバッタやクモなどの昆虫を食べる、めずらしい虫食いのヘビ。おとなしいが繊細で、輸入は野生個体が多い。爬虫類イベントで見かけることがある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lampropeltis-splendida",
+  "nameJa": "デザートキングスネーク",
+  "nameSci": "Lampropeltis splendida",
+  "nameEn": "Desert Kingsnake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   900,
+   1400
+  ],
+  "description": "アメリカ南部からメキシコの砂漠や草原に分布する無毒のキングスネーク。黒褐色の地に黄色い網目模様が広がるのが特徴で、デザートキングスネークと呼ばれる。夜行性でげっ歯類や他のヘビを絞めて食べる。丈夫で飼いやすく、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "coelognathus-radiatus",
+  "nameJa": "ホウシャナメラ",
+  "nameSci": "Coelognathus radiatus",
+  "nameEn": "Radiated Rat Snake",
+  "family": "ナミヘビ科",
+  "familySci": "Colubridae",
+  "sizeMm": [
+   1000,
+   1800
+  ],
+  "description": "東南アジアから南アジアに広く分布する無毒の大型ナミヘビ。黄褐色の体に前半身の黒い縦条と、目から放射状にのびる黒い筋が目立ち、ホウシャナメラと呼ばれる。地表性でげっ歯類を食べ、驚くと首を持ち上げて威嚇する。爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "通年〜雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ }
+]

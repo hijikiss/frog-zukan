@@ -1,0 +1,515 @@
+[
+ {
+  "id": "cyclura-cornuta",
+  "nameJa": "サイイグアナ",
+  "nameSci": "Cyclura cornuta",
+  "nameEn": "Rhinoceros Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   1000,
+   1350
+  ],
+  "description": "カリブ海のイスパニョーラ島の乾いた岩場や低木林にすむ大型のイワイグアナ。鼻先に三つの角状の突起が並ぶことが名の由来で、がっしりした灰褐色の体をもつ。ほぼ植物食で、日中は岩の上で日光浴する。生息地開発で数を減らし、国内の動物園で繁殖展示される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春（乾季）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cyclura-nubila",
+  "nameJa": "キューバイワイグアナ",
+  "nameSci": "Cyclura nubila",
+  "nameEn": "Cuban Rock Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1400
+  ],
+  "description": "キューバとその周辺の島々に分布する大型のイワイグアナ。灰色から赤みを帯びた体色で、背に低いたてがみ状のクレストが走る。乾いた海岸の岩場や低木地にすみ、果実や葉を食べる。飼育下繁殖が進み、国内の爬虫類イベントでも見かけることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "初夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cyclura-lewisi",
+  "nameJa": "ブルーイグアナ",
+  "nameSci": "Cyclura lewisi",
+  "nameEn": "Grand Cayman Blue Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1500
+  ],
+  "description": "英領ケイマン諸島のグランドケイマン島だけにすむ大型のイワイグアナ。成熟したオスは繁殖期に体が青緑色に輝く。一時は野生で数十頭まで激減したが、飼育下繁殖と再導入で回復しつつある。国内で見る機会はほとんどない保全の象徴的な種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "dipsosaurus-dorsalis",
+  "nameJa": "サバクイグアナ",
+  "nameSci": "Dipsosaurus dorsalis",
+  "nameEn": "Desert Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   250,
+   400
+  ],
+  "description": "北アメリカ南西部からメキシコの砂漠にすむ中型のイグアナ。淡い灰白色に細かな網目模様があり、背に小さなたてがみ状の鱗が並ぶ。高温に強く、他のトカゲが物陰に隠れる暑さの中でも活動し、クレオソートブッシュの花や葉を食べる。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ctenosaura-similis",
+  "nameJa": "トゲオイグアナ",
+  "nameSci": "Ctenosaura similis",
+  "nameEn": "Black Spiny-tailed Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   600,
+   1300
+  ],
+  "description": "メキシコから中央アメリカの乾いた林や岩場にすむ大型のイグアナ。尾に鋭いとげ状の鱗が輪になって並ぶのが名の由来。地上を素早く走り木にもよく登る。若い個体は緑色で、成長すると灰褐色になる。爬虫類ショップでも流通する丈夫な種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "北アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sauromalus-ater",
+  "nameJa": "チャクワラ",
+  "nameSci": "Sauromalus ater",
+  "nameEn": "Common Chuckwalla",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   300,
+   460
+  ],
+  "description": "北アメリカ南西部の岩の多い砂漠にすむ、がっしりした中型のイグアナ。危険が迫ると岩の割れ目に潜り込み、体を膨らませて挟まり抜けないようにする。ほぼ植物食で花や葉を好む。おとなしく、国内でも動物園や愛好家の間で飼育される。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "amblyrhynchus-cristatus",
+  "nameJa": "ウミイグアナ",
+  "nameSci": "Amblyrhynchus cristatus",
+  "nameEn": "Marine Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   600,
+   1300
+  ],
+  "description": "ガラパゴス諸島の岩礁海岸だけにすむ、世界で唯一海に潜るトカゲ。黒っぽい体で海に潜って岩に付いた海藻を食べ、余分な塩を鼻から噴き出す。日中は岩の上で群れて体を温める。国内の動物園で飼育される例はほとんどない固有種。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "1〜4月ごろ",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "conolophus-subcristatus",
+  "nameJa": "ガラパゴスリクイグアナ",
+  "nameSci": "Conolophus subcristatus",
+  "nameEn": "Galapagos Land Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1300
+  ],
+  "description": "ガラパゴス諸島の乾いた低地にすむ大型のイグアナ。黄色みを帯びたずんぐりした体をもち、ウチワサボテンの実や葉を主な餌にする。巣穴を掘って暮らし、日光浴で体温を保つ。国内で見る機会はほとんどないガラパゴスの固有種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "anolis-sagrei",
+  "nameJa": "ブラウンアノール",
+  "nameSci": "Anolis sagrei",
+  "nameEn": "Brown Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   130,
+   210
+  ],
+  "description": "キューバやバハマ原産の小型のアノール。褐色の体に細かな斑があり、オスは橙色に縁取られた喉の膜を広げる。地表近くの低木や幹で活動し、繁殖力が強く各地に移入している。飼育用や餌用として国内の爬虫類ショップでも見かける。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ",
+    "北アメリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anolis-equestris",
+  "nameJa": "ナイトアノール",
+  "nameSci": "Anolis equestris",
+  "nameEn": "Knight Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   300,
+   500
+  ],
+  "description": "キューバ原産で、アノールの仲間では最大級の樹上性トカゲ。鮮やかな緑色の体に、目の下と肩に白い筋が入る。高い木の上でカタツムリや昆虫、小動物を捕らえる。おっとりした性質で、大型アノールとして愛好家に飼育される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "basiliscus-plumifrons",
+  "nameJa": "グリーンバシリスク",
+  "nameSci": "Basiliscus plumifrons",
+  "nameEn": "Green Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   600,
+   900
+  ],
+  "description": "中央アメリカの水辺の森にすむ鮮やかな緑色のトカゲ。オスは頭・背・尾に帆のようなクレストを立てる。驚くと後ろ足で水面を走って逃げることから「イエス・キリストのトカゲ」とも呼ばれる。動物園や爬虫類ショップの人気種。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "basiliscus-vittatus",
+  "nameJa": "ブラウンバシリスク",
+  "nameSci": "Basiliscus vittatus",
+  "nameEn": "Striped Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   400,
+   700
+  ],
+  "description": "メキシコから中央アメリカの川辺にすむ褐色のバシリスク。体側に淡い縦筋が入り、オスは頭に小さな帆状の突起をもつ。水辺の枝で待ち伏せし、驚くと水面を二本足で走って逃げる。丈夫で流通量も多く、入門的な種として飼育される。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "北アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "basiliscus-basiliscus",
+  "nameJa": "カブトバシリスク",
+  "nameSci": "Basiliscus basiliscus",
+  "nameEn": "Common Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   500,
+   800
+  ],
+  "description": "中央アメリカから南アメリカ北部の熱帯林の川辺にすむ大型のバシリスク。オスは頭部に兜状の高い突起を立てる。褐色の体で泳ぎも潜水も巧みで、外敵から逃れるときは水面を二本足で走る。昆虫や小動物、果実を食べる雑食性。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crotaphytus-collaris",
+  "nameJa": "クビワトカゲ",
+  "nameSci": "Crotaphytus collaris",
+  "nameEn": "Eastern Collared Lizard",
+  "family": "クビワトカゲ科",
+  "familySci": "Crotaphytidae",
+  "sizeMm": [
+   200,
+   380
+  ],
+  "description": "北アメリカ中南部の岩の多い乾燥地にすむ中型のトカゲ。首の後ろに二本の黒い首輪模様があるのが名の由来で、オスは青緑や黄の鮮やかな体色になる。後ろ足だけで立ち上がって走る姿が見られる。色彩が美しく愛好家に飼育される。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "phrynosoma-cornutum",
+  "nameJa": "テキサスツノトカゲ",
+  "nameSci": "Phrynosoma cornutum",
+  "nameEn": "Texas Horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "北アメリカ中南部からメキシコの乾いた草原や砂地にすむ、平たく丸い体のトカゲ。頭の後ろに大きな角が並び、アリを主食にする。身を守るため目から血を噴き出すことで知られる。餌が特殊で飼育が難しく、国内で見る機会は少ない。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phrynosoma-platyrhinos",
+  "nameJa": "サバクツノトカゲ",
+  "nameSci": "Phrynosoma platyrhinos",
+  "nameEn": "Desert Horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   90,
+   140
+  ],
+  "description": "北アメリカ南西部の砂漠にすむツノトカゲ。砂の色に溶け込む灰褐色で、頭の角はテキサスツノトカゲより短い。日中に地表を歩き回ってアリを食べ、危険が迫ると砂に潜る。餌の問題から飼育は難しく、国内での展示はごく限られる。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phrynosoma-hernandesi",
+  "nameJa": "ヤマツノトカゲ",
+  "nameSci": "Phrynosoma hernandesi",
+  "nameEn": "Greater Short-horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   70,
+   150
+  ],
+  "description": "北アメリカ西部の高地の草原や林にすむツノトカゲ。頭の角が短く、標高の高い涼しい環境に適応している。卵を産まず子を直接産む卵胎生で、夏に十数匹の幼体を産む。アリを主食とし、国内で見る機会はほとんどない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏（卵胎生）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ }
+]

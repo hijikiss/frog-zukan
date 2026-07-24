@@ -1,0 +1,422 @@
+[
+  {
+    "id": "testudo-graeca",
+    "nameJa": "ギリシャリクガメ",
+    "nameSci": "Testudo graeca",
+    "nameEn": "Spur-thighed Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [150, 300],
+    "description": "地中海沿岸から北アフリカ、西アジアの乾いた草地や低木林に広く分布するリクガメ。甲は黄褐色に黒斑が入り、後肢の付け根に円錐形の突起（けづめ）があるのが名の由来。ヘルマンリクガメと並んで古くからペットとして親しまれ、国内の爬虫類ショップでよく見られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["ヨーロッパ", "アフリカ", "西アジア"],
+      "breeding": "4〜6月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "testudo-hermanni",
+    "nameJa": "ヘルマンリクガメ",
+    "nameSci": "Testudo hermanni",
+    "nameEn": "Hermann's Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [130, 250],
+    "description": "南ヨーロッパの地中海沿岸に分布する中型のリクガメ。甲は黄色と黒のコントラストが鮮やかで、尾の先に角質の爪をもつ。乾いた草地や疎林で草花や果実を食べる。丈夫で飼いやすく、ギリシャリクガメと並んで日本の飼育者に最も人気のあるリクガメのひとつ。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["ヨーロッパ"],
+      "breeding": "5〜7月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "testudo-marginata",
+    "nameJa": "フチゾリリクガメ",
+    "nameSci": "Testudo marginata",
+    "nameEn": "Marginated Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [250, 350],
+    "description": "ギリシャやバルカン半島南部に分布するヨーロッパ最大のリクガメ。甲の後縁がスカート状に広く反り返るのが名の由来で、成長すると甲が黒っぽくなる。乾いた斜面や低木林にすむ。日本でも飼育・繁殖され、爬虫類イベントで見られることがある。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["ヨーロッパ"],
+      "breeding": "5〜7月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "testudo-horsfieldii",
+    "nameJa": "ヨツユビリクガメ",
+    "nameSci": "Testudo horsfieldii",
+    "nameEn": "Russian Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [130, 250],
+    "description": "中央アジアの乾燥した草原や半砂漠に分布する小型のリクガメ。前肢の指が4本しかないことが名の由来で、ロシアリクガメの別名でも流通する。夏の酷暑と冬の寒さを穴にこもってやり過ごす。安価で流通量が多く、入門種として国内でよく見られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["中央アジア", "西アジア"],
+      "breeding": "4〜6月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "testudo-kleinmanni",
+    "nameJa": "エジプトリクガメ",
+    "nameSci": "Testudo kleinmanni",
+    "nameEn": "Egyptian Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [100, 140],
+    "description": "エジプトやリビアの砂漠地帯にすむ世界最小級のリクガメ。甲長は十数cmほどで、淡い黄褐色の体色が砂に溶け込む。生息地の開発で激減し、野生ではごくわずかしか残っていない。ワシントン条約で厳しく保護され、国内で見る機会は少ない。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["アフリカ", "西アジア"],
+      "breeding": "春・秋",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "geochelone-elegans",
+    "nameJa": "インドホシガメ",
+    "nameSci": "Geochelone elegans",
+    "nameEn": "Indian Star Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [150, 300],
+    "description": "インドやスリランカの乾いた林や草地に分布するリクガメ。黒地に黄色い放射状の筋が入る甲が星模様に見えることが名の由来で、甲板は盛り上がりごつごつする。密猟で数を減らし条約で保護されるが、国内でも人気が高く動物園やショップでの展示例が多い。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["南アジア"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "geochelone-platynota",
+    "nameJa": "ビルマホシガメ",
+    "nameSci": "Geochelone platynota",
+    "nameEn": "Burmese Star Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [180, 280],
+    "description": "ミャンマー中部の乾燥林にすむホシガメの仲間。インドホシガメよりも星模様の筋の数が少なく、すっきりとした印象を与える。生息地の破壊と密猟で野生では絶滅寸前とされる。近年は飼育下繁殖が進み、国内の爬虫類イベントでも見かける。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "aldabrachelys-gigantea",
+    "nameJa": "アルダブラゾウガメ",
+    "nameSci": "Aldabrachelys gigantea",
+    "nameEn": "Aldabra Giant Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [900, 1200],
+    "description": "インド洋アルダブラ環礁にすむ甲長1mを超える大型のゾウガメ。ガラパゴスゾウガメと並ぶ現生最大級のリクガメで、島の草や低木を食べて100年以上生きるとされる。国内でも多くの動物園で飼育され、ふれあいや餌やり体験で人気を集める。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "2〜5月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chelonoidis-niger",
+    "nameJa": "ガラパゴスゾウガメ",
+    "nameSci": "Chelonoidis niger",
+    "nameEn": "Galápagos Giant Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [1000, 1500],
+    "description": "南米エクアドル領ガラパゴス諸島に固有の巨大なリクガメ。島ごとに甲の形が異なり、乾いた島では首を高く伸ばせるよう甲の前方が反り返る。ダーウィンの進化研究でも知られる長寿の象徴で、国内でも一部の動物園で飼育される。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "6〜12月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "stigmochelys-pardalis",
+    "nameJa": "ヒョウモンガメ",
+    "nameSci": "Stigmochelys pardalis",
+    "nameEn": "Leopard Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [300, 600],
+    "description": "サハラ砂漠以南のアフリカのサバンナに広く分布する大型のリクガメ。黄色い甲に豹のような黒斑が散らばることが名の由来で、乾いた草原で草を食べ暑さや乾燥に強い。丈夫で見応えがあり、国内の動物園やショップでよく見られる代表的な大型種。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "malacochersus-tornieri",
+    "nameJa": "パンケーキガメ",
+    "nameSci": "Malacochersus tornieri",
+    "nameEn": "Pancake Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [130, 180],
+    "description": "タンザニアやケニアの岩場にすむ、甲が薄く平たいユニークなリクガメ。危険を感じると岩の割れ目に入り込み、扁平な甲を突っ張って抜けなくする。動きは俊敏で岩をよじ登る。愛好家に人気だが密猟で減少し、条約で保護されている。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "1〜3月",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "astrochelys-radiata",
+    "nameJa": "ホウシャガメ",
+    "nameSci": "Astrochelys radiata",
+    "nameEn": "Radiated Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [300, 400],
+    "description": "マダガスカル南部の乾いた低木林に分布するリクガメ。黒い甲に鮮やかな黄色い放射状の筋が入り、世界で最も美しいリクガメのひとつとされる。密猟と生息地破壊で激減した。国内の動物園でも飼育・繁殖され、その放射模様を間近で見られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "astrochelys-yniphora",
+    "nameJa": "ヘサキリクガメ",
+    "nameSci": "Astrochelys yniphora",
+    "nameEn": "Ploughshare Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [250, 450],
+    "description": "マダガスカル北西部のごく狭い範囲だけに残る、世界一希少とされるリクガメ。喉の下から前方へ舌状に突き出た甲板が名の由来で、オス同士がこれを使って争う。野生は数百頭ほどしかおらず、国内で見る機会はほとんどない。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "chelonoidis-carbonarius",
+    "nameJa": "アカアシガメ",
+    "nameSci": "Chelonoidis carbonarius",
+    "nameEn": "Red-footed Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [300, 450],
+    "description": "南米北部の森林や草地に分布するリクガメ。四肢の鱗が赤やオレンジに色づき、黒い甲の甲板中央が淡く抜けるのが特徴。果実や花のほか動物質まで幅広く食べる。丈夫で色鮮やかなため、国内でも人気が高くよく流通する。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chelonoidis-denticulatus",
+    "nameJa": "キアシガメ",
+    "nameSci": "Chelonoidis denticulatus",
+    "nameEn": "Yellow-footed Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [400, 700],
+    "description": "アマゾンの熱帯雨林に分布する南米大陸最大のリクガメ。四肢の鱗が黄色く色づくことが名の由来で、アカアシガメによく似るがより大型になる。湿った林床で落ち果実などを食べる。国内の動物園や大型種を扱うショップで見られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "indotestudo-elongata",
+    "nameJa": "エロンガータリクガメ",
+    "nameSci": "Indotestudo elongata",
+    "nameEn": "Elongated Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [250, 350],
+    "description": "東南アジアからインドにかけての林にすむ細長い甲をもつリクガメ。淡黄色の甲に黒い斑が入り、繁殖期にはオスの鼻先が赤みを帯びる。やや湿った環境を好み薄暗い時間帯によく活動する。国内でも流通し、飼育される機会が多い。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["薄明薄暮性", "昼行性"],
+      "toxic": false,
+      "region": ["東南アジア", "南アジア"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "manouria-emys",
+    "nameJa": "ビルマムツアシガメ",
+    "nameSci": "Manouria emys",
+    "nameEn": "Asian Giant Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [400, 600],
+    "description": "東南アジアの湿った山地林にすむアジア最大のリクガメ。前肢の後ろに大きな突起（けづめ）が並ぶことが名の由来。落ち葉を集めて塚状の巣をつくり卵を守る珍しい習性をもつ。国内の動物園や愛好家のもとで見られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "manouria-impressa",
+    "nameJa": "インプレッサムツアシガメ",
+    "nameSci": "Manouria impressa",
+    "nameEn": "Impressed Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [250, 330],
+    "description": "東南アジアの高地の常緑林にすむリクガメ。甲板の中央がへこんで見えることが名の由来で、黄色と褐色の入り交じった甲をもつ。キノコなどを食べる特殊な食性で飼育が難しく、国内で見かける機会は少ない。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["薄明薄暮性", "夜行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pyxis-arachnoides",
+    "nameJa": "クモノスガメ",
+    "nameSci": "Pyxis arachnoides",
+    "nameEn": "Spider Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [110, 150],
+    "description": "マダガスカル南西部の乾いた低木林にすむ小型のリクガメ。黒い甲に黄色い細い筋が蜘蛛の巣のように広がることが名の由来。乾季には地中に潜って休眠する。密猟と生息地破壊で激減し条約で保護され、国内では見る機会が少ない。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "chelonoidis-chilensis",
+    "nameJa": "チャコリクガメ",
+    "nameSci": "Chelonoidis chilensis",
+    "nameEn": "Chaco Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [200, 300],
+    "description": "アルゼンチンの乾いた草原や低木林（チャコ地方）に分布するリクガメ。褐色の地味な甲をもち、寒さに比較的強い。乾燥に適応して穴を掘り身を隠す。流通量は多くなく、国内で見かける機会は限られる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["南アメリカ"],
+      "breeding": "11〜1月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "kinixys-homeana",
+    "nameJa": "モリセオレガメ",
+    "nameSci": "Kinixys homeana",
+    "nameEn": "Home's Hinge-back Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [180, 230],
+    "description": "西・中央アフリカの湿った森林の林床にすむセオレガメの仲間。甲の後半がちょうつがいのように動き、引っ込めた後肢と尾をふたをするように守れる。甲の後方が急に落ち込む独特の形をもつ。国内でも流通し飼育される。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  }
+]

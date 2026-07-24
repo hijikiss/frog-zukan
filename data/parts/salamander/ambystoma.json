@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ambystoma-tigrinum",
+    "nameJa": "トラフサンショウウオ",
+    "nameSci": "Ambystoma tigrinum",
+    "nameEn": "Eastern Tiger Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [170, 330],
+    "description": "北アメリカに広く分布する大型のサンショウウオ。黒褐色の体に黄色や黄緑の不規則な斑紋が虎斑状に入り、これが和名の由来となっている。ふだんは地中の巣穴に潜み、早春の雨の夜に産卵のため一時的な池へ集まる。丈夫で飼育しやすく、日本でもペットとして流通し展示される。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "冬〜早春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ambystoma-maculatum",
+    "nameJa": "キボシサンショウウオ",
+    "nameSci": "Ambystoma maculatum",
+    "nameEn": "Spotted Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [150, 250],
+    "description": "北アメリカ東部の落葉樹林にすむサンショウウオ。黒い体の背面に二列の鮮やかな黄色い斑点が並ぶのが特徴。ふだんは地中や倒木の下で暮らし、早春に雪解け水のたまる一時的な池へ移動して集団で産卵する。国内でもペットとして扱われることがある。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "3〜4月（早春）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ambystoma-opacum",
+    "nameJa": "マーブルサラマンダー",
+    "nameSci": "Ambystoma opacum",
+    "nameEn": "Marbled Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [90, 125],
+    "description": "北アメリカ東部に分布するずんぐりした小型種。黒地に白や銀灰色の帯模様が入り、大理石を思わせる。多くの近縁種と違い秋に陸上の窪地で産卵し、メスは雨で水がたまるまで卵を守る変わった習性をもつ。飼育対象として輸入され、国内でも見られる。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "9〜10月（秋）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ambystoma-andersoni",
+    "nameJa": "アンダーソンサラマンダー",
+    "nameSci": "Ambystoma andersoni",
+    "nameEn": "Anderson's Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [130, 200],
+    "description": "メキシコ・ミチョアカン州のサカプ湖だけにすむ幼形成熟種。ウーパールーパーの近縁で、生涯外鰓を残したまま水中で暮らす。褐色の体に黒い斑点が散る渋い体色をもつ。湖の環境悪化で激減しているが、日本ではアンダーソンウーパールーパーの名で流通する。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ambystoma-dumerilii",
+    "nameJa": "デュメリルサラマンダー",
+    "nameSci": "Ambystoma dumerilii",
+    "nameEn": "Lake Patzcuaro Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [150, 300],
+    "description": "メキシコ・パツクアロ湖の固有種で、現地でアチョーケと呼ばれる幼形成熟種。生涯外鰓を残して水中で過ごし、房状の大きな鰓と丸みのある体つきをもつ。水質汚染と外来魚で激減し、湖畔の修道院で保護増殖が行われることで知られる。ごく稀に飼育下でも見られる。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ambystoma-taylori",
+    "nameJa": "テイラーサラマンダー",
+    "nameSci": "Ambystoma taylori",
+    "nameEn": "Taylor's Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [120, 200],
+    "description": "メキシコ・プエブラ州のアルチチカ湖だけにすむ幼形成熟種。塩分を含む火口湖に適応し、生涯を水中で送る。黄褐色の体に房状の外鰓をもつ。生息地が一つの湖に限られるため絶滅の危機にあり、日本国内で見る機会はほとんどない。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-californiense",
+    "nameJa": "カリフォルニアトラフサンショウウオ",
+    "nameSci": "Ambystoma californiense",
+    "nameEn": "California Tiger Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [150, 210],
+    "description": "アメリカ・カリフォルニア州の草原や丘陵にすむ大型種。黒い体に白や淡黄色の斑点が入る。冬の雨季に地中のジリスの巣穴から出て、一時的にできる池へ産卵に集まる。都市開発と外来種で数を減らして保護対象となっており、日本ではほとんど流通しない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "12〜2月（冬）",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-annulatum",
+    "nameJa": "リングドサラマンダー",
+    "nameSci": "Ambystoma annulatum",
+    "nameEn": "Ringed Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [140, 235],
+    "description": "北アメリカ中部の森林にすむ細身のサンショウウオ。黒褐色の体に黄白色の輪状の横帯が並ぶ。多くの近縁種と異なり秋に池へ集まって産卵する。ふだんは地中に潜んで姿を見せにくい。国内で見かける機会はほとんどない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "9〜10月（秋）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-jeffersonianum",
+    "nameJa": "ジェファーソンサラマンダー",
+    "nameSci": "Ambystoma jeffersonianum",
+    "nameEn": "Jefferson Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [100, 210],
+    "description": "北アメリカ東部の落葉樹林にすむ細長いサンショウウオ。灰褐色の地味な体色で、体側に青みを帯びた小斑が散ることがある。早春に一時的な池へ移動して産卵する。近縁種と複雑な雑種群をつくることでも知られる。国内で見る機会は少ない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "3〜4月（早春）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-laterale",
+    "nameJa": "ブルースポッテッドサラマンダー",
+    "nameSci": "Ambystoma laterale",
+    "nameEn": "Blue-spotted Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [80, 140],
+    "description": "北アメリカ北東部にすむ小型のサンショウウオ。黒っぽい体に青白い斑点が散りばめられ、これが名の由来となっている。湿った林床や地中に潜み、早春に浅い池で産卵する。ジェファーソンサラマンダーと複雑な雑種群を形成することで知られる。国内での流通は少ない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "3〜4月（早春）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-talpoideum",
+    "nameJa": "モールサラマンダー",
+    "nameSci": "Ambystoma talpoideum",
+    "nameEn": "Mole Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [80, 120],
+    "description": "北アメリカ南東部の低地林にすむずんぐりした小型種。頭部が大きく肋条がはっきりし、モグラのように地中で暮らすことが名の由来。冬に池や湿地へ移動して産卵する。地域によっては幼形成熟して水中に残る個体もいる。国内で見かけることはまれ。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "冬",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-gracile",
+    "nameJa": "ノースウェスタンサラマンダー",
+    "nameSci": "Ambystoma gracile",
+    "nameEn": "Northwestern Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [140, 220],
+    "description": "北アメリカ太平洋岸北西部の湿った森林にすむサンショウウオ。褐色の体で、頭の後ろと尾に発達した毒腺をもち、刺激を受けると白い粘液を出す。高地の個体群では幼形成熟が見られる。国内で見る機会はほとんどない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-macrodactylum",
+    "nameJa": "ロングトウサラマンダー",
+    "nameSci": "Ambystoma macrodactylum",
+    "nameEn": "Long-toed Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [100, 170],
+    "description": "北アメリカ西部の森林から高山まで広く分布する小型種。黒褐色の体の背中に、黄色や緑がかった一本の帯が頭から尾まで走る。後肢の第四趾が長いことが名の由来。早春、雪解け直後の池で産卵する。日本で見かけることは少ない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "早春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ambystoma-texanum",
+    "nameJa": "スモールマウスサラマンダー",
+    "nameSci": "Ambystoma texanum",
+    "nameEn": "Small-mouthed Salamander",
+    "family": "トラフサンショウウオ科",
+    "familySci": "Ambystomatidae",
+    "sizeMm": [110, 180],
+    "description": "北アメリカ中南部の低地や氾濫原にすむサンショウウオ。頭部と口が小さいことが名の由来で、黒っぽい体に灰色や銀色の地衣状の斑紋が入る。晩冬から早春に一時的な水域へ移動して産卵する。国内で見かける機会は少ない。",
+    "tags": {
+      "habitat": ["地中棲", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "2〜3月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  }
+]

@@ -1,5 +1,541 @@
 [
  {
+  "id": "pseudotriton-ruber",
+  "group": "salamander",
+  "nameJa": "アカサラマンダー",
+  "nameSci": "Pseudotriton ruber",
+  "nameEn": "Red Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   100,
+   180
+  ],
+  "description": "北アメリカ東部の冷たい湧水や小川の周辺にすむ肺なしサンショウウオ。赤橙色の地に黒い斑点を散らし、有毒なアメリカイモリの陸生幼体に体色を似せて身を守るとされる。皮膚から刺激性の分泌物を出す。幼生期を水中で過ごし、成体は岸辺の石の下にひそむ。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "秋〜冬",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "eurycea-lucifuga",
+  "group": "salamander",
+  "nameJa": "アメリカドウクツサラマンダー",
+  "nameSci": "Eurycea lucifuga",
+  "nameEn": "Cave Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   100,
+   180
+  ],
+  "description": "北アメリカ東部の石灰岩地帯の洞窟入口や湧水周辺にすむ肺なしサンショウウオ。橙色から赤色の地に黒い斑点が散り、長い尾を使って洞窟の壁を巧みに登る。完全な地下ではなく薄明の移行帯を好み、洞内に集まる昆虫を捕らえる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "秋〜冬",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "speleomantes-italicus",
+  "group": "salamander",
+  "nameJa": "イタリアドウクツサラマンダー",
+  "nameSci": "Speleomantes italicus",
+  "nameEn": "Italian Cave Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "イタリア中部アペニン山脈の洞窟や湿った岩場にすむ肺なしサンショウウオ。ヨーロッパにわずかに分布する肺なしサンショウウオの仲間で、洞窟内の壁を歩き回り小さな無脊椎動物を舌で捕らえる。卵から直接仔が孵り、生活に流水を必要としない。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ensatina-eschscholtzii",
+  "group": "salamander",
+  "nameJa": "エンサティナ",
+  "nameSci": "Ensatina eschscholtzii",
+  "nameEn": "Ensatina",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   75,
+   150
+  ],
+  "description": "北アメリカ西海岸の森林にすむ肺なしサンショウウオ。尾の付け根がくびれ、外敵に襲われると乳白色の分泌物を出す。太平洋岸に沿って地域ごとに体色の異なる亜種が連続的に分布し、種分化の研究材料として有名。倒木や落ち葉の下で暮らす。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "batrachoseps-attenuatus",
+  "group": "salamander",
+  "nameJa": "カリフォルニアホソサラマンダー",
+  "nameSci": "Batrachoseps attenuatus",
+  "nameEn": "California Slender Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   80,
+   140
+  ],
+  "description": "アメリカ・カリフォルニア州の林床や庭先にすむ極端に細長い肺なしサンショウウオ。ミミズのような体と短い四肢を持ち、土の割れ目や倒木の下に潜む。雨の多い季節に地表へ現れ、乾期は地中深くにこもる。小さなトビムシなどを舌で捕らえる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "地中棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "冬（雨季）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "aneides-lugubris",
+  "group": "salamander",
+  "nameJa": "キノボリサラマンダー",
+  "nameSci": "Aneides lugubris",
+  "nameEn": "Arboreal Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   90,
+   180
+  ],
+  "description": "北アメリカ西海岸のオーク林などにすむ肺なしサンショウウオ。丈夫な顎と物をつかめる尾を持ち、樹皮の隙間や樹洞をよじ登って生活する。褐色の体に黄色い斑点が散る。噛む力が強く、乾いた季節は樹上や朽ち木の中で身を潜める。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "desmognathus-quadramaculatus",
+  "group": "salamander",
+  "nameJa": "クロハラサラマンダー",
+  "nameSci": "Desmognathus quadramaculatus",
+  "nameEn": "Black-bellied Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   95,
+   210
+  ],
+  "description": "アパラチア山脈の冷たい渓流にすむ大型のダスキー系サンショウウオ。腹面が黒く、背の両側に赤い斑点が二列に並ぶ。流れの速い岩場にすみ、水生昆虫や小さなサンショウウオを食べる。幼生は数年かけて流水中で育つ。",
+  "tags": {
+   "habitat": [
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "gyrinophilus-porphyriticus",
+  "group": "salamander",
+  "nameJa": "スプリングサラマンダー",
+  "nameSci": "Gyrinophilus porphyriticus",
+  "nameEn": "Spring Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   120,
+   230
+  ],
+  "description": "北アメリカ東部の山地の冷たい湧水や渓流にすむ大型の肺なしサンショウウオ。橙褐色の体に眼から鼻先へ淡い線が走る。流れの中の石の下にひそみ、水生昆虫のほか他種のサンショウウオも襲う貪欲な捕食者。幼生期が長く数年を水中で過ごす。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "秋",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plethodon-cinereus",
+  "group": "salamander",
+  "nameJa": "セアカサラマンダー",
+  "nameSci": "Plethodon cinereus",
+  "nameEn": "Eastern Red-backed Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   60,
+   110
+  ],
+  "description": "北アメリカ北東部の森林の落ち葉や倒木の下にすむ小型の肺を持たないサンショウウオ。背に赤い帯が走る型と灰黒色一色の型がある。皮膚呼吸のため湿った林床を離れず、水場を必要とせず陸上の卵から直接仔が孵る。個体数の多い普通種。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏（産卵）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "desmognathus-fuscus",
+  "group": "salamander",
+  "nameJa": "ダスキーサラマンダー",
+  "nameSci": "Desmognathus fuscus",
+  "nameEn": "Northern Dusky Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   64,
+   140
+  ],
+  "description": "北アメリカ東部の渓流や湧水の岸辺にすむ肺なしサンショウウオ。褐色の地味な体色で、後肢が前肢より頑丈なのが特徴。石の下や流れのへりの湿った場所を好み、跳ねるように素早く動いて逃げる。メスは水辺の隙間に産んだ卵を守る。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "eurycea-rathbuni",
+  "group": "salamander",
+  "nameJa": "テキサスブラインドサラマンダー",
+  "nameSci": "Eurycea rathbuni",
+  "nameEn": "Texas Blind Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   90,
+   135
+  ],
+  "description": "アメリカ・テキサス州サンマルコス周辺の地下帯水層だけにすむ洞窟性サンショウウオ。色素のない白い体に退化した眼、血の色が透ける赤い外鰓と長い脚を持つ。生涯変態せず水中で過ごし、水流で運ばれる小さな甲殻類を食べる。分布が極めて狭い絶滅危惧種。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plethodon-glutinosus",
+  "group": "salamander",
+  "nameJa": "ネバリサラマンダー",
+  "nameSci": "Plethodon glutinosus",
+  "nameEn": "Northern Slimy Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   120,
+   205
+  ],
+  "description": "北アメリカ東部の森にすむ黒地に銀白色の斑点を散らした肺なしサンショウウオ。刺激を受けると粘着性の強い分泌物を出し、天敵の口を糊のようにふさぐことからこの名がある。倒木や岩の下にすみ、夜間に小さな無脊椎動物を食べる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "aneides-aeneus",
+  "group": "salamander",
+  "nameJa": "ミドリサラマンダー",
+  "nameSci": "Aneides aeneus",
+  "nameEn": "Green Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   85,
+   140
+  ],
+  "description": "アパラチア山脈周辺の湿った岩の割れ目や樹皮の裏にすむ肺なしサンショウウオ。黒地に緑がかった地衣類のような斑紋を持ち、岩肌に貼りついても見つけにくい。平たい体で細い隙間に入り込み、メスは岩の割れ目に産んだ卵を守る。生息地が限られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "bolitoglossa-mexicana",
+  "group": "salamander",
+  "nameJa": "メキシコキノボリサラマンダー",
+  "nameSci": "Bolitoglossa mexicana",
+  "nameEn": "Mexican Mushroom-tongue Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   80,
+   140
+  ],
+  "description": "メキシコから中央アメリカの熱帯林にすむ肺なしサンショウウオ。指の間に膜が張った吸盤のような足で葉や幹に貼りつき、樹上で暮らす。舌を素早く伸ばして獲物を捕らえる。卵から直接仔が孵り、幼生期の水中生活を持たない。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "北アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hemidactylium-scutatum",
+  "group": "salamander",
+  "nameJa": "ヨツユビサラマンダー",
+  "nameSci": "Hemidactylium scutatum",
+  "nameEn": "Four-toed Salamander",
+  "family": "アメリカサンショウウオ科",
+  "familySci": "Plethodontidae",
+  "sizeMm": [
+   50,
+   90
+  ],
+  "description": "北アメリカ東部のミズゴケが茂る湿地や池畔にすむ小型の肺なしサンショウウオ。後肢の指が4本で、腹面は白地に黒い斑点をもつ。尾の付け根にくびれがあり、外敵に襲われると尾を切り離して逃げる。メスは水面に張り出したコケに産卵する。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "amphiuma-means",
+  "group": "salamander",
+  "nameJa": "フタユビアンフューマ",
+  "nameSci": "Amphiuma means",
+  "nameEn": "Two-toed Amphiuma",
+  "family": "アンフューマ科",
+  "familySci": "Amphiumidae",
+  "sizeMm": [
+   400,
+   1160
+  ],
+  "description": "北アメリカ南東部の湿地や排水路にすむ細長いウナギ形のサンショウウオ。四肢は指2本の小さな痕跡だけに退化し、全長1mを超える個体もある。夜間に泥底を這ってザリガニや魚を捕らえる。よく噛みつくため扱いに注意が要る。日本でも観賞用に流通する。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "1〜3月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "amphiuma-tridactylum",
+  "group": "salamander",
+  "nameJa": "ミツユビアンフューマ",
+  "nameSci": "Amphiuma tridactylum",
+  "nameEn": "Three-toed Amphiuma",
+  "family": "アンフューマ科",
+  "familySci": "Amphiumidae",
+  "sizeMm": [
+   460,
+   1060
+  ],
+  "description": "アメリカ南部のミシシッピ川流域の沼や水路にすむ大型の水生サンショウウオ。フタユビアンフューマに似るが四肢の指が3本ある。細長い体で泥に潜み、夜間にザリガニや小魚を捕食する。メスは湿った岸辺で卵を体に巻きつけて守る。飼育下では長命。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "冬〜春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "andrias-japonicus",
   "group": "salamander",
   "nameJa": "オオサンショウウオ",
@@ -28,6 +564,644 @@
    ],
    "breeding": "8〜9月",
    "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "andrias-sligoi",
+  "group": "salamander",
+  "nameJa": "スライゴオオサンショウウオ",
+  "nameSci": "Andrias sligoi",
+  "nameEn": "South China Giant Salamander",
+  "family": "オオサンショウウオ科",
+  "familySci": "Cryptobranchidae",
+  "sizeMm": [
+   700,
+   1800
+  ],
+  "description": "中国南部の華南地方に分布する大型のオオサンショウウオで、近年チュウゴクオオサンショウウオから分割された別種。全長1.5mを超えるとされ、現生両生類の中でも最大級とされる。かつてロンドンの動物園で長く飼育された巨大個体が本種にあたる。生息数はごくわずかで、最も絶滅が危惧される両生類のひとつ。",
+  "tags": {
+   "habitat": [
+    "水棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "夏〜秋",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "andrias-davidianus",
+  "group": "salamander",
+  "nameJa": "チュウゴクオオサンショウウオ",
+  "nameSci": "Andrias davidianus",
+  "nameEn": "Chinese Giant Salamander",
+  "family": "オオサンショウウオ科",
+  "familySci": "Cryptobranchidae",
+  "sizeMm": [
+   600,
+   1150
+  ],
+  "description": "中国中南部の山地渓流にすむ世界最大級の両生類で、日本のオオサンショウウオの近縁種。夜行性で川底の岩陰に潜み、魚や甲殻類を吸い込むように捕食する。食用や薬用の乱獲と生息地の悪化で激減し、絶滅危惧IA類に指定される。日本にも持ち込まれ、在来オオサンショウウオとの交雑が問題化している。",
+  "tags": {
+   "habitat": [
+    "水棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "8〜9月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "siren-lacertina",
+  "group": "salamander",
+  "nameJa": "オオサイレン",
+  "nameSci": "Siren lacertina",
+  "nameEn": "Greater Siren",
+  "family": "サイレン科",
+  "familySci": "Sirenidae",
+  "sizeMm": [
+   500,
+   900
+  ],
+  "description": "北アメリカ南東部の水草が茂る池沼や緩やかな流れにすむ大型のウナギ形サンショウウオ。後肢を欠き、前肢と赤い外鰓だけを残したまま一生を水中で過ごす。乾季には泥に潜って粘液の繭をつくり休眠する。夜間に小動物や藻を食べる。日本でも観賞用に流通する。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "2〜5月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "siren-intermedia",
+  "group": "salamander",
+  "nameJa": "コサイレン",
+  "nameSci": "Siren intermedia",
+  "nameEn": "Lesser Siren",
+  "family": "サイレン科",
+  "familySci": "Sirenidae",
+  "sizeMm": [
+   180,
+   500
+  ],
+  "description": "北アメリカ南東部の湿地や水路にすむサイレン科のサンショウウオ。オオサイレンより小型で、前肢のみを持ちウナギのような体を水草の間でくねらせて泳ぐ。生涯外鰓を残して変態しない。水が干上がると泥中で繭をつくって耐える。国内でも飼育される。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "2〜5月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pseudobranchus-striatus",
+  "group": "salamander",
+  "nameJa": "ヒメサイレン",
+  "nameSci": "Pseudobranchus striatus",
+  "nameEn": "Northern Dwarf Siren",
+  "family": "サイレン科",
+  "familySci": "Sirenidae",
+  "sizeMm": [
+   100,
+   240
+  ],
+  "description": "北アメリカ南東部の水草やホテイアオイの根が茂る止水にすむ小型のサイレン科。前肢だけを持ち指は3本で、体側に淡い縦縞が走る。生涯外鰓を残して変態せず、水草の間に潜んで小さな水生動物を食べる。乾季には泥中で休眠する。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-katoi",
+  "group": "salamander",
+  "nameJa": "アカイシサンショウウオ",
+  "nameSci": "Hynobius katoi",
+  "nameEn": "Akaishi Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   150
+  ],
+  "description": "静岡・長野・愛知の県境の赤石山脈周辺の山地に分布する日本固有種。2004年に記載された比較的新しい種で、山地の渓流や湧水域で繁殖する。背面は暗褐色。分布域が限られ、生息環境の保全が課題となっている山地性のサンショウウオ。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-akiensis",
+  "group": "salamander",
+  "nameJa": "アキサンショウウオ",
+  "nameSci": "Hynobius akiensis",
+  "nameEn": "Aki Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "広島県西部の安芸地方に分布する日本固有の小型種。2019年にカスミサンショウウオ種群から分割・記載された。丘陵地の湿地や溜め池周辺の浅い止水で早春に繁殖する。分布域が限られ、産卵環境の減少により絶滅が危惧されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-abuensis",
+  "group": "salamander",
+  "nameJa": "アブサンショウウオ",
+  "nameSci": "Hynobius abuensis",
+  "nameEn": "Abu Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   115
+  ],
+  "description": "山口県北部の阿武地域から島根県西部にかけて分布する小型サンショウウオ。2019年にカスミサンショウウオから分割された種のひとつ。丘陵地の湿地や湧水のある溝の止水に早春に産卵する。分布がごく狭く、環境省の絶滅危惧種に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-abei",
+  "group": "salamander",
+  "nameJa": "アベサンショウウオ",
+  "nameSci": "Hynobius abei",
+  "nameEn": "Abe's Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "京都府北部から福井・兵庫の日本海側のごく限られた地域にすむ日本固有種。早春、湿地や休耕田の湧水域に産卵する。背面は明るい黄褐色。分布が極めて狭く生息地の消失が著しいため、種の保存法で国内希少野生動植物種に指定され、環境省の絶滅危惧IA類とされる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-amakusaensis",
+  "group": "salamander",
+  "nameJa": "アマクササンショウウオ",
+  "nameSci": "Hynobius amakusaensis",
+  "nameEn": "Amakusa Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "熊本県の天草諸島にのみ分布する日本固有の小型種。近年カスミサンショウウオ類から分割・記載された。丘陵地の湿地や谷津の湧水域に早春に産卵する。島嶼の狭い範囲にしか産せず、生息地の改変により絶滅が強く危惧されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "1〜3月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-arisanensis",
+  "group": "salamander",
+  "nameJa": "アリサンサンショウウオ",
+  "nameSci": "Hynobius arisanensis",
+  "nameEn": "Alishan Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   70,
+   95
+  ],
+  "description": "台湾中南部の阿里山・玉山などの高山に分布する固有の小型サンショウウオ。全長10cm弱で、標高の高い森林の林床や渓流沿いの石の下にすむ。生息地が山ごとに分断され、分布範囲が狭いことから絶滅危惧IB類とされる。台湾を代表する希少な有尾類のひとつ。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "秋〜冬",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-hirosei",
+  "group": "salamander",
+  "nameJa": "イシヅチサンショウウオ",
+  "nameSci": "Hynobius hirosei",
+  "nameEn": "Ishizuchi Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   100,
+   160
+  ],
+  "description": "四国の石鎚山系を中心とする山地の渓流域に分布する日本固有種。渓流の伏流水中の石の下に産卵する渓流性サンショウウオ。背面は暗褐色で、四国の高標高地の冷涼な渓流に依存する。分布が山地に限られる希少種として保護の対象になっている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-retardatus",
+  "group": "salamander",
+  "nameJa": "エゾサンショウウオ",
+  "nameSci": "Hynobius retardatus",
+  "nameEn": "Ezo Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   200
+  ],
+  "description": "北海道に広く分布する日本固有種で、道内唯一の在来サンショウウオ。融雪期の池や水たまりに産卵し、幼生の一部は共食いにより頭部が肥大した大型個体になることが知られる。成体は森林の林床で暮らし、全長20cmに達することもある比較的大型の種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-dunni",
+  "group": "salamander",
+  "nameJa": "オオイタサンショウウオ",
+  "nameSci": "Hynobius dunni",
+  "nameEn": "Oita Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   85,
+   140
+  ],
+  "description": "大分県を中心に熊本・宮崎の低地にすむ日本固有種。冬から早春にかけて水田脇の水路や湿地の止水に、コイル状に巻いた卵嚢を産みつける。背面は褐色から暗褐色で、体側に青白い小斑が散らばる個体が多い。圃場整備による産卵環境の減少で数を減らしている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "12〜3月（冬〜早春）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-osumiensis",
+  "group": "salamander",
+  "nameJa": "オオスミサンショウウオ",
+  "nameSci": "Hynobius osumiensis",
+  "nameEn": "Osumi Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "鹿児島県の大隅半島にのみ分布する日本固有の小型種。カスミサンショウウオ類から分割された種のひとつで、丘陵地や山地の湿地の止水に早春に繁殖する。分布が極めて狭く個体数も少ないため、環境省の絶滅危惧IA類に選定されている希少種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "1〜3月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-boulengeri",
+  "group": "salamander",
+  "nameJa": "オオダイガハラサンショウウオ",
+  "nameSci": "Hynobius boulengeri",
+  "nameEn": "Odaigahara Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   130,
+   190
+  ],
+  "description": "紀伊半島の大台ヶ原周辺を中心とする山地の渓流に分布する日本固有種。和名は基産地の大台ヶ原に由来する。冷たい渓流の伏流水中に産卵する渓流性で、背面は暗褐色に橙色の斑紋が入る。大型の部類に入り、生息地が限られ絶滅危惧種とされている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-okiensis",
+  "group": "salamander",
+  "nameJa": "オキサンショウウオ",
+  "nameSci": "Hynobius okiensis",
+  "nameEn": "Oki Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   100,
+   170
+  ],
+  "description": "島根県の隠岐諸島の島後にのみ分布する日本固有種。山地の渓流や湧水のしみ出す斜面に生息し、流水中の石の下で繁殖する。四肢がやや長く渓流性の生活に適応している。島嶼の限られた環境にのみ産する希少種として保護の対象になっている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "3〜5月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-nebulosus",
+  "group": "salamander",
+  "nameJa": "カスミサンショウウオ",
+  "nameSci": "Hynobius nebulosus",
+  "nameEn": "Clouded Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "西日本の平地から丘陵にすむ小型サンショウウオ。かつて本州西部から九州の広域に分布するとされたが、2019年の分類見直しで多くが別種に分割され、現在は北部九州などに限られる。早春に湿地の浅い止水へバナナ形の卵嚢を産む。背面は黄褐色から暗褐色。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "onychodactylus-nipponoborealis",
+  "group": "salamander",
+  "nameJa": "キタオウシュウサンショウウオ",
+  "nameSci": "Onychodactylus nipponoborealis",
+  "nameEn": "Northern Japanese Clawed Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   110,
+   170
+  ],
+  "description": "東北地方北部の山地の渓流に分布する日本固有種。かつてハコネサンショウウオとされたが、遺伝的な違いから2012年に別種として記載された。肺をもたず指先に爪をもつ渓流性で、冷たい山地渓流の伏流水中で繁殖する。北日本の奥山の清流に生息する。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "salamandrella-keyserlingii",
+  "group": "salamander",
+  "nameJa": "キタサンショウウオ",
+  "nameSci": "Salamandrella keyserlingii",
+  "nameEn": "Siberian Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "北海道釧路湿原周辺にのみ分布し、国内では他に産しない北方系のサンショウウオ。国外ではシベリアから朝鮮半島まで広く分布する。雪解け直後の湿地の止水に、渦巻き状の一対の卵嚢を産む。低温に強い生理をもち、釧路市の天然記念物に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "4〜5月",
+   "redlist": "絶滅危惧IB類(EN)"
   },
   "zooDisplay": true
  },
@@ -64,6 +1238,326 @@
   "zooDisplay": true
  },
  {
+  "id": "hynobius-stejnegeri",
+  "group": "salamander",
+  "nameJa": "コガタブチサンショウウオ",
+  "nameSci": "Hynobius stejnegeri",
+  "nameEn": "Small Blotched Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "九州の山地の渓流域に分布する日本固有の小型サンショウウオ。ブチサンショウウオ類に近縁で、渓流の伏流水中に産卵する渓流性。背面は暗褐色で青白い小斑が散る。名のとおりブチサンショウウオ類のなかでは小柄で、山地の限られた環境に生息する。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-quelpaertensis",
+  "group": "salamander",
+  "nameJa": "サイシュウサンショウウオ",
+  "nameSci": "Hynobius quelpaertensis",
+  "nameEn": "Jeju Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "韓国南部と済州島（チェジュ島）に分布する小型のサンショウウオ。かつてチョウセンサンショウウオに含められていたが、別種として区別された。低山の落葉樹林の林床にすみ、早春に山あいの浅い水域で繁殖する。開発による産卵環境の減少で数を減らし、絶滅危惧に位置づけられている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "早春",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-setoi",
+  "group": "salamander",
+  "nameJa": "サンインサンショウウオ",
+  "nameSci": "Hynobius setoi",
+  "nameEn": "San'in Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "鳥取・島根を中心とする山陰地方に分布する小型サンショウウオ。2019年にカスミサンショウウオ種群から分割・記載された。平地から丘陵の湿地や水路の止水で早春に繁殖する。背面は褐色で、外見は近縁のカスミサンショウウオ類とよく似る。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ranodon-sibiricus",
+  "group": "salamander",
+  "nameJa": "セイホウサンショウウオ",
+  "nameSci": "Ranodon sibiricus",
+  "nameEn": "Central Asian Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   150,
+   200
+  ],
+  "description": "カザフスタンと中国新疆の天山山系周辺の、冷たい山地渓流にすむサンショウウオ。旧世界の有尾類の中でも特に珍しい種とされる。ずんぐりした体つきで、幼生は流れの中で数年かけて育つ。放牧や水利用による生息地の劣化で減少し、絶滅危惧IB類に指定されている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アジア"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-setouchi",
+  "group": "salamander",
+  "nameJa": "セトウチサンショウウオ",
+  "nameSci": "Hynobius setouchi",
+  "nameEn": "Setouchi Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "岡山県から広島県東部、香川県など瀬戸内地域に分布する小型種。2019年にカスミサンショウウオから分割された種のひとつ。早春に丘陵地の湿地や溜め池のほとりの浅い止水へバナナ形の卵嚢を産む。背面は黄褐色から暗褐色をしている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-formosanus",
+  "group": "salamander",
+  "nameJa": "タイワンサンショウウオ",
+  "nameSci": "Hynobius formosanus",
+  "nameEn": "Taiwan Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   58,
+   98
+  ],
+  "description": "台湾の標高2000m前後の高山帯に固有の小型サンショウウオ。全長10cmほどで、湿った針葉樹林や高山草地の石や倒木の下に隠れてすむ。冷涼な環境を好み、渓流沿いで繁殖する。分布が限られ生息数も少ないため、絶滅危惧IB類に評価される台湾固有の希少種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "秋〜冬",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-sematonotos",
+  "group": "salamander",
+  "nameJa": "チュウゴクブチサンショウウオ",
+  "nameSci": "Hynobius sematonotos",
+  "nameEn": "Chugoku Blotched Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   140
+  ],
+  "description": "中国地方の山地の渓流域に分布する日本固有種。2019年にブチサンショウウオ種群から分割・記載された。渓流沿いの伏流水中に産卵する渓流性で、背面は暗褐色に青白い斑点が散る。外見は近縁のブチサンショウウオ類とよく似ており、分布域で見分けられる。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-leechii",
+  "group": "salamander",
+  "nameJa": "チョウセンサンショウウオ",
+  "nameSci": "Hynobius leechii",
+  "nameEn": "Korean Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   135
+  ],
+  "description": "朝鮮半島と中国東北部に広く分布する小型のサンショウウオ。褐色から暗色の体に不明瞭な斑紋をもち、山地や丘陵の林床で暮らす。早春に湿地や水路の浅い水へ移動し、コイル状に巻いた卵嚢を水中の枝などに産みつける。分布が広く、この仲間では比較的普通に見られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "3〜4月（早春）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "onychodactylus-tsukubaensis",
+  "group": "salamander",
+  "nameJa": "ツクバハコネサンショウウオ",
+  "nameSci": "Onychodactylus tsukubaensis",
+  "nameEn": "Tsukuba Clawed Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   150
+  ],
+  "description": "茨城県の筑波山系にのみ分布する日本固有種。2012年にハコネサンショウウオ属から記載された。肺をもたず指先に黒い爪をもつ渓流性で、山地の渓流の伏流水中で繁殖する。分布が筑波山周辺のごく狭い範囲に限られ、絶滅が危惧される希少種。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-tsuensis",
+  "group": "salamander",
+  "nameJa": "ツシマサンショウウオ",
+  "nameSci": "Hynobius tsuensis",
+  "nameEn": "Tsushima Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   170
+  ],
+  "description": "長崎県の対馬にのみ分布する日本固有種。渓流沿いの湿った林床に生息し、早春に細流や湧水のしみ出す場所で繁殖する。背面は黄褐色から暗褐色で、体側に不明瞭な斑紋が出る個体もいる。生息地が島内に限られ、環境省の絶滅危惧種に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "hynobius-tokyoensis",
   "group": "salamander",
   "nameJa": "トウキョウサンショウウオ",
@@ -92,6 +1586,835 @@
    ],
    "breeding": "2〜4月",
    "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-lichenatus",
+  "group": "salamander",
+  "nameJa": "トウホクサンショウウオ",
+  "nameSci": "Hynobius lichenatus",
+  "nameEn": "Tohoku Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   140
+  ],
+  "description": "東北地方から新潟・長野にかけての山地や丘陵に分布する日本固有種。早春、雪解けの湿地や水たまりに巻きつくような形の卵嚢を産みつける。背面は暗褐色で、和名は地衣類を思わせる斑紋に由来する。繁殖期以外は林床の落ち葉や倒木の下で暮らす。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "3〜5月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-tosashimizuensis",
+  "group": "salamander",
+  "nameJa": "トサシミズサンショウウオ",
+  "nameSci": "Hynobius tosashimizuensis",
+  "nameEn": "Tosashimizu Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "高知県土佐清水市の足摺半島にのみ分布する日本固有の小型種。2015年に記載された。湧水のしみ出す湿地の止水に冬から早春に産卵する。分布が一地域に限られ、個体数もごく少ないことから環境省の絶滅危惧IA類に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "12〜3月（冬〜早春）",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-hidamontanus",
+  "group": "salamander",
+  "nameJa": "ハクバサンショウウオ",
+  "nameSci": "Hynobius hidamontanus",
+  "nameEn": "Hakuba Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   110
+  ],
+  "description": "長野県北部から新潟県の山地の湿原に分布する日本固有の小型種。標高の高い湿地や池塘で、雪解け後にコイル状の卵嚢を産む。背面は黄褐色で体は小さい。高層湿原という特殊な環境に依存し、湿地の乾燥化により生息地が脅かされている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "onychodactylus-japonicus",
+  "group": "salamander",
+  "nameJa": "ハコネサンショウウオ",
+  "nameSci": "Onychodactylus japonicus",
+  "nameEn": "Japanese Clawed Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   110,
+   180
+  ],
+  "description": "本州の山地の渓流域に広く分布する日本固有種。肺をもたず皮膚呼吸のみで、幼生・成体とも指先に黒い爪をもつのが特徴。冷たい渓流の伏流水中で繁殖し、幼生期は数年に及ぶ。和名は神奈川県の箱根に由来する。渓流性サンショウウオを代表する種。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "onychodactylus-fischeri",
+  "group": "salamander",
+  "nameJa": "ハコネサンショウウオモドキ",
+  "nameSci": "Onychodactylus fischeri",
+  "nameEn": "Fischer's Clawed Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   170,
+   200
+  ],
+  "description": "ロシア極東から朝鮮半島、中国東北部の山地渓流に分布するハコネサンショウウオの仲間。肺をもたず皮膚呼吸に頼り、四肢の指先に黒い爪をもつ。冷たく酸素の豊富な清流を好み、成体も水辺を離れない。生息環境の悪化により準絶滅危惧に評価されている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "onychodactylus-intermedius",
+  "group": "salamander",
+  "nameJa": "バンダイハコネサンショウウオ",
+  "nameSci": "Onychodactylus intermedius",
+  "nameEn": "Bandai Clawed Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   100,
+   160
+  ],
+  "description": "福島県の磐梯山周辺を中心とする南東北の山地に分布する日本固有種。2014年にハコネサンショウウオ属から新種として記載された。肺をもたず指先に爪をもつ渓流性で、冷たい山地渓流の伏流水中で繁殖する。分布が限られる山地性のサンショウウオ。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-kimurae",
+  "group": "salamander",
+  "nameJa": "ヒダサンショウウオ",
+  "nameSci": "Hynobius kimurae",
+  "nameEn": "Hida Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   110,
+   190
+  ],
+  "description": "本州中部から近畿・中国地方の山地の渓流域に分布する日本固有種。渓流や地下水の流れる伏流水中の石の下に産卵する渓流性サンショウウオ。背面は黒褐色から紫褐色で黄色い斑点が散る。眼が大きく、幼生は流水に適応した頑丈な体つきをもつ。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-glacialis",
+  "group": "salamander",
+  "nameJa": "ヒョウガサンショウウオ",
+  "nameSci": "Hynobius glacialis",
+  "nameEn": "Nanhu Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   95,
+   125
+  ],
+  "description": "台湾北部の南湖大山の高山帯に固有のサンショウウオで、台湾のサンショウウオ属では最大種。氷河地形の名残る標高の高い草地や礫地にすみ、冷涼な環境に強く依存する。分布はごく狭く、生息地の脆弱さから絶滅危惧IA類とされ、台湾で最も希少な両生類のひとつに数えられる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "流水性"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "秋〜冬",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-naevius",
+  "group": "salamander",
+  "nameJa": "ブチサンショウウオ",
+  "nameSci": "Hynobius naevius",
+  "nameEn": "Blotched Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   100,
+   160
+  ],
+  "description": "中国地方から九州の山地の渓流域に分布する日本固有種。渓流沿いの伏流水中の石の下に産卵する渓流性サンショウウオ。背面は暗褐色から紫がかった褐色で、青白い小斑点が散らばることが和名の由来。近年の研究で複数種に分割されつつある。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "4〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-ikioi",
+  "group": "salamander",
+  "nameJa": "ベッコウサンショウウオ",
+  "nameSci": "Hynobius ikioi",
+  "nameEn": "Tortoiseshell Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "九州南部の山地の渓流に分布する日本固有種。背面は黄褐色から橙褐色で、鼈甲のような明るい色合いが和名の由来。冷たい渓流の伏流水中に産卵する渓流性で、渓流性サンショウウオのなかでは大型。生息地が山地の清流に限られ、絶滅が危惧されている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "3〜5月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-takedai",
+  "group": "salamander",
+  "nameJa": "ホクリクサンショウウオ",
+  "nameSci": "Hynobius takedai",
+  "nameEn": "Hokuriku Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "富山県・石川県の限られた丘陵地にのみ分布する日本固有の小型種。早春、湧水のある湿地や溝の止水に産卵する。背面は黄褐色から暗褐色。分布域が非常に狭く、宅地開発や湿地の乾燥化で生息地が失われ、環境省の絶滅危惧種に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "3〜4月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-mikawaensis",
+  "group": "salamander",
+  "nameJa": "ミカワサンショウウオ",
+  "nameSci": "Hynobius mikawaensis",
+  "nameEn": "Mikawa Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   140
+  ],
+  "description": "愛知県東部の東三河地域にのみ分布する日本固有の小型種。丘陵地の湧水のある湿地や谷津の止水に早春に産卵する。カスミサンショウウオ類に近縁だが独立種とされる。分布が狭く産卵地の消失が進み、環境省の絶滅危惧種に指定されている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hynobius-bakan",
+  "group": "salamander",
+  "nameJa": "ヤマグチサンショウウオ",
+  "nameSci": "Hynobius bakan",
+  "nameEn": "Yamaguchi Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "山口県を中心に分布する小型サンショウウオで、2019年にカスミサンショウウオから分割された。学名の種小名は関門海峡の古名「馬関」に由来する。丘陵地の湿地や谷津田の止水に早春に産卵する。背面は黄褐色から暗褐色をしている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-vandenburghi",
+  "group": "salamander",
+  "nameJa": "ヤマトサンショウウオ",
+  "nameSci": "Hynobius vandenburghi",
+  "nameEn": "Yamato Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "近畿から東海地方に分布する小型サンショウウオ。2019年にカスミサンショウウオから分割・記載された種で、平地から丘陵の湿地や谷戸の止水に早春に産卵する。背面は暗褐色で青白い斑点が散る個体もいる。都市近郊では開発により産卵地が減少している。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "liua-shihi",
+  "group": "salamander",
+  "nameJa": "リュウサンショウウオ",
+  "nameSci": "Liua shihi",
+  "nameEn": "Shih's Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   140,
+   200
+  ],
+  "description": "中国中部の山地を流れる冷たい渓流にすむサンショウウオ。四川・湖北・陝西などの標高の高い流れに分布する。扁平な頭部と丈夫な四肢をもち、流れの中の石の下に潜む。幼生は渓流内で長い時間をかけて成長する。分布が広く、低懸念に評価されている。",
+  "tags": {
+   "habitat": [
+    "流水性",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-andersoni",
+  "group": "salamander",
+  "nameJa": "アンダーソンサラマンダー",
+  "nameSci": "Ambystoma andersoni",
+  "nameEn": "Anderson's Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   130,
+   200
+  ],
+  "description": "メキシコ・ミチョアカン州のサカプ湖だけにすむ幼形成熟種。ウーパールーパーの近縁で、生涯外鰓を残したまま水中で暮らす。褐色の体に黒い斑点が散る渋い体色をもつ。湖の環境悪化で激減しているが、日本ではアンダーソンウーパールーパーの名で流通する。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-californiense",
+  "group": "salamander",
+  "nameJa": "カリフォルニアトラフサンショウウオ",
+  "nameSci": "Ambystoma californiense",
+  "nameEn": "California Tiger Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   150,
+   210
+  ],
+  "description": "アメリカ・カリフォルニア州の草原や丘陵にすむ大型種。黒い体に白や淡黄色の斑点が入る。冬の雨季に地中のジリスの巣穴から出て、一時的にできる池へ産卵に集まる。都市開発と外来種で数を減らして保護対象となっており、日本ではほとんど流通しない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "12〜2月（冬）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-maculatum",
+  "group": "salamander",
+  "nameJa": "キボシサンショウウオ",
+  "nameSci": "Ambystoma maculatum",
+  "nameEn": "Spotted Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   150,
+   250
+  ],
+  "description": "北アメリカ東部の落葉樹林にすむサンショウウオ。黒い体の背面に二列の鮮やかな黄色い斑点が並ぶのが特徴。ふだんは地中や倒木の下で暮らし、早春に雪解け水のたまる一時的な池へ移動して集団で産卵する。国内でもペットとして扱われることがある。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "3〜4月（早春）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-jeffersonianum",
+  "group": "salamander",
+  "nameJa": "ジェファーソンサラマンダー",
+  "nameSci": "Ambystoma jeffersonianum",
+  "nameEn": "Jefferson Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   100,
+   210
+  ],
+  "description": "北アメリカ東部の落葉樹林にすむ細長いサンショウウオ。灰褐色の地味な体色で、体側に青みを帯びた小斑が散ることがある。早春に一時的な池へ移動して産卵する。近縁種と複雑な雑種群をつくることでも知られる。国内で見る機会は少ない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "3〜4月（早春）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-texanum",
+  "group": "salamander",
+  "nameJa": "スモールマウスサラマンダー",
+  "nameSci": "Ambystoma texanum",
+  "nameEn": "Small-mouthed Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   110,
+   180
+  ],
+  "description": "北アメリカ中南部の低地や氾濫原にすむサンショウウオ。頭部と口が小さいことが名の由来で、黒っぽい体に灰色や銀色の地衣状の斑紋が入る。晩冬から早春に一時的な水域へ移動して産卵する。国内で見かける機会は少ない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "2〜3月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-taylori",
+  "group": "salamander",
+  "nameJa": "テイラーサラマンダー",
+  "nameSci": "Ambystoma taylori",
+  "nameEn": "Taylor's Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   120,
+   200
+  ],
+  "description": "メキシコ・プエブラ州のアルチチカ湖だけにすむ幼形成熟種。塩分を含む火口湖に適応し、生涯を水中で送る。黄褐色の体に房状の外鰓をもつ。生息地が一つの湖に限られるため絶滅の危機にあり、日本国内で見る機会はほとんどない。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-dumerilii",
+  "group": "salamander",
+  "nameJa": "デュメリルサラマンダー",
+  "nameSci": "Ambystoma dumerilii",
+  "nameEn": "Lake Patzcuaro Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   150,
+   300
+  ],
+  "description": "メキシコ・パツクアロ湖の固有種で、現地でアチョーケと呼ばれる幼形成熟種。生涯外鰓を残して水中で過ごし、房状の大きな鰓と丸みのある体つきをもつ。水質汚染と外来魚で激減し、湖畔の修道院で保護増殖が行われることで知られる。ごく稀に飼育下でも見られる。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-tigrinum",
+  "group": "salamander",
+  "nameJa": "トラフサンショウウオ",
+  "nameSci": "Ambystoma tigrinum",
+  "nameEn": "Eastern Tiger Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   170,
+   330
+  ],
+  "description": "北アメリカに広く分布する大型のサンショウウオ。黒褐色の体に黄色や黄緑の不規則な斑紋が虎斑状に入り、これが和名の由来となっている。ふだんは地中の巣穴に潜み、早春の雨の夜に産卵のため一時的な池へ集まる。丈夫で飼育しやすく、日本でもペットとして流通し展示される。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "冬〜早春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-gracile",
+  "group": "salamander",
+  "nameJa": "ノースウェスタンサラマンダー",
+  "nameSci": "Ambystoma gracile",
+  "nameEn": "Northwestern Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   140,
+   220
+  ],
+  "description": "北アメリカ太平洋岸北西部の湿った森林にすむサンショウウオ。褐色の体で、頭の後ろと尾に発達した毒腺をもち、刺激を受けると白い粘液を出す。高地の個体群では幼形成熟が見られる。国内で見る機会はほとんどない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-laterale",
+  "group": "salamander",
+  "nameJa": "ブルースポッテッドサラマンダー",
+  "nameSci": "Ambystoma laterale",
+  "nameEn": "Blue-spotted Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   80,
+   140
+  ],
+  "description": "北アメリカ北東部にすむ小型のサンショウウオ。黒っぽい体に青白い斑点が散りばめられ、これが名の由来となっている。湿った林床や地中に潜み、早春に浅い池で産卵する。ジェファーソンサラマンダーと複雑な雑種群を形成することで知られる。国内での流通は少ない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "3〜4月（早春）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-opacum",
+  "group": "salamander",
+  "nameJa": "マーブルサラマンダー",
+  "nameSci": "Ambystoma opacum",
+  "nameEn": "Marbled Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   90,
+   125
+  ],
+  "description": "北アメリカ東部に分布するずんぐりした小型種。黒地に白や銀灰色の帯模様が入り、大理石を思わせる。多くの近縁種と違い秋に陸上の窪地で産卵し、メスは雨で水がたまるまで卵を守る変わった習性をもつ。飼育対象として輸入され、国内でも見られる。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "9〜10月（秋）",
+   "redlist": "低懸念(LC)"
   },
   "zooDisplay": true
  },
@@ -125,6 +2448,133 @@
    "redlist": "絶滅危惧IA類(CR)"
   },
   "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-talpoideum",
+  "group": "salamander",
+  "nameJa": "モールサラマンダー",
+  "nameSci": "Ambystoma talpoideum",
+  "nameEn": "Mole Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   80,
+   120
+  ],
+  "description": "北アメリカ南東部の低地林にすむずんぐりした小型種。頭部が大きく肋条がはっきりし、モグラのように地中で暮らすことが名の由来。冬に池や湿地へ移動して産卵する。地域によっては幼形成熟して水中に残る個体もいる。国内で見かけることはまれ。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "冬",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-annulatum",
+  "group": "salamander",
+  "nameJa": "リングドサラマンダー",
+  "nameSci": "Ambystoma annulatum",
+  "nameEn": "Ringed Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   140,
+   235
+  ],
+  "description": "北アメリカ中部の森林にすむ細身のサンショウウオ。黒褐色の体に黄白色の輪状の横帯が並ぶ。多くの近縁種と異なり秋に池へ集まって産卵する。ふだんは地中に潜んで姿を見せにくい。国内で見かける機会はほとんどない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "9〜10月（秋）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "ambystoma-macrodactylum",
+  "group": "salamander",
+  "nameJa": "ロングトウサラマンダー",
+  "nameSci": "Ambystoma macrodactylum",
+  "nameEn": "Long-toed Salamander",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   100,
+   170
+  ],
+  "description": "北アメリカ西部の森林から高山まで広く分布する小型種。黒褐色の体の背中に、黄色や緑がかった一本の帯が頭から尾まで走る。後肢の第四趾が長いことが名の由来。早春、雪解け直後の池で産卵する。日本で見かけることは少ない。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "早春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "proteus-anguinus",
+  "group": "salamander",
+  "nameJa": "ホライモリ",
+  "nameSci": "Proteus anguinus",
+  "nameEn": "Olm",
+  "family": "ホライモリ科",
+  "familySci": "Proteidae",
+  "sizeMm": [
+   200,
+   300
+  ],
+  "description": "ヨーロッパ南東部ディナルアルプスの地下水系にすむ洞窟性サンショウウオ。色素を欠いた白い体と退化した眼、赤い外鰓を持ち、「人魚の子」とも呼ばれる。一生を暗闇の水中で過ごし、代謝が低く数年間の絶食にも耐える。寿命は非常に長い。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "通年",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
  },
  {
   "id": "necturus-maculosus",

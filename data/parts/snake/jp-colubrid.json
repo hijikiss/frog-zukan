@@ -1,0 +1,382 @@
+[
+  {
+    "id": "euprepiophis-conspicillatus",
+    "nameJa": "ジムグリ",
+    "nameSci": "Euprepiophis conspicillatus",
+    "nameEn": "Japanese Forest Ratsnake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [600, 1050],
+    "description": "本州から九州の森林や農地にすむ無毒のナミヘビ。赤褐色の地に小さな黒斑が散り、腹面は黒と白の市松模様になる。頭が小さく地中や落ち葉の下に潜ってモグラやネズミを追う穴潜り性で、涼しい時期に地表へ現れる。動物園の身近な生き物展示で見られることがある。",
+    "tags": {
+      "habitat": ["地中棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜6月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "lycodon-orientalis",
+    "nameJa": "シロマダラ",
+    "nameSci": "Lycodon orientalis",
+    "nameEn": "Japanese Wolf Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [300, 700],
+    "description": "北海道から九州に分布する小型の無毒ヘビ。灰白色の地に黒褐色の横帯が並ぶ美しい種だが、夜行性で数も少なく「幻のヘビ」と呼ばれる。おもにトカゲやほかのヘビを食べる。近年は各地の動物園で保護された個体が展示されることも増えた。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "7〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "hebius-vibakari",
+    "nameJa": "ヒバカリ",
+    "nameSci": "Hebius vibakari",
+    "nameEn": "Japanese Keelback",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [400, 650],
+    "description": "本州から九州の水辺や湿った林床にすむ小型の無毒ヘビ。褐色の体で、口角から首にかけて白い筋が入る。かつて「咬まれればその日ばかりの命」と恐れられたが実際は無毒でおとなしく、カエルやミミズ、小魚を食べる。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["薄明薄暮性", "昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜6月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "achalinus-spinalis",
+    "nameJa": "タカチホヘビ",
+    "nameSci": "Achalinus spinalis",
+    "nameEn": "Japanese Odd-scaled Snake",
+    "family": "タカチホヘビ科",
+    "familySci": "Xenodermatidae",
+    "sizeMm": [300, 600],
+    "description": "本州から九州の山地の湿った林床にすむ無毒ヘビ。うろこが金属光沢を帯びて虹色に輝くのが特徴で、背の中央には黒い縦線が走る。地中や石の下に潜んでミミズを主食とする穴潜り性で、姿を見る機会は少ない。タカチホヘビ科に属する。",
+    "tags": {
+      "habitat": ["地中棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "6〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "achalinus-formosanus",
+    "nameJa": "ヤエヤマタカチホヘビ",
+    "nameSci": "Achalinus formosanus",
+    "nameEn": "Formosan Odd-scaled Snake",
+    "family": "タカチホヘビ科",
+    "familySci": "Xenodermatidae",
+    "sizeMm": [400, 700],
+    "description": "石垣島・西表島と台湾に分布するタカチホヘビの仲間。光沢のあるうろこが虹色に輝き、体は細長い。湿った林床の落ち葉や倒木の下に潜み、夜間にミミズなどを探して活動する。生息地が限られ、目にする機会の少ない南西諸島の希少種。",
+    "tags": {
+      "habitat": ["地中棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "achalinus-werneri",
+    "nameJa": "アマミタカチホヘビ",
+    "nameSci": "Achalinus werneri",
+    "nameEn": "Amami Odd-scaled Snake",
+    "family": "タカチホヘビ科",
+    "familySci": "Xenodermatidae",
+    "sizeMm": [300, 500],
+    "description": "奄美大島や徳之島など南西諸島に固有のタカチホヘビの仲間。光沢の強いうろこをもつ細身の小型ヘビで、湿った森林の地中や落ち葉の下で暮らしミミズを食べる。夜行性で個体数も多くないため、観察例の少ない種として知られる。",
+    "tags": {
+      "habitat": ["地中棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lycodon-semicarinatus",
+    "nameJa": "アカマタ",
+    "nameSci": "Lycodon semicarinatus",
+    "nameEn": "Ryukyu Wolf Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [800, 1700],
+    "description": "奄美諸島と沖縄諸島にすむ大型の無毒ヘビ。赤褐色の地に黒い横帯が並ぶ派手な体色で、気が荒く咬みつくことで知られる。夜間に活発に動き、カエルやトカゲ、ネズミのほか毒蛇のハブまで食べる。沖縄の展示施設でよく見られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "6〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "lycodon-ruhstrati-multifasciatus",
+    "nameJa": "サキシマバイカダ",
+    "nameSci": "Lycodon ruhstrati multifasciatus",
+    "nameEn": "Sakishima Banded Wolf Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [500, 700],
+    "description": "石垣島・西表島に分布する細身の無毒ヘビ。黒褐色と白の横帯が交互に並ぶ美しい模様をもち、木にも登る。夜行性でおもにヤモリやトカゲを食べる。森林開発などで生息地が減り、観察機会の少ない南西諸島の希少種とされる。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "cyclophiops-semicarinatus",
+    "nameJa": "リュウキュウアオヘビ",
+    "nameSci": "Cyclophiops semicarinatus",
+    "nameEn": "Ryukyu Green Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [700, 1000],
+    "description": "奄美諸島と沖縄諸島にすむ無毒のナミヘビ。名のとおり全身が明るい緑色で、腹面は淡い黄緑色。昼行性で地表を這い、おもにミミズを食べるおとなしい性質。死ぬとくすんだ青色に変わる。沖縄の動物園などで展示されることがある。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "春〜夏",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cyclophiops-herminae",
+    "nameJa": "サキシマアオヘビ",
+    "nameSci": "Cyclophiops herminae",
+    "nameEn": "Sakishima Green Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [500, 800],
+    "description": "石垣島・西表島など八重山諸島に固有の無毒ヘビ。鮮やかな緑色の体をもち、リュウキュウアオヘビによく似るがより小ぶり。昼間に湿った林床や農地を這い、ミミズを主食とする。生息地が限られる南西諸島の希少種。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "orthriophis-taeniurus-schmackeri",
+    "nameJa": "サキシマスジオ",
+    "nameSci": "Orthriophis taeniurus schmackeri",
+    "nameEn": "Sakishima Beauty Ratsnake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [1500, 2000],
+    "description": "石垣島・西表島に分布する大型の無毒ヘビで、全長2mを超える八重山最大級のヘビ。黄褐色の体に黒い縦条と横帯が入り、尾に向かって縞模様が目立つ。木登りが得意でネズミや鳥を捕食する。生息数が減り保護されている固有亜種。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜7月",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "elaphe-carinata-yonaguniensis",
+    "nameJa": "ヨナグニシュウダ",
+    "nameSci": "Elaphe carinata yonaguniensis",
+    "nameEn": "Yonaguni King Ratsnake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [1500, 2000],
+    "description": "日本最西端の与那国島だけにすむシュウダの固有亜種。全長2m近い大型の無毒ヘビで、黄褐色の体に黒い網目状の模様が広がる。刺激を受けると総排泄口付近の腺から強い悪臭を放つ。個体数が少なく、絶滅が心配される島の固有種。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "hebius-pryeri",
+    "nameJa": "ガラスヒバァ",
+    "nameSci": "Hebius pryeri",
+    "nameEn": "Pryer's Keelback",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [500, 800],
+    "description": "奄美諸島と沖縄諸島の水辺にすむナミヘビ。褐色の体に不規則な斑紋が入り、水田や渓流の周りでカエルや小魚を捕食する。奥歯にごく弱い毒をもつとされるが性質はおとなしく人への危険はほとんどない。南西諸島では身近なヘビのひとつ。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性", "昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "春〜夏",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "hebius-concelarus",
+    "nameJa": "ミヤコヒバァ",
+    "nameSci": "Hebius concelarus",
+    "nameEn": "Miyako Keelback",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [400, 700],
+    "description": "宮古諸島だけに分布する無毒のナミヘビ。褐色の地に黒っぽい斑紋が並び、水田や湿地の周辺でカエルや小魚を捕食する。開発による水辺の減少で数を大きく減らし、絶滅が危惧される固有種。夜間に活動し、日中は物陰に潜む。",
+    "tags": {
+      "habitat": ["半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pareas-iwasakii",
+    "nameJa": "イワサキセダカヘビ",
+    "nameSci": "Pareas iwasakii",
+    "nameEn": "Iwasaki's Snail-eater",
+    "family": "セダカヘビ科",
+    "familySci": "Pareidae",
+    "sizeMm": [500, 700],
+    "description": "石垣島・西表島にすむ無毒のセダカヘビ。カタツムリだけを食べる特殊なヘビで、右巻きの殻から身を引き出しやすいよう下あごの歯が左右非対称に多く並ぶ。夜間に樹上や地表を這って獲物を探す。生息地が限られる貴重な固有種。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜7月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "calamaria-pfefferi",
+    "nameJa": "ミヤラヒメヘビ",
+    "nameSci": "Calamaria pfefferi",
+    "nameEn": "Pfeffer's Reed Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [200, 300],
+    "description": "石垣島・西表島に分布するごく小型の無毒ヘビ。全長30cmほどで、光沢のある褐色の体をもちミミズのような姿をしている。地中や落ち葉の下に潜んで暮らし、小さな虫やその幼虫を食べるとみられる。生態はよくわかっておらず記録も少ない。",
+    "tags": {
+      "habitat": ["地中棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "indotyphlops-braminus",
+    "nameJa": "ブラーミニメクラヘビ",
+    "nameSci": "Indotyphlops braminus",
+    "nameEn": "Brahminy Blind Snake",
+    "family": "メクラヘビ科",
+    "familySci": "Typhlopidae",
+    "sizeMm": [100, 180],
+    "description": "南アジア原産で、鉢植えの土などに紛れて世界中に広がった超小型のヘビ。日本でも南西諸島や本州の一部に定着している。全長15cm前後でミミズに似た黒褐色の体をもち、地中でアリやシロアリの幼虫を食べる。すべてメスで単為生殖する。",
+    "tags": {
+      "habitat": ["地中棲"],
+      "origin": "外来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本", "南アジア", "東南アジア"],
+      "breeding": "通年（単為生殖）",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "opisthotropis-kikuzatoi",
+    "nameJa": "キクザトサワヘビ",
+    "nameSci": "Opisthotropis kikuzatoi",
+    "nameEn": "Kikuzato's Stream Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [500, 700],
+    "description": "沖縄県久米島の渓流だけにすむ無毒の水生ヘビ。褐色の体をもち、夜間に川へ入って小魚やエビ、水生昆虫を捕食する。国内でも極めて限られた分布と少ない個体数から絶滅が強く危惧され、国の天然記念物に指定された貴重な固有種。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "不明",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "orthriophis-taeniurus-friesi",
+    "nameJa": "タイワンスジオ",
+    "nameSci": "Orthriophis taeniurus friesi",
+    "nameEn": "Taiwan Beauty Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [1500, 2200],
+    "description": "台湾原産の大型ナミヘビで、飼育個体が逃げ出して沖縄本島に定着した外来種。黄褐色の体に黒い縦条が走り、全長2mを超える。ネズミや鳥を捕食し、在来のヘビや希少種への影響が心配される特定外来生物に指定されている。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "外来",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "春〜夏",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  }
+]

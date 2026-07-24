@@ -1,0 +1,322 @@
+[
+  {
+    "id": "echinotriton-andersoni",
+    "nameJa": "イボイモリ",
+    "nameSci": "Echinotriton andersoni",
+    "nameEn": "Anderson's Crocodile Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 180],
+    "description": "奄美大島や沖縄島などの南西諸島に固有の、陸生傾向が強いイモリ。ごつごつしたいぼ状の皮膚と、体側に一列に並ぶ肋骨の突起が特徴で、刺激を受けると肋骨の先を皮膚から突き出して身を守る。湿った林床にすみ、繁殖期に水辺の落ち葉の下へ産卵する。国の天然記念物に指定される希少種。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "春（3〜5月）",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cynops-ensicauda-popei",
+    "nameJa": "アマミシリケンイモリ",
+    "nameSci": "Cynops ensicauda popei",
+    "nameEn": "Amami Sword-tailed Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 180],
+    "description": "奄美諸島に分布するシリケンイモリの一亜種。沖縄産よりも大きくなり、背面に金色の斑紋が点在する個体が多い。尾の先が剣状に細くのびるのが名の由来。皮膚からフグと同じテトロドトキシンを分泌する。池や水田、緩やかな流れとその周辺の湿った林にすみ、陸上で過ごす時間も長い。飼育種として親しまれる。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "冬〜春",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cynops-ensicauda-ensicauda",
+    "nameJa": "オキナワシリケンイモリ",
+    "nameSci": "Cynops ensicauda ensicauda",
+    "nameEn": "Okinawa Sword-tailed Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [100, 150],
+    "description": "沖縄諸島に分布するシリケンイモリの基亜種。奄美産よりやや小さく、黒褐色の地に金色斑が入る個体が多い。腹面はアカハライモリほど赤みが強くない。低地の池や水田、湿った林床にすみ、皮膚毒を持つ。夜間や雨天時に活発に動き回る。飼育・繁殖もされ、爬虫類イベントで見かける。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "冬〜春",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cynops-orientalis",
+    "nameJa": "チュウゴクイモリ",
+    "nameSci": "Cynops orientalis",
+    "nameEn": "Chinese Fire-bellied Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [70, 100],
+    "description": "中国東部の丘陵地に分布する小型のイモリ。黒っぽくつやのある背面と、黒斑の入る鮮やかな橙赤色の腹面をもつ。動きが穏やかで丈夫なため、古くから『ファイアベリーニュート』の名で世界的に流通する定番の飼育種。池や水田などの止水にすみ、繁殖期は水中で暮らす。日本の熱帯魚店でもよく売られる。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "春〜初夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cynops-cyanurus",
+    "nameJa": "アオオビイモリ",
+    "nameSci": "Cynops cyanurus",
+    "nameEn": "Blue-tailed Fire-bellied Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 130],
+    "description": "中国雲南省や貴州省の高地の池にすむイモリ。繁殖期のオスは尾に青みを帯びた婚姻色があらわれ、これが名の由来とされる。体側にはオレンジ色の斑が並び、腹面も橙色みを帯びる。アカハライモリの仲間で皮膚毒を持つ。飼育下でも見られるが、チュウゴクイモリほど流通量は多くない。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "春〜夏",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "echinotriton-chinhaiensis",
+    "nameJa": "チンハイイボイモリ",
+    "nameSci": "Echinotriton chinhaiensis",
+    "nameEn": "Chinhai Spiny Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [110, 150],
+    "description": "中国浙江省の鎮海周辺のごく限られた丘陵地だけに分布する陸生のイモリ。イボイモリの近縁で、ごつごつした皮膚と体側の肋骨突起をもつ。生息地が極端に狭く個体数も少ないため、世界でもっとも絶滅が心配される有尾類のひとつとされる。落ち葉や石の下にひそみ、雨期に水辺で繁殖する。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "春（雨期）",
+      "redlist": "絶滅危惧IA類(CR)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "paramesotriton-hongkongensis",
+    "nameJa": "ホンコンイモリ",
+    "nameSci": "Paramesotriton hongkongensis",
+    "nameEn": "Hong Kong Warty Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [110, 150],
+    "description": "香港と中国広東省南部の山あいの渓流や池にすむイモリ。ざらついた背面は暗褐色で、腹面には橙色の斑紋が入る。コブイモリ属の一種で水中生活への傾向が強く、繁殖期以外も水辺を離れない個体が多い。皮膚毒を持つ。飼育種として流通し、日本でも見かける。",
+    "tags": {
+      "habitat": ["水棲", "流水性"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "春",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "paramesotriton-chinensis",
+    "nameJa": "チュウゴクコブイモリ",
+    "nameSci": "Paramesotriton chinensis",
+    "nameEn": "Chinese Warty Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 150],
+    "description": "中国東部・中部の丘陵地の緩やかな流れや池にすむコブイモリの仲間。背中に一対の隆起した稜が走り、暗褐色の体に橙色の斑が入る。ざらざらした皮膚と扁平な頭が特徴。ほぼ一年を通して水中で暮らし、皮膚毒を持つ。安価な飼育種として日本にも輸入される。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-verrucosus",
+    "nameJa": "ヒマラヤイボイモリ",
+    "nameSci": "Tylototriton verrucosus",
+    "nameEn": "Himalayan Crocodile Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 200],
+    "description": "ヒマラヤ東部からミャンマー、中国雲南省にかけての山地林にすむ大型の有尾類。黒褐色の体に、頭部の隆起・背側の疣の列・四肢や尾が橙色に色づく。乾季は林床の朽ち木や落ち葉の下で過ごし、雨季に止水へ集まって繁殖する。ワニのようなごつい姿から英名はヒマラヤ・クロコダイル・ニュート。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア", "南アジア", "東南アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-shanjing",
+    "nameJa": "マンダリンイボイモリ",
+    "nameSci": "Tylototriton shanjing",
+    "nameEn": "Emperor Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [140, 200],
+    "description": "中国雲南省の山地にすむイボイモリ属の一種。黒地に橙色から黄色の縁取りが、頭部の隆起・背の疣列・体の稜・尾に沿って鮮やかに入り、その美しさから『エンペラーニュート』『マンダリンニュート』の名で知られる。乾季は森の地中や落ち葉の下に潜み、雨季に水辺で繁殖する。展示・飼育される人気種。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-kweichowensis",
+    "nameJa": "キコウイボイモリ",
+    "nameSci": "Tylototriton kweichowensis",
+    "nameEn": "Kweichow Crocodile Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [150, 220],
+    "description": "中国貴州省・雲南省の高地にすむイボイモリ属の一種。黒い体に、背の正中線と両側の疣の列が橙色に太く走るのが特徴で、頭部の隆起も目立つ。標高の高い草地や林の水辺周辺にすみ、雨季に池で繁殖する。皮膚毒を持つ。飼育下でも見られる。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-taliangensis",
+    "nameJa": "タリアンイボイモリ",
+    "nameSci": "Tylototriton taliangensis",
+    "nameEn": "Taliang Knobby Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [180, 230],
+    "description": "中国四川省の大涼山（タリアン山地）に固有のイボイモリ属の一種。イボイモリ属では最大級で、黒っぽい体に橙色が入るのは頬や四肢、尾など控えめな範囲にとどまり、全体に黒く見える。標高の高い森林の水辺にすみ、雨季に繁殖する。飼育種として流通する。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-asperrimus",
+    "nameJa": "ザライボイモリ",
+    "nameSci": "Tylototriton asperrimus",
+    "nameEn": "Black Knobby Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 155],
+    "description": "中国南部から北ベトナムの山地にすむイボイモリ属の一種。名のとおり皮膚が非常にざらつき、黒褐色の地に橙色が入るのは掌や指先、尾の下面など限られた部分だけで、全体に黒く地味に見える。湿った林床にすみ、雨季に水辺で繁殖する。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア", "東南アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-hainanensis",
+    "nameJa": "ハイナンイボイモリ",
+    "nameSci": "Tylototriton hainanensis",
+    "nameEn": "Hainan Knobby Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [140, 180],
+    "description": "中国海南島の山地林に固有のイボイモリ属の一種。黒褐色の体に、頭部の隆起や背側の疣列、四肢・尾が橙色に色づく。分布が島内の限られた地域にとどまり、生息数も少ない希少種。湿った常緑林の水辺周辺にすみ、雨季に繁殖する。国内で見る機会はほとんどない。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "tylototriton-yangi",
+    "nameJa": "ヤンイボイモリ",
+    "nameSci": "Tylototriton yangi",
+    "nameEn": "Tiannan Crocodile Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [130, 160],
+    "description": "中国雲南省南部に分布するイボイモリ属の一種。黒い体に頭部の隆起や疣の列、四肢・尾がはっきりとした橙赤色に彩られ、近縁のヒマラヤイボイモリと似るが色の対比が強い。近年になって別種として整理された。山地の林と水辺を行き来し、雨季に繁殖する。飼育下でも少数が見られる。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "tylototriton-wenxianensis",
+    "nameJa": "ブンケンイボイモリ",
+    "nameSci": "Tylototriton wenxianensis",
+    "nameEn": "Wenxian Knobby Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 150],
+    "description": "中国中部、甘粛省南部から四川省にかけての山地にすむイボイモリ属の一種。橙色みが乏しく全体に黒っぽい地味な種で、皮膚のざらつきが強い。標高の高い森の水辺周辺にすみ、雨季に止水で繁殖する。分布は限られ、国内ではあまり見かけない。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["東アジア"],
+      "breeding": "雨季（初夏）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  }
+]

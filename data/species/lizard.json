@@ -1,5 +1,135 @@
 [
  {
+  "id": "uromastyx-aegyptia",
+  "group": "lizard",
+  "nameJa": "エジプトトゲオアガマ",
+  "nameSci": "Uromastyx aegyptia",
+  "nameEn": "Egyptian Spiny-tailed Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   500,
+   760
+  ],
+  "description": "北アフリカからアラビア半島の砂漠や岩場にすむ大型のトゲオアガマ。太く頑丈なとげの並んだ尾を武器に、岩の割れ目へ潜って身を守る。主に植物を食べる草食性で、日中に岩の上で体を温める。爬虫類ショップで流通し、飼育される。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ",
+    "西アジア"
+   ],
+   "breeding": "春（3〜5月）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chlamydosaurus-kingii",
+  "group": "lizard",
+  "nameJa": "エリマキトカゲ",
+  "nameSci": "Chlamydosaurus kingii",
+  "nameEn": "Frilled Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   700,
+   900
+  ],
+  "description": "オーストラリア北部からニューギニアの乾いた森林にすむ樹上性のアガマ。首の周りに大きな襟状の皮膜をもち、驚くと口を開けて傘のように広げ、後ろ足で立って走って逃げる。ふだんは樹上で昆虫や小動物を待ち伏せする。動物園でおなじみの人気種。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "雨季（11〜3月）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "intellagama-lesueurii",
+  "group": "lizard",
+  "nameJa": "オーストラリアミズトカゲ",
+  "nameSci": "Intellagama lesueurii",
+  "nameEn": "Australian Water Dragon",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   600,
+   900
+  ],
+  "description": "オーストラリア東部の川や池のほとりにすむ大型のアガマ。緑褐色の体に黒い横縞が入り、水辺の枝から水面へ飛び込んで泳ぐ。雑食性で昆虫や果実、小動物を食べる。現地では公園でも見られるが、日本の動物園などで見る機会は多くない。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春（9〜11月）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "uromastyx-ornata",
+  "group": "lizard",
+  "nameJa": "オルナータトゲオアガマ",
+  "nameSci": "Uromastyx ornata",
+  "nameEn": "Ornate Spiny-tailed Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   250,
+   370
+  ],
+  "description": "エジプトからアラビア半島の岩の多い砂漠にすむトゲオアガマ。オスは青緑や黄、オレンジが入り交じる派手な体色で知られ、トゲオアガマの中でもとくに美しい。日中に岩上で日光浴し、植物を主食とする。色彩の良さから飼育目的で流通する。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ",
+    "西アジア"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "diploderma-polygonatum",
   "group": "lizard",
   "nameJa": "キノボリトカゲ",
@@ -27,6 +157,197 @@
    ],
    "breeding": "5〜8月",
    "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "physignathus-cocincinus",
+  "group": "lizard",
+  "nameJa": "グリーンウォータードラゴン",
+  "nameSci": "Physignathus cocincinus",
+  "nameEn": "Chinese Water Dragon",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   600,
+   900
+  ],
+  "description": "タイやベトナム、中国南部の水辺の森にすむ樹上性のアガマ。全長の3分の2を占める長い尾をもち、緑色の体で枝に止まる。危険が迫ると水へ飛び込んで泳いで逃げる。丈夫で飼育しやすく、爬虫類ショップの定番種として広く流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "東アジア"
+   ],
+   "breeding": "乾季明け",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "diploderma-brevipes",
+  "group": "lizard",
+  "nameJa": "サキシマキノボリトカゲ",
+  "nameSci": "Diploderma brevipes",
+  "nameEn": "Sakishima Tree Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   150,
+   240
+  ],
+  "description": "石垣島・西表島に固有の樹上性アガマ。緑褐色の体色を周囲に合わせて変化させ、樹幹に縦に止まってじっと獲物を待つ。オスは喉の袋を広げて縄張りを主張する。原生林の樹上で暮らす森林性の強い種で、爬虫類施設で展示されることもある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "uromastyx-geyri",
+  "group": "lizard",
+  "nameJa": "サハラトゲオアガマ",
+  "nameSci": "Uromastyx geyri",
+  "nameEn": "Saharan Spiny-tailed Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   300,
+   400
+  ],
+  "description": "サハラ砂漠南縁のニジェールやアルジェリアに分布する中型のトゲオアガマ。黄色や赤みを帯びた明るい体色の個体が多く、通称「ゲイリー」として爬虫類愛好家に親しまれる。乾いた岩場に巣穴を掘り、植物質を主に食べる草食性。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "春",
+   "redlist": "情報不足(DD)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "diploderma-swinhonis",
+  "group": "lizard",
+  "nameJa": "スウィンホーキノボリトカゲ",
+  "nameSci": "Diploderma swinhonis",
+  "nameEn": "Swinhoe's Tree Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   180,
+   260
+  ],
+  "description": "台湾原産の樹上性アガマで、日本では静岡県などに人為的に持ち込まれた個体群が定着している。灰褐色の体に淡い斑紋があり、樹幹や石垣に縦に止まる。オスは喉を膨らませて縄張りを誇示する。在来のキノボリトカゲとの競合が懸念される外来種。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "外来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "draco-volans",
+  "group": "lizard",
+  "nameJa": "トビトカゲ",
+  "nameSci": "Draco volans",
+  "nameEn": "Common Flying Dragon",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   190,
+   220
+  ],
+  "description": "東南アジアの熱帯林にすむ小型の樹上性アガマ。肋骨に支えられた皮膜を翼のように広げ、木から木へ滑空する。ふつうは幹に張りついてアリなどを食べ、オスは黄色い喉の旗を出して縄張りを主張する。飼育は難しく、国内ではほとんど見られない。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "hydrosaurus-pustulatus",
+  "group": "lizard",
+  "nameJa": "フィリピンホカケトカゲ",
+  "nameSci": "Hydrosaurus pustulatus",
+  "nameEn": "Philippine Sailfin Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   700,
+   1000
+  ],
+  "description": "フィリピンの渓流沿いにすむ大型のアガマで、オスは背から尾にかけて帆のような大きなクレストを立てる。水辺を好み、指の縁の鱗を使って水面を走ることもできる。雑食性で果実や昆虫を食べる。動物園や水族館で展示される人気種。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
   },
   "zooDisplay": true
  },
@@ -59,6 +380,358 @@
    ],
    "breeding": "春〜夏",
    "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "moloch-horridus",
+  "group": "lizard",
+  "nameJa": "モロクトカゲ",
+  "nameSci": "Moloch horridus",
+  "nameEn": "Thorny Devil",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   130,
+   200
+  ],
+  "description": "オーストラリア内陸の砂漠に暮らすアガマで、全身がとげ状の鱗で覆われる。アリだけを長い舌で一匹ずつ舐め取って食べる。体表の細かい溝が毛細管現象で朝露や砂中の水分を口へ運ぶ。動きは遅く、飼育は難しいため国内で見る機会はほぼない。",
+  "tags": {
+   "habitat": [
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜初夏（9〜12月）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "uromastyx-nigriventris",
+  "group": "lizard",
+  "nameJa": "モロッコトゲオアガマ",
+  "nameSci": "Uromastyx nigriventris",
+  "nameEn": "Moroccan Spiny-tailed Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   350,
+   450
+  ],
+  "description": "モロッコからアルジェリアの乾燥地にすむトゲオアガマ。成熟したオスは鮮やかな赤やオレンジに染まり、飼育下で人気が高い。とげのある尾で外敵を払い、危険時は岩の隙間へ逃げ込む。草食性で、日中に体を温めてから活動する。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pogona-henrylawsoni",
+  "group": "lizard",
+  "nameJa": "ローソンアゴヒゲトカゲ",
+  "nameSci": "Pogona henrylawsoni",
+  "nameEn": "Lawson's Dragon",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   250,
+   300
+  ],
+  "description": "オーストラリア北東部の乾いた草原にすむ小型のアゴヒゲトカゲ。フトアゴヒゲトカゲに似るが喉のとげが目立たず、より小型でずんぐりする。おとなしく丈夫なため、省スペースで飼える入門種として爬虫類イベントで流通する。日中に日光浴し雑食性。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anguis-fragilis",
+  "group": "lizard",
+  "nameJa": "ヒメアシナシトカゲ",
+  "nameSci": "Anguis fragilis",
+  "nameEn": "Slow Worm",
+  "family": "アシナシトカゲ科",
+  "familySci": "Anguidae",
+  "sizeMm": [
+   350,
+   500
+  ],
+  "description": "ヨーロッパに広く分布する、脚のない小型のトカゲ。光沢のある銅色や灰色の体でミミズやナメクジを食べる。落ち葉や土の中に潜んで暮らし、危険が迫ると尾を自切する。ヘビと間違われやすいが、まぶたを閉じられる点で区別できる。",
+  "tags": {
+   "habitat": [
+    "地中棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "春（交尾）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "pseudopus-apodus",
+  "group": "lizard",
+  "nameJa": "ヨーロッパアシナシトカゲ",
+  "nameSci": "Pseudopus apodus",
+  "nameEn": "European Glass Lizard",
+  "family": "アシナシトカゲ科",
+  "familySci": "Anguidae",
+  "sizeMm": [
+   1000,
+   1350
+  ],
+  "description": "ヨーロッパ南東部から西アジアに分布する、脚をほとんど失った大型のトカゲ。一見ヘビのようだが、まぶたや耳の穴があり、体側には縦の溝が走る。かたい獲物を割って食べるため頑丈な顎をもつ。国内でも飼育・展示されることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ",
+    "西アジア"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anolis-carolinensis",
+  "group": "lizard",
+  "nameJa": "グリーンアノール",
+  "nameSci": "Anolis carolinensis",
+  "nameEn": "Green Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   120,
+   200
+  ],
+  "description": "北アメリカ南東部原産の小型トカゲで、緑と褐色を素早く切り替える。オスは喉のピンク色の袋（デューラップ）を広げて誇示する。日本では小笠原諸島や沖縄本島に定着し、在来の昆虫や固有トカゲを捕食して生態系に深刻な影響を与える特定外来生物。ペットとしても流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "外来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "北アメリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anolis-equestris",
+  "group": "lizard",
+  "nameJa": "ナイトアノール",
+  "nameSci": "Anolis equestris",
+  "nameEn": "Knight Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   300,
+   500
+  ],
+  "description": "キューバ原産で、アノールの仲間では最大級の樹上性トカゲ。鮮やかな緑色の体に、目の下と肩に白い筋が入る。高い木の上でカタツムリや昆虫、小動物を捕らえる。おっとりした性質で、大型アノールとして愛好家に飼育される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "anolis-sagrei",
+  "group": "lizard",
+  "nameJa": "ブラウンアノール",
+  "nameSci": "Anolis sagrei",
+  "nameEn": "Brown Anole",
+  "family": "アノールトカゲ科",
+  "familySci": "Dactyloidae",
+  "sizeMm": [
+   130,
+   210
+  ],
+  "description": "キューバやバハマ原産の小型のアノール。褐色の体に細かな斑があり、オスは橙色に縁取られた喉の膜を広げる。地表近くの低木や幹で活動し、繁殖力が強く各地に移入している。飼育用や餌用として国内の爬虫類ショップでも見かける。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ",
+    "北アメリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "amblyrhynchus-cristatus",
+  "group": "lizard",
+  "nameJa": "ウミイグアナ",
+  "nameSci": "Amblyrhynchus cristatus",
+  "nameEn": "Marine Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   600,
+   1300
+  ],
+  "description": "ガラパゴス諸島の岩礁海岸だけにすむ、世界で唯一海に潜るトカゲ。黒っぽい体で海に潜って岩に付いた海藻を食べ、余分な塩を鼻から噴き出す。日中は岩の上で群れて体を温める。国内の動物園で飼育される例はほとんどない固有種。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "1〜4月ごろ",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "conolophus-subcristatus",
+  "group": "lizard",
+  "nameJa": "ガラパゴスリクイグアナ",
+  "nameSci": "Conolophus subcristatus",
+  "nameEn": "Galapagos Land Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1300
+  ],
+  "description": "ガラパゴス諸島の乾いた低地にすむ大型のイグアナ。黄色みを帯びたずんぐりした体をもち、ウチワサボテンの実や葉を主な餌にする。巣穴を掘って暮らし、日光浴で体温を保つ。国内で見る機会はほとんどないガラパゴスの固有種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "cyclura-nubila",
+  "group": "lizard",
+  "nameJa": "キューバイワイグアナ",
+  "nameSci": "Cyclura nubila",
+  "nameEn": "Cuban Rock Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1400
+  ],
+  "description": "キューバとその周辺の島々に分布する大型のイワイグアナ。灰色から赤みを帯びた体色で、背に低いたてがみ状のクレストが走る。乾いた海岸の岩場や低木地にすみ、果実や葉を食べる。飼育下繁殖が進み、国内の爬虫類イベントでも見かけることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "初夏",
+   "redlist": "絶滅危惧II類(VU)"
   },
   "zooDisplay": true
  },
@@ -96,6 +769,325 @@
   "zooDisplay": true
  },
  {
+  "id": "cyclura-cornuta",
+  "group": "lizard",
+  "nameJa": "サイイグアナ",
+  "nameSci": "Cyclura cornuta",
+  "nameEn": "Rhinoceros Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   1000,
+   1350
+  ],
+  "description": "カリブ海のイスパニョーラ島の乾いた岩場や低木林にすむ大型のイワイグアナ。鼻先に三つの角状の突起が並ぶことが名の由来で、がっしりした灰褐色の体をもつ。ほぼ植物食で、日中は岩の上で日光浴する。生息地開発で数を減らし、国内の動物園で繁殖展示される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春（乾季）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "dipsosaurus-dorsalis",
+  "group": "lizard",
+  "nameJa": "サバクイグアナ",
+  "nameSci": "Dipsosaurus dorsalis",
+  "nameEn": "Desert Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   250,
+   400
+  ],
+  "description": "北アメリカ南西部からメキシコの砂漠にすむ中型のイグアナ。淡い灰白色に細かな網目模様があり、背に小さなたてがみ状の鱗が並ぶ。高温に強く、他のトカゲが物陰に隠れる暑さの中でも活動し、クレオソートブッシュの花や葉を食べる。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "sauromalus-ater",
+  "group": "lizard",
+  "nameJa": "チャクワラ",
+  "nameSci": "Sauromalus ater",
+  "nameEn": "Common Chuckwalla",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   300,
+   460
+  ],
+  "description": "北アメリカ南西部の岩の多い砂漠にすむ、がっしりした中型のイグアナ。危険が迫ると岩の割れ目に潜り込み、体を膨らませて挟まり抜けないようにする。ほぼ植物食で花や葉を好む。おとなしく、国内でも動物園や愛好家の間で飼育される。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ctenosaura-similis",
+  "group": "lizard",
+  "nameJa": "トゲオイグアナ",
+  "nameSci": "Ctenosaura similis",
+  "nameEn": "Black Spiny-tailed Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   600,
+   1300
+  ],
+  "description": "メキシコから中央アメリカの乾いた林や岩場にすむ大型のイグアナ。尾に鋭いとげ状の鱗が輪になって並ぶのが名の由来。地上を素早く走り木にもよく登る。若い個体は緑色で、成長すると灰褐色になる。爬虫類ショップでも流通する丈夫な種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "北アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "cyclura-lewisi",
+  "group": "lizard",
+  "nameJa": "ブルーイグアナ",
+  "nameSci": "Cyclura lewisi",
+  "nameEn": "Grand Cayman Blue Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   900,
+   1500
+  ],
+  "description": "英領ケイマン諸島のグランドケイマン島だけにすむ大型のイワイグアナ。成熟したオスは繁殖期に体が青緑色に輝く。一時は野生で数十頭まで激減したが、飼育下繁殖と再導入で回復しつつある。国内で見る機会はほとんどない保全の象徴的な種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "カリブ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "varanus-komodoensis",
+  "group": "lizard",
+  "nameJa": "コモドオオトカゲ",
+  "nameSci": "Varanus komodoensis",
+  "nameEn": "Komodo Dragon",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   2500,
+   3000
+  ],
+  "description": "インドネシアのコモド島など限られた島にすむ世界最大のトカゲ。全長3mに達し、鋭い歯と毒腺をもち、シカやイノシシも倒す頂点捕食者。国際的に絶滅危惧種とされ、日本では名古屋市東山動植物園が唯一飼育展示している。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-exanthematicus",
+  "group": "lizard",
+  "nameJa": "サバンナモニター",
+  "nameSci": "Varanus exanthematicus",
+  "nameEn": "Savannah Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   700,
+   1000
+  ],
+  "description": "アフリカのサバンナや半乾燥地帯に広く分布する中型のオオトカゲ。がっしりした体つきと幅広い頭が特徴で、昆虫や巻貝、小動物を食べる。乾季には地中で休眠する。丈夫で飼いやすく、オオトカゲの入門種として広く流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-acanthurus",
+  "group": "lizard",
+  "nameJa": "トゲオオオトカゲ",
+  "nameSci": "Varanus acanthurus",
+  "nameEn": "Ridge-tailed Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   600,
+   700
+  ],
+  "description": "オーストラリア北部の岩場や乾燥地にすむ小型のオオトカゲ。尾に鋭い棘状の鱗が並ぶことからこの名がある。岩の隙間に潜み、昆虫や小型のトカゲを食べる。小型で扱いやすく、飼育種として人気が高い。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-niloticus",
+  "group": "lizard",
+  "nameJa": "ナイルオオトカゲ",
+  "nameSci": "Varanus niloticus",
+  "nameEn": "Nile Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   1200,
+   2000
+  ],
+  "description": "アフリカの河川や湖沼の周辺に広く分布する大型のオオトカゲ。泳ぎが得意で、水辺で魚や貝、卵などを漁る。黄色い斑点の列が並ぶ体色をもつ。気が荒い個体も多い。爬虫類ショップやイベントで見られることがある。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-giganteus",
+  "group": "lizard",
+  "nameJa": "ペレンティー",
+  "nameSci": "Varanus giganteus",
+  "nameEn": "Perentie",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   1600,
+   2000
+  ],
+  "description": "オーストラリア中央部の乾燥地に分布する、同国最大のオオトカゲ。全長2mを超え、長い首と脚で乾いた大地を走り回る。淡黄色の斑点が体を彩る。生息地では上位の捕食者だが、国内での飼育例はごく少ない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
   "id": "varanus-salvator",
   "group": "lizard",
   "nameJa": "ミズオオトカゲ",
@@ -129,6 +1121,228 @@
   "zooDisplay": true
  },
  {
+  "id": "varanus-prasinus",
+  "group": "lizard",
+  "nameJa": "ミドリホソオオトカゲ",
+  "nameSci": "Varanus prasinus",
+  "nameEn": "Emerald Tree Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   750,
+   1000
+  ],
+  "description": "ニューギニア島とその周辺の熱帯雨林にすむ樹上性のオオトカゲ。鮮やかな緑色の体と、枝に巻きつく長い尾をもつ。木の上で昆虫やカエルを捕らえる。美しい色彩から人気があり、国内でも飼育・展示例がある。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-varius",
+  "group": "lizard",
+  "nameJa": "レースオオトカゲ",
+  "nameSci": "Varanus varius",
+  "nameEn": "Lace Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   1500,
+   2100
+  ],
+  "description": "オーストラリア東部の森林に分布する大型のオオトカゲ。黒地に淡色の細かな斑が入るレース模様が名の由来。木登りが巧みで、危険を感じると素早く高い木へ駆け上がる。輸出が制限され、日本で見る機会は少ない。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "takydromus-smaragdinus",
+  "group": "lizard",
+  "nameJa": "アオカナヘビ",
+  "nameSci": "Takydromus smaragdinus",
+  "nameEn": "Emerald Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   200,
+   280
+  ],
+  "description": "南西諸島に分布する鮮やかな緑色のカナヘビ。全長の大半を占める長い尾をもち、草やススキの葉上を軽やかに移動する。オスは繁殖期に体色がより濃い緑になる。開けた草地や林縁で日光浴し、昆虫を捕食する。飼育例もあり爬虫類イベントで見られることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "podarcis-muralis",
+  "group": "lizard",
+  "nameJa": "カベカナヘビ",
+  "nameSci": "Podarcis muralis",
+  "nameEn": "Common Wall Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "ヨーロッパ中南部に広く分布する小型のカナヘビ。石垣や壁、岩場をすばやく駆けまわる姿からこの名がある。都市部の人家周辺にも多く、日光浴を好む。体色や斑紋の変異が大きい。ヨーロッパでは最も身近なトカゲの一つ。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "zootoca-vivipara",
+  "group": "lizard",
+  "nameJa": "コモチカナヘビ",
+  "nameSci": "Zootoca vivipara",
+  "nameEn": "Viviparous Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   120,
+   180
+  ],
+  "description": "ユーラシアに広く分布し、日本では北海道北部のサロベツ原野などの湿原に隔離分布する小型のカナヘビ。多くのトカゲと異なり卵ではなく仔を産む卵胎生で、寒冷地への適応と考えられる。国内では分布が極めて限られ、保全上重要な種として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "takydromus-dorsalis",
+  "group": "lizard",
+  "nameJa": "サキシマカナヘビ",
+  "nameSci": "Takydromus dorsalis",
+  "nameEn": "Sakishima Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   250,
+   320
+  ],
+  "description": "八重山諸島に分布する日本最大級のカナヘビで、鮮緑色の細長い体と非常に長い尾をもつ。低木や草やぶの上を器用に伝い歩き、昆虫やクモを捕食する。森林の縁や耕作地周辺で見られるが、生息地の環境変化により数を減らし準絶滅危惧とされる。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "lacerta-agilis",
+  "group": "lizard",
+  "nameJa": "スナトカゲ",
+  "nameSci": "Lacerta agilis",
+  "nameEn": "Sand Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "ヨーロッパから中央アジアの草地や砂地に広く分布するカナヘビ科のトカゲ。繁殖期のオスは体側や腹面が鮮やかな緑色に色づく。日当たりのよい場所で日光浴し、素早く走って昆虫を捕らえる。日本国内で見る機会は多くない。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ",
+    "中央アジア"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
   "id": "takydromus-tachydromoides",
   "group": "lizard",
   "nameJa": "ニホンカナヘビ",
@@ -157,6 +1371,230 @@
    ],
    "breeding": "5〜8月",
    "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "timon-lepidus",
+  "group": "lizard",
+  "nameJa": "ホウセキカナヘビ",
+  "nameSci": "Timon lepidus",
+  "nameEn": "Ocellated Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   500,
+   700
+  ],
+  "description": "イベリア半島を中心とする南西ヨーロッパの乾いた岩場や低木地にすむ、カナヘビ科最大級の種。体側に青い眼状斑が並ぶ美しい種で、宝石の名を冠する。昆虫のほか小型の脊椎動物や果実も食べる。飼育種として人気があり、爬虫類イベントでも見られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "takydromus-toyamai",
+  "group": "lizard",
+  "nameJa": "ミヤコカナヘビ",
+  "nameSci": "Takydromus toyamai",
+  "nameEn": "Miyako Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   200,
+   280
+  ],
+  "description": "宮古諸島に固有のカナヘビ。緑色から緑褐色の体に長い尾をもち、草地や農地の茂みで昆虫を捕らえる。生息地が狭く、開発や外来種の影響で個体数が激減し、環境省の絶滅危惧IA類に指定される。飼育下繁殖を含む保全の取り組みが進められている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "lacerta-viridis",
+  "group": "lizard",
+  "nameJa": "ヨーロッパミドリトカゲ",
+  "nameSci": "Lacerta viridis",
+  "nameEn": "European Green Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   300,
+   400
+  ],
+  "description": "ヨーロッパ南東部の草地や林縁にすむ大型のカナヘビ。全身が鮮やかな緑色で、繁殖期のオスは喉が青くなる。石垣や藪の間を素早く駆け、昆虫や小動物を捕食する。日本ではあまり流通しない。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "basiliscus-basiliscus",
+  "group": "lizard",
+  "nameJa": "カブトバシリスク",
+  "nameSci": "Basiliscus basiliscus",
+  "nameEn": "Common Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   500,
+   800
+  ],
+  "description": "中央アメリカから南アメリカ北部の熱帯林の川辺にすむ大型のバシリスク。オスは頭部に兜状の高い突起を立てる。褐色の体で泳ぎも潜水も巧みで、外敵から逃れるときは水面を二本足で走る。昆虫や小動物、果実を食べる雑食性。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "basiliscus-plumifrons",
+  "group": "lizard",
+  "nameJa": "グリーンバシリスク",
+  "nameSci": "Basiliscus plumifrons",
+  "nameEn": "Green Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   600,
+   900
+  ],
+  "description": "中央アメリカの水辺の森にすむ鮮やかな緑色のトカゲ。オスは頭・背・尾に帆のようなクレストを立てる。驚くと後ろ足で水面を走って逃げることから「イエス・キリストのトカゲ」とも呼ばれる。動物園や爬虫類ショップの人気種。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "basiliscus-vittatus",
+  "group": "lizard",
+  "nameJa": "ブラウンバシリスク",
+  "nameSci": "Basiliscus vittatus",
+  "nameEn": "Striped Basilisk",
+  "family": "カブトトカゲ科",
+  "familySci": "Corytophanidae",
+  "sizeMm": [
+   400,
+   700
+  ],
+  "description": "メキシコから中央アメリカの川辺にすむ褐色のバシリスク。体側に淡い縦筋が入り、オスは頭に小さな帆状の突起をもつ。水辺の枝で待ち伏せし、驚くと水面を二本足で走って逃げる。丈夫で流通量も多く、入門的な種として飼育される。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "北アメリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "furcifer-oustaleti",
+  "group": "lizard",
+  "nameJa": "ウスタレカメレオン",
+  "nameSci": "Furcifer oustaleti",
+  "nameEn": "Oustalet's Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   500,
+   700
+  ],
+  "description": "マダガスカルに広く分布する世界最大級のカメレオン。全長70cmに達し、灰褐色の地味な体色をもつ。乾燥した林から人家周辺まで幅広い環境に適応し、昆虫のほか小型の脊椎動物も捕食する。動物園で大型カメレオンとして展示される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
   },
   "zooDisplay": true
  },
@@ -192,6 +1630,920 @@
   "zooDisplay": true
  },
  {
+  "id": "furcifer-lateralis",
+  "group": "lizard",
+  "nameJa": "カーペットカメレオン",
+  "nameSci": "Furcifer lateralis",
+  "nameEn": "Carpet Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   170,
+   250
+  ],
+  "description": "マダガスカルに分布する小型のカメレオン。メスは繁殖期に紫や赤、白の複雑な模様を鮮やかに現し、絨毯のような美しさから名がついた。低木や草地にすみ、小さな昆虫を食べる。丈夫で繁殖もしやすく、飼育対象として流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "rieppeleon-brevicaudatus",
+  "group": "lizard",
+  "nameJa": "コノハカメレオン",
+  "nameSci": "Rieppeleon brevicaudatus",
+  "nameEn": "Bearded Pygmy Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   50,
+   80
+  ],
+  "description": "タンザニアなど東アフリカの森の下層にすむ小型のカメレオン。全長7cm前後で、枯れ葉そっくりの褐色をまとい、あごの下にひげ状の突起をもつ。落ち葉の上や低木で微小な昆虫を捕らえる。小型で飼いやすく、爬虫類ショップで流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "超小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "trioceros-jacksonii",
+  "group": "lizard",
+  "nameJa": "ジャクソンカメレオン",
+  "nameSci": "Trioceros jacksonii",
+  "nameEn": "Jackson's Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   250,
+   380
+  ],
+  "description": "ケニアやタンザニアの高地林にすむカメレオン。オスは頭部に三本の角をもち、恐竜のような姿で知られる。卵ではなく子を産む卵胎生で、一度に多数の幼体を産む。ハワイなどにも移入定着している。飼育・展示ともに機会が多い人気種。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chamaeleo-senegalensis",
+  "group": "lizard",
+  "nameJa": "セネガルカメレオン",
+  "nameSci": "Chamaeleo senegalensis",
+  "nameEn": "Senegal Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   200,
+   300
+  ],
+  "description": "西アフリカのサバンナや疎林にすむ中型のカメレオン。緑を基調とした落ち着いた体色で、比較的安価に多く輸入される入門的なカメレオン。乾季と雨季のある環境に適応し、樹上で昆虫を待ち伏せする。爬虫類ショップで見かける機会が多い。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chamaeleo-chamaeleon",
+  "group": "lizard",
+  "nameJa": "チチュウカイカメレオン",
+  "nameSci": "Chamaeleo chamaeleon",
+  "nameEn": "Mediterranean Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   200,
+   300
+  ],
+  "description": "北アフリカから中東、南ヨーロッパにかけて分布する、ヨーロッパ唯一のカメレオン。低木林にすみ、緑や褐色に体色を変えて枝に潜む。長い舌を伸ばして昆虫を捕らえる。スペインなど地中海地方でも見られるが、国内での飼育流通は少ない。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "ヨーロッパ",
+    "アフリカ",
+    "西アジア"
+   ],
+   "breeding": "夏〜秋",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "trioceros-deremensis",
+  "group": "lizard",
+  "nameJa": "デレマカメレオン",
+  "nameSci": "Trioceros deremensis",
+  "nameEn": "Usambara Three-horned Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   270,
+   380
+  ],
+  "description": "タンザニアのウサンバラ山地の森にすむカメレオン。オスは鼻先に三本の角をもち、緑地に白や黄の帯が入る美しい姿で知られる。冷涼で湿った山地林を好み、昆虫を捕らえる。飼育目的で流通するが、生息地は限られている。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chamaeleo-namaquensis",
+  "group": "lizard",
+  "nameJa": "ナマクアカメレオン",
+  "nameSci": "Chamaeleo namaquensis",
+  "nameEn": "Namaqua Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   160,
+   250
+  ],
+  "description": "アフリカ南西部ナミブ砂漠周辺の乾燥地にすむ、地表を歩き回る地上性のカメレオン。朝は黒く体色を変えて素早く体を温める。長距離を移動して昆虫を探し、暑さに強い。ドキュメンタリーで有名だが、飼育流通はほとんどなく国内では見られない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "calumma-parsonii",
+  "group": "lizard",
+  "nameJa": "パーソンカメレオン",
+  "nameSci": "Calumma parsonii",
+  "nameEn": "Parson's Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   400,
+   680
+  ],
+  "description": "マダガスカル東部の湿った森にすむ、世界最重量級の巨大なカメレオン。全長60cm以上に達し、青緑の体とがっしりした体つきが印象的。動作はゆっくりで、大きな昆虫や小動物を捕食する。高級種として動物園や愛好家の間で展示・飼育される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "furcifer-pardalis",
+  "group": "lizard",
+  "nameJa": "パンサーカメレオン",
+  "nameSci": "Furcifer pardalis",
+  "nameEn": "Panther Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   350,
+   520
+  ],
+  "description": "マダガスカル北部の低地林にすむ中型のカメレオン。オスは産地ごとに赤・青・緑など鮮烈な体色を示し、色変わりの美しさで世界的に人気が高い。左右別々に動く目で獲物を探し、長い舌を伸ばして昆虫を捕らえる。飼育例が多く動物園でもよく見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "brookesia-superciliaris",
+  "group": "lizard",
+  "nameJa": "ヒメカメレオン",
+  "nameSci": "Brookesia superciliaris",
+  "nameEn": "Brown Leaf Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   70,
+   110
+  ],
+  "description": "マダガスカルの熱帯雨林の林床にすむごく小型のカメレオン。全長10cm前後で、枯れ葉に擬態した褐色の体をもち、昼は落ち葉の間を歩き、夜は低い枝先で眠る。色変化は乏しい。生息地が限られ、国内で見る機会はほとんどない希少な仲間。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "超小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "マダガスカル"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "trioceros-melleri",
+  "group": "lizard",
+  "nameJa": "ミューラーカメレオン",
+  "nameSci": "Trioceros melleri",
+  "nameEn": "Meller's Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   400,
+   610
+  ],
+  "description": "タンザニアやマラウイの森にすむ、アフリカ本土最大級のカメレオン。全長60cmほどで、鼻先の小さな角と背の帆状のクレストが特徴。緑地に黄色い帯が入る。昆虫や小鳥を捕らえる。存在感のある大型種として爬虫類イベントで流通する。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "trioceros-quadricornis",
+  "group": "lizard",
+  "nameJa": "ヨツヅノカメレオン",
+  "nameSci": "Trioceros quadricornis",
+  "nameEn": "Four-horned Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   250,
+   370
+  ],
+  "description": "カメルーンの高地の森にすむカメレオン。オスは鼻先に四本の角をもち、背にはのこぎり状のクレストが並ぶ。涼しく湿った環境を好み、昆虫を捕食する。独特の角の姿から人気があり、爬虫類イベントなどで流通する。生息地の森林減少が心配される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crotaphytus-collaris",
+  "group": "lizard",
+  "nameJa": "クビワトカゲ",
+  "nameSci": "Crotaphytus collaris",
+  "nameEn": "Eastern Collared Lizard",
+  "family": "クビワトカゲ科",
+  "familySci": "Crotaphytidae",
+  "sizeMm": [
+   200,
+   380
+  ],
+  "description": "北アメリカ中南部の岩の多い乾燥地にすむ中型のトカゲ。首の後ろに二本の黒い首輪模様があるのが名の由来で、オスは青緑や黄の鮮やかな体色になる。後ろ足だけで立ち上がって走る姿が見られる。色彩が美しく愛好家に飼育される。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "phrynosoma-platyrhinos",
+  "group": "lizard",
+  "nameJa": "サバクツノトカゲ",
+  "nameSci": "Phrynosoma platyrhinos",
+  "nameEn": "Desert Horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   90,
+   140
+  ],
+  "description": "北アメリカ南西部の砂漠にすむツノトカゲ。砂の色に溶け込む灰褐色で、頭の角はテキサスツノトカゲより短い。日中に地表を歩き回ってアリを食べ、危険が迫ると砂に潜る。餌の問題から飼育は難しく、国内での展示はごく限られる。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phrynosoma-cornutum",
+  "group": "lizard",
+  "nameJa": "テキサスツノトカゲ",
+  "nameSci": "Phrynosoma cornutum",
+  "nameEn": "Texas Horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "北アメリカ中南部からメキシコの乾いた草原や砂地にすむ、平たく丸い体のトカゲ。頭の後ろに大きな角が並び、アリを主食にする。身を守るため目から血を噴き出すことで知られる。餌が特殊で飼育が難しく、国内で見る機会は少ない。",
+  "tags": {
+   "habitat": [
+    "砂漠棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "phrynosoma-hernandesi",
+  "group": "lizard",
+  "nameJa": "ヤマツノトカゲ",
+  "nameSci": "Phrynosoma hernandesi",
+  "nameEn": "Greater Short-horned Lizard",
+  "family": "ツノトカゲ科",
+  "familySci": "Phrynosomatidae",
+  "sizeMm": [
+   70,
+   150
+  ],
+  "description": "北アメリカ西部の高地の草原や林にすむツノトカゲ。頭の角が短く、標高の高い涼しい環境に適応している。卵を産まず子を直接産む卵胎生で、夏に十数匹の幼体を産む。アリを主食とし、国内で見る機会はほとんどない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "夏（卵胎生）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "salvator-rufescens",
+  "group": "lizard",
+  "nameJa": "アカテグー",
+  "nameSci": "Salvator rufescens",
+  "nameEn": "Red Tegu",
+  "family": "テユー科",
+  "familySci": "Teiidae",
+  "sizeMm": [
+   1000,
+   1400
+  ],
+  "description": "アルゼンチンなど南米南部の乾いた林や草原にすむ大型のテユー。成長すると全身が赤褐色に色づくことからこの名がある。丈夫で雑食性、よく慣れるため飼育種として人気が高い。爬虫類イベントでもしばしば見られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "salvator-merianae",
+  "group": "lizard",
+  "nameJa": "アルゼンチンクロシロテグー",
+  "nameSci": "Salvator merianae",
+  "nameEn": "Argentine Black and White Tegu",
+  "family": "テユー科",
+  "familySci": "Teiidae",
+  "sizeMm": [
+   1000,
+   1400
+  ],
+  "description": "南米に分布するテユー科最大級のトカゲ。黒と白のまだら模様をもち、繁殖期に体温を自ら上げられるなど哺乳類的な生理をもつことで注目される。雑食性で知能が高く、人にもよく慣れる。飼育種として人気があり、爬虫類イベントでもよく見られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tupinambis-teguixin",
+  "group": "lizard",
+  "nameJa": "ゴールデンテグー",
+  "nameSci": "Tupinambis teguixin",
+  "nameEn": "Gold Tegu",
+  "family": "テユー科",
+  "familySci": "Teiidae",
+  "sizeMm": [
+   900,
+   1200
+  ],
+  "description": "南米北部の熱帯林にすむテユー科のトカゲ。黒地に金色がかった帯や斑が入る体色をもつ。地表を活発に歩き回り、昆虫や小動物、果実など幅広く食べる雑食性。他のテグーよりやや小ぶりで、国内でも流通する。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tiliqua-scincoides",
+  "group": "lizard",
+  "nameJa": "アオジタトカゲ",
+  "nameSci": "Tiliqua scincoides",
+  "nameEn": "Eastern Blue-tongued Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   400,
+   600
+  ],
+  "description": "オーストラリア東部から北部に分布する大型のスキンク。名前の通り青い舌を大きく突き出し、口を開けて敵を威嚇する。ずんぐりした胴に短い四肢をもち、動きはゆったりしている。雑食性で丈夫なため、キタアオジタなどが飼育種として非常に人気が高く、爬虫類イベントの定番となっている。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ateuchosaurus-pellopleurus",
+  "group": "lizard",
+  "nameJa": "アオスジトカゲ",
+  "nameSci": "Ateuchosaurus pellopleurus",
+  "nameEn": "Japanese Short-legged Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   100,
+   150
+  ],
+  "description": "奄美・沖縄の島々に分布するトカゲ科の一種。ずんぐりした体形で四肢が短く、体側に暗色の帯が走る。湿った常緑林の落ち葉や倒木の下にひそみ、地表を這うように移動して小さな昆虫を探す。目立たず、生息状況の把握が難しい種として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-stimpsonii",
+  "group": "lizard",
+  "nameJa": "イシガキトカゲ",
+  "nameSci": "Plestiodon stimpsonii",
+  "nameEn": "Ishigaki Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   130,
+   200
+  ],
+  "description": "石垣島・西表島に分布する固有のトカゲ。細身の体に金属光沢があり、幼体は黒地に金色の縦条と鮮やかな青い尾をもつ。森林の林床や渓流沿いの岩場で日光浴し、昆虫を捕食する。分布が八重山の一部に限られ、保全上重要な種とされる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-oshimensis",
+  "group": "lizard",
+  "nameJa": "オオシマトカゲ",
+  "nameSci": "Plestiodon oshimensis",
+  "nameEn": "Oshima Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   140,
+   220
+  ],
+  "description": "奄美群島に分布する固有のトカゲ。褐色の体に金属光沢があり、幼体は黒地に淡い縦条と青い尾をもつ。森林の林床や石垣、耕作地の周辺で日光浴し、昆虫やクモを捕食する。長らくオキナワトカゲと同種とされてきたが、現在は別種として扱われる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "cryptoblepharus-nigropunctatus",
+  "group": "lizard",
+  "nameJa": "オガサワラトカゲ",
+  "nameSci": "Cryptoblepharus nigropunctatus",
+  "nameEn": "Ogasawara Snake-eyed Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "小笠原諸島に分布する固有の小型トカゲ。褐色の体に細かな黒点が散り、まぶたが透明な膜状で目を閉じない。岩場や樹幹、人家の壁を活発に動き回り昆虫を捕食する。移入されたグリーンアノールに捕食され、各地で減少が懸念されている。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-latiscutatus",
+  "group": "lizard",
+  "nameJa": "オカダトカゲ",
+  "nameSci": "Plestiodon latiscutatus",
+  "nameEn": "Okada's Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   150,
+   220
+  ],
+  "description": "伊豆半島と伊豆諸島に分布する日本固有のトカゲ。ニホントカゲ類に似た体形で、島ごとに体色や斑紋、尾の青みが変異する。海岸の岩場から草地まで幅広く生息し、島によっては非常に高密度で見られる。捕食者相の違いによる進化生態の研究対象として知られる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-marginatus",
+  "group": "lizard",
+  "nameJa": "オキナワトカゲ",
+  "nameSci": "Plestiodon marginatus",
+  "nameEn": "Okinawa Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   140,
+   220
+  ],
+  "description": "沖縄諸島を中心に分布する固有のトカゲ。金属光沢のある褐色の体をもち、幼体は黒地に淡い縦条と青い尾が目立つ。林縁や畑、石垣など日当たりのよい場所を好み、素早く動いて昆虫を捕らえる。近縁のオオシマトカゲやバーバートカゲと分布域を分ける。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "corucia-zebrata",
+  "group": "lizard",
+  "nameJa": "オマキトカゲ",
+  "nameSci": "Corucia zebrata",
+  "nameEn": "Prehensile-tailed Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   500,
+   800
+  ],
+  "description": "ソロモン諸島に固有の世界最大級のスキンク。長い尾を枝に巻きつけて樹上で暮らし、鉤爪と尾で器用に木を登る。植物の葉や果実を食べる草食性で、夜行性。一度に大きな子を一匹産む胎生で知られる。CITES附属書IIに掲載され、動物園でも飼育される。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "不明",
+   "redlist": "情報不足(DD)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "plestiodon-kishinouyei",
+  "group": "lizard",
+  "nameJa": "キシノウエトカゲ",
+  "nameSci": "Plestiodon kishinouyei",
+  "nameEn": "Kishinoue's Giant Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   250,
+   400
+  ],
+  "description": "宮古・八重山諸島に分布する日本最大のトカゲ科で、全長は40cm近くに達する。太くがっしりした体つきで、成体は褐色、幼体は縦条と青い尾をもつ。海岸林や農地の石積みにすみ、昆虫のほか小動物も食べる。国の天然記念物に指定され、絶滅が危惧される希少種。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tiliqua-occipitalis",
+  "group": "lizard",
+  "nameJa": "ニシアオジタトカゲ",
+  "nameSci": "Tiliqua occipitalis",
+  "nameEn": "Western Blue-tongued Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   400,
+   500
+  ],
+  "description": "オーストラリア南西部の乾燥した低木地や半砂漠にすむアオジタトカゲの一種。背面には淡褐色の地に黒褐色の太い横帯が並び、目の後ろに黒い筋が走る。夜間や薄暮に活動することも多い。おとなしく飼育もされるが、流通量はアオジタトカゲより少ない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
   "id": "plestiodon-japonicus",
   "group": "lizard",
   "nameJa": "ニホントカゲ",
@@ -222,5 +2574,321 @@
    "redlist": "ランク外"
   },
   "zooDisplay": true
+ },
+ {
+  "id": "plestiodon-barbouri",
+  "group": "lizard",
+  "nameJa": "バーバートカゲ",
+  "nameSci": "Plestiodon barbouri",
+  "nameEn": "Barbour's Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   100,
+   160
+  ],
+  "description": "トカラ列島から奄美・沖縄の島々に分布する小型のトカゲ。褐色の地に不明瞭な縦条があり、湿った森林の落ち葉の下や倒木のまわりで見られる。地表性が強く、驚くと素早く物陰に隠れる。島ごとに変異があり、生息地が限られるため保全上注目される。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "plestiodon-finitimus",
+  "group": "lizard",
+  "nameJa": "ヒガシニホントカゲ",
+  "nameSci": "Plestiodon finitimus",
+  "nameEn": "Far Eastern Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   160,
+   250
+  ],
+  "description": "東日本と北海道に分布する光沢の強いトカゲ。西日本のニホントカゲとよく似るが遺伝的に区別される別種で、両種は中部地方付近で境を接する。幼体は黒地に金色の縦条と青い尾をもち、成長すると褐色になる。日当たりのよい石垣や林縁で日光浴し、驚くと尾を自切して逃げる。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "scincella-boettgeri",
+  "group": "lizard",
+  "nameJa": "ヘリグロヒメトカゲ",
+  "nameSci": "Scincella boettgeri",
+  "nameEn": "Boettger's Ground Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "奄美・沖縄の森林にすむ小型のトカゲ。細長い体に短い四肢をもち、体側の縁が黒っぽく縁取られる。落ち葉の積もった湿った林床をすばやく縫うように動き、微小な昆虫やクモを食べる。地味で小さく、林床の色にまぎれて見つけにくい。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜7月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "tiliqua-nigrolutea",
+  "group": "lizard",
+  "nameJa": "マダラアオジタトカゲ",
+  "nameSci": "Tiliqua nigrolutea",
+  "nameEn": "Blotched Blue-tongued Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   400,
+   550
+  ],
+  "description": "オーストラリア南東部からタスマニアの冷涼な地域に分布するアオジタトカゲ。黒褐色の地に橙や黄の斑がまだら状に散る渋い体色をもつ。冷涼な気候に適応し、他のアオジタより低温に強い。国内でも爬虫類ショップで見かけることがある。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜初夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "tiliqua-rugosa",
+  "group": "lizard",
+  "nameJa": "マツカサトカゲ",
+  "nameSci": "Tiliqua rugosa",
+  "nameEn": "Shingleback Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   260,
+   450
+  ],
+  "description": "オーストラリアの乾燥地に広く分布する、大きく硬い松かさ状の鱗に覆われたスキンク。短く太い尾は頭に似せた囮とされる。同じ相手と何年もつがい関係を続ける一夫一妻的な性質で知られる。動きは遅く、国内でも飼育・展示例がある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春（交尾）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "emoia-atrocostata",
+  "group": "lizard",
+  "nameJa": "ミヤコトカゲ",
+  "nameSci": "Emoia atrocostata",
+  "nameEn": "Littoral Whiptail Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   150,
+   200
+  ],
+  "description": "南西諸島の海岸に分布するトカゲ科で、潮間帯の岩礁やマングローブ周辺という珍しい環境にすむ。オリーブ褐色のすらりとした体をもち、岩の上を敏捷に走って甲殻類や昆虫を捕らえる。海水しぶきのかかる岩場で日光浴する姿が見られる。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "地表棲"
+   ],
+   "origin": "在来",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": false
+ },
+ {
+  "id": "heloderma-suspectum",
+  "group": "lizard",
+  "nameJa": "アメリカドクトカゲ",
+  "nameSci": "Heloderma suspectum",
+  "nameEn": "Gila Monster",
+  "family": "ドクトカゲ科",
+  "familySci": "Helodermatidae",
+  "sizeMm": [
+   350,
+   560
+  ],
+  "description": "アメリカ南西部からメキシコの砂漠にすむ、数少ない有毒トカゲの一種。ビーズ状の鱗に覆われ、黒とオレンジ〜ピンクの警告色をもつ。下顎の毒腺から出す毒を噛みついて注入する。動きは遅い。国内でもドクトカゲ類として展示される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "薄明薄暮性",
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "初夏",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "heloderma-horridum",
+  "group": "lizard",
+  "nameJa": "メキシコドクトカゲ",
+  "nameSci": "Heloderma horridum",
+  "nameEn": "Mexican Beaded Lizard",
+  "family": "ドクトカゲ科",
+  "familySci": "Helodermatidae",
+  "sizeMm": [
+   600,
+   900
+  ],
+  "description": "メキシコの乾燥林にすむ有毒トカゲで、アメリカドクトカゲより大型。黒っぽい地に淡黄色の斑が入り、ビーズ状の鱗をもつ。噛みつくと下顎の毒腺から毒を流し込む。地表や地中で暮らし、卵や小動物を食べる。国内での展示は限られる。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": true,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ouroborus-cataphractus",
+  "group": "lizard",
+  "nameJa": "アルマジロトカゲ",
+  "nameSci": "Ouroborus cataphractus",
+  "nameEn": "Armadillo Girdled Lizard",
+  "family": "ヨロイトカゲ科",
+  "familySci": "Cordylidae",
+  "sizeMm": [
+   150,
+   210
+  ],
+  "description": "南アフリカの岩場にすむ、全身がとげ状の鱗で覆われたヨロイトカゲ。敵に襲われると自分の尾をくわえて体を丸め、アルマジロのように身を守る。乾燥地の岩の隙間で群れて暮らす。人気の高い飼育種で、国内でも展示される。",
+  "tags": {
+   "habitat": [
+    "岩場棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "春（交尾）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "smaug-giganteus",
+  "group": "lizard",
+  "nameJa": "オオヨロイトカゲ",
+  "nameSci": "Smaug giganteus",
+  "nameEn": "Sungazer",
+  "family": "ヨロイトカゲ科",
+  "familySci": "Cordylidae",
+  "sizeMm": [
+   300,
+   400
+  ],
+  "description": "南アフリカの草原にすむ大型のヨロイトカゲで、サンゲイザーの別名をもつ。太く硬いとげ状の鱗に覆われ、自分で掘った巣穴の入口で日光浴する。生息地の開発で数を減らし、国際的に危急種とされる。国内で見る機会は少ない。",
+  "tags": {
+   "habitat": [
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "春（交尾）",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": false
  }
 ]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "geoemyda-japonica",
+    "nameJa": "リュウキュウヤマガメ",
+    "nameSci": "Geoemyda japonica",
+    "nameEn": "Ryukyu Black-breasted Leaf Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [120, 160],
+    "description": "沖縄島・渡嘉敷島・久米島だけにすむ日本固有の、陸生傾向が強いカメ。褐色の甲羅は後縁がのこぎり状に尖り、湿った森林の林床を歩き回ってミミズや果実を食べる。開発やマングースの食害で激減し、国の天然記念物・国内希少野生動植物種に指定されている。沖縄こどもの国などで保護・展示されている。",
+    "tags": {
+      "habitat": ["陸棲", "半水棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜8月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "cuora-flavomarginata",
+    "nameJa": "セマルハコガメ",
+    "nameSci": "Cuora flavomarginata",
+    "nameEn": "Yellow-margined Box Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [130, 190],
+    "description": "腹甲に蝶番があり、頭や手足を引っ込めて甲羅を完全に閉じられる箱型のカメ。日本では石垣島・西表島に固有亜種ヤエヤマセマルハコガメが分布し、国の天然記念物。湿った森林や農地の周辺で暮らす雑食性で、密猟や、沖縄島に持ち込まれた個体とリュウキュウヤマガメの交雑が問題になっている。",
+    "tags": {
+      "habitat": ["陸棲", "半水棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "6〜9月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "mauremys-mutica",
+    "nameJa": "ミナミイシガメ",
+    "nameSci": "Mauremys mutica",
+    "nameEn": "Yellow Pond Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [130, 195],
+    "description": "黄褐色の頭と滑らかな甲羅をもつ淡水ガメ。日本では石垣島・西表島に固有亜種ヤエヤマイシガメが自然分布する在来種だが、京都など本州にも中国産の個体が放され、ニホンイシガメとの交雑が懸念されている。水辺の草地や水田の周辺を好み、夜間や薄暮に活発に動く。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "5〜8月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chelydra-serpentina",
+    "nameJa": "カミツキガメ",
+    "nameSci": "Chelydra serpentina",
+    "nameEn": "Snapping Turtle",
+    "family": "カミツキガメ科",
+    "familySci": "Chelydridae",
+    "sizeMm": [250, 470],
+    "description": "北アメリカ原産の大型淡水ガメで、日本では千葉県の印旛沼水系や静岡県で野生化・繁殖し、特定外来生物に指定されている。長い尾とごつごつした甲羅をもち、陸上では首を素早く伸ばして噛みつくため危険。雑食性で在来生態系への影響が大きく、千葉県では計画的な防除が続けられている。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "外来",
+      "size": "大型",
+      "activity": ["夜行性", "昼行性"],
+      "toxic": false,
+      "region": ["日本", "北アメリカ"],
+      "breeding": "5〜6月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "macrochelys-temminckii",
+    "nameJa": "ワニガメ",
+    "nameSci": "Macrochelys temminckii",
+    "nameEn": "Alligator Snapping Turtle",
+    "family": "カミツキガメ科",
+    "familySci": "Chelydridae",
+    "sizeMm": [400, 750],
+    "description": "背甲に3本の鋭い隆起が走る北アメリカ最大級の淡水ガメ。口内にあるミミズ状の突起を動かして魚をおびき寄せ、強力な顎でとらえる待ち伏せ型の捕食者。日本にはペットとして輸入され、放逐された個体が河川で捕獲される例がある。水族館や動物園で迫力ある姿が展示されている。",
+    "tags": {
+      "habitat": ["淡水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "caretta-caretta",
+    "nameJa": "アカウミガメ",
+    "nameSci": "Caretta caretta",
+    "nameEn": "Loggerhead Sea Turtle",
+    "family": "ウミガメ科",
+    "familySci": "Cheloniidae",
+    "sizeMm": [700, 1000],
+    "description": "赤褐色の大きな頭と強い顎をもつウミガメで、貝やカニなど硬い獲物を噛み砕いて食べる。北太平洋では日本の砂浜がほぼ唯一の産卵地で、本州から南西諸島の海岸に上陸する。混獲や海岸開発で数を減らし、環境省の絶滅危惧IB類。水族館で最もよく飼育・展示されるウミガメのひとつ。",
+    "tags": {
+      "habitat": ["海棲"],
+      "origin": "在来",
+      "size": "超大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "北アメリカ"],
+      "breeding": "5〜8月",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "eretmochelys-imbricata",
+    "nameJa": "タイマイ",
+    "nameSci": "Eretmochelys imbricata",
+    "nameEn": "Hawksbill Sea Turtle",
+    "family": "ウミガメ科",
+    "familySci": "Cheloniidae",
+    "sizeMm": [600, 900],
+    "description": "くちばし状に尖った上顎と、瓦のように重なり合う美しい甲板をもつウミガメ。サンゴ礁にすみ、主にカイメンを食べる。甲羅は「べっ甲」細工の原料として乱獲され、世界的に激減した。日本では南西諸島の海でみられ、一部で産卵も記録される。環境省の絶滅危惧IB類で、水族館でも展示されている。",
+    "tags": {
+      "habitat": ["海棲"],
+      "origin": "在来",
+      "size": "超大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東南アジア"],
+      "breeding": "春〜夏",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "dermochelys-coriacea",
+    "nameJa": "オサガメ",
+    "nameSci": "Dermochelys coriacea",
+    "nameEn": "Leatherback Sea Turtle",
+    "family": "オサガメ科",
+    "familySci": "Dermochelyidae",
+    "sizeMm": [1300, 1900],
+    "description": "甲羅が骨板でなく革状の皮膚に覆われた、現生最大のウミガメ。背に7本の隆起が走る流線形の体で外洋を回遊し、主にクラゲを食べる。体温を保つしくみをもち冷たい海にも進出する。日本近海には回遊や漂着で現れるが産卵記録はなく、大型で飼育が難しいため国内で展示されることはほとんどない。",
+    "tags": {
+      "habitat": ["海棲"],
+      "origin": "在来",
+      "size": "超大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東南アジア"],
+      "breeding": "日本では産卵記録なし",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lepidochelys-olivacea",
+    "nameJa": "ヒメウミガメ",
+    "nameSci": "Lepidochelys olivacea",
+    "nameEn": "Olive Ridley Sea Turtle",
+    "family": "ウミガメ科",
+    "familySci": "Cheloniidae",
+    "sizeMm": [600, 720],
+    "description": "甲長70cm前後と、ウミガメの中で最も小さい種のひとつ。灰緑色の丸みを帯びた甲羅をもち、外洋でカニやクラゲなどを食べる。世界の熱帯・亜熱帯の海に広く分布し、集団で一斉に上陸産卵する「アリバダ」で知られる。日本近海には迷い込む程度で産卵はなく、国内で見る機会は少ない。",
+    "tags": {
+      "habitat": ["海棲"],
+      "origin": "在来",
+      "size": "大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東南アジア"],
+      "breeding": "日本では産卵記録なし",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "mauremys-sinensis",
+    "nameJa": "ハナガメ",
+    "nameSci": "Mauremys sinensis",
+    "nameEn": "Chinese Stripe-necked Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [180, 240],
+    "description": "首すじに黄色い縦じまが走る中国・ベトナム原産の淡水ガメ。ペットとして輸入されたものが沖縄島や各地の水辺で野生化し、特定外来生物に指定されている。在来のニホンイシガメやクサガメ、ミナミイシガメと交雑して遺伝的攪乱を起こすことが問題視されている。雑食性で池や水路にすむ。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "外来",
+      "size": "中型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "4〜8月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  }
+]

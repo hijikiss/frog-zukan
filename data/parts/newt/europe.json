@@ -1,0 +1,422 @@
+[
+  {
+    "id": "triturus-cristatus",
+    "nameJa": "キタクシイモリ",
+    "nameSci": "Triturus cristatus",
+    "nameEn": "Northern Crested Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [110, 170],
+    "description": "ヨーロッパ北部から中部の池や水辺周辺の森にすむ大型のイモリ。黒褐色の地に腹は橙色と黒斑で彩られ、繁殖期のオスは背から尾にかけて高い櫛状の隆起を発達させる。春に水中へ入って繁殖し、それ以外は林床の物陰で過ごす。皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "triturus-carnifex",
+    "nameJa": "イタリアクシイモリ",
+    "nameSci": "Triturus carnifex",
+    "nameEn": "Italian Crested Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 180],
+    "description": "イタリア半島とアルプス周辺に分布するクシイモリの一種。キタクシイモリに似るが体はやや太く、背の隆起は繁殖期のオスで顕著になる。腹面は黄から橙色で黒斑が入る。春の繁殖期を池で過ごし、夏以降は湿った林床で暮らす。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "triturus-dobrogicus",
+    "nameJa": "ドナウクシイモリ",
+    "nameSci": "Triturus dobrogicus",
+    "nameEn": "Danube Crested Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [110, 160],
+    "description": "ドナウ川流域の低地の池や氾濫原にすむクシイモリの仲間。近縁種の中では体が細長く四肢が短い。繁殖期のオスは鋸歯状の高い背隆起を持ち、腹は鮮やかな橙色に黒斑が散る。低地の止水域に強く依存し、生息地の減少が懸念されている。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜6月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "triturus-karelinii",
+    "nameJa": "ミナミクシイモリ",
+    "nameSci": "Triturus karelinii",
+    "nameEn": "Southern Crested Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 170],
+    "description": "バルカン半島東部からトルコ北部、カフカス、カスピ海沿岸に分布する大型のクシイモリ。がっしりした体つきで、腹面は橙色に黒い斑紋が入る。春の繁殖期には池に集まり、オスは背に隆起を出す。分布域は広く、丘陵の水辺周辺に見られる。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ", "西アジア"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "triturus-pygmaeus",
+    "nameJa": "ヒメマダライモリ",
+    "nameSci": "Triturus pygmaeus",
+    "nameEn": "Southern Marbled Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 130],
+    "description": "イベリア半島南部に分布する小型のマダライモリの一種。緑と黒の大理石模様を持ち、マダライモリより小さく背中線の淡い縦条が目立つ。繁殖期は水中で過ごし、それ以外は乾いた地表の物陰にひそむ。地中海性の乾燥した環境に適応している。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "1〜4月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lissotriton-vulgaris",
+    "nameJa": "スベイモリ",
+    "nameSci": "Lissotriton vulgaris",
+    "nameEn": "Smooth Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [70, 110],
+    "description": "ヨーロッパから西アジアにかけて広く分布する小型のイモリ。ふだんは滑らかな褐色の体だが、繁殖期のオスは背に波打つ大きな隆起を発達させ、体側に斑点が現れる。春に池や水たまりへ集まって繁殖し、陸では落ち葉の下などで過ごす。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ", "西アジア"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lissotriton-helveticus",
+    "nameJa": "ミズカキイモリ",
+    "nameSci": "Lissotriton helveticus",
+    "nameEn": "Palmate Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [60, 95],
+    "description": "西ヨーロッパの森林や湿地にすむ小型のイモリ。繁殖期のオスは後肢に黒い水かきが発達し、尾の先が糸状に短く伸びるのが特徴。喉が斑点のない淡色である点でスベイモリと区別できる。春に水域で繁殖し、酸性の水にも耐える。皮膚に弱い毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lissotriton-boscai",
+    "nameJa": "ボスカイモリ",
+    "nameSci": "Lissotriton boscai",
+    "nameEn": "Bosca's Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [70, 100],
+    "description": "イベリア半島に固有の小型のイモリ。褐色の背に対して腹は橙色で、体側に小さな黒点が散る。繁殖期のオスは尾を震わせて求愛する。低地から山地の池や水路にすみ、乾季には陸上の物陰にこもる。イベリア半島の水辺を代表するイモリのひとつ。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "2〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ichthyosaura-alpestris",
+    "nameJa": "アルプスイモリ",
+    "nameSci": "Ichthyosaura alpestris",
+    "nameEn": "Alpine Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [80, 120],
+    "description": "ヨーロッパの山地から低地の池にすむ中型のイモリ。背は暗い青灰色、腹は無斑の鮮やかな橙色で、体側に青と黒点の帯が入る美しい種。冷たい水を好み、高山の池では一生を水中で過ごす個体群もいる。飼育しやすく国内でもよく流通し展示される。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "salamandra-atra",
+    "nameJa": "アルプスサラマンダー",
+    "nameSci": "Salamandra atra",
+    "nameEn": "Alpine Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 150],
+    "description": "アルプスやディナルアルプスの高地にすむ光沢のある漆黒のサラマンダー。ファイアサラマンダーの近縁だが全身が黒い。水場を必要とせず、体内で幼生を育てて陸上で完全変態した子を産む胎生で知られる。雨後の地表に現れ、耳腺から刺激性の毒を分泌する。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "夏（交尾）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "salamandra-algira",
+    "nameJa": "キタアフリカファイアサラマンダー",
+    "nameSci": "Salamandra algira",
+    "nameEn": "North African Fire Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 200],
+    "description": "モロッコからチュニジアの北アフリカ山地の湿った森にすむファイアサラマンダーの仲間。黒地に黄色や橙色の斑紋が入る。個体群によって幼生を産むものと卵から孵った子を水に産むものがある。生息地の乾燥化で数を減らしている。国内でも時折流通する。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["アフリカ"],
+      "breeding": "秋〜冬",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "salamandra-corsica",
+    "nameJa": "コルシカファイアサラマンダー",
+    "nameSci": "Salamandra corsica",
+    "nameEn": "Corsican Fire Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [130, 200],
+    "description": "地中海コルシカ島に固有のファイアサラマンダー。黒地に黄色い斑紋を持ち、以前はファイアサラマンダーの亜種とされていた。島の湿った森や渓流沿いにすみ、雨の夜に活動する。幼生は流れの緩い水中で育つ。皮膚から刺激性の分泌物を出す島嶼固有の有尾類。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "salamandrina-terdigitata",
+    "nameJa": "メガネサラマンダー",
+    "nameSci": "Salamandrina terdigitata",
+    "nameEn": "Spectacled Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [70, 110],
+    "description": "イタリア南部に固有の小型で細身のサラマンダー。頭部の目の間に眼鏡のような明色斑があり、腹面と尾の裏は赤い。危険を感じると尾を巻き上げ赤色を見せて警告する。後肢の指が4本と少ないのも特徴。渓流沿いの落ち葉の下にすみ、流水域に産卵する。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "3〜5月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "chioglossa-lusitanica",
+    "nameJa": "キンスジサラマンダー",
+    "nameSci": "Chioglossa lusitanica",
+    "nameEn": "Golden-striped Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [100, 160],
+    "description": "イベリア半島北西部の湿った渓谷や苔むした岩場にすむ細長いサラマンダー。背に一対の金色の縦条が走り、尾は体長の倍近くにおよぶ。素早く動き、危険時には尾を自切する。冷涼で湿潤な環境に強く依存し、生息地の破壊で減少している。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["流水性", "地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "秋〜春",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "calotriton-asper",
+    "nameJa": "ピレネーイモリ",
+    "nameSci": "Calotriton asper",
+    "nameEn": "Pyrenean Brook Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 140],
+    "description": "ピレネー山脈の冷たく澄んだ渓流や山上湖にすむイモリ。皮膚はざらつき、体色は暗褐色で腹に橙色の筋が入る。流れの速い水中で一生の多くを過ごし、岩の隙間に卵を産みつける。標高2000mを超える高地にも分布する。皮膚に毒を持つ渓流性の種。",
+    "tags": {
+      "habitat": ["流水性", "水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["ヨーロッパ"],
+      "breeding": "春〜夏",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "neurergus-kaiseri",
+    "nameJa": "カイザーイモリ",
+    "nameSci": "Neurergus kaiseri",
+    "nameEn": "Kaiser's Spotted Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 140],
+    "description": "イラン西部ザグロス山脈の限られた渓流沿いにすむ美しいイモリ。白地に橙色と黒の斑紋が入る派手な体色で人気が高い。かつて乱獲で激減したが飼育下繁殖が進み、流通の多くは繁殖個体となった。春に山地の清流で繁殖する。国内でもペットとして親しまれる。皮膚毒を持つ。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア"],
+      "breeding": "3〜5月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "neurergus-crocatus",
+    "nameJa": "キボシイモリ",
+    "nameSci": "Neurergus crocatus",
+    "nameEn": "Yellow-spotted Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [120, 180],
+    "description": "トルコ南東部からイラク北部、イラン北西部の山地の渓流にすむイモリ。黒い体に鮮やかな黄色や橙色の斑点が散り、腹は橙色をおびる。冷たく清らかな流れを好み、春に水中で繁殖する。国内でも時折流通する。近縁のカイザーイモリと同様に皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア"],
+      "breeding": "3〜5月",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "neurergus-strauchii",
+    "nameJa": "アナトリアイモリ",
+    "nameSci": "Neurergus strauchii",
+    "nameEn": "Strauch's Spotted Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [140, 200],
+    "description": "トルコ東部の山地の渓流や湧水にすむネウレルグス属最大級のイモリ。黒褐色の体に黄色い斑点が並び、背中線に沿って斑が連なる。冷たく澄んだ流れに強く依存し、春に水中で繁殖する。分布が限られ、生息地の改変で数を減らしている。皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア"],
+      "breeding": "春",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ommatotriton-vittatus",
+    "nameJa": "オビイモリ",
+    "nameSci": "Ommatotriton vittatus",
+    "nameEn": "Southern Banded Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [90, 140],
+    "description": "トルコ南部からレバノン、イスラエルにかけての地中海東岸に分布するイモリ。体側に走る白い縦帯が名の由来で、繁殖期のオスは背に高い帆状の隆起を発達させる。冬から春に雨でできた池で繁殖し、乾季は陸上でひそむ。国内でも流通する。皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア"],
+      "breeding": "冬〜春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ommatotriton-ophryticus",
+    "nameJa": "キタオビイモリ",
+    "nameSci": "Ommatotriton ophryticus",
+    "nameEn": "Northern Banded Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [110, 160],
+    "description": "トルコ北部からカフカス、ロシア南部にかけての森林の池にすむ大型のオビイモリの仲間。体側に白い縦帯があり、繁殖期のオスは背に大きな帆状の隆起を出す。オビイモリより大きく湿潤な環境を好む。春に水域で繁殖し、それ以外は林床で過ごす。皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア", "ヨーロッパ"],
+      "breeding": "春",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "lyciasalamandra-luschani",
+    "nameJa": "リキアサラマンダー",
+    "nameSci": "Lyciasalamandra luschani",
+    "nameEn": "Luschan's Salamander",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [100, 140],
+    "description": "トルコ南西部の石灰岩地帯に固有の陸生サラマンダー。乾いた岩場や崖の割れ目にすみ、水場をまったく必要とせず、体内で育てた子を陸上で産む胎生種。褐色から赤みをおびた体色で、湿った夜に活動する。分布が非常に限られ保全上重要とされる。皮膚に毒を持つ。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["西アジア"],
+      "breeding": "秋",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  }
+]

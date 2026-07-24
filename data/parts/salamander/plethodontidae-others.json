@@ -1,0 +1,443 @@
+[
+  {
+    "id": "siren-lacertina",
+    "nameJa": "オオサイレン",
+    "nameSci": "Siren lacertina",
+    "nameEn": "Greater Siren",
+    "family": "サイレン科",
+    "familySci": "Sirenidae",
+    "sizeMm": [500, 900],
+    "description": "北アメリカ南東部の水草が茂る池沼や緩やかな流れにすむ大型のウナギ形サンショウウオ。後肢を欠き、前肢と赤い外鰓だけを残したまま一生を水中で過ごす。乾季には泥に潜って粘液の繭をつくり休眠する。夜間に小動物や藻を食べる。日本でも観賞用に流通する。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "2〜5月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "siren-intermedia",
+    "nameJa": "コサイレン",
+    "nameSci": "Siren intermedia",
+    "nameEn": "Lesser Siren",
+    "family": "サイレン科",
+    "familySci": "Sirenidae",
+    "sizeMm": [180, 500],
+    "description": "北アメリカ南東部の湿地や水路にすむサイレン科のサンショウウオ。オオサイレンより小型で、前肢のみを持ちウナギのような体を水草の間でくねらせて泳ぐ。生涯外鰓を残して変態しない。水が干上がると泥中で繭をつくって耐える。国内でも飼育される。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "2〜5月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "amphiuma-means",
+    "nameJa": "フタユビアンフューマ",
+    "nameSci": "Amphiuma means",
+    "nameEn": "Two-toed Amphiuma",
+    "family": "アンフューマ科",
+    "familySci": "Amphiumidae",
+    "sizeMm": [400, 1160],
+    "description": "北アメリカ南東部の湿地や排水路にすむ細長いウナギ形のサンショウウオ。四肢は指2本の小さな痕跡だけに退化し、全長1mを超える個体もある。夜間に泥底を這ってザリガニや魚を捕らえる。よく噛みつくため扱いに注意が要る。日本でも観賞用に流通する。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "1〜3月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "amphiuma-tridactylum",
+    "nameJa": "ミツユビアンフューマ",
+    "nameSci": "Amphiuma tridactylum",
+    "nameEn": "Three-toed Amphiuma",
+    "family": "アンフューマ科",
+    "familySci": "Amphiumidae",
+    "sizeMm": [460, 1060],
+    "description": "アメリカ南部のミシシッピ川流域の沼や水路にすむ大型の水生サンショウウオ。フタユビアンフューマに似るが四肢の指が3本ある。細長い体で泥に潜み、夜間にザリガニや小魚を捕食する。メスは湿った岸辺で卵を体に巻きつけて守る。飼育下では長命。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "冬〜春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "proteus-anguinus",
+    "nameJa": "ホライモリ",
+    "nameSci": "Proteus anguinus",
+    "nameEn": "Olm",
+    "family": "ホライモリ科",
+    "familySci": "Proteidae",
+    "sizeMm": [200, 300],
+    "description": "ヨーロッパ南東部ディナルアルプスの地下水系にすむ洞窟性サンショウウオ。色素を欠いた白い体と退化した眼、赤い外鰓を持ち、「人魚の子」とも呼ばれる。一生を暗闇の水中で過ごし、代謝が低く数年間の絶食にも耐える。寿命は非常に長い。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["ヨーロッパ"],
+      "breeding": "通年",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "plethodon-cinereus",
+    "nameJa": "セアカサラマンダー",
+    "nameSci": "Plethodon cinereus",
+    "nameEn": "Eastern Red-backed Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [60, 110],
+    "description": "北アメリカ北東部の森林の落ち葉や倒木の下にすむ小型の肺を持たないサンショウウオ。背に赤い帯が走る型と灰黒色一色の型がある。皮膚呼吸のため湿った林床を離れず、水場を必要とせず陸上の卵から直接仔が孵る。個体数の多い普通種。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "初夏（産卵）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "plethodon-glutinosus",
+    "nameJa": "ネバリサラマンダー",
+    "nameSci": "Plethodon glutinosus",
+    "nameEn": "Northern Slimy Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [120, 205],
+    "description": "北アメリカ東部の森にすむ黒地に銀白色の斑点を散らした肺なしサンショウウオ。刺激を受けると粘着性の強い分泌物を出し、天敵の口を糊のようにふさぐことからこの名がある。倒木や岩の下にすみ、夜間に小さな無脊椎動物を食べる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "ensatina-eschscholtzii",
+    "nameJa": "エンサティナ",
+    "nameSci": "Ensatina eschscholtzii",
+    "nameEn": "Ensatina",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [75, 150],
+    "description": "北アメリカ西海岸の森林にすむ肺なしサンショウウオ。尾の付け根がくびれ、外敵に襲われると乳白色の分泌物を出す。太平洋岸に沿って地域ごとに体色の異なる亜種が連続的に分布し、種分化の研究材料として有名。倒木や落ち葉の下で暮らす。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春〜初夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "eurycea-lucifuga",
+    "nameJa": "アメリカドウクツサラマンダー",
+    "nameSci": "Eurycea lucifuga",
+    "nameEn": "Cave Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [100, 180],
+    "description": "北アメリカ東部の石灰岩地帯の洞窟入口や湧水周辺にすむ肺なしサンショウウオ。橙色から赤色の地に黒い斑点が散り、長い尾を使って洞窟の壁を巧みに登る。完全な地下ではなく薄明の移行帯を好み、洞内に集まる昆虫を捕らえる。",
+    "tags": {
+      "habitat": ["地表棲", "流水性"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "秋〜冬",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "eurycea-rathbuni",
+    "nameJa": "テキサスブラインドサラマンダー",
+    "nameSci": "Eurycea rathbuni",
+    "nameEn": "Texas Blind Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [90, 135],
+    "description": "アメリカ・テキサス州サンマルコス周辺の地下帯水層だけにすむ洞窟性サンショウウオ。色素のない白い体に退化した眼、血の色が透ける赤い外鰓と長い脚を持つ。生涯変態せず水中で過ごし、水流で運ばれる小さな甲殻類を食べる。分布が極めて狭い絶滅危惧種。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "通年",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pseudotriton-ruber",
+    "nameJa": "アカサラマンダー",
+    "nameSci": "Pseudotriton ruber",
+    "nameEn": "Red Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [100, 180],
+    "description": "北アメリカ東部の冷たい湧水や小川の周辺にすむ肺なしサンショウウオ。赤橙色の地に黒い斑点を散らし、有毒なアメリカイモリの陸生幼体に体色を似せて身を守るとされる。皮膚から刺激性の分泌物を出す。幼生期を水中で過ごし、成体は岸辺の石の下にひそむ。",
+    "tags": {
+      "habitat": ["半水棲", "流水性"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "秋〜冬",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "gyrinophilus-porphyriticus",
+    "nameJa": "スプリングサラマンダー",
+    "nameSci": "Gyrinophilus porphyriticus",
+    "nameEn": "Spring Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [120, 230],
+    "description": "北アメリカ東部の山地の冷たい湧水や渓流にすむ大型の肺なしサンショウウオ。橙褐色の体に眼から鼻先へ淡い線が走る。流れの中の石の下にひそみ、水生昆虫のほか他種のサンショウウオも襲う貪欲な捕食者。幼生期が長く数年を水中で過ごす。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "秋",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "desmognathus-fuscus",
+    "nameJa": "ダスキーサラマンダー",
+    "nameSci": "Desmognathus fuscus",
+    "nameEn": "Northern Dusky Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [64, 140],
+    "description": "北アメリカ東部の渓流や湧水の岸辺にすむ肺なしサンショウウオ。褐色の地味な体色で、後肢が前肢より頑丈なのが特徴。石の下や流れのへりの湿った場所を好み、跳ねるように素早く動いて逃げる。メスは水辺の隙間に産んだ卵を守る。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "desmognathus-quadramaculatus",
+    "nameJa": "クロハラサラマンダー",
+    "nameSci": "Desmognathus quadramaculatus",
+    "nameEn": "Black-bellied Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [95, 210],
+    "description": "アパラチア山脈の冷たい渓流にすむ大型のダスキー系サンショウウオ。腹面が黒く、背の両側に赤い斑点が二列に並ぶ。流れの速い岩場にすみ、水生昆虫や小さなサンショウウオを食べる。幼生は数年かけて流水中で育つ。",
+    "tags": {
+      "habitat": ["流水性"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "aneides-lugubris",
+    "nameJa": "キノボリサラマンダー",
+    "nameSci": "Aneides lugubris",
+    "nameEn": "Arboreal Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [90, 180],
+    "description": "北アメリカ西海岸のオーク林などにすむ肺なしサンショウウオ。丈夫な顎と物をつかめる尾を持ち、樹皮の隙間や樹洞をよじ登って生活する。褐色の体に黄色い斑点が散る。噛む力が強く、乾いた季節は樹上や朽ち木の中で身を潜める。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "aneides-aeneus",
+    "nameJa": "ミドリサラマンダー",
+    "nameSci": "Aneides aeneus",
+    "nameEn": "Green Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [85, 140],
+    "description": "アパラチア山脈周辺の湿った岩の割れ目や樹皮の裏にすむ肺なしサンショウウオ。黒地に緑がかった地衣類のような斑紋を持ち、岩肌に貼りついても見つけにくい。平たい体で細い隙間に入り込み、メスは岩の割れ目に産んだ卵を守る。生息地が限られる。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "夏",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hemidactylium-scutatum",
+    "nameJa": "ヨツユビサラマンダー",
+    "nameSci": "Hemidactylium scutatum",
+    "nameEn": "Four-toed Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [50, 90],
+    "description": "北アメリカ東部のミズゴケが茂る湿地や池畔にすむ小型の肺なしサンショウウオ。後肢の指が4本で、腹面は白地に黒い斑点をもつ。尾の付け根にくびれがあり、外敵に襲われると尾を切り離して逃げる。メスは水面に張り出したコケに産卵する。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "国外",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "batrachoseps-attenuatus",
+    "nameJa": "カリフォルニアホソサラマンダー",
+    "nameSci": "Batrachoseps attenuatus",
+    "nameEn": "California Slender Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [80, 140],
+    "description": "アメリカ・カリフォルニア州の林床や庭先にすむ極端に細長い肺なしサンショウウオ。ミミズのような体と短い四肢を持ち、土の割れ目や倒木の下に潜む。雨の多い季節に地表へ現れ、乾期は地中深くにこもる。小さなトビムシなどを舌で捕らえる。",
+    "tags": {
+      "habitat": ["地表棲", "地中棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "冬（雨季）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "bolitoglossa-mexicana",
+    "nameJa": "メキシコキノボリサラマンダー",
+    "nameSci": "Bolitoglossa mexicana",
+    "nameEn": "Mexican Mushroom-tongue Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [80, 140],
+    "description": "メキシコから中央アメリカの熱帯林にすむ肺なしサンショウウオ。指の間に膜が張った吸盤のような足で葉や幹に貼りつき、樹上で暮らす。舌を素早く伸ばして獲物を捕らえる。卵から直接仔が孵り、幼生期の水中生活を持たない。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["中央アメリカ", "北アメリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "speleomantes-italicus",
+    "nameJa": "イタリアドウクツサラマンダー",
+    "nameSci": "Speleomantes italicus",
+    "nameEn": "Italian Cave Salamander",
+    "family": "アメリカサンショウウオ科",
+    "familySci": "Plethodontidae",
+    "sizeMm": [90, 130],
+    "description": "イタリア中部アペニン山脈の洞窟や湿った岩場にすむ肺なしサンショウウオ。ヨーロッパにわずかに分布する肺なしサンショウウオの仲間で、洞窟内の壁を歩き回り小さな無脊椎動物を舌で捕らえる。卵から直接仔が孵り、生活に流水を必要としない。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["ヨーロッパ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pseudobranchus-striatus",
+    "nameJa": "ヒメサイレン",
+    "nameSci": "Pseudobranchus striatus",
+    "nameEn": "Northern Dwarf Siren",
+    "family": "サイレン科",
+    "familySci": "Sirenidae",
+    "sizeMm": [100, 240],
+    "description": "北アメリカ南東部の水草やホテイアオイの根が茂る止水にすむ小型のサイレン科。前肢だけを持ち指は3本で、体側に淡い縦縞が走る。生涯外鰓を残して変態せず、水草の間に潜んで小さな水生動物を食べる。乾季には泥中で休眠する。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  }
+]

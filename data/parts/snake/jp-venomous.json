@@ -1,0 +1,302 @@
+[
+  {
+    "id": "protobothrops-elegans",
+    "nameJa": "サキシマハブ",
+    "nameSci": "Protobothrops elegans",
+    "nameEn": "Sakishima Habu",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [600, 1200],
+    "description": "石垣島・西表島など八重山諸島に分布するハブの仲間。ハブより小型で、褐色の地に暗色の斑紋が連なる。夜行性で樹上にも登り、カエルやネズミを捕食する。毒はハブほど強くないが咬傷例は多く、沖縄の施設で展示されることがある。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "初夏（産卵）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "protobothrops-tokarensis",
+    "nameJa": "トカラハブ",
+    "nameSci": "Protobothrops tokarensis",
+    "nameEn": "Tokara Habu",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [600, 1000],
+    "description": "トカラ列島の宝島と小宝島だけに分布する日本固有のハブ。黄褐色から赤褐色まで体色変異が大きい。島の草地や石垣周辺にすみ、夜行性で小動物を襲う。分布が極めて限られ、保全上注目される毒蛇として知られる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "夏（産卵）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "protobothrops-mucrosquamatus",
+    "nameJa": "タイワンハブ",
+    "nameSci": "Protobothrops mucrosquamatus",
+    "nameEn": "Brown Spotted Pit Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [700, 1300],
+    "description": "台湾や中国南部が原産のハブで、沖縄本島に定着した外来種。細長い体に鎖状の斑紋をもち、樹上性が強く農地や住宅地周辺にも現れる。在来のハブとの交雑が懸念され、咬傷被害もあることから防除の対象となっている。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "外来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア"],
+      "breeding": "初夏（産卵）",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "ovophis-okinavensis",
+    "nameJa": "ヒメハブ",
+    "nameSci": "Ovophis okinavensis",
+    "nameEn": "Ryukyu Himehabu",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [300, 800],
+    "description": "奄美・沖縄諸島の森林や水辺にすむ小型のクサリヘビ。太く短い体に暗褐色の斑紋をもち、動きは鈍い。カエルが集まる水辺で待ち伏せし、繁殖期のカエルを狙う。毒は比較的弱いが咬まれると腫れる。卵胎生で子を産む。",
+    "tags": {
+      "habitat": ["地表棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "春〜初夏",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "gloydius-tsushimaensis",
+    "nameJa": "ツシママムシ",
+    "nameSci": "Gloydius tsushimaensis",
+    "nameEn": "Tsushima Island Pit Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [400, 600],
+    "description": "長崎県の対馬にのみ分布する日本固有のマムシの仲間。ニホンマムシに似るが体色や斑紋にやや違いがある。山地の林縁や草地にすみ、夜行性で小動物を待ち伏せる。卵胎生で秋に子ヘビを産む、分布の限られた希少な毒蛇。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "秋（出産）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "laticauda-semifasciata",
+    "nameJa": "エラブウミヘビ",
+    "nameSci": "Laticauda semifasciata",
+    "nameEn": "Erabu Sea Krait",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [700, 1500],
+    "description": "南西諸島の海にすむ大型のウミヘビ。黒い横帯が並ぶ体で、陸に上がって岩場で休み産卵する半水棲の習性をもつ。強い神経毒をもつが性質はおとなしい。沖縄では燻製にして「イラブー」として食用にされ、水族館でも展示される。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア", "東南アジア"],
+      "breeding": "夏（産卵）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "laticauda-laticaudata",
+    "nameJa": "ヒロオウミヘビ",
+    "nameSci": "Laticauda laticaudata",
+    "nameEn": "Blue-lipped Sea Krait",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [600, 1200],
+    "description": "南西諸島から東南アジアの海に分布するウミヘビ。青灰色の地に黒い横帯が並び、尾が平たく櫂状になる。夜間に岩礁で小魚やウナギ類を捕食し、陸上の岩場で休息・産卵する。強い神経毒をもつが、性質はおとなしい半水棲種。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア", "東南アジア"],
+      "breeding": "夏（産卵）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "laticauda-colubrina",
+    "nameJa": "アオマダラウミヘビ",
+    "nameSci": "Laticauda colubrina",
+    "nameEn": "Yellow-lipped Sea Krait",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [900, 1500],
+    "description": "南西諸島から太平洋の熱帯域に広く分布する大型のウミヘビ。青白い地に黒い横帯が並び、上唇が黄色い。サンゴ礁でウナギ類などを狩り、陸に上がって岩の隙間で休む半水棲種。強い神経毒をもつが温和で、水族館でも見られる。",
+    "tags": {
+      "habitat": ["水棲", "半水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東南アジア", "オセアニア"],
+      "breeding": "不明",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "hydrophis-platurus",
+    "nameJa": "セグロウミヘビ",
+    "nameSci": "Hydrophis platurus",
+    "nameEn": "Yellow-bellied Sea Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [600, 900],
+    "description": "世界の熱帯・亜熱帯の外洋を漂う完全水棲のウミヘビで、日本近海にも現れる。背が黒く腹が黄色い独特の体色で、尾がオール状になる。海面を漂って集まる小魚を捕食し、一生を海で過ごして海上で子を産む。強い神経毒をもつ。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "在来",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["日本", "東南アジア", "オセアニア"],
+      "breeding": "不明（卵胎生）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hydrophis-melanocephalus",
+    "nameJa": "クロガシラウミヘビ",
+    "nameSci": "Hydrophis melanocephalus",
+    "nameEn": "Black-headed Sea Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [700, 1200],
+    "description": "南西諸島から東シナ海の沿岸にすむウミヘビ。頭部が黒く、体には暗色の横帯が並ぶ。砂泥底で小魚やアナゴ類を探して捕食する完全水棲種で、定置網などにかかることがある。強い神経毒をもち、扱いには注意が必要。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア"],
+      "breeding": "不明（卵胎生）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "hydrophis-cyanocinctus",
+    "nameJa": "マダラウミヘビ",
+    "nameSci": "Hydrophis cyanocinctus",
+    "nameEn": "Annulated Sea Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [1000, 1800],
+    "description": "東シナ海から南西諸島の沿岸に分布する大型のウミヘビ。青緑色の地に黒い横帯が並ぶ。浅い海の砂泥底で魚類を捕食し、生涯を海で過ごす完全水棲種。強い神経毒をもち、漁網に混ざって水揚げされることがある。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "在来",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア", "東南アジア"],
+      "breeding": "不明（卵胎生）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "emydocephalus-ijimae",
+    "nameJa": "イイジマウミヘビ",
+    "nameSci": "Emydocephalus ijimae",
+    "nameEn": "Ijima's Sea Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [600, 900],
+    "description": "南西諸島のサンゴ礁にすむ完全水棲のウミヘビ。頭が小さく亀のような顔つきで、魚の卵だけを食べる特殊な食性をもつ。そのため毒牙は退化し、人への危険はほとんどない。昼間にサンゴ礁を這い回る姿が観察され、水族館でも展示される。",
+    "tags": {
+      "habitat": ["水棲"],
+      "origin": "在来",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "不明（卵胎生）",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "sinomicrurus-japonicus",
+    "nameJa": "ハイ",
+    "nameSci": "Sinomicrurus japonicus",
+    "nameEn": "Japanese Coral Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [300, 600],
+    "description": "沖縄諸島に分布する小型のコブラ科のヘビ。黒い横帯と赤みを帯びた地色をもち、林床の落ち葉や石の下に潜む。夜行性で、ほかの小型のヘビやトカゲを食べる。神経毒をもつが口が小さくおとなしく、人が目にする機会は少ない。",
+    "tags": {
+      "habitat": ["地中棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "不明（産卵）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "sinomicrurus-boettgeri",
+    "nameJa": "ヒャン",
+    "nameSci": "Sinomicrurus boettgeri",
+    "nameEn": "Amami Coral Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [300, 500],
+    "description": "奄美諸島に分布する小型のコブラ科のヘビで、ハイに近縁。赤褐色の地に黒い横帯が並ぶ鮮やかな体色をもつ。地中や落ち葉の下にすみ、夜間に小型のヘビやトカゲを探す。神経毒をもつが性質はおとなしく、咬傷例はまれ。",
+    "tags": {
+      "habitat": ["地中棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "不明（産卵）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "sinomicrurus-iwasakii",
+    "nameJa": "イワサキワモンベニヘビ",
+    "nameSci": "Sinomicrurus iwasakii",
+    "nameEn": "Iwasaki's Coral Snake",
+    "family": "コブラ科",
+    "familySci": "Elapidae",
+    "sizeMm": [300, 500],
+    "description": "石垣島・西表島など八重山諸島に分布する小型のコブラ科のヘビ。赤い地に黒と白の輪状の模様が並ぶ美しい体色をもつ。地中や落ち葉の下で暮らし、夜行性で細長いトカゲや小型のヘビを食べる。神経毒をもつ希少種で、目にする機会は少ない。",
+    "tags": {
+      "habitat": ["地中棲", "地表棲"],
+      "origin": "在来",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本", "東アジア"],
+      "breeding": "不明（産卵）",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": false
+  }
+]

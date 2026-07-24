@@ -1,0 +1,482 @@
+[
+  {
+    "id": "chlamydosaurus-kingii",
+    "nameJa": "エリマキトカゲ",
+    "nameSci": "Chlamydosaurus kingii",
+    "nameEn": "Frilled Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [700, 900],
+    "description": "オーストラリア北部からニューギニアの乾いた森林にすむ樹上性のアガマ。首の周りに大きな襟状の皮膜をもち、驚くと口を開けて傘のように広げ、後ろ足で立って走って逃げる。ふだんは樹上で昆虫や小動物を待ち伏せする。動物園でおなじみの人気種。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "雨季（11〜3月）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "moloch-horridus",
+    "nameJa": "モロクトカゲ",
+    "nameSci": "Moloch horridus",
+    "nameEn": "Thorny Devil",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [130, 200],
+    "description": "オーストラリア内陸の砂漠に暮らすアガマで、全身がとげ状の鱗で覆われる。アリだけを長い舌で一匹ずつ舐め取って食べる。体表の細かい溝が毛細管現象で朝露や砂中の水分を口へ運ぶ。動きは遅く、飼育は難しいため国内で見る機会はほぼない。",
+    "tags": {
+      "habitat": ["砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "春〜初夏（9〜12月）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "uromastyx-aegyptia",
+    "nameJa": "エジプトトゲオアガマ",
+    "nameSci": "Uromastyx aegyptia",
+    "nameEn": "Egyptian Spiny-tailed Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [500, 760],
+    "description": "北アフリカからアラビア半島の砂漠や岩場にすむ大型のトゲオアガマ。太く頑丈なとげの並んだ尾を武器に、岩の割れ目へ潜って身を守る。主に植物を食べる草食性で、日中に岩の上で体を温める。爬虫類ショップで流通し、飼育される。",
+    "tags": {
+      "habitat": ["砂漠棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ", "西アジア"],
+      "breeding": "春（3〜5月）",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "uromastyx-ornata",
+    "nameJa": "オルナータトゲオアガマ",
+    "nameSci": "Uromastyx ornata",
+    "nameEn": "Ornate Spiny-tailed Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [250, 370],
+    "description": "エジプトからアラビア半島の岩の多い砂漠にすむトゲオアガマ。オスは青緑や黄、オレンジが入り交じる派手な体色で知られ、トゲオアガマの中でもとくに美しい。日中に岩上で日光浴し、植物を主食とする。色彩の良さから飼育目的で流通する。",
+    "tags": {
+      "habitat": ["岩場棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ", "西アジア"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "uromastyx-geyri",
+    "nameJa": "サハラトゲオアガマ",
+    "nameSci": "Uromastyx geyri",
+    "nameEn": "Saharan Spiny-tailed Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [300, 400],
+    "description": "サハラ砂漠南縁のニジェールやアルジェリアに分布する中型のトゲオアガマ。黄色や赤みを帯びた明るい体色の個体が多く、通称「ゲイリー」として爬虫類愛好家に親しまれる。乾いた岩場に巣穴を掘り、植物質を主に食べる草食性。",
+    "tags": {
+      "habitat": ["砂漠棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "春",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "uromastyx-nigriventris",
+    "nameJa": "モロッコトゲオアガマ",
+    "nameSci": "Uromastyx nigriventris",
+    "nameEn": "Moroccan Spiny-tailed Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [350, 450],
+    "description": "モロッコからアルジェリアの乾燥地にすむトゲオアガマ。成熟したオスは鮮やかな赤やオレンジに染まり、飼育下で人気が高い。とげのある尾で外敵を払い、危険時は岩の隙間へ逃げ込む。草食性で、日中に体を温めてから活動する。",
+    "tags": {
+      "habitat": ["砂漠棲", "岩場棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "physignathus-cocincinus",
+    "nameJa": "グリーンウォータードラゴン",
+    "nameSci": "Physignathus cocincinus",
+    "nameEn": "Chinese Water Dragon",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [600, 900],
+    "description": "タイやベトナム、中国南部の水辺の森にすむ樹上性のアガマ。全長の3分の2を占める長い尾をもち、緑色の体で枝に止まる。危険が迫ると水へ飛び込んで泳いで逃げる。丈夫で飼育しやすく、爬虫類ショップの定番種として広く流通する。",
+    "tags": {
+      "habitat": ["樹上棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["東南アジア", "東アジア"],
+      "breeding": "乾季明け",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "hydrosaurus-pustulatus",
+    "nameJa": "フィリピンホカケトカゲ",
+    "nameSci": "Hydrosaurus pustulatus",
+    "nameEn": "Philippine Sailfin Lizard",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [700, 1000],
+    "description": "フィリピンの渓流沿いにすむ大型のアガマで、オスは背から尾にかけて帆のような大きなクレストを立てる。水辺を好み、指の縁の鱗を使って水面を走ることもできる。雑食性で果実や昆虫を食べる。動物園や水族館で展示される人気種。",
+    "tags": {
+      "habitat": ["半水棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "乾季",
+      "redlist": "絶滅危惧II類(VU)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "draco-volans",
+    "nameJa": "トビトカゲ",
+    "nameSci": "Draco volans",
+    "nameEn": "Common Flying Dragon",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [190, 220],
+    "description": "東南アジアの熱帯林にすむ小型の樹上性アガマ。肋骨に支えられた皮膜を翼のように広げ、木から木へ滑空する。ふつうは幹に張りついてアリなどを食べ、オスは黄色い喉の旗を出して縄張りを主張する。飼育は難しく、国内ではほとんど見られない。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["東南アジア"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "pogona-henrylawsoni",
+    "nameJa": "ローソンアゴヒゲトカゲ",
+    "nameSci": "Pogona henrylawsoni",
+    "nameEn": "Lawson's Dragon",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [250, 300],
+    "description": "オーストラリア北東部の乾いた草原にすむ小型のアゴヒゲトカゲ。フトアゴヒゲトカゲに似るが喉のとげが目立たず、より小型でずんぐりする。おとなしく丈夫なため、省スペースで飼える入門種として爬虫類イベントで流通する。日中に日光浴し雑食性。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "春〜夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "intellagama-lesueurii",
+    "nameJa": "オーストラリアミズトカゲ",
+    "nameSci": "Intellagama lesueurii",
+    "nameEn": "Australian Water Dragon",
+    "family": "アガマ科",
+    "familySci": "Agamidae",
+    "sizeMm": [600, 900],
+    "description": "オーストラリア東部の川や池のほとりにすむ大型のアガマ。緑褐色の体に黒い横縞が入り、水辺の枝から水面へ飛び込んで泳ぐ。雑食性で昆虫や果実、小動物を食べる。現地では公園でも見られるが、日本の動物園などで見る機会は多くない。",
+    "tags": {
+      "habitat": ["樹上棲", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["オセアニア"],
+      "breeding": "春（9〜11月）",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "furcifer-pardalis",
+    "nameJa": "パンサーカメレオン",
+    "nameSci": "Furcifer pardalis",
+    "nameEn": "Panther Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [350, 520],
+    "description": "マダガスカル北部の低地林にすむ中型のカメレオン。オスは産地ごとに赤・青・緑など鮮烈な体色を示し、色変わりの美しさで世界的に人気が高い。左右別々に動く目で獲物を探し、長い舌を伸ばして昆虫を捕らえる。飼育例が多く動物園でもよく見られる。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "通年",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "trioceros-jacksonii",
+    "nameJa": "ジャクソンカメレオン",
+    "nameSci": "Trioceros jacksonii",
+    "nameEn": "Jackson's Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [250, 380],
+    "description": "ケニアやタンザニアの高地林にすむカメレオン。オスは頭部に三本の角をもち、恐竜のような姿で知られる。卵ではなく子を産む卵胎生で、一度に多数の幼体を産む。ハワイなどにも移入定着している。飼育・展示ともに機会が多い人気種。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "通年",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "furcifer-oustaleti",
+    "nameJa": "ウスタレカメレオン",
+    "nameSci": "Furcifer oustaleti",
+    "nameEn": "Oustalet's Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [500, 700],
+    "description": "マダガスカルに広く分布する世界最大級のカメレオン。全長70cmに達し、灰褐色の地味な体色をもつ。乾燥した林から人家周辺まで幅広い環境に適応し、昆虫のほか小型の脊椎動物も捕食する。動物園で大型カメレオンとして展示される。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "trioceros-melleri",
+    "nameJa": "ミューラーカメレオン",
+    "nameSci": "Trioceros melleri",
+    "nameEn": "Meller's Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [400, 610],
+    "description": "タンザニアやマラウイの森にすむ、アフリカ本土最大級のカメレオン。全長60cmほどで、鼻先の小さな角と背の帆状のクレストが特徴。緑地に黄色い帯が入る。昆虫や小鳥を捕らえる。存在感のある大型種として爬虫類イベントで流通する。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chamaeleo-senegalensis",
+    "nameJa": "セネガルカメレオン",
+    "nameSci": "Chamaeleo senegalensis",
+    "nameEn": "Senegal Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [200, 300],
+    "description": "西アフリカのサバンナや疎林にすむ中型のカメレオン。緑を基調とした落ち着いた体色で、比較的安価に多く輸入される入門的なカメレオン。乾季と雨季のある環境に適応し、樹上で昆虫を待ち伏せする。爬虫類ショップで見かける機会が多い。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "furcifer-lateralis",
+    "nameJa": "カーペットカメレオン",
+    "nameSci": "Furcifer lateralis",
+    "nameEn": "Carpet Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [170, 250],
+    "description": "マダガスカルに分布する小型のカメレオン。メスは繁殖期に紫や赤、白の複雑な模様を鮮やかに現し、絨毯のような美しさから名がついた。低木や草地にすみ、小さな昆虫を食べる。丈夫で繁殖もしやすく、飼育対象として流通する。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "通年",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chamaeleo-namaquensis",
+    "nameJa": "ナマクアカメレオン",
+    "nameSci": "Chamaeleo namaquensis",
+    "nameEn": "Namaqua Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [160, 250],
+    "description": "アフリカ南西部ナミブ砂漠周辺の乾燥地にすむ、地表を歩き回る地上性のカメレオン。朝は黒く体色を変えて素早く体を温める。長距離を移動して昆虫を探し、暑さに強い。ドキュメンタリーで有名だが、飼育流通はほとんどなく国内では見られない。",
+    "tags": {
+      "habitat": ["地表棲", "砂漠棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "夏",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "brookesia-superciliaris",
+    "nameJa": "ヒメカメレオン",
+    "nameSci": "Brookesia superciliaris",
+    "nameEn": "Brown Leaf Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [70, 110],
+    "description": "マダガスカルの熱帯雨林の林床にすむごく小型のカメレオン。全長10cm前後で、枯れ葉に擬態した褐色の体をもち、昼は落ち葉の間を歩き、夜は低い枝先で眠る。色変化は乏しい。生息地が限られ、国内で見る機会はほとんどない希少な仲間。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "rieppeleon-brevicaudatus",
+    "nameJa": "コノハカメレオン",
+    "nameSci": "Rieppeleon brevicaudatus",
+    "nameEn": "Bearded Pygmy Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [50, 80],
+    "description": "タンザニアなど東アフリカの森の下層にすむ小型のカメレオン。全長7cm前後で、枯れ葉そっくりの褐色をまとい、あごの下にひげ状の突起をもつ。落ち葉の上や低木で微小な昆虫を捕らえる。小型で飼いやすく、爬虫類ショップで流通する。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chamaeleo-chamaeleon",
+    "nameJa": "チチュウカイカメレオン",
+    "nameSci": "Chamaeleo chamaeleon",
+    "nameEn": "Mediterranean Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [200, 300],
+    "description": "北アフリカから中東、南ヨーロッパにかけて分布する、ヨーロッパ唯一のカメレオン。低木林にすみ、緑や褐色に体色を変えて枝に潜む。長い舌を伸ばして昆虫を捕らえる。スペインなど地中海地方でも見られるが、国内での飼育流通は少ない。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["ヨーロッパ", "アフリカ", "西アジア"],
+      "breeding": "夏〜秋",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "calumma-parsonii",
+    "nameJa": "パーソンカメレオン",
+    "nameSci": "Calumma parsonii",
+    "nameEn": "Parson's Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [400, 680],
+    "description": "マダガスカル東部の湿った森にすむ、世界最重量級の巨大なカメレオン。全長60cm以上に達し、青緑の体とがっしりした体つきが印象的。動作はゆっくりで、大きな昆虫や小動物を捕食する。高級種として動物園や愛好家の間で展示・飼育される。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["マダガスカル"],
+      "breeding": "雨季",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "trioceros-quadricornis",
+    "nameJa": "ヨツヅノカメレオン",
+    "nameSci": "Trioceros quadricornis",
+    "nameEn": "Four-horned Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [250, 370],
+    "description": "カメルーンの高地の森にすむカメレオン。オスは鼻先に四本の角をもち、背にはのこぎり状のクレストが並ぶ。涼しく湿った環境を好み、昆虫を捕食する。独特の角の姿から人気があり、爬虫類イベントなどで流通する。生息地の森林減少が心配される。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "trioceros-deremensis",
+    "nameJa": "デレマカメレオン",
+    "nameSci": "Trioceros deremensis",
+    "nameEn": "Usambara Three-horned Chameleon",
+    "family": "カメレオン科",
+    "familySci": "Chamaeleonidae",
+    "sizeMm": [270, 380],
+    "description": "タンザニアのウサンバラ山地の森にすむカメレオン。オスは鼻先に三本の角をもち、緑地に白や黄の帯が入る美しい姿で知られる。冷涼で湿った山地林を好み、昆虫を捕らえる。飼育目的で流通するが、生息地は限られている。",
+    "tags": {
+      "habitat": ["樹上棲"],
+      "origin": "国外",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  }
+]

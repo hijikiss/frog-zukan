@@ -1,0 +1,102 @@
+[
+  {
+    "id": "notophthalmus-viridescens",
+    "nameJa": "アカボシイモリ",
+    "nameSci": "Notophthalmus viridescens",
+    "nameEn": "Eastern Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [65, 140],
+    "description": "北アメリカ東部の池沼や湿地に広く分布するイモリ。成体は緑褐色で体側に赤い斑点が並ぶ。上陸した若い個体は「レッドエフト」と呼ばれる鮮やかな橙赤色の陸生型となり、数年を陸で過ごした後に水中で暮らす成体へ戻る独特の生活史をもつ。皮膚にテトロドトキシンを含み、国内でも観賞用に流通することがある。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "taricha-granulosa",
+    "nameJa": "ザラハダイモリ",
+    "nameSci": "Taricha granulosa",
+    "nameEn": "Rough-skinned Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [140, 220],
+    "description": "北アメリカ太平洋岸の森林や池にすむイモリ。名の通り体表はざらついた粒状の皮膚で覆われ、背面は暗褐色、腹面は鮮やかな橙色をしている。危険を感じると体を反らせて腹の警告色を見せる。皮膚毒テトロドトキシンの含有量が非常に多い種として知られ、天敵のヘビとの毒をめぐる進化競争でも有名。",
+    "tags": {
+      "habitat": ["半水棲", "水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "冬〜春",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "taricha-torosa",
+    "nameJa": "カリフォルニアイモリ",
+    "nameSci": "Taricha torosa",
+    "nameEn": "California Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [125, 200],
+    "description": "アメリカ・カリフォルニア州沿岸の丘陵地に分布するイモリ。背面は褐色、腹面は明るい橙色で、繁殖期には多数が池や渓流へ集団で移動する。雨の日に地表を歩く姿が見られる。皮膚にテトロドトキシンを持ち誤って飲み込むと危険。ペットとして流通し、国内でも見られることがある。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "12〜5月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "taricha-sierrae",
+    "nameJa": "シエラネバダイモリ",
+    "nameSci": "Taricha sierrae",
+    "nameEn": "Sierra Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [125, 200],
+    "description": "アメリカ・シエラネバダ山脈西斜面の渓流沿いに分布するイモリ。かつてカリフォルニアイモリの亜種とされたが、目が大きく虹彩が明るいことなどから独立種として分けられた。繁殖期には流れのある渓流に産卵する。腹面は橙色で、皮膚にはテトロドトキシンを含む。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "activity": ["昼行性", "夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "5〜7月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  },
+  {
+    "id": "taricha-rivularis",
+    "nameJa": "アカハラタリカ",
+    "nameSci": "Taricha rivularis",
+    "nameEn": "Red-bellied Newt",
+    "family": "イモリ科",
+    "familySci": "Salamandridae",
+    "sizeMm": [140, 190],
+    "description": "アメリカ・カリフォルニア州北部の沿岸山地にすむイモリ。背面は一様な黒褐色で、腹面はトマトのように鮮やかな赤一色をしているのが名の由来。繁殖期には流れの速い渓流に集まって産卵する。分布域が狭く生息地の限られる種として知られ、皮膚にテトロドトキシンを持つ。",
+    "tags": {
+      "habitat": ["流水性", "半水棲"],
+      "origin": "国外",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["北アメリカ"],
+      "breeding": "3〜6月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": false
+  }
+]
