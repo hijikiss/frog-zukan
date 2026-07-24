@@ -1,0 +1,160 @@
+[
+ {
+  "id": "andrias-japonicus",
+  "group": "salamander",
+  "nameJa": "オオサンショウウオ",
+  "nameSci": "Andrias japonicus",
+  "nameEn": "Japanese Giant Salamander",
+  "family": "オオサンショウウオ科",
+  "familySci": "Cryptobranchidae",
+  "sizeMm": [
+   500,
+   1500
+  ],
+  "description": "岐阜県以西の本州と四国・九州の一部の清流にすむ世界最大級の両生類。国の特別天然記念物。夜行性で川底の岩の隙間に潜み、魚やサワガニを丸のみにする。寿命は50年を超えるとされ、京都水族館や広島市安佐動物公園などで展示・保護増殖が行われている。",
+  "tags": {
+   "habitat": [
+    "水棲",
+    "流水性"
+   ],
+   "origin": "在来",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "8〜9月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-nigrescens",
+  "group": "salamander",
+  "nameJa": "クロサンショウウオ",
+  "nameSci": "Hynobius nigrescens",
+  "nameEn": "Japanese Black Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   90,
+   180
+  ],
+  "description": "東北から北陸・中部地方の山地に分布する日本固有種。全身がほぼ黒褐色一色で、雪解けの池や湿地に白く濁ったアケビ形の卵嚢を産む。ブナ林の林床や倒木の下で過ごし、繁殖期以外は水に入らない。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "3〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "hynobius-tokyoensis",
+  "group": "salamander",
+  "nameJa": "トウキョウサンショウウオ",
+  "nameSci": "Hynobius tokyoensis",
+  "nameEn": "Tokyo Salamander",
+  "family": "サンショウウオ科",
+  "familySci": "Hynobiidae",
+  "sizeMm": [
+   80,
+   130
+  ],
+  "description": "関東地方の丘陵地に分布する日本固有の小型サンショウウオ。早春に湿地や谷戸の浅い水たまりへ集まり、バナナ形の卵嚢を水中の枝などに産みつける。宅地開発による産卵場所の消失で数を減らしている。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "半水棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "2〜4月",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "ambystoma-mexicanum",
+  "group": "salamander",
+  "nameJa": "メキシコサラマンダー",
+  "nameSci": "Ambystoma mexicanum",
+  "nameEn": "Axolotl",
+  "family": "トラフサンショウウオ科",
+  "familySci": "Ambystomatidae",
+  "sizeMm": [
+   200,
+   300
+  ],
+  "description": "「ウーパールーパー」の名で知られるメキシコ・ソチミルコ湖固有の有尾類。変態せずに幼生の外鰓を残したまま性成熟するネオテニーが特徴。高い再生能力で研究に用いられる一方、野生個体群は水質悪化と外来魚で激減している。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ"
+   ],
+   "breeding": "冬〜春",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "necturus-maculosus",
+  "group": "salamander",
+  "nameJa": "マッドパピー",
+  "nameSci": "Necturus maculosus",
+  "nameEn": "Mudpuppy",
+  "family": "ホライモリ科",
+  "familySci": "Proteidae",
+  "sizeMm": [
+   200,
+   400
+  ],
+  "description": "北アメリカ東部の河川や湖にすむ大型の水生サンショウウオ。生涯赤い房状の外鰓を持ち続け、水中から出ることはない。夜間に川底を歩き回り、ザリガニや水生昆虫を食べる。濁った水域にも適応している。",
+  "tags": {
+   "habitat": [
+    "水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "春",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": false
+ }
+]

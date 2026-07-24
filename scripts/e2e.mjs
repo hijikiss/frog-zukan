@@ -11,7 +11,7 @@
  * まで通す。
  */
 
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { mkdtempSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -23,7 +23,8 @@ const BROWSERS = [
 ];
 const BASE = process.argv[2] || 'http://localhost:8765/';
 const SHOT_DIR = process.argv[3] || null;   // 指定すると要所でスクリーンショットを保存
-const PORT = 9333;
+// 前回の残骸ブラウザに繋いでしまわないよう、実行ごとに違うポートを使う
+const PORT = 9333 + (process.pid % 300);
 
 const exe = BROWSERS.find(existsSync);
 if (!exe) { console.error('Edge/Chrome が見つかりません'); process.exit(1); }
@@ -36,6 +37,19 @@ const proc = spawn(exe, [
   `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`,
   '--window-size=400,900', 'about:blank',
 ], { stdio: 'ignore' });
+
+
+/**
+ * ブラウザを子プロセスごと終わらせる。
+ * Windows では proc.kill() がランチャだけを落とすので、レンダラなどが残って
+ * デバッグポートを掴み続け、次回の実行が「前回のブラウザ」に繋がってしまう。
+ */
+function killBrowser(p) {
+  if (process.platform === 'win32') {
+    try { spawnSync('taskkill', ['/pid', String(p.pid), '/T', '/F'], { stdio: 'ignore' }); } catch { /* もう居ない */ }
+  }
+  try { p.kill(); } catch { /* もう居ない */ }
+}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -208,8 +222,19 @@ try {
   await sleep(2500);
 
   console.log('起動');
+  const home = await evalJs(`
+    return {
+      tiles: [...document.querySelectorAll('.home-tile .home-name')].map(e => e.textContent),
+      total: document.querySelector('.home-total')?.textContent,
+    };
+  `);
+  check('ホームに8グループのタイルが出る', home.tiles.length === 8, JSON.stringify(home.tiles));
+  check('カエルとヘビのタイルがある',
+    home.tiles.includes('カエル') && home.tiles.includes('ヘビ'), JSON.stringify(home.tiles));
+
+  await goto('#/g/frog');
   const total = await evalJs(`return document.querySelectorAll('.card').length;`);
-  check('330種のカードが出る', total === 330, `(${total})`);
+  check('カエルの一覧に330種のカードが出る', total === 330, `(${total})`);
 
   // ブラウザで本物の JPEG を作り、Node 側で EXIF を差し込む
   const b64 = await evalJs(`
@@ -284,7 +309,7 @@ try {
   check('写真が1枚登録される', afterWild.photos === 1, `(${afterWild.photos})`);
   check('ステータスが「野生で観察」', /野生で観察/.test(afterWild.status || ''), `(${afterWild.status})`);
   check('進捗が 1種 / 野生 1種 になる',
-    /330種中 1種観察済み（うち野生 1種）/.test(afterWild.progress), `(${afterWild.progress})`);
+    /種中 1種観察済み（うち野生 1種）/.test(afterWild.progress), `(${afterWild.progress})`);
   check('場所が写真カードに出る', afterWild.where === '栃木県日光市 中禅寺湖畔', `(${afterWild.where})`);
   check('野生バッジが付く', afterWild.pill === '野生', `(${afterWild.pill})`);
   await screenshot('detail-with-photo.png');
@@ -309,7 +334,7 @@ try {
   `);
   check('ステータスが「展示で観察」', /展示で観察/.test(afterCaptive.status || ''), `(${afterCaptive.status})`);
   check('進捗が 2種 / 野生 1種 になる',
-    /330種中 2種観察済み（うち野生 1種）/.test(afterCaptive.progress), `(${afterCaptive.progress})`);
+    /種中 2種観察済み（うち野生 1種）/.test(afterCaptive.progress), `(${afterCaptive.progress})`);
   check('施設名が写真カードに出る', afterCaptive.where === 'サンシャイン水族館', `(${afterCaptive.where})`);
 
   /* ---- 3. 施設別ページ ---- */
@@ -323,7 +348,7 @@ try {
     };
   `);
   check('施設が一覧に出る', fac.rows.includes('サンシャイン水族館'), JSON.stringify(fac.rows));
-  check('野外の行も出る', fac.rows.includes('野外で観察したカエル'));
+  check('野外の行も出る', fac.rows.includes('野外で観察した生き物'));
   check('施設の観察種数が出る', /1種/.test(fac.sub[0] || ''), `(${fac.sub[0]})`);
   await screenshot('facilities.png');
 
@@ -340,7 +365,7 @@ try {
 
   /* ---- 4. 一覧のバッジ・絞り込み ---- */
   console.log('\n一覧のバッジと絞り込み');
-  await goto('#/');
+  await goto('#/g/frog');
   await sleep(700);
   const badges = await evalJs(`
     return {
@@ -437,6 +462,50 @@ try {
   `);
   check('再読み込み後も編集が残る', reloaded === 'Japanese Brown Frog (edited)', `(${reloaded})`);
 
+  /* ---- 7. 別グループ（ヘビ）にも登録できる ---- */
+  console.log('\n別グループへの登録');
+  await goto('#/s/elaphe-climacophora');
+  await setFile('input[type=file]', captiveJpeg);
+  await sleep(1500);
+  await clickText('.segmented button', '飼育展示');
+  await sleep(200);
+  await setValue('.modal input[list=facility-options]', 'サンシャイン水族館');
+  await clickText('.modal-foot .btn.primary', '登録');
+  await sleep(1200);
+
+  const snake = await evalJs(`
+    return {
+      status: document.querySelector('.statusline')?.textContent,
+      lengthLabel: [...document.querySelectorAll('.facts dt')].map(e => e.textContent),
+    };
+  `);
+  check('ヘビにも写真を登録できる', /展示で観察/.test(snake.status || ''), `(${snake.status})`);
+  check('ヘビの詳細は「全長」で表示される',
+    snake.lengthLabel.includes('全長') && !snake.lengthLabel.includes('体長（吻肛長）'),
+    JSON.stringify(snake.lengthLabel));
+
+  await goto('#/');
+  await sleep(600);
+  const tiles = await evalJs(`
+    return [...document.querySelectorAll('.home-tile')].map(t => ({
+      name: t.querySelector('.home-name').textContent,
+      count: t.querySelector('.home-count').textContent,
+    }));
+  `);
+  const frogTile = tiles.find((t) => t.name === 'カエル');
+  const snakeTile = tiles.find((t) => t.name === 'ヘビ');
+  check('ホームのカエルタイルが2種になる', /^2 \//.test(frogTile?.count || ''), JSON.stringify(frogTile));
+  check('ホームのヘビタイルが1種になる', /^1 \//.test(snakeTile?.count || ''), JSON.stringify(snakeTile));
+
+  await goto('#/f/' + encodeURIComponent('サンシャイン水族館'));
+  await sleep(600);
+  const facSpecies = await evalJs(`
+    return [...document.querySelectorAll('.card-ja')].map(e => e.textContent);
+  `);
+  check('施設ページにグループをまたいで種が並ぶ',
+    facSpecies.includes('アオダイショウ') && facSpecies.includes('アイゾメヤドクガエル'),
+    JSON.stringify(facSpecies));
+
   /* ---- 結果 ---- */
   console.log('\n--- コンソールエラー ---');
   if (!errors.length) console.log('  （なし）');
@@ -450,7 +519,7 @@ try {
   console.error('\n落ちました:', err.message);
   process.exitCode = 1;
 } finally {
-  proc.kill();
+  killBrowser(proc);
   await sleep(300);
   for (const d of [profile, work]) {
     try { rmSync(d, { recursive: true, force: true }); } catch { /* 使用中 */ }

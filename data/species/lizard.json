@@ -1,0 +1,226 @@
+[
+ {
+  "id": "diploderma-polygonatum",
+  "group": "lizard",
+  "nameJa": "キノボリトカゲ",
+  "nameSci": "Diploderma polygonatum",
+  "nameEn": "Okinawa Tree Lizard",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   200,
+   250
+  ],
+  "description": "南西諸島に分布する樹上性のアガマ。緑褐色の体色を周囲に合わせて変え、樹幹に貼りつくように止まる。オスは喉の袋を広げて縄張りを誇示する。宮崎県などへ人為的に持ち込まれた個体群が定着している。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "準絶滅危惧(NT)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "pogona-vitticeps",
+  "group": "lizard",
+  "nameJa": "フトアゴヒゲトカゲ",
+  "nameSci": "Pogona vitticeps",
+  "nameEn": "Central Bearded Dragon",
+  "family": "アガマ科",
+  "familySci": "Agamidae",
+  "sizeMm": [
+   400,
+   550
+  ],
+  "description": "オーストラリア中央部の乾燥地に分布するアガマ。興奮すると喉の棘状の鱗を膨らませ、黒く染めて威嚇する。前足を回す「アームウェービング」で仲間に合図を送る。おとなしく丈夫で、爬虫類の入門種として広く飼育される。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "iguana-iguana",
+  "group": "lizard",
+  "nameJa": "グリーンイグアナ",
+  "nameSci": "Iguana iguana",
+  "nameEn": "Green Iguana",
+  "family": "イグアナ科",
+  "familySci": "Iguanidae",
+  "sizeMm": [
+   1500,
+   2000
+  ],
+  "description": "中南米の熱帯林の水辺にすむ大型の樹上性トカゲ。背中に鋸歯状のクレストが並び、喉の大きな垂れ下がり（デューラップ）で体温調節や誇示を行う。ほぼ植物食。危険が迫ると木から水へ飛び込む。動物園の定番展示種。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "varanus-salvator",
+  "group": "lizard",
+  "nameJa": "ミズオオトカゲ",
+  "nameSci": "Varanus salvator",
+  "nameEn": "Asian Water Monitor",
+  "family": "オオトカゲ科",
+  "familySci": "Varanidae",
+  "sizeMm": [
+   1500,
+   2500
+  ],
+  "description": "東南アジアの水辺に広く分布する大型のオオトカゲ。泳ぎが巧みで、魚や死肉、ゴミまで何でも食べる。都市部の運河にも現れるほど適応力が高い。長い舌で匂いを探りながら歩く姿が特徴的。",
+  "tags": {
+   "habitat": [
+    "半水棲",
+    "地表棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "takydromus-tachydromoides",
+  "group": "lizard",
+  "nameJa": "ニホンカナヘビ",
+  "nameSci": "Takydromus tachydromoides",
+  "nameEn": "Japanese Grass Lizard",
+  "family": "カナヘビ科",
+  "familySci": "Lacertidae",
+  "sizeMm": [
+   160,
+   250
+  ],
+  "description": "北海道から九州まで分布する日本固有種。ざらついた褐色の鱗と、全長の3分の2を占める非常に長い尾が特徴。草の上を素早く走り、庭先や公園でもよく見られる。日本でもっとも身近なトカゲのひとつ。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "樹上棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "chamaeleo-calyptratus",
+  "group": "lizard",
+  "nameJa": "エボシカメレオン",
+  "nameSci": "Chamaeleo calyptratus",
+  "nameEn": "Veiled Chameleon",
+  "family": "カメレオン科",
+  "familySci": "Chamaeleonidae",
+  "sizeMm": [
+   350,
+   600
+  ],
+  "description": "イエメンからサウジアラビア南西部の山地に分布するカメレオン。頭部に烏帽子のような高いクレストがそびえる。左右別々に動く目と、体長ほども伸びる舌で昆虫を捕らえる。飼育例が多く動物園でもよく見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "西アジア"
+   ],
+   "breeding": "通年",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "plestiodon-japonicus",
+  "group": "lizard",
+  "nameJa": "ニホントカゲ",
+  "nameSci": "Plestiodon japonicus",
+  "nameEn": "Japanese Skink",
+  "family": "トカゲ科",
+  "familySci": "Scincidae",
+  "sizeMm": [
+   160,
+   250
+  ],
+  "description": "西日本を中心に分布する光沢のあるトカゲ。幼体は黒地に5本の金色の縦条が入り、尾は鮮やかな青。成体は褐色になる。日当たりのよい石垣や草地で日光浴し、危険が迫ると尾を自切して逃げる。母親が卵を守る習性がある。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": true
+ }
+]

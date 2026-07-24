@@ -1,0 +1,197 @@
+[
+ {
+  "id": "correlophus-ciliatus",
+  "group": "gecko",
+  "nameJa": "クレステッドゲッコー",
+  "nameSci": "Correlophus ciliatus",
+  "nameEn": "Crested Gecko",
+  "family": "イシヤモリ科",
+  "familySci": "Diplodactylidae",
+  "sizeMm": [
+   180,
+   250
+  ],
+  "description": "ニューカレドニア固有の樹上性ヤモリ。目の上からまつ毛のような突起が並ぶことから「オウカンミカドヤモリ」とも呼ばれる。一度は絶滅したと考えられていたが1994年に再発見された。果実食性が強く、飼育しやすいため人気が高い。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "オセアニア"
+   ],
+   "breeding": "春〜夏",
+   "redlist": "絶滅危惧II類(VU)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "goniurosaurus-kuroiwae",
+  "group": "gecko",
+  "nameJa": "クロイワトカゲモドキ",
+  "nameSci": "Goniurosaurus kuroiwae",
+  "nameEn": "Kuroiwa's Ground Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   140,
+   180
+  ],
+  "description": "沖縄島や渡嘉敷島などに分布する日本固有のヤモリ。まぶたを持ち、指に吸盤がないため壁は登らず林床を歩く。紫褐色の地に淡い帯が入る。国の天然記念物で、密猟と森林伐採により生息数が減少している。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本"
+   ],
+   "breeding": "5〜8月",
+   "redlist": "絶滅危惧IB類(EN)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "eublepharis-macularius",
+  "group": "gecko",
+  "nameJa": "ヒョウモントカゲモドキ",
+  "nameSci": "Eublepharis macularius",
+  "nameEn": "Leopard Gecko",
+  "family": "トカゲモドキ科",
+  "familySci": "Eublepharidae",
+  "sizeMm": [
+   200,
+   250
+  ],
+  "description": "パキスタンからインド北西部の乾燥地にすむ地上性のヤモリ。「レオパ」の愛称で世界中で飼育され、体色や斑紋の品種が非常に多い。太い尾に栄養を蓄え、危険が迫ると尾を自切する。まぶたを閉じて眠る。",
+  "tags": {
+   "habitat": [
+    "地表棲",
+    "砂漠棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アジア",
+    "中央アジア"
+   ],
+   "breeding": "1〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gekko-gecko",
+  "group": "gecko",
+  "nameJa": "トッケイヤモリ",
+  "nameSci": "Gekko gecko",
+  "nameEn": "Tokay Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   250,
+   350
+  ],
+  "description": "東南アジアに広く分布する大型のヤモリ。青灰色の地に橙色の斑点が散る派手な体色で、「トッケイ、トッケイ」と大きな声で鳴くことが名の由来。気が強く咬みつく力も強い。爬虫類イベントや動物園でよく見られる。",
+  "tags": {
+   "habitat": [
+    "樹上棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "南アジア"
+   ],
+   "breeding": "通年（熱帯）",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gekko-japonicus",
+  "group": "gecko",
+  "nameJa": "ニホンヤモリ",
+  "nameSci": "Gekko japonicus",
+  "nameEn": "Schlegel's Japanese Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   100,
+   140
+  ],
+  "description": "本州から九州の人家周辺でごく普通に見られるヤモリ。指下の趾下薄板で垂直なガラス面も登り、夜に灯りへ集まる虫を待ち伏せる。大陸から人とともに渡ってきた史前帰化種と考えられている。「家守」として親しまれてきた。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "外来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "5〜9月",
+   "redlist": "評価対象外"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gekko-hokouensis",
+  "group": "gecko",
+  "nameJa": "ミナミヤモリ",
+  "nameSci": "Gekko hokouensis",
+  "nameEn": "Hokou Gecko",
+  "family": "ヤモリ科",
+  "familySci": "Gekkonidae",
+  "sizeMm": [
+   90,
+   130
+  ],
+  "description": "九州南部から南西諸島、台湾・中国南部に分布するヤモリ。ニホンヤモリによく似るが、より自然林や岩場に多い。島ごとに遺伝的な分化があることが知られている。夜間、樹幹や人家の壁で昆虫を捕らえる。",
+  "tags": {
+   "habitat": [
+    "樹上棲",
+    "岩場棲"
+   ],
+   "origin": "在来",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "日本",
+    "東アジア"
+   ],
+   "breeding": "4〜8月",
+   "redlist": "ランク外"
+  },
+  "zooDisplay": false
+ }
+]

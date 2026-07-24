@@ -300,6 +300,80 @@ html[data-theme="dark"] .appbar { background: var(--green-900); }
 }
 .result-count { font-size: 12px; color: var(--text-dim); }
 
+/* ---------- Home（生き物グループの選択） ---------- */
+.home-lead {
+  margin: 2px 4px 10px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (min-width: 560px)  { .home-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 860px)  { .home-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.home-tile {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: inherit;
+  padding: 14px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform .12s;
+}
+.home-tile:active { transform: scale(.975); }
+.home-tile.pending { opacity: .62; }
+
+.home-ico {
+  width: 64px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  color: var(--green-700);
+  margin-bottom: 6px;
+}
+html[data-theme="dark"] .home-ico { color: var(--green-500); }
+.home-ico svg { width: 100%; height: 100%; }
+
+.home-name { font-size: 15px; font-weight: 700; }
+.home-note {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  line-height: 1.35;
+  margin-top: 2px;
+  min-height: 2.7em;
+}
+.home-count { font-size: 12px; margin-top: 4px; }
+.home-count b { font-size: 15px; }
+.home-count.dim { color: var(--text-dim); }
+
+.home-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--surface-2);
+  overflow: hidden;
+  display: flex;
+  margin-top: 7px;
+}
+.home-fill { height: 100%; }
+.home-fill.wild { background: var(--wild); }
+.home-fill.captive { background: var(--captive); }
+
+.home-total {
+  margin: 16px 4px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.home-total b { color: var(--text); font-size: 15px; }
+
 /* ---------- Species grid ---------- */
 .grid {
   display: grid;

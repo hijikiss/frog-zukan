@@ -73,7 +73,7 @@ export async function createCropper({ blob, crop } = {}) {
   const element = el('div', { class: 'cropper' },
     frame,
     controls,
-    el('div', { class: 'hint', text: 'ドラッグで位置、ピンチ／スライダーで拡大。カエルを枠の中心に。' })
+    el('div', { class: 'hint', text: 'ドラッグで位置、ピンチ／スライダーで拡大。生き物を枠の中心に。' })
   );
 
   /* ---- レイアウト（状態 → transform）---- */

@@ -1,28 +1,23 @@
 /**
  * 種データの一元管理。
  *
- * data/frogs.json（アプリ同梱の初期データ、読み取り専用）に
+ * data/species/<group>.json（アプリ同梱の初期データ、読み取り専用）に
  * IndexedDB の speciesOverrides（自分の編集・追加・削除）を重ねて「表示用の種リスト」を作る。
  *
- * この二層構造のおかげで、アプリを更新して frogs.json に種が増えても
+ * この二層構造のおかげで、アプリを更新して同梱データに種が増えても
  * 自分が直した記述は上書きされずに残る。
+ *
+ * 全グループ（カエル・ヘビ・カメ…）を1つのリストで持ち、group フィールドで絞る。
+ * 施設別ページや検索を全グループ横断で書けるようにするため。
  */
 
 import { overrides, photos } from './db.js';
+import { GROUPS, DEFAULT_GROUP, dataFile, group as groupOf, sizeBand as bandOf } from './groups.js';
 
-export const HABITATS = ['樹上棲', '地表棲', '地中棲', '水棲', '半水棲', '流水性'];
-export const ORIGINS = ['在来', '外来', '国外'];
-export const SIZES = ['超小型', '小型', '中型', '大型', '超大型'];
-export const ACTIVITIES = ['夜行性', '昼行性', '薄明薄暮性'];
-export const REGIONS = [
-  '日本', '東アジア', '東南アジア', '南アジア', '中央アジア', 'ヨーロッパ',
-  'アフリカ', 'マダガスカル', '北アメリカ', '中央アメリカ', '南アメリカ', 'オセアニア', 'カリブ',
-];
-export const REDLIST = [
-  '絶滅(EX)', '野生絶滅(EW)',
-  '絶滅危惧IA類(CR)', '絶滅危惧IB類(EN)', '絶滅危惧II類(VU)',
-  '準絶滅危惧(NT)', '低懸念(LC)', '情報不足(DD)', '評価対象外', 'ランク外',
-];
+export { ORIGINS, SIZES, ACTIVITIES, REGIONS, REDLIST, GROUPS } from './groups.js';
+
+/** そのグループで使う生息環境の語彙 */
+export const habitatsOf = (groupId) => groupOf(groupId).habitats;
 
 export const STATUS = {
   UNSEEN: 'unseen',
@@ -35,7 +30,7 @@ export const STATUS_LABEL = {
   wild: '野生で観察',
 };
 
-let base = [];            // frogs.json そのまま
+let base = [];            // 同梱データ（全グループ）そのまま
 let merged = [];          // 表示用（override 適用後）
 let byId = new Map();
 let photoIndex = new Map(); // speciesId -> { count, hasWild, hasCaptive, cover }
@@ -43,9 +38,19 @@ let photoIndex = new Map(); // speciesId -> { count, hasWild, hasCaptive, cover 
 /* ---------------- 読み込み ---------------- */
 
 export async function load() {
-  const res = await fetch('./data/frogs.json', { cache: 'no-cache' });
-  if (!res.ok) throw new Error('frogs.json を読み込めませんでした');
-  base = await res.json();
+  const lists = await Promise.all(GROUPS.map(async (g) => {
+    const res = await fetch(dataFile(g.id), { cache: 'no-cache' });
+    // 1グループが欠けても他は表示できるようにする（データ追加の途中でも壊れない）
+    if (!res.ok) {
+      console.warn(`${dataFile(g.id)} を読み込めませんでした`);
+      return [];
+    }
+    const list = await res.json();
+    return list.map((s) => (s.group ? s : { ...s, group: g.id }));
+  }));
+
+  base = lists.flat();
+  if (!base.length) throw new Error('種データを読み込めませんでした');
   await rebuild();
 }
 
@@ -87,15 +92,18 @@ function stripMeta(o) {
 
 function normalize(s) {
   const t = s.tags || {};
+  // group が無いのは古いバックアップ由来の自作種。カエル図鑑時代のものなのでカエル扱い。
+  const group = s.group || DEFAULT_GROUP;
   return {
     ...s,
+    group,
     family: s.family || '不明',
     familySci: s.familySci || '',
     sizeMm: Array.isArray(s.sizeMm) && s.sizeMm.length === 2 ? s.sizeMm : null,
     tags: {
       habitat: t.habitat || [],
       origin: t.origin || '国外',
-      size: t.size || (s.sizeMm ? sizeBand(s.sizeMm[1]) : ''),
+      size: t.size || (s.sizeMm ? sizeBand(s.sizeMm[1], group) : ''),
       activity: t.activity || [],
       toxic: !!t.toxic,
       region: t.region || [],
@@ -105,15 +113,8 @@ function normalize(s) {
   };
 }
 
-export function sizeBand(maxMm) {
-  const n = Number(maxMm);
-  if (!Number.isFinite(n)) return '';
-  if (n < 25) return '超小型';
-  if (n < 50) return '小型';
-  if (n < 90) return '中型';
-  if (n < 150) return '大型';
-  return '超大型';
-}
+/** 体長 → サイズ帯。基準はグループごと（groups.js） */
+export const sizeBand = bandOf;
 
 /* ---------------- 写真インデックス ---------------- */
 
@@ -150,27 +151,29 @@ export function statusOf(speciesId) {
 
 export const photoInfo = (speciesId) => photoIndex.get(speciesId) || null;
 
-export function progress() {
-  const total = merged.length;
+/** groupId 省略時は全グループ合計 */
+export function progress(groupId) {
+  const list = all(groupId);
   let observed = 0;
   let wild = 0;
-  for (const s of merged) {
+  for (const s of list) {
     const st = statusOf(s.id);
     if (st === STATUS.UNSEEN) continue;
     observed++;
     if (st === STATUS.WILD) wild++;
   }
-  return { total, observed, wild, captive: observed - wild };
+  return { total: list.length, observed, wild, captive: observed - wild };
 }
 
 /* ---------------- 取得 ---------------- */
 
-export const all = () => merged;
+/** groupId 省略時は全グループ */
+export const all = (groupId) => (groupId ? merged.filter((s) => s.group === groupId) : merged);
 export const get = (id) => byId.get(id);
 
-export function families() {
+export function families(groupId) {
   const m = new Map();
-  for (const s of merged) m.set(s.family, (m.get(s.family) || 0) + 1);
+  for (const s of all(groupId)) m.set(s.family, (m.get(s.family) || 0) + 1);
   return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
 }
 
@@ -234,7 +237,7 @@ export function sort(list, key) {
 
 /* ---------------- 編集 ---------------- */
 
-const FIELDS = ['nameJa', 'nameSci', 'nameEn', 'family', 'familySci', 'sizeMm', 'description', 'zooDisplay', 'tags'];
+const FIELDS = ['nameJa', 'nameSci', 'nameEn', 'family', 'familySci', 'sizeMm', 'description', 'zooDisplay', 'tags', 'group'];
 
 /** 種の編集を保存。frogs.json 由来の種なら差分だけ、自作種なら全体を保存する。 */
 export async function saveSpecies(id, patch) {
@@ -253,14 +256,14 @@ export async function saveSpecies(id, patch) {
   return get(id);
 }
 
-/** 新しい種を自分で追加する */
+/** 新しい種を自分で追加する。group は必須（省略時はカエル扱い） */
 export async function addSpecies(data) {
   const id = (data.id || slugify(data.nameSci || data.nameJa) || 'custom') + '';
   let uniqueId = id;
   let i = 2;
   while (byId.has(uniqueId)) uniqueId = `${id}-${i++}`;
 
-  await overrides.put({ ...data, id: uniqueId, _custom: true });
+  await overrides.put({ ...data, group: data.group || DEFAULT_GROUP, id: uniqueId, _custom: true });
   await rebuild();
   return get(uniqueId);
 }

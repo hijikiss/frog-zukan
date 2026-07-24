@@ -1,22 +1,28 @@
 /** 一覧画面：検索・タグ絞り込み・観察ステータス絞り込み */
 
 import * as sp from '../species.js';
+import { group as groupOf, DEFAULT_GROUP } from '../groups.js';
 import { el, clear, blobUrlFor, silhouette } from '../ui.js';
 
-// 画面を離れて戻ってきても絞り込みが消えないよう、モジュールスコープに置く
-const state = {
-  q: '',
-  sort: 'taxonomy',
-  open: false,
-  scroll: 0,
-  f: {
-    habitat: [], origin: [], size: [], activity: [], region: [], redlist: [], family: [],
-    toxic: null, zooDisplay: false, status: [],
-  },
-};
+// 画面を離れて戻ってきても絞り込みが消えないよう、グループごとに状態を覚えておく
+const states = new Map();
 
-export function activeFilterCount() {
-  const f = state.f;
+const emptyFilters = () => ({
+  habitat: [], origin: [], size: [], activity: [], region: [], redlist: [], family: [],
+  toxic: null, zooDisplay: false, status: [],
+});
+
+function stateOf(groupId) {
+  let s = states.get(groupId);
+  if (!s) {
+    s = { q: '', sort: 'taxonomy', open: false, scroll: 0, f: emptyFilters() };
+    states.set(groupId, s);
+  }
+  return s;
+}
+
+export function activeFilterCount(groupId = DEFAULT_GROUP) {
+  const f = stateOf(groupId).f;
   let n = 0;
   for (const k of ['habitat', 'origin', 'size', 'activity', 'region', 'redlist', 'family', 'status']) {
     n += f[k].length;
@@ -26,7 +32,9 @@ export function activeFilterCount() {
   return n;
 }
 
-export function render(view) {
+export function render(view, groupId = DEFAULT_GROUP) {
+  const g = groupOf(groupId);
+  const state = stateOf(g.id);
   clear(view);
 
   const results = el('div');
@@ -41,7 +49,7 @@ export function render(view) {
   });
 
   const toggleBtn = el('button', {
-    class: 'filter-toggle' + (activeFilterCount() ? ' on' : ''),
+    class: 'filter-toggle' + (activeFilterCount(g.id) ? ' on' : ''),
     onclick: () => { state.open = !state.open; paintFilters(); },
   });
 
@@ -67,7 +75,7 @@ export function render(view) {
   /* ---- 絞り込みパネル ---- */
   function paintFilters() {
     clear(toggleBtn);
-    const n = activeFilterCount();
+    const n = activeFilterCount(g.id);
     toggleBtn.classList.toggle('on', n > 0);
     toggleBtn.append('絞り込み', n ? el('span', { class: 'count', text: String(n) }) : '');
 
@@ -98,8 +106,8 @@ export function render(view) {
       })
     );
 
-    const toxicChips = [
-      { v: true, label: '毒あり' },
+    const toxicChips = !g.toxic.show ? [] : [
+      { v: true, label: g.toxic.label },
       { v: false, label: '毒なし' },
     ].map(({ v, label }) =>
       el('button', {
@@ -125,18 +133,18 @@ export function render(view) {
     filtersBox.append(
       el('div', { class: 'filters' },
         group('観察ステータス', statusChips),
-        group('生息環境', multi('habitat', sp.HABITATS)),
+        group('生息環境', multi('habitat', sp.habitatsOf(g.id))),
         group('在来 / 外来', multi('origin', sp.ORIGINS)),
         group('体サイズ', multi('size', sp.SIZES)),
         group('活動時間', multi('activity', sp.ACTIVITIES)),
-        group('毒', [...toxicChips, zooChip]),
+        group(g.toxic.show ? '毒・展示' : '展示', [...toxicChips, zooChip]),
         group('分布', multi('region', sp.REGIONS)),
         group('レッドリスト', multi('redlist', sp.REDLIST)),
-        group('科', multi('family', sp.families().map((f) => f.name))),
+        group('科', multi('family', sp.families(g.id).map((f) => f.name))),
         el('div', { class: 'filter-actions' },
           el('button', {
             class: 'btn sm',
-            onclick: () => { resetFilters(); paintFilters(); },
+            onclick: () => { state.f = emptyFilters(); paintFilters(); },
           }, 'すべて解除'),
           el('label', { style: 'display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-dim)' },
             '並び順', sortSel)
@@ -148,7 +156,7 @@ export function render(view) {
 
   /* ---- 結果グリッド ---- */
   function paint() {
-    let list = sp.all();
+    let list = sp.all(g.id);
     list = sp.search(list, state.q);
     list = sp.filter(list, state.f);
     list = sp.sort(list, state.sort);
@@ -159,14 +167,17 @@ export function render(view) {
     );
 
     if (!list.length) {
+      const nothingYet = !sp.all(g.id).length;
       results.append(
         el('div', { class: 'empty-state' },
-          el('span', { class: 'big' }, '🔎'),
-          '条件に合うカエルがいません。',
-          el('div', { style: 'margin-top:12px' },
+          el('span', { class: 'big' }, nothingYet ? '🚧' : '🔎'),
+          nothingYet
+            ? `${g.name}のデータはまだ準備中です。`
+            : `条件に合う${g.name}がいません。`,
+          nothingYet ? null : el('div', { style: 'margin-top:12px' },
             el('button', {
               class: 'btn sm',
-              onclick: () => { state.q = ''; searchInput.value = ''; resetFilters(); paintFilters(); },
+              onclick: () => { state.q = ''; searchInput.value = ''; state.f = emptyFilters(); paintFilters(); },
             }, '条件をリセット')
           )
         )
@@ -175,16 +186,9 @@ export function render(view) {
     }
 
     const grid = el('div', { class: 'grid' });
-    for (const s of list) grid.append(card(s));
+    for (const s of list) grid.append(card(s, state));
     results.append(grid);
   }
-}
-
-function resetFilters() {
-  state.f = {
-    habitat: [], origin: [], size: [], activity: [], region: [], redlist: [], family: [],
-    toxic: null, zooDisplay: false, status: [],
-  };
 }
 
 function toggleIn(arr, v) {
@@ -193,7 +197,7 @@ function toggleIn(arr, v) {
   else arr.push(v);
 }
 
-function card(s) {
+function card(s, state) {
   const status = sp.statusOf(s.id);
   const info = sp.photoInfo(s.id);
 
@@ -201,7 +205,7 @@ function card(s) {
   if (info?.cover) {
     imgBox.append(el('img', { src: blobUrlFor(info.cover), alt: s.nameJa, loading: 'lazy' }));
   } else {
-    imgBox.append(silhouette());
+    imgBox.append(silhouette(s.group));
   }
 
   if (status !== 'unseen') {

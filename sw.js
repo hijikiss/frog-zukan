@@ -9,22 +9,32 @@
  * アプリを更新したら CACHE のバージョンを上げること。
  */
 
-const CACHE = 'frog-zukan-v3';
+const CACHE = 'frog-zukan-v4';
 
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './css/style.css',
-  './data/frogs.json',
+  './data/species/frog.json',
+  './data/species/newt.json',
+  './data/species/salamander.json',
+  './data/species/snake.json',
+  './data/species/turtle.json',
+  './data/species/gecko.json',
+  './data/species/lizard.json',
+  './data/species/croc.json',
   './js/app.js',
   './js/db.js',
   './js/ui.js',
+  './js/icons.js',
+  './js/groups.js',
   './js/exif.js',
   './js/cropper.js',
   './js/photos.js',
   './js/species.js',
   './js/backup.js',
+  './js/views/home.js',
   './js/views/list.js',
   './js/views/detail.js',
   './js/views/facilities.js',

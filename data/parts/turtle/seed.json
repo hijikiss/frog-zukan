@@ -1,0 +1,128 @@
+[
+  {
+    "id": "mauremys-japonica",
+    "nameJa": "ニホンイシガメ",
+    "nameSci": "Mauremys japonica",
+    "nameEn": "Japanese Pond Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [120, 220],
+    "description": "本州・四国・九州に分布する日本固有の淡水ガメ。橙褐色の甲羅の後縁がぎざぎざに尖り、幼体は「ゼニガメ」と呼ばれる。きれいな流れのある河川や池を好むが、生息環境の悪化とクサガメとの交雑で減少している。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜7月",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "mauremys-reevesii",
+    "nameJa": "クサガメ",
+    "nameSci": "Mauremys reevesii",
+    "nameEn": "Reeves' Turtle",
+    "family": "イシガメ科",
+    "familySci": "Geoemydidae",
+    "sizeMm": [150, 300],
+    "description": "頭に黄色い斑紋が入る黒褐色の淡水ガメ。江戸時代以降に大陸から持ち込まれた外来種と考えられている。捕まえると臭腺から強いにおいを出すことが名の由来。日本各地の池や川で普通に見られ、ニホンイシガメとの交雑が問題になっている。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "外来",
+      "size": "中型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "5〜7月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "trachemys-scripta-elegans",
+    "nameJa": "ミシシッピアカミミガメ",
+    "nameSci": "Trachemys scripta",
+    "nameEn": "Red-eared Slider",
+    "family": "ヌマガメ科",
+    "familySci": "Emydidae",
+    "sizeMm": [150, 280],
+    "description": "北アメリカ原産で、目の後ろの赤い斑が特徴。「ミドリガメ」として大量に輸入され、遺棄によって日本中の水辺に定着した。在来のカメと餌や日光浴場所を奪い合うため、2023年に条件付特定外来生物に指定された。",
+    "tags": {
+      "habitat": ["淡水棲", "半水棲"],
+      "origin": "外来",
+      "size": "中型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "北アメリカ"],
+      "breeding": "4〜7月",
+      "redlist": "評価対象外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "pelodiscus-sinensis",
+    "nameJa": "ニホンスッポン",
+    "nameSci": "Pelodiscus sinensis",
+    "nameEn": "Chinese Softshell Turtle",
+    "family": "スッポン科",
+    "familySci": "Trionychidae",
+    "sizeMm": [200, 350],
+    "description": "甲羅が柔らかい皮膚に覆われた淡水ガメ。長い首とシュノーケルのような鼻先を持ち、砂泥に潜って獲物を待ち伏せる。かみつく力が強い。食用として古くから養殖され、日本の河川や池に広く分布する。",
+    "tags": {
+      "habitat": ["淡水棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["夜行性", "昼行性"],
+      "toxic": false,
+      "region": ["日本", "東アジア"],
+      "breeding": "5〜8月",
+      "redlist": "情報不足(DD)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "chelonia-mydas",
+    "nameJa": "アオウミガメ",
+    "nameSci": "Chelonia mydas",
+    "nameEn": "Green Sea Turtle",
+    "family": "ウミガメ科",
+    "familySci": "Cheloniidae",
+    "sizeMm": [800, 1200],
+    "description": "世界の熱帯・亜熱帯の海に広く分布する大型のウミガメ。成体は海草や海藻を食べる草食性で、体脂肪が緑がかることが英名の由来。日本では小笠原諸島や南西諸島の砂浜が主要な産卵地で、水族館の大水槽でもよく泳いでいる。",
+    "tags": {
+      "habitat": ["海棲"],
+      "origin": "在来",
+      "size": "超大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本", "東南アジア", "オセアニア"],
+      "breeding": "5〜8月",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "centrochelys-sulcata",
+    "nameJa": "ケヅメリクガメ",
+    "nameSci": "Centrochelys sulcata",
+    "nameEn": "African Spurred Tortoise",
+    "family": "リクガメ科",
+    "familySci": "Testudinidae",
+    "sizeMm": [500, 830],
+    "description": "サハラ砂漠南縁の乾燥地帯にすむ世界第3位の大きさのリクガメ。後肢の付け根に蹴爪状の突起が並ぶ。長い穴を掘って暑さをしのぐ。飼育下でよく育ち動物園のふれあい展示でも人気だが、成長すると100kg近くになる。",
+    "tags": {
+      "habitat": ["陸棲"],
+      "origin": "国外",
+      "size": "超大型",
+      "activity": ["昼行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "雨季の後",
+      "redlist": "絶滅危惧IB類(EN)"
+    },
+    "zooDisplay": true
+  }
+]

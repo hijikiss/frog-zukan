@@ -153,9 +153,14 @@ export function fromLocalInput(v) {
   return Number.isNaN(d.getTime()) ? null : d.toISOString();
 }
 
+/** 体長の表示。1m を超えるものはメートル表記にする（ヘビ・ワニ・ウミガメ用） */
 export function formatSize(sizeMm) {
   if (!Array.isArray(sizeMm)) return '不明';
   const [min, max] = sizeMm;
+  if (max >= 1000) {
+    const m = (v) => `${Math.round(v / 10) / 100}m`.replace('.00m', 'm');
+    return min === max ? `約${m(max)}` : `${m(min)}〜${m(max)}`;
+  }
   return min === max ? `約${max}mm` : `${min}〜${max}mm`;
 }
 
@@ -191,28 +196,7 @@ export function revokeCached() {
   urlCache.clear();
 }
 
-/* ---------------- カエルのシルエット（未観察のプレースホルダ） ---------------- */
+/* ---------------- シルエット（未観察のプレースホルダ） ---------------- */
 
-export function silhouette() {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', '0 0 100 86');
-  svg.setAttribute('aria-hidden', 'true');
-  // 1本のパスで描く。塗り足す形は時計回り、穴にする形（瞳・鼻孔・口）は反時計回りにして、
-  // nonzero 規則で穴が空くようにしている。
-  //   ・頭は横に平たい楕円（カエルは頭が幅広い）
-  //   ・目は頭の輪郭から上へ大きく突き出させる（クマの耳に見えないよう、頭頂ではなく上前方）
-  //   ・口は顔幅いっぱいに広がる三日月
-  svg.innerHTML = `<path fill="currentColor" d="
-    M8 57a42 25 0 1 1 84 0 42 25 0 1 1-84 0Z
-    M14 28a14 14 0 1 1 28 0 14 14 0 1 1-28 0Z
-    M58 28a14 14 0 1 1 28 0 14 14 0 1 1-28 0Z
-    M20.5 28a7.5 7.5 0 1 0 15 0 7.5 7.5 0 1 0-15 0Z
-    M64.5 28a7.5 7.5 0 1 0 15 0 7.5 7.5 0 1 0-15 0Z
-    M24.5 28a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0Z
-    M68.5 28a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0Z
-    M39.5 49a2.5 2.5 0 1 0 5 0 2.5 2.5 0 1 0-5 0Z
-    M55.5 49a2.5 2.5 0 1 0 5 0 2.5 2.5 0 1 0-5 0Z
-    M17 58Q50 85 83 58Q50 73.5 17 58Z
-  "/>`;
-  return svg;
-}
+// 実体は js/icons.js（グループごとに絵が違う）。従来どおり ui.js からも使えるようにしておく。
+export { silhouette } from './icons.js';

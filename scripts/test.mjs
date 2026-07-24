@@ -122,32 +122,45 @@ test('EXIF が無い / 壊れていても落ちない', () => {
   assert.equal(parseExif(new ArrayBuffer(0)), null);
 });
 
-/* ============ frogs.json ============ */
+/* ============ 種データ（全グループ） ============ */
 
-console.log('\ndata/frogs.json');
+console.log('\ndata/species/*.json');
 
-const frogs = JSON.parse(readFileSync(join(ROOT, 'data', 'frogs.json'), 'utf8'));
+const { GROUPS, sizeBand, ORIGINS, ACTIVITIES, REGIONS, REDLIST } = await import('../js/groups.js');
 
-test('300種以上ある', () => {
+const byGroup = new Map();
+for (const g of GROUPS) {
+  byGroup.set(g.id, JSON.parse(readFileSync(join(ROOT, 'data', 'species', `${g.id}.json`), 'utf8')));
+}
+const allSpecies = [...byGroup.values()].flat();
+const frogs = byGroup.get('frog');
+
+test('全グループのデータファイルが存在し、空でない', () => {
+  for (const g of GROUPS) {
+    assert.ok(byGroup.get(g.id).length > 0, `${g.name} が0種`);
+  }
+});
+
+test('カエルは300種以上ある', () => {
   assert.ok(frogs.length >= 300, `${frogs.length}種しかない`);
 });
 
-test('日本の在来種・外来種が45種以上ある', () => {
+test('カエルの日本の在来種・外来種が45種以上ある', () => {
   const jp = frogs.filter((s) => ['在来', '外来'].includes(s.tags.origin));
   assert.ok(jp.length >= 45, `${jp.length}種`);
 });
 
 test('国内で展示されやすい種が100種以上ある', () => {
-  assert.ok(frogs.filter((s) => s.zooDisplay).length >= 100);
+  assert.ok(allSpecies.filter((s) => s.zooDisplay).length >= 100);
 });
 
-test('id と学名が一意', () => {
-  assert.equal(new Set(frogs.map((s) => s.id)).size, frogs.length, 'id が重複');
-  assert.equal(new Set(frogs.map((s) => s.nameSci)).size, frogs.length, '学名が重複');
+test('id と学名が全グループを通して一意', () => {
+  assert.equal(new Set(allSpecies.map((s) => s.id)).size, allSpecies.length, 'id が重複');
+  assert.equal(new Set(allSpecies.map((s) => s.nameSci)).size, allSpecies.length, '学名が重複');
 });
 
 test('全レコードが必須フィールドとタグを持つ', () => {
-  for (const s of frogs) {
+  for (const s of allSpecies) {
     for (const k of ['id', 'nameJa', 'nameSci', 'family', 'description']) {
       assert.ok(s[k], `${s.id}: ${k} が空`);
     }
@@ -161,24 +174,70 @@ test('全レコードが必須フィールドとタグを持つ', () => {
   }
 });
 
+test('タグの語彙がグループの定義から外れていない', () => {
+  for (const g of GROUPS) {
+    for (const s of byGroup.get(g.id)) {
+      assert.equal(s.group, g.id, `${s.id}: group が ${s.group}`);
+      for (const h of s.tags.habitat) {
+        assert.ok(g.habitats.includes(h), `${s.id}: ${g.name} に無い生息環境 ${h}`);
+      }
+      for (const r of s.tags.region) assert.ok(REGIONS.includes(r), `${s.id}: 分布 ${r}`);
+      for (const a of s.tags.activity) assert.ok(ACTIVITIES.includes(a), `${s.id}: 活動時間 ${a}`);
+      assert.ok(ORIGINS.includes(s.tags.origin), `${s.id}: 在来区分 ${s.tags.origin}`);
+      assert.ok(REDLIST.includes(s.tags.redlist), `${s.id}: レッドリスト ${s.tags.redlist}`);
+      if (!g.toxic.show) assert.equal(s.tags.toxic, false, `${s.id}: ${g.name} に毒フラグ`);
+    }
+  }
+});
+
+test('日本の代表種が各グループに入っている', () => {
+  const need = {
+    frog: 'ニホンアマガエル',
+    newt: 'アカハライモリ',
+    salamander: 'オオサンショウウオ',
+    snake: 'アオダイショウ',
+    turtle: 'ニホンイシガメ',
+    gecko: 'ニホンヤモリ',
+    lizard: 'ニホンカナヘビ',
+    croc: 'イリエワニ',
+  };
+  for (const [gid, name] of Object.entries(need)) {
+    assert.ok(byGroup.get(gid).some((s) => s.nameJa === name), `${gid}: ${name} が無い`);
+  }
+});
+
 /* ============ species.js ============ */
 
 console.log('\nspecies.js');
 
 const sp = await import('../js/species.js');
 
-test('サイズ帯を体長から判定できる', () => {
-  assert.equal(sp.sizeBand(20), '超小型');
-  assert.equal(sp.sizeBand(40), '小型');
-  assert.equal(sp.sizeBand(70), '中型');
-  assert.equal(sp.sizeBand(120), '大型');
-  assert.equal(sp.sizeBand(300), '超大型');
+test('サイズ帯を体長から判定できる（カエルの基準）', () => {
+  assert.equal(sp.sizeBand(20, 'frog'), '超小型');
+  assert.equal(sp.sizeBand(40, 'frog'), '小型');
+  assert.equal(sp.sizeBand(70, 'frog'), '中型');
+  assert.equal(sp.sizeBand(120, 'frog'), '大型');
+  assert.equal(sp.sizeBand(300, 'frog'), '超大型');
+});
+
+test('サイズ帯の基準はグループごとに違う', () => {
+  // 1m はカエルなら超大型だが、ヘビなら中型・ワニなら超小型
+  assert.equal(sp.sizeBand(1000, 'frog'), '超大型');
+  assert.equal(sp.sizeBand(1000, 'snake'), '中型');
+  assert.equal(sp.sizeBand(1000, 'croc'), '超小型');
+  assert.equal(sp.sizeBand(150, 'turtle'), '小型');
 });
 
 test('sizeMm とサイズ帯タグが全種で整合する', () => {
-  for (const s of frogs) {
-    assert.equal(s.tags.size, sp.sizeBand(s.sizeMm[1]), `${s.id} (${s.sizeMm[1]}mm)`);
+  for (const s of allSpecies) {
+    assert.equal(s.tags.size, sizeBand(s.sizeMm[1], s.group), `${s.id} (${s.sizeMm[1]}mm/${s.group})`);
   }
+});
+
+test('グループで絞れる', () => {
+  assert.equal(sp.all('snake').length, 0, '読み込み前は空');   // load() 前なので全体は空
+  const snakes = byGroup.get('snake');
+  assert.ok(snakes.every((s) => s.group === 'snake'));
 });
 
 test('ひらがなで検索してもカタカナの和名・科名に当たる', () => {

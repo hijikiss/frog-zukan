@@ -1,7 +1,7 @@
 {
-  "name": "カエル図鑑",
-  "short_name": "カエル図鑑",
-  "description": "日本と世界のカエルの図鑑。観察したカエルを自分の写真で記録していく個人用アプリ。",
+  "name": "爬虫類・両生類図鑑",
+  "short_name": "は虫類図鑑",
+  "description": "日本と世界の爬虫類・両生類の図鑑。観察した生き物を自分の写真で記録していく個人用アプリ。",
   "lang": "ja",
   "dir": "ltr",
   "start_url": "./",
@@ -10,7 +10,11 @@
   "orientation": "portrait-primary",
   "background_color": "#f6f7f4",
   "theme_color": "#2f6b46",
-  "categories": ["education", "lifestyle", "utilities"],
+  "categories": [
+    "education",
+    "lifestyle",
+    "utilities"
+  ],
   "icons": [
     {
       "src": "./icons/icon-192.png",

@@ -1,12 +1,14 @@
 /** 種情報の編集・追加モーダル（同梱データの誤りを直すため） */
 
 import * as sp from '../species.js';
-import { el, modal, toast, confirmDialog } from '../ui.js';
+import { GROUPS, group as groupOf, DEFAULT_GROUP } from '../groups.js';
+import { el, clear, modal, toast, confirmDialog } from '../ui.js';
 
 /**
  * species を渡せば編集、渡さなければ新規追加。
+ * 新規のときは groupId で初期グループを指定できる。
  */
-export function open({ species, onSaved }) {
+export function open({ species, groupId, onSaved }) {
   const isNew = !species;
   const s = species || {
     nameJa: '', nameSci: '', nameEn: '', family: '', familySci: '',
@@ -17,6 +19,9 @@ export function open({ species, onSaved }) {
     },
   };
   const t = s.tags;
+
+  // 生き物グループ。既存種は動かさず、新規のときだけ選ばせる。
+  let g = groupOf(species?.group || groupId || DEFAULT_GROUP);
 
   const f = {
     nameJa: input('text', s.nameJa),
@@ -45,14 +50,42 @@ export function open({ species, onSaved }) {
   const zooChk = checkbox('国内の動物園・水族館で展示されやすい', !!s.zooDisplay);
 
   const sizeHint = el('div', { class: 'hint' });
+  const sizeLabel = el('label', {});
+  const habitatBox = el('div');
+  const toxicBox = el('div', { class: 'field' });
+
+  const groupSel = el('select', {
+    onchange: () => { g = groupOf(groupSel.value); paintGroupParts(); },
+  }, GROUPS.map((x) => el('option', { value: x.id, selected: x.id === g.id, text: x.name })));
+
   const updateSizeHint = () => {
-    const band = sp.sizeBand(Number(f.sizeMax.value));
-    sizeHint.textContent = band ? `体サイズ帯: ${band}（最大体長から自動判定）` : '最大体長からサイズ帯を自動判定します';
+    const band = sp.sizeBand(Number(f.sizeMax.value), g.id);
+    sizeHint.textContent = band
+      ? `体サイズ帯: ${band}（${g.name}の基準で最大値から自動判定）`
+      : '最大値からサイズ帯を自動判定します';
   };
   f.sizeMax.addEventListener('input', updateSizeHint);
-  updateSizeHint();
+
+  /** グループで変わる部分（生息環境の語彙・体長の呼び方・毒の有無）を描き直す */
+  function paintGroupParts() {
+    for (const h of [...habitat]) if (!g.habitats.includes(h)) habitat.delete(h);
+    clear(habitatBox);
+    habitatBox.append(chipField('生息環境', g.habitats, habitat));
+
+    clear(toxicBox);
+    if (g.toxic.show) toxicBox.append(toxicChk.wrap);
+    else toxicChk.input.checked = false;
+
+    sizeLabel.textContent = `${g.lengthLabel}（mm）`;
+    updateSizeHint();
+  }
 
   const body = el('div', {},
+    isNew
+      ? field('生き物グループ', groupSel)
+      : el('div', { class: 'field' },
+          el('label', {}, '生き物グループ'),
+          el('div', { class: 'hint', style: 'margin-top:0', text: `${g.name}（${g.taxon}）` })),
     field('和名 *', f.nameJa),
     field('学名 *', f.nameSci),
     field('英名', f.nameEn),
@@ -61,21 +94,23 @@ export function open({ species, onSaved }) {
       el('div', { style: 'flex:1' }, field('科（学名）', f.familySci))
     ),
     el('div', { class: 'field' },
-      el('label', {}, '体長（mm）'),
+      sizeLabel,
       el('div', { style: 'display:flex;gap:8px;align-items:center' },
         f.sizeMin, el('span', { text: '〜' }), f.sizeMax),
       sizeHint
     ),
-    chipField('生息環境', sp.HABITATS, habitat),
+    habitatBox,
     field('在来 / 外来', originSel),
     chipField('活動時間', sp.ACTIVITIES, activity),
     chipField('分布', sp.REGIONS, region),
-    field('繁殖期', f.breeding),
+    field('繁殖期・産卵期', f.breeding),
     field('レッドリスト区分', redlistSel),
-    el('div', { class: 'field' }, toxicChk.wrap),
+    toxicBox,
     el('div', { class: 'field' }, zooChk.wrap),
     field('説明', desc)
   );
+
+  paintGroupParts();
 
   const footer = [
     isNew
@@ -88,7 +123,7 @@ export function open({ species, onSaved }) {
               await sp.removeSpecies(s.id);
               m.close();
               toast('種を削除しました');
-              location.hash = '#/';
+              location.hash = `#/g/${g.id}`;
               if (onSaved) onSaved();
               return;
             }
@@ -119,6 +154,7 @@ export function open({ species, onSaved }) {
       : null;
 
     const patch = {
+      group: g.id,
       nameJa,
       nameSci,
       nameEn: f.nameEn.value.trim(),
@@ -130,7 +166,7 @@ export function open({ species, onSaved }) {
       tags: {
         habitat: [...habitat],
         origin: originSel.value,
-        size: sizeMm ? sp.sizeBand(sizeMm[1]) : '',
+        size: sizeMm ? sp.sizeBand(sizeMm[1], g.id) : '',
         activity: [...activity],
         toxic: toxicChk.input.checked,
         region: [...region],

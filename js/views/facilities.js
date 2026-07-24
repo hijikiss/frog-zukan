@@ -48,7 +48,7 @@ export async function renderList(view) {
         el('a', { class: 'row', href: '#/f/__wild__' },
           el('span', { class: 'ico' }, '🌿'),
           el('span', { class: 'main' },
-            el('span', { class: 't', text: '野外で観察したカエル' }),
+            el('span', { class: 't', text: '野外で観察した生き物' }),
             el('span', { class: 's', text: `${wildCount}種` })
           ),
           el('span', { class: 'chev' }, '›')
@@ -94,7 +94,7 @@ export async function renderOne(view, name) {
 
   view.append(
     el('div', { class: 'panel' },
-      el('h2', { text: isWild ? '野外で観察したカエル' : name }),
+      el('h2', { text: isWild ? '野外で観察した生き物' : name }),
       el('p', { class: 'en', text: `${bySpecies.size}種 ・ 写真 ${list.length}枚` }),
       visits.length
         ? el('div', { class: 'facts', style: 'margin-top:10px' },
@@ -121,7 +121,7 @@ export async function renderOne(view, name) {
     const cover = ps[0];
     const imgBox = el('div', { class: 'card-img' + (cover ? '' : ' empty') });
     if (cover) imgBox.append(el('img', { src: blobUrlFor(cover.thumb || cover.blob), alt: '', loading: 'lazy' }));
-    else imgBox.append(silhouette());
+    else imgBox.append(silhouette(species.group));
     if (ps.length > 1) imgBox.append(el('span', { class: 'badge-count', text: `${ps.length}枚` }));
 
     grid.append(

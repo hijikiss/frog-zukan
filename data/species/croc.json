@@ -1,0 +1,199 @@
+[
+ {
+  "id": "alligator-mississippiensis",
+  "group": "croc",
+  "nameJa": "ミシシッピワニ",
+  "nameSci": "Alligator mississippiensis",
+  "nameEn": "American Alligator",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   3000,
+   4500
+  ],
+  "description": "北アメリカ南東部の湿地や川にすむ大型のワニ。口を閉じると下顎の歯が見えない幅広いU字型の吻を持つ。一度は乱獲で激減したが保護によって回復した。掘った水たまりが乾季に他の生き物の避難所となる。日本の動物園でも広く飼育される。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性",
+    "薄明薄暮性"
+   ],
+   "toxic": false,
+   "region": [
+    "北アメリカ"
+   ],
+   "breeding": "5〜6月",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "caiman-crocodilus",
+  "group": "croc",
+  "nameJa": "メガネカイマン",
+  "nameSci": "Caiman crocodilus",
+  "nameEn": "Spectacled Caiman",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   1800,
+   2500
+  ],
+  "description": "中南米の河川や湿地に広く分布する中型のワニ。両目の間に眼鏡のブリッジのような骨質の隆起があることが名の由来。環境への適応力が高く、人の作った池にも進入する。ワニ類のなかでは最も個体数が多い種のひとつ。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "中型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "中央アメリカ",
+    "南アメリカ"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "alligator-sinensis",
+  "group": "croc",
+  "nameJa": "ヨウスコウワニ",
+  "nameSci": "Alligator sinensis",
+  "nameEn": "Chinese Alligator",
+  "family": "アリゲーター科",
+  "familySci": "Alligatoridae",
+  "sizeMm": [
+   1500,
+   2000
+  ],
+  "description": "中国の長江下流域だけに残る小型のワニ。冬は巣穴に潜って冬眠する。生息地が農地に変わり野生個体は極めて少ないが、飼育下繁殖と再導入が進められている。日本でも複数の動物園で見られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "小型",
+   "activity": [
+    "夜行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東アジア"
+   ],
+   "breeding": "6〜7月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "gavialis-gangeticus",
+  "group": "croc",
+  "nameJa": "インドガビアル",
+  "nameSci": "Gavialis gangeticus",
+  "nameEn": "Gharial",
+  "family": "ガビアル科",
+  "familySci": "Gavialidae",
+  "sizeMm": [
+   3500,
+   5000
+  ],
+  "description": "インドとネパールの大河にすむ、極端に細長い吻を持つワニ。この吻は水の抵抗が小さく、横に振って魚を捕らえるのに適している。オスは鼻先に壺状の突起ができる。ダム建設と漁網により激減し、現在は保護区に限られる。",
+  "tags": {
+   "habitat": [
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "南アジア"
+   ],
+   "breeding": "3〜5月",
+   "redlist": "絶滅危惧IA類(CR)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-porosus",
+  "group": "croc",
+  "nameJa": "イリエワニ",
+  "nameSci": "Crocodylus porosus",
+  "nameEn": "Saltwater Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   4000,
+   6000
+  ],
+  "description": "現生最大の爬虫類。インド東部からオーストラリア北部の河口や汽水域に分布し、外洋を泳いで島から島へ渡る。塩類腺で余分な塩分を排出できる。人を襲うこともある強力な捕食者で、日本でも大型個体が展示されている。",
+  "tags": {
+   "habitat": [
+    "汽水棲",
+    "淡水棲"
+   ],
+   "origin": "国外",
+   "size": "超大型",
+   "activity": [
+    "夜行性",
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "東南アジア",
+    "オセアニア",
+    "南アジア"
+   ],
+   "breeding": "雨季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ },
+ {
+  "id": "crocodylus-niloticus",
+  "group": "croc",
+  "nameJa": "ナイルワニ",
+  "nameSci": "Crocodylus niloticus",
+  "nameEn": "Nile Crocodile",
+  "family": "クロコダイル科",
+  "familySci": "Crocodylidae",
+  "sizeMm": [
+   3500,
+   5000
+  ],
+  "description": "アフリカ大陸の河川や湖に広く分布する大型のワニ。ヌーの渡りを待ち伏せる姿で知られる。母親は卵を守り、孵化した子を口にくわえて水辺へ運ぶ手厚い子育てをする。集団で大きな獲物を仕留めることもある。",
+  "tags": {
+   "habitat": [
+    "淡水棲",
+    "半水棲"
+   ],
+   "origin": "国外",
+   "size": "大型",
+   "activity": [
+    "夜行性",
+    "昼行性"
+   ],
+   "toxic": false,
+   "region": [
+    "アフリカ"
+   ],
+   "breeding": "乾季",
+   "redlist": "低懸念(LC)"
+  },
+  "zooDisplay": true
+ }
+]

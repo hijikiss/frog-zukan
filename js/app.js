@@ -1,12 +1,16 @@
 /** 起動・ルーティング・進捗表示 */
 
 import * as sp from './species.js';
+import { group as groupOf, isGroup } from './groups.js';
 import { meta } from './db.js';
 import { el, clear, toast, revokeCached } from './ui.js';
+import * as homeView from './views/home.js';
 import * as listView from './views/list.js';
 import * as detailView from './views/detail.js';
 import * as facilitiesView from './views/facilities.js';
 import * as settingsView from './views/settings.js';
+
+const APP_TITLE = '爬虫類・両生類図鑑';
 
 const view = document.getElementById('view');
 const appTitle = document.getElementById('appTitle');
@@ -51,8 +55,9 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () 
 
 /* ---------------- 進捗 ---------------- */
 
-function paintProgress() {
-  const { total, observed, wild, captive } = sp.progress();
+/** groupId を渡すとそのグループの進捗、省略で全体 */
+function paintProgress(groupId) {
+  const { total, observed, wild, captive } = sp.progress(groupId);
   progressText.innerHTML = '';
   progressText.append(
     `${total}種中 `,
@@ -92,9 +97,14 @@ async function route() {
 
   try {
     if (head === 's' && arg) {
-      const s = sp.get(decodeURIComponent(arg));
-      setChrome(s ? s.nameJa : 'カエル図鑑', true, false);
-      await detailView.render(view, decodeURIComponent(arg), { refresh });
+      const id = decodeURIComponent(arg);
+      const s = sp.get(id);
+      setChrome(s ? s.nameJa : APP_TITLE, true, false);
+      await detailView.render(view, id, { refresh });
+    } else if (head === 'g' && arg && isGroup(arg)) {
+      const g = groupOf(arg);
+      setChrome(g.name, true, true, g.id);
+      listView.render(view, g.id);
     } else if (head === 'f' && arg) {
       const name = decodeURIComponent(arg);
       setChrome(name === '__wild__' ? '野外の観察' : name, true, false);
@@ -106,8 +116,8 @@ async function route() {
       setChrome('設定', false, false);
       await settingsView.render(view, { refresh });
     } else {
-      setChrome('カエル図鑑', false, true);
-      listView.render(view);
+      setChrome(APP_TITLE, false, true);
+      homeView.render(view);
     }
   } catch (err) {
     console.error(err);
@@ -118,10 +128,11 @@ async function route() {
   }
 }
 
-function setChrome(title, showBack, showProgress) {
+function setChrome(title, showBack, showProgress, groupId) {
   appTitle.textContent = title;
   backBtn.hidden = !showBack;
   progressStrip.style.display = showProgress ? '' : 'none';
+  if (showProgress) paintProgress(groupId);
 }
 
 function setActiveTab(name) {

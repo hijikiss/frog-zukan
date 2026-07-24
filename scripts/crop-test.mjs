@@ -10,7 +10,7 @@
  * をレンダー結果のピクセルで検証する。
  */
 
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { mkdtempSync, rmSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -21,7 +21,8 @@ const BROWSERS = [
   'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
 ];
 const BASE = process.argv[2] || 'http://localhost:8765/';
-const PORT = 9555;
+// 前回の残骸ブラウザに繋いでしまわないよう、実行ごとに違うポートを使う
+const PORT = 9555 + (process.pid % 300);
 
 const exe = BROWSERS.find(existsSync);
 const profile = mkdtempSync(join(tmpdir(), 'frog-crop-'));
@@ -29,6 +30,19 @@ const proc = spawn(exe, [
   '--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check',
   `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--window-size=420,900', 'about:blank',
 ], { stdio: 'ignore' });
+
+
+/**
+ * ブラウザを子プロセスごと終わらせる。
+ * Windows では proc.kill() がランチャだけを落とすので、レンダラなどが残って
+ * デバッグポートを掴み続け、次回の実行が「前回のブラウザ」に繋がってしまう。
+ */
+function killBrowser(p) {
+  if (process.platform === 'win32') {
+    try { spawnSync('taskkill', ['/pid', String(p.pid), '/T', '/F'], { stdio: 'ignore' }); } catch { /* もう居ない */ }
+  }
+  try { p.kill(); } catch { /* もう居ない */ }
+}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let msgId = 0; const pending = new Map(); let ws;
@@ -210,7 +224,7 @@ try {
   console.error('落ちました:', err.message);
   process.exitCode = 1;
 } finally {
-  proc.kill();
+  killBrowser(proc);
   await sleep(300);
   try { rmSync(profile, { recursive: true, force: true }); } catch { /* 使用中 */ }
 }

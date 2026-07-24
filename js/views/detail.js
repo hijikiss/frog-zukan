@@ -1,6 +1,7 @@
 /** 詳細画面：種情報 + 写真ギャラリー */
 
 import * as sp from '../species.js';
+import { group as groupOf } from '../groups.js';
 import { photos as photoDb } from '../db.js';
 import * as photoEditor from './photo-editor.js';
 import * as speciesEditor from './species-editor.js';
@@ -26,7 +27,7 @@ export async function render(view, id, { refresh }) {
   const cover = list.find((p) => p.context === 'wild') || list[0];
   const hero = el('div', { class: 'hero' + (cover ? '' : ' empty') });
   if (cover) {
-    // ヒーローはトリミング済みサムネ（カエルを枠の中心に据えた正方形）を表示し、
+    // ヒーローはトリミング済みサムネ（生き物を枠の中心に据えた正方形）を表示し、
     // タップ時のライトボックスでは元画像（全体）を見せる。
     hero.append(el('img', {
       src: blobUrlFor(cover.thumb || cover.blob),
@@ -34,18 +35,20 @@ export async function render(view, id, { refresh }) {
       onclick: () => lightbox(blobUrlFor(cover.blob)),
     }));
   } else {
-    hero.append(silhouette());
+    hero.append(silhouette(s.group));
   }
 
   /* ---- 種情報 ---- */
+  const g = groupOf(s.group);
   const t = s.tags;
   const facts = el('dl', { class: 'facts' },
+    row('グループ', `${g.name}（${g.taxon}）`),
     row('科', `${s.family}${s.familySci ? `（${s.familySci}）` : ''}`),
-    row('体長', formatSize(s.sizeMm)),
+    row(g.lengthLabel, formatSize(s.sizeMm)),
     row('生息環境', t.habitat.join('・') || '不明'),
     row('活動時間', t.activity.join('・') || '不明'),
     row('分布', t.region.join('・') || '不明'),
-    row('繁殖期', t.breeding || '不明'),
+    row(g.breedingLabel, t.breeding || '不明'),
     row('保全状況', t.redlist || '不明')
   );
 
@@ -54,7 +57,7 @@ export async function render(view, id, { refresh }) {
     el('span', { class: 'tag' + (t.origin === '外来' ? ' alien' : ''), text: t.origin }),
     t.size ? el('span', { class: 'tag', text: t.size }) : null,
     t.activity.map((a) => el('span', { class: 'tag', text: a })),
-    t.toxic ? el('span', { class: 'tag toxic', text: '毒あり' }) : null,
+    t.toxic && g.toxic.show ? el('span', { class: 'tag toxic', text: g.toxic.label }) : null,
     s.zooDisplay ? el('span', { class: 'tag', text: '展示個体が多い' }) : null,
     el('span', { class: 'tag rl', text: t.redlist })
   );

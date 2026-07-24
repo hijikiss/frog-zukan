@@ -1,0 +1,149 @@
+[
+  {
+    "id": "elaphe-climacophora",
+    "nameJa": "アオダイショウ",
+    "nameSci": "Elaphe climacophora",
+    "nameEn": "Japanese Rat Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [1000, 2000],
+    "description": "北海道から九州まで分布する日本最大級の無毒ヘビ。くすんだ緑褐色で、木登りが得意で人家の屋根裏にも入り、ネズミを食べることから「家の守り神」とされてきた。幼蛇はマムシに似た斑紋を持つ。動物園の身近な生き物コーナーでよく展示される。",
+    "tags": {
+      "habitat": ["樹上棲", "地表棲"],
+      "origin": "在来",
+      "size": "大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜6月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "elaphe-quadrivirgata",
+    "nameJa": "シマヘビ",
+    "nameSci": "Elaphe quadrivirgata",
+    "nameEn": "Japanese Four-lined Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [800, 1500],
+    "description": "日本各地の草地や水田周辺にすむ無毒ヘビ。淡黄色の地に4本の黒い縦縞が走るのが名の由来だが、全身が黒い「カラスヘビ」と呼ばれる黒化型も各地で見られる。動きが素早く、カエルやトカゲを好んで食べる。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "size": "大型",
+      "activity": ["昼行性"],
+      "toxic": false,
+      "region": ["日本"],
+      "breeding": "5〜6月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "gloydius-blomhoffii",
+    "nameJa": "ニホンマムシ",
+    "nameSci": "Gloydius blomhoffii",
+    "nameEn": "Japanese Pit Viper",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [400, 650],
+    "description": "北海道から九州に分布する日本の代表的な毒蛇。太く短い体に銭形の斑紋が並び、目と鼻の間に赤外線を感じるピット器官を持つ。夜行性で、山道や水田の畦で咬傷事故が起きる。卵ではなく子ヘビを産む卵胎生。",
+    "tags": {
+      "habitat": ["地表棲"],
+      "origin": "在来",
+      "size": "小型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "8〜10月（出産）",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "rhabdophis-tigrinus",
+    "nameJa": "ヤマカガシ",
+    "nameSci": "Rhabdophis tigrinus",
+    "nameEn": "Tiger Keelback",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [600, 1200],
+    "description": "本州以南の水辺に多い毒蛇。赤と黒の斑紋が目立ち、奥歯の基部から出血毒を分泌するほか、首の背面にはヒキガエルから取り込んだ毒を蓄える頸腺を持つ。おとなしいが咬まれると重症化することがある。主食はカエル。",
+    "tags": {
+      "habitat": ["半水棲", "地表棲"],
+      "origin": "在来",
+      "size": "中型",
+      "activity": ["昼行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "6〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "protobothrops-flavoviridis",
+    "nameJa": "ハブ",
+    "nameSci": "Protobothrops flavoviridis",
+    "nameEn": "Habu",
+    "family": "クサリヘビ科",
+    "familySci": "Viperidae",
+    "sizeMm": [1000, 2200],
+    "description": "奄美諸島と沖縄諸島に分布する大型の毒蛇。黄褐色の地に黒褐色の斑紋が連なり、夜間に活発に動いてネズミを狙うため人家周辺でも遭遇する。強い出血毒を持ち、島の生活に大きな影響を与えてきた。各地の資料館で展示されている。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "在来",
+      "size": "大型",
+      "activity": ["夜行性"],
+      "toxic": true,
+      "region": ["日本"],
+      "breeding": "6〜8月",
+      "redlist": "ランク外"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "python-regius",
+    "nameJa": "ボールニシキヘビ",
+    "nameSci": "Python regius",
+    "nameEn": "Ball Python",
+    "family": "ニシキヘビ科",
+    "familySci": "Pythonidae",
+    "sizeMm": [1000, 1500],
+    "description": "西アフリカのサバンナに分布する小型のニシキヘビ。驚くと体を丸めてボール状になることが名の由来。おとなしく飼育しやすいうえ、体色や斑紋の変異（モルフ）が非常に豊富で、世界で最も飼育されるヘビのひとつ。",
+    "tags": {
+      "habitat": ["地表棲", "地中棲"],
+      "origin": "国外",
+      "size": "中型",
+      "activity": ["夜行性"],
+      "toxic": false,
+      "region": ["アフリカ"],
+      "breeding": "乾季",
+      "redlist": "準絶滅危惧(NT)"
+    },
+    "zooDisplay": true
+  },
+  {
+    "id": "pantherophis-guttatus",
+    "nameJa": "コーンスネーク",
+    "nameSci": "Pantherophis guttatus",
+    "nameEn": "Corn Snake",
+    "family": "ナミヘビ科",
+    "familySci": "Colubridae",
+    "sizeMm": [800, 1500],
+    "description": "北アメリカ南東部に分布する無毒のナミヘビ。オレンジ色の地に赤い鞍状斑が並ぶ美しい種で、性質が穏やかなためペットとして世界中で親しまれる。名は腹面のトウモロコシの粒に似た市松模様に由来する。",
+    "tags": {
+      "habitat": ["地表棲", "樹上棲"],
+      "origin": "国外",
+      "size": "大型",
+      "activity": ["夜行性", "薄明薄暮性"],
+      "toxic": false,
+      "region": ["北アメリカ"],
+      "breeding": "3〜5月",
+      "redlist": "低懸念(LC)"
+    },
+    "zooDisplay": true
+  }
+]

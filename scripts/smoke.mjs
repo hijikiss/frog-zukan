@@ -7,7 +7,7 @@
  * ヘッドレス Edge/Chrome を CDP で操作し、コンソールエラーを拾ってスクリーンショットを撮る。
  */
 
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { mkdtempSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -20,7 +20,8 @@ const BROWSERS = [
 
 const url = process.argv[2] || 'http://localhost:8765/';
 const shot = process.argv[3] || null;
-const PORT = 9222;
+// 前回の残骸ブラウザに繋いでしまわないよう、実行ごとに違うポートを使う
+const PORT = 9222 + (process.pid % 300);
 
 const profile = mkdtempSync(join(tmpdir(), 'frog-smoke-'));
 const exe = BROWSERS.find((p) => existsSync(p));
@@ -36,6 +37,19 @@ const proc = spawn(exe, [
   '--window-size=400,900',
   'about:blank',
 ], { stdio: 'ignore' });
+
+
+/**
+ * ブラウザを子プロセスごと終わらせる。
+ * Windows では proc.kill() がランチャだけを落とすので、レンダラなどが残って
+ * デバッグポートを掴み続け、次回の実行が「前回のブラウザ」に繋がってしまう。
+ */
+function killBrowser(p) {
+  if (process.platform === 'win32') {
+    try { spawnSync('taskkill', ['/pid', String(p.pid), '/T', '/F'], { stdio: 'ignore' }); } catch { /* もう居ない */ }
+  }
+  try { p.kill(); } catch { /* もう居ない */ }
+}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -106,6 +120,7 @@ try {
   const probe = await send(ws, 'Runtime.evaluate', {
     expression: `JSON.stringify({
       progress: document.getElementById('progressText')?.textContent,
+      tiles: [...document.querySelectorAll('.home-tile .home-name')].map(e => e.textContent),
       cards: document.querySelectorAll('.card').length,
       tabs: [...document.querySelectorAll('.tab')].map(t => t.textContent),
       title: document.getElementById('appTitle')?.textContent,
@@ -133,7 +148,7 @@ try {
 
   ws.close();
 } finally {
-  proc.kill();
+  killBrowser(proc);
   await sleep(300);
   try { rmSync(profile, { recursive: true, force: true }); } catch { /* 使用中なら放置 */ }
 }
