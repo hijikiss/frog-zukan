@@ -9,7 +9,7 @@
  * アプリを更新したら CACHE のバージョンを上げること。
  */
 
-const CACHE = 'frog-zukan-v2';
+const CACHE = 'frog-zukan-v3';
 
 const ASSETS = [
   './',

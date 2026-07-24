@@ -103,6 +103,106 @@ try {
   check('左寄せ+拡大: 全面が赤', result.left.cols.every((c) => c === 'red'), JSON.stringify(result.left.cols));
   check('右寄せ+拡大: 全面が青', result.right.cols.every((c) => c === 'blue'), JSON.stringify(result.right.cols));
 
+  /* ---- ピンチ操作（スマホ）---- */
+
+  const touch = await evalJs(`
+    const { createCropper } = await import('./js/cropper.js');
+
+    const c = document.createElement('canvas'); c.width = 800; c.height = 800;
+    const x = c.getContext('2d'); x.fillStyle = '#777'; x.fillRect(0, 0, 800, 800);
+    const blob = await new Promise(r => c.toBlob(r, 'image/png'));
+
+    const cr = await createCropper({ blob });
+    cr.element.style.width = '300px';
+    document.body.append(cr.element);
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+    const frame = cr.element.querySelector('.crop-frame');
+    const r = frame.getBoundingClientRect();
+    const mx = r.left + r.width / 2, my = r.top + r.height / 2;
+    const pt = (type, id, px, py) => frame.dispatchEvent(new PointerEvent(type, {
+      pointerId: id, clientX: px, clientY: py, pointerType: 'touch', bubbles: true, cancelable: true,
+    }));
+
+    // 枠の中心で 2本指を 80px → 160px に開く（= 2倍）
+    const z0 = cr.getCrop().z;
+    pt('pointerdown', 1, mx - 40, my); pt('pointerdown', 2, mx + 40, my);
+    pt('pointermove', 1, mx - 80, my); pt('pointermove', 2, mx + 80, my);
+    const afterPinch = cr.getCrop();
+    pt('pointerup', 1, mx - 80, my);   pt('pointerup', 2, mx + 80, my);
+
+    // iOS の gesture イベント（合成）。scale はジェスチャ開始からの倍率。
+    const gesture = (type, scale) => {
+      const ev = new Event(type, { bubbles: true, cancelable: true });
+      Object.defineProperty(ev, 'scale', { value: scale });
+      frame.dispatchEvent(ev);
+      return ev.defaultPrevented;
+    };
+    const zBeforeGesture = cr.getCrop().z;
+    const gestureBlocked = gesture('gesturestart', 1);
+    gesture('gesturechange', 1.5);
+    const afterGesture = cr.getCrop();
+    gesture('gestureend', 1.5);
+
+    // 1本指ドラッグ（右へ動かすと、見えている範囲は左へ寄る）
+    const beforeDrag = cr.getCrop();
+    pt('pointerdown', 3, mx, my);
+    pt('pointermove', 3, mx + 30, my);
+    pt('pointerup', 3, mx + 30, my);
+    const afterDrag = cr.getCrop();
+
+    // ホイール（カーソル位置を基準に拡大する）
+    const beforeWheel = cr.getCrop();
+    frame.dispatchEvent(new WheelEvent('wheel', {
+      deltaY: -100, clientX: r.left + r.width * 0.25, clientY: my, bubbles: true, cancelable: true,
+    }));
+    const afterWheel = cr.getCrop();
+
+    // ページ側のピンチ（枠の外）が止まるか
+    const touchEv = (n) => {
+      const touches = Array.from({ length: n }, (_, i) => new Touch({
+        identifier: i, target: document.body, clientX: 100 + i * 40, clientY: 300,
+      }));
+      const ev = new TouchEvent('touchmove', {
+        bubbles: true, cancelable: true, touches, targetTouches: touches, changedTouches: touches,
+      });
+      document.body.dispatchEvent(ev);
+      return ev.defaultPrevented;
+    };
+    const twoFinger = touchEv(2);
+    const oneFinger = touchEv(1);
+
+    cr.element.remove();
+    cr.destroy();
+    const twoFingerAfterDestroy = touchEv(2);
+
+    return {
+      z0, afterPinch, zBeforeGesture, afterGesture, beforeDrag, afterDrag, beforeWheel, afterWheel,
+      gestureBlocked, twoFinger, oneFinger, twoFingerAfterDestroy,
+    };
+  `);
+
+  console.log('ピンチ操作');
+  console.log('  pinch  :', JSON.stringify(touch.afterPinch));
+  console.log('  gesture:', JSON.stringify(touch.afterGesture), `(開始時 z=${touch.zBeforeGesture})`);
+  console.log('');
+
+  check('2本指を開くと拡大される', Math.abs(touch.afterPinch.z - touch.z0 * 2) < 0.1, `z=${touch.afterPinch.z}`);
+  check('枠の中心でピンチしても中心はほぼ動かない',
+    Math.abs(touch.afterPinch.cx - 0.5) < 0.05 && Math.abs(touch.afterPinch.cy - 0.5) < 0.05,
+    JSON.stringify([touch.afterPinch.cx, touch.afterPinch.cy]));
+  check('1本指ドラッグで位置が動く', touch.afterDrag.cx < touch.beforeDrag.cx - 0.02,
+    JSON.stringify([touch.beforeDrag.cx, touch.afterDrag.cx]));
+  check('ホイールはカーソル位置を基準に拡大する',
+    touch.afterWheel.z > touch.beforeWheel.z && touch.afterWheel.cx < touch.beforeWheel.cx,
+    JSON.stringify([touch.beforeWheel, touch.afterWheel]));
+  check('iOS の gesturestart はページ拡大を止める', touch.gestureBlocked === true);
+  check('gesturechange の scale で拡大される',
+    Math.abs(touch.afterGesture.z - touch.zBeforeGesture * 1.5) < 0.1, `z=${touch.afterGesture.z}`);
+  check('枠の外でも2本指はページに渡さない', touch.twoFinger === true);
+  check('1本指のスクロールは妨げない', touch.oneFinger === false);
+  check('destroy 後は抑止を解除する', touch.twoFingerAfterDestroy === false);
+
   console.log(`\n${passed} passed, ${failed} failed`);
   process.exitCode = failed ? 1 : 0;
   ws.close();
