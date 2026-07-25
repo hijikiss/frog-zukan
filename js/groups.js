@@ -82,6 +82,11 @@ export const GROUPS = [
     habitats: HAB_AMPHIBIAN,
     toxic: { show: true, label: '毒あり（皮膚毒）' },
     breedingLabel: '繁殖期',
+    subgroups: [
+      { key: 'asia',    name: '日本・アジアのサンショウウオ', families: ['サンショウウオ科', 'オオサンショウウオ科'] },
+      { key: 'america', name: 'アメリカのサンショウウオ（ウーパールーパーなど）', families: ['アメリカサンショウウオ科', 'トラフサンショウウオ科'] },
+      { key: 'aquatic', name: '水生・ウナギ型のなかま',       families: ['サイレン科', 'アンフューマ科', 'ホライモリ科'] },
+    ],
   },
   {
     id: 'snake',
@@ -93,6 +98,13 @@ export const GROUPS = [
     habitats: HAB_SQUAMATE,
     toxic: { show: true, label: '毒あり（有毒種）' },
     breedingLabel: '繁殖期',
+    subgroups: [
+      { key: 'colubrid', name: 'ナミヘビのなかま',           families: ['ナミヘビ科', 'タカチホヘビ科', 'セダカヘビ科', 'サンビームヘビ科', 'ラムプロフィス科'] },
+      { key: 'elapid',   name: 'コブラのなかま（前牙の毒蛇）', families: ['コブラ科'] },
+      { key: 'viper',    name: 'クサリヘビのなかま（マムシ・ハブ）', families: ['クサリヘビ科'] },
+      { key: 'constrictor', name: 'ニシキヘビ・ボアのなかま（大蛇）', families: ['ニシキヘビ科', 'ボア科'] },
+      { key: 'blind',    name: '地中のなかま（原始的）',      families: ['メクラヘビ科'] },
+    ],
   },
   {
     id: 'turtle',
@@ -104,6 +116,13 @@ export const GROUPS = [
     habitats: HAB_TURTLE,
     toxic: { show: false, label: '' },
     breedingLabel: '産卵期',
+    subgroups: [
+      { key: 'tortoise', name: 'リクガメのなかま（陸)',        families: ['リクガメ科'] },
+      { key: 'freshwater', name: '淡水のカメ（イシガメ・ヌマガメ）', families: ['イシガメ科', 'ヌマガメ科', 'ドロガメ科', 'カミツキガメ科'] },
+      { key: 'sea',      name: 'ウミガメのなかま（海)',        families: ['ウミガメ科', 'オサガメ科'] },
+      { key: 'softshell', name: 'スッポンのなかま',            families: ['スッポン科', 'スッポンモドキ科'] },
+      { key: 'sidenecked', name: '首を横に曲げるカメ（曲頸)',  families: ['ヘビクビガメ科', 'ナンベイヨコクビガメ科', 'ヨコクビガメ科'] },
+    ],
   },
   {
     id: 'gecko',
@@ -115,6 +134,11 @@ export const GROUPS = [
     habitats: HAB_SQUAMATE,
     toxic: { show: false, label: '' },
     breedingLabel: '繁殖期',
+    subgroups: [
+      { key: 'gekko',    name: 'ヤモリのなかま（まぶたが動かない）', families: ['ヤモリ科', 'ユビワレヤモリ科', 'チビヤモリ科'] },
+      { key: 'leopard',  name: 'トカゲモドキのなかま（まぶたがある・レオパ）', families: ['トカゲモドキ科'] },
+      { key: 'oceania',  name: 'オセアニアのヤモリ（イシヤモリなど）', families: ['イシヤモリ科', 'カワリオヤモリ科', 'ヒレアシトカゲ科'] },
+    ],
   },
   {
     id: 'lizard',
@@ -126,6 +150,12 @@ export const GROUPS = [
     habitats: HAB_SQUAMATE,
     toxic: { show: true, label: '毒あり' },
     breedingLabel: '繁殖期',
+    subgroups: [
+      { key: 'ground',   name: 'トカゲ・カナヘビのなかま（地表)', families: ['トカゲ科', 'カナヘビ科', 'テユー科', 'ヨロイトカゲ科', 'アシナシトカゲ科'] },
+      { key: 'iguania',  name: 'イグアナ・アガマのなかま（日光浴)', families: ['アガマ科', 'イグアナ科', 'アノールトカゲ科', 'カブトトカゲ科', 'ツノトカゲ科', 'クビワトカゲ科'] },
+      { key: 'chameleon', name: 'カメレオンのなかま',            families: ['カメレオン科'] },
+      { key: 'monitor',  name: 'オオトカゲ・ドクトカゲのなかま（大型)', families: ['オオトカゲ科', 'ドクトカゲ科'] },
+    ],
   },
   {
     id: 'croc',

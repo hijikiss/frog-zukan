@@ -206,10 +206,13 @@ test('日本の代表種が各グループに入っている', () => {
   }
 });
 
-test('カエルは全科がグループ（科の上の階層）に割り当て済み', () => {
-  const fams = [...new Set(frogs.map((s) => s.family))];
-  const uncovered = fams.filter((f) => subgroupOfFamily('frog', f) === 'other');
-  assert.equal(uncovered.length, 0, `未登録の科: ${uncovered.join(', ')}`);
+test('subgroups を持つグループは全科が割り当て済み（その他に落ちない）', () => {
+  for (const g of GROUPS) {
+    if (!hasSubgroups(g.id)) continue;
+    const fams = [...new Set(byGroup.get(g.id).map((s) => s.family))];
+    const uncovered = fams.filter((f) => subgroupOfFamily(g.id, f) === 'other');
+    assert.equal(uncovered.length, 0, `${g.id}: 未登録の科: ${uncovered.join(', ')}`);
+  }
 });
 
 test('subgroups の科リストは実在の科だけで重複がない', () => {
