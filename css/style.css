@@ -818,16 +818,6 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 }
 .modal-foot .btn { flex: 1; }
 
-.preview {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
-  background: #000;
-  border-radius: var(--radius-sm);
-  margin-bottom: 14px;
-  display: block;
-}
-
 /* ---------- Cropper（正方形トリミング） ---------- */
 .cropper { margin-bottom: 14px; }
 .crop-frame {
