@@ -22,6 +22,8 @@
 ## できること
 
 - **図鑑** — グループごとに検索・タグ絞り込み。観察した種は自分の写真がカードのサムネになる
+  - カエルは **グループ（科の上のまとまり）→ 科 → 種** と1段ずつたどれる。各段で観察の進み具合が出る
+  - 「検索・絞り込みですべてから探す」でフラットな全種一覧にも切り替えられる
 - **写真登録** — 種ごとに複数枚。**野外 / 飼育展示** を必須で記録
   - 飼育展示 → 施設名（過去に入力した施設名が候補に出る）
   - 野外 → EXIF から GPS を自動読み取り＋地名を自由入力
@@ -73,7 +75,7 @@ data/parts/<group>/   species/*.json の元になる分割データ（科ごと�
 icons/                アイコン（SVG + 生成済み PNG）
 js/
   app.js              起動・ルーティング・進捗表示
-  groups.js           グループ定義（語彙・サイズ帯・体長の呼び方）※Node からも読む
+  groups.js           グループ定義（語彙・サイズ帯・体長の呼び方・科のまとまり）※Node からも読む
   icons.js            グループ別シルエット SVG
   db.js               IndexedDB（photos / speciesOverrides / meta）
   species.js          種データの読み込み・マージ・検索・絞り込み
@@ -83,7 +85,7 @@ js/
   cropper.js          正方形トリミングUI（ドラッグ移動・ピンチ/スライダー拡大）
   gestures.js         ページ拡大の抑止と、写真のドラッグ/ピンチ（iOS の癖をここで吸収）
   ui.js               DOM ヘルパー・モーダル・トースト
-  views/              home / list / detail / photo-editor / species-editor / facilities / settings
+  views/              home / browse / list / detail / photo-editor / species-editor / facilities / settings
 scripts/
   build-species.mjs   data/parts/<group>/*.json → data/species/<group>.json（検証つき）
   make-icons.mjs      アイコン PNG の生成
@@ -104,6 +106,12 @@ scripts/
 タグの構造（生息環境・在来/外来・サイズ帯・活動時間・毒・分布・繁殖期・レッドリスト）は全グループ共通で、
 語彙とサイズ帯の基準だけを `js/groups.js` で差し替えています。だから「1m のヘビは中型／1m のカエルは超大型」を
 1つの絞り込みコードで扱え、カメだけ「甲長」「毒フィルタなし」といった違いも設定で吸収できます。
+
+**階層は「科のまとまり」を1か所に持つだけ。**
+カエルの「グループ（科の上のまとまり）」は、種データには足さず、`js/groups.js` の `subgroups`（科名→まとまりの対応表）1つで表現しています。
+だから 800種のレコードを触らずに階層を足せ、対応表に載っていない科は自動で「その他のなかま」に落ちます（新しい科を追加しても消えません）。
+`subgroups` を持つグループはアプリが自動で「グループ→科→種」の3段ナビに切り替え、持たないグループは従来どおりのフラット一覧のままです。
+科の割り当ての抜けは `build-species.mjs` と `test.mjs` が警告します。
 
 **EXIF パーサは自前。**
 exif-js などを CDN から読むと、オフライン（＝PWA として使う本来の場面）で壊れます。

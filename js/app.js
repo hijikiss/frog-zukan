@@ -1,12 +1,13 @@
 /** 起動・ルーティング・進捗表示 */
 
 import * as sp from './species.js';
-import { group as groupOf, isGroup } from './groups.js';
+import { group as groupOf, isGroup, hasSubgroups, subgroupName } from './groups.js';
 import { lockPageZoom } from './gestures.js';
 import { meta } from './db.js';
 import { el, clear, toast, revokeCached } from './ui.js';
 import * as homeView from './views/home.js';
 import * as listView from './views/list.js';
+import * as browseView from './views/browse.js';
 import * as detailView from './views/detail.js';
 import * as facilitiesView from './views/facilities.js';
 import * as settingsView from './views/settings.js';
@@ -104,8 +105,25 @@ async function route() {
       await detailView.render(view, id, { refresh });
     } else if (head === 'g' && arg && isGroup(arg)) {
       const g = groupOf(arg);
-      setChrome(g.name, true, true, g.id);
-      listView.render(view, g.id);
+      const [, , seg2, seg3] = parts;
+      if (seg2 === 'sg' && seg3) {
+        // レベル2：そのグループ（科の上のまとまり）に含まれる科の一覧
+        setChrome(subgroupName(g.id, seg3), true, true, g.id);
+        browseView.renderFamilies(view, g.id, seg3);
+      } else if (seg2 === 'fam' && seg3) {
+        // レベル3：科でしぼった種の一覧
+        const family = decodeURIComponent(seg3);
+        setChrome(family, true, true, g.id);
+        listView.render(view, g.id, { family });
+      } else if (seg2 === 'all' || !hasSubgroups(g.id)) {
+        // 階層を使わない（他グループ）か、明示的に「すべてから探す」を選んだとき
+        setChrome(g.name, true, true, g.id);
+        listView.render(view, g.id);
+      } else {
+        // レベル1：グループ（科の上のまとまり）の一覧
+        setChrome(g.name, true, true, g.id);
+        browseView.renderSubgroups(view, g.id);
+      }
     } else if (head === 'f' && arg) {
       const name = decodeURIComponent(arg);
       setChrome(name === '__wild__' ? '野外の観察' : name, true, false);

@@ -12,7 +12,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-import { GROUPS, sizeBand, ORIGINS, ACTIVITIES, REGIONS, REDLIST } from '../js/groups.js';
+import { GROUPS, sizeBand, ORIGINS, ACTIVITIES, REGIONS, REDLIST, hasSubgroups, subgroupOfFamily } from '../js/groups.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PARTS = join(ROOT, 'data', 'parts');
@@ -97,6 +97,16 @@ for (const g of targets) {
 
   const out = [...byId.values()].sort((a, b) =>
     a.family.localeCompare(b.family, 'ja') || a.nameJa.localeCompare(b.nameJa, 'ja'));
+
+  // グループ（科の上の階層）を使うグループは、全科が subgroups に載っているか確認する。
+  // 未登録の科はアプリで「その他のなかま」に落ちるので、気づけるよう警告に出す。
+  if (hasSubgroups(g.id)) {
+    const uncovered = [...new Set(out.map((s) => s.family))]
+      .filter((f) => subgroupOfFamily(g.id, f) === 'other');
+    for (const f of uncovered) {
+      warnings.push(`${g.id}: 科「${f}」が groups.js の subgroups に未登録（「その他のなかま」に入ります）`);
+    }
+  }
 
   writeFileSync(join(OUT_DIR, `${g.id}.json`), JSON.stringify(out, null, 1) + '\n', 'utf8');
   report.push({ g, out });

@@ -12,7 +12,10 @@
  */
 
 import { overrides, photos } from './db.js';
-import { GROUPS, DEFAULT_GROUP, dataFile, group as groupOf, sizeBand as bandOf } from './groups.js';
+import {
+  GROUPS, DEFAULT_GROUP, dataFile, group as groupOf, sizeBand as bandOf,
+  hasSubgroups, subgroupsOf, subgroupOfFamily, subgroupName,
+} from './groups.js';
 
 export { ORIGINS, SIZES, ACTIVITIES, REGIONS, REDLIST, GROUPS } from './groups.js';
 
@@ -171,10 +174,50 @@ export function progress(groupId) {
 export const all = (groupId) => (groupId ? merged.filter((s) => s.group === groupId) : merged);
 export const get = (id) => byId.get(id);
 
-export function families(groupId) {
+/**
+ * そのグループの科一覧。subgroupKey を渡すとそのグループ（科の上の階層）の科だけに絞る。
+ * 各科について種数と観察数（observed / wild）も返す。件数の多い順。
+ */
+export function families(groupId, subgroupKey) {
   const m = new Map();
-  for (const s of all(groupId)) m.set(s.family, (m.get(s.family) || 0) + 1);
-  return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
+  for (const s of all(groupId)) {
+    if (subgroupKey && subgroupOfFamily(groupId, s.family) !== subgroupKey) continue;
+    let e = m.get(s.family);
+    if (!e) {
+      e = { name: s.family, familySci: s.familySci || '', count: 0, observed: 0, wild: 0 };
+      m.set(s.family, e);
+    }
+    e.count++;
+    if (!e.familySci && s.familySci) e.familySci = s.familySci;
+    const st = statusOf(s.id);
+    if (st !== STATUS.UNSEEN) { e.observed++; if (st === STATUS.WILD) e.wild++; }
+  }
+  return [...m.values()].sort((a, b) => b.count - a.count);
+}
+
+/**
+ * そのグループの「グループ（科の上の階層）」一覧。定義順で、載っていない科は末尾の
+ * 「その他のなかま」にまとまる。各グループの種数と観察数（observed / wild）つき。
+ * subgroups が定義されていないグループでは空配列。
+ */
+export function subgroups(groupId) {
+  if (!hasSubgroups(groupId)) return [];
+  const order = new Map(subgroupsOf(groupId).map((s, i) => [s.key, i]));
+  const acc = new Map();
+  for (const s of all(groupId)) {
+    const key = subgroupOfFamily(groupId, s.family);
+    let e = acc.get(key);
+    if (!e) {
+      e = { key, name: subgroupName(groupId, key), total: 0, observed: 0, wild: 0 };
+      acc.set(key, e);
+    }
+    e.total++;
+    const st = statusOf(s.id);
+    if (st !== STATUS.UNSEEN) { e.observed++; if (st === STATUS.WILD) e.wild++; }
+  }
+  // 定義順。'other'（未登録の科）は最後に。
+  return [...acc.values()].sort((a, b) =>
+    (order.has(a.key) ? order.get(a.key) : Infinity) - (order.has(b.key) ? order.get(b.key) : Infinity));
 }
 
 /* ---------------- 検索・絞り込み ---------------- */

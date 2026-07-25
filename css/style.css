@@ -376,6 +376,93 @@ html[data-theme="dark"] .home-ico { color: var(--green-500); }
 }
 .home-total b { color: var(--text); font-size: 15px; }
 
+/* ---------- 階層をたどる一覧（グループ / 科） ---------- */
+.browse-lead {
+  margin: 2px 4px 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.browse-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.browse-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 12px 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: inherit;
+  text-decoration: none;
+}
+.browse-row:active { transform: scale(.99); }
+.browse-ico {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  color: var(--green-700);
+}
+html[data-theme="dark"] .browse-ico { color: var(--green-500); }
+.browse-ico svg { width: 100%; height: 100%; }
+.browse-main { flex: 1 1 auto; min-width: 0; }
+.browse-name {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.browse-sub {
+  font-size: 11.5px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.browse-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--surface-2);
+  overflow: hidden;
+  display: flex;
+  margin-top: 7px;
+}
+.browse-fill { height: 100%; }
+.browse-fill.wild { background: var(--wild); }
+.browse-fill.captive { background: var(--captive); }
+.browse-count {
+  flex: 0 0 auto;
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.browse-count b { color: var(--text); font-size: 15px; }
+.browse-chev {
+  flex: 0 0 auto;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--text-dim);
+}
+.browse-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0 4px;
+  padding: 12px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 13px;
+  text-decoration: none;
+}
+.browse-all:active { transform: scale(.99); }
+
 /* ---------- Species grid ---------- */
 .grid {
   display: grid;

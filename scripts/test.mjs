@@ -126,7 +126,7 @@ test('EXIF が無い / 壊れていても落ちない', () => {
 
 console.log('\ndata/species/*.json');
 
-const { GROUPS, sizeBand, ORIGINS, ACTIVITIES, REGIONS, REDLIST } = await import('../js/groups.js');
+const { GROUPS, sizeBand, ORIGINS, ACTIVITIES, REGIONS, REDLIST, hasSubgroups, subgroupsOf, subgroupOfFamily } = await import('../js/groups.js');
 
 const byGroup = new Map();
 for (const g of GROUPS) {
@@ -203,6 +203,27 @@ test('日本の代表種が各グループに入っている', () => {
   };
   for (const [gid, name] of Object.entries(need)) {
     assert.ok(byGroup.get(gid).some((s) => s.nameJa === name), `${gid}: ${name} が無い`);
+  }
+});
+
+test('カエルは全科がグループ（科の上の階層）に割り当て済み', () => {
+  const fams = [...new Set(frogs.map((s) => s.family))];
+  const uncovered = fams.filter((f) => subgroupOfFamily('frog', f) === 'other');
+  assert.equal(uncovered.length, 0, `未登録の科: ${uncovered.join(', ')}`);
+});
+
+test('subgroups の科リストは実在の科だけで重複がない', () => {
+  for (const g of GROUPS) {
+    if (!hasSubgroups(g.id)) continue;
+    const real = new Set(byGroup.get(g.id).map((s) => s.family));
+    const seen = new Set();
+    for (const sg of subgroupsOf(g.id)) {
+      for (const f of sg.families) {
+        assert.ok(real.has(f), `${g.id}/${sg.key}: 実在しない科「${f}」`);
+        assert.ok(!seen.has(f), `${g.id}: 科「${f}」が複数のグループに重複`);
+        seen.add(f);
+      }
+    }
   }
 });
 

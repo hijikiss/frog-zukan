@@ -12,17 +12,17 @@ const emptyFilters = () => ({
   toxic: null, zooDisplay: false, status: [],
 });
 
-function stateOf(groupId) {
-  let s = states.get(groupId);
+function stateOf(key) {
+  let s = states.get(key);
   if (!s) {
     s = { q: '', sort: 'taxonomy', open: false, scroll: 0, f: emptyFilters() };
-    states.set(groupId, s);
+    states.set(key, s);
   }
   return s;
 }
 
-export function activeFilterCount(groupId = DEFAULT_GROUP) {
-  const f = stateOf(groupId).f;
+export function activeFilterCount(key = DEFAULT_GROUP) {
+  const f = stateOf(key).f;
   let n = 0;
   for (const k of ['habitat', 'origin', 'size', 'activity', 'region', 'redlist', 'family', 'status']) {
     n += f[k].length;
@@ -32,9 +32,15 @@ export function activeFilterCount(groupId = DEFAULT_GROUP) {
   return n;
 }
 
-export function render(view, groupId = DEFAULT_GROUP) {
+/**
+ * 種の一覧。opts.family を渡すと、その科だけに絞った一覧になり（階層の最下層）、
+ * 絞り込みパネルの「科」は隠す。省略時はグループ全体のフラット一覧。
+ */
+export function render(view, groupId = DEFAULT_GROUP, opts = {}) {
   const g = groupOf(groupId);
-  const state = stateOf(g.id);
+  const family = opts.family || null;
+  const stateKey = family ? `${g.id}::fam::${family}` : g.id;
+  const state = stateOf(stateKey);
   clear(view);
 
   const results = el('div');
@@ -49,7 +55,7 @@ export function render(view, groupId = DEFAULT_GROUP) {
   });
 
   const toggleBtn = el('button', {
-    class: 'filter-toggle' + (activeFilterCount(g.id) ? ' on' : ''),
+    class: 'filter-toggle' + (activeFilterCount(stateKey) ? ' on' : ''),
     onclick: () => { state.open = !state.open; paintFilters(); },
   });
 
@@ -75,7 +81,7 @@ export function render(view, groupId = DEFAULT_GROUP) {
   /* ---- 絞り込みパネル ---- */
   function paintFilters() {
     clear(toggleBtn);
-    const n = activeFilterCount(g.id);
+    const n = activeFilterCount(stateKey);
     toggleBtn.classList.toggle('on', n > 0);
     toggleBtn.append('絞り込み', n ? el('span', { class: 'count', text: String(n) }) : '');
 
@@ -140,7 +146,7 @@ export function render(view, groupId = DEFAULT_GROUP) {
         group(g.toxic.show ? '毒・展示' : '展示', [...toxicChips, zooChip]),
         group('分布', multi('region', sp.REGIONS)),
         group('レッドリスト', multi('redlist', sp.REDLIST)),
-        group('科', multi('family', sp.families(g.id).map((f) => f.name))),
+        family ? null : group('科', multi('family', sp.families(g.id).map((f) => f.name))),
         el('div', { class: 'filter-actions' },
           el('button', {
             class: 'btn sm',
@@ -156,7 +162,7 @@ export function render(view, groupId = DEFAULT_GROUP) {
 
   /* ---- 結果グリッド ---- */
   function paint() {
-    let list = sp.all(g.id);
+    let list = family ? sp.all(g.id).filter((s) => s.family === family) : sp.all(g.id);
     list = sp.search(list, state.q);
     list = sp.filter(list, state.f);
     list = sp.sort(list, state.sort);
@@ -167,12 +173,14 @@ export function render(view, groupId = DEFAULT_GROUP) {
     );
 
     if (!list.length) {
-      const nothingYet = !sp.all(g.id).length;
+      const scopeList = family ? sp.all(g.id).filter((s) => s.family === family) : sp.all(g.id);
+      const nothingYet = !scopeList.length;
+      const label = family || g.name;
       results.append(
         el('div', { class: 'empty-state' },
           el('span', { class: 'big' }, nothingYet ? '🚧' : '🔎'),
           nothingYet
-            ? `${g.name}のデータはまだ準備中です。`
+            ? `${label}のデータはまだ準備中です。`
             : `条件に合う${g.name}がいません。`,
           nothingYet ? null : el('div', { style: 'margin-top:12px' },
             el('button', {

@@ -48,6 +48,18 @@ export const GROUPS = [
     habitats: HAB_AMPHIBIAN,
     toxic: { show: true, label: '毒あり（皮膚毒）' },
     breedingLabel: '繁殖期',
+    // 科の上の「グループ」（見た目・生態でざっくり）。科→グループの唯一の対応表。
+    // ここに載っていない科は自動で「その他のなかま」に入る（新しい科を足しても消えない）。
+    subgroups: [
+      { key: 'hylid',   name: 'アマガエルのなかま',           families: ['アマガエル科', 'カエルモドキ科', 'アマガエルモドキ科', 'カメガエル科'] },
+      { key: 'rhaco',   name: 'アオガエル・マンテラのなかま', families: ['アオガエル科', 'マンテラ科', 'アシナガガエル科'] },
+      { key: 'ranid',   name: 'アカガエル・ヌマガエルのなかま', families: ['アカガエル科', 'ヌマガエル科', 'アフリカウシガエル科', 'ヒラアシガエル科', 'ゴライアスガエル科'] },
+      { key: 'bufo',    name: 'ヒキガエルのなかま',           families: ['ヒキガエル科'] },
+      { key: 'dart',    name: 'ヤドクガエルのなかま',         families: ['ヤドクガエル科', 'ヤドクガエルモドキ科'] },
+      { key: 'neotrop', name: '南米の地上ガエルのなかま',     families: ['ツノガエル科', 'ユビナガガエル科', 'クラウガストルガエル科', 'コヤスガエル科'] },
+      { key: 'narrow',  name: '地中・口すぼまりのなかま',     families: ['ヒメアマガエル科', 'フクラガエル科', 'コガシラガエル科', 'ブタバナガエル科'] },
+      { key: 'archaic', name: '原始的・水生のなかま',         families: ['ピパ科', 'スズガエル科', 'コノハガエル科', 'ケガエル科', 'スイレンガエル科', 'アメリカスキアシガエル科', 'スキアシガエル科', 'ムカシガエル科', 'オガエル科'] },
+    ],
   },
   {
     id: 'newt',
@@ -141,6 +153,29 @@ export const isGroup = (id) => map.has(id);
 
 /** そのグループの species JSON の場所 */
 export const dataFile = (id) => `./data/species/${id}.json`;
+
+/* ---------------- グループ（科の上のまとまり） ---------------- */
+
+const OTHER_SUBGROUP = 'その他のなかま';
+
+/** そのグループに「グループ（科の上の階層）」が定義されているか */
+export const hasSubgroups = (id) => Array.isArray(group(id).subgroups) && group(id).subgroups.length > 0;
+
+/** subgroup の定義（key・name・families）。無ければ空配列 */
+export const subgroupsOf = (id) => group(id).subgroups || [];
+
+/** 科名 → subgroup の key。未登録の科は 'other'（＝その他のなかま） */
+export function subgroupOfFamily(groupId, family) {
+  for (const sg of subgroupsOf(groupId)) {
+    if (sg.families.includes(family)) return sg.key;
+  }
+  return 'other';
+}
+
+/** subgroup の key → 表示名。'other' や未知の key は「その他のなかま」 */
+export function subgroupName(groupId, key) {
+  return subgroupsOf(groupId).find((s) => s.key === key)?.name || OTHER_SUBGROUP;
+}
 
 /** 体長の最大値から帯を決める。グループで基準が違う（ヘビの1mは中型、カエルなら超大型）。 */
 export function sizeBand(maxMm, groupId) {
