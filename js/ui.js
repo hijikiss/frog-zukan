@@ -54,13 +54,32 @@ export function modal({ title, body, footer, onClose }) {
   const vv = window.visualViewport;
 
   // スマホのソフトキーボードが出ると表示領域（visualViewport）が縮む。
-  // 背景を「実際に見えている領域」ぴったりに合わせることで、
-  // 下端のフッター（登録ボタン）がキーボードに隠れて押せなくなるのを防ぐ。
+  // そのときだけ背景を「実際に見えている領域」に合わせ、下端のフッター（登録ボタン）が
+  // キーボードに隠れて押せなくなるのを防ぐ。
+  //
+  // 縮み量だけで判断してはいけない: iOS では写真の選択シートが閉じた直後などに
+  // visualViewport が一時的に小さい値を返すことがあり、それを掴むとモーダルが
+  // 画面の半分ほどの高さで固まってしまう（本文がほとんど見えなくなる）。
+  // 入力中かどうかを条件に加えて、キーボード以外の理由では縮めない。
+  const KEYBOARD_MIN_SHRINK = 100;
+
+  const isTyping = () => {
+    const a = document.activeElement;
+    return !!a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA' || a.isContentEditable);
+  };
+
   const fit = () => {
     if (!vv) return;
-    backdrop.style.height = `${vv.height}px`;
-    backdrop.style.top = `${vv.offsetTop}px`;
-    backdrop.style.bottom = 'auto';
+    if (isTyping() && window.innerHeight - vv.height > KEYBOARD_MIN_SHRINK) {
+      backdrop.style.height = `${vv.height}px`;
+      backdrop.style.top = `${vv.offsetTop}px`;
+      backdrop.style.bottom = 'auto';
+    } else {
+      // CSS の 100dvh に戻す
+      backdrop.style.height = '';
+      backdrop.style.top = '';
+      backdrop.style.bottom = '';
+    }
   };
 
   const close = () => {
@@ -68,6 +87,8 @@ export function modal({ title, body, footer, onClose }) {
       vv.removeEventListener('resize', fit);
       vv.removeEventListener('scroll', fit);
     }
+    document.removeEventListener('focusin', fit);
+    document.removeEventListener('focusout', fit);
     backdrop.remove();
     document.body.style.overflow = '';
     if (onClose) onClose();
@@ -89,6 +110,10 @@ export function modal({ title, body, footer, onClose }) {
 
   root.append(backdrop);
   document.body.style.overflow = 'hidden';
+
+  // 入力欄への出入り（＝キーボードの開閉）でも測り直す
+  document.addEventListener('focusin', fit);
+  document.addEventListener('focusout', fit);
 
   if (vv) {
     vv.addEventListener('resize', fit);

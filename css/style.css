@@ -758,7 +758,8 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 .modal {
   width: 100%;
   max-width: 560px;
-  max-height: 100%;
+  /* 全画面まで伸びたときに、見出しがステータスバー（ノッチ）に潜り込まないようにする */
+  max-height: calc(100% - var(--safe-top));
   background: var(--bg);
   border-radius: 18px 18px 0 0;
   display: flex;
@@ -822,7 +823,11 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 .cropper { margin-bottom: 14px; }
 .crop-frame {
   position: relative;
-  width: 100%;
+  /* 枠は touch-action:none なので、この上からは本文をスクロールできない。
+     画面の高さに対して大きくなりすぎると、下の「観察シチュエーション」などに
+     指が届かなくなるため、高さの上限を決めて余白を必ず残す。 */
+  width: min(100%, 46dvh);
+  margin: 0 auto;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   background: #000;
@@ -848,7 +853,8 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 10px;
+  width: min(100%, 46dvh);      /* 枠と幅をそろえる */
+  margin: 10px auto 0;
 }
 .crop-controls input[type="range"] {
   flex: 1;
