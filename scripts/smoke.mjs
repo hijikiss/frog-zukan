@@ -114,7 +114,20 @@ try {
   await send(ws, 'Page.enable');
 
   await send(ws, 'Page.navigate', { url });
-  await sleep(3500);
+
+  // 種データの読み込みが終わるまで待つ。固定待ちだと、公開サイト相手のときに
+  // 読み込み途中の画面を見てしまう（ローカルより通信が遅いため）。
+  let waited = 0;
+  for (; waited < 30000; waited += 500) {
+    const r = await send(ws, 'Runtime.evaluate', {
+      expression: `!!document.querySelector('.home-tile') || !!document.querySelector('.empty-state')`,
+      returnByValue: true,
+    });
+    if (r.result.value) break;
+    await sleep(500);
+  }
+  await sleep(500);
+  console.log(`読み込み待ち: ${(waited / 1000).toFixed(1)}秒\n`);
 
   // 画面の状態を取り出す
   const probe = await send(ws, 'Runtime.evaluate', {
