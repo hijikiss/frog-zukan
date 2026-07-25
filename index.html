@@ -2,7 +2,9 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- アプリとして使うので画面は固定。拡大縮小は写真の中だけで効かせる（js/gestures.js）。
+     iOS はこの user-scalable=no を無視するため、JS 側でも gesture イベントを止めている。 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#2f6b46">
 <meta name="description" content="自分だけの爬虫類・両生類図鑑。観察した生き物を写真で記録する。">
 <title>爬虫類・両生類図鑑</title>

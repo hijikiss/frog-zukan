@@ -11,17 +11,15 @@
  * 操作: ドラッグで移動、スライダー / ホイール / ピンチで拡大。
  * 画像は常に枠を覆う（cover）ので、隙間は生じない。
  *
- * スマホでのピンチについて:
- *   iOS Safari は `touch-action: none` ではページのピンチズームを止められず、
- *   ピンチが始まると pointer イベントも打ち切られる（＝2本指の処理が届かない）。
- *   そこで gesture イベント（WebKit 専用）を preventDefault して自前のズームに繋ぎ、
- *   さらに cropper が生きている間だけ document 全体の 2本指操作を止めている。
+ * スマホでのピンチは gestures.js の dragZoom が受ける（iOS の事情はそちらに書いた）。
+ * ページ自体が拡大しないのは、起動時の lockPageZoom() でアプリ全体を固定しているため。
  *
  * 状態は {z, cx, cy}（拡大率と、枠中心が指す元画像の正規化座標）で持つ。
  * これは表示サイズに依存しないので、画面幅が変わっても破綻しない。
  */
 
 import { el } from './ui.js';
+import { dragZoom } from './gestures.js';
 
 const Z_MAX = 6;
 
@@ -144,122 +142,11 @@ export async function createCropper({ blob, crop } = {}) {
     layout();
   }
 
-  /** クライアント座標 → 枠の左上を原点とした表示px */
-  function toFrame(x, y) {
-    const r = frame.getBoundingClientRect();
-    return { x: x - r.left, y: y - r.top };
-  }
-
-  // ドラッグ / ピンチ
-  const pointers = new Map();
-  let last = null;         // 1本指: {x,y}（クライアント座標）
-  let pinch = null;        // 2本指: {dist, mid}
-  let usingGesture = false; // iOS の gesture イベントで処理中（pointer 経路は止める）
-  let zAtGestureStart = 1;
-
-  function onDown(e) {
-    // pointercancel 後や合成イベントでは捕捉できないことがある
-    try { frame.setPointerCapture(e.pointerId); } catch { /* 捕捉できなくても操作は続く */ }
-    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    if (pointers.size === 1) last = { x: e.clientX, y: e.clientY };
-    else if (pointers.size === 2) pinch = { dist: pointerDist(), mid: pointerMid() };
-  }
-
-  function onMove(e) {
-    if (!pointers.has(e.pointerId)) return;
-    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-
-    if (pointers.size >= 2) {
-      if (usingGesture) return;   // iOS では gesture 側で拡大するので二重に効かせない
-      const d = pointerDist();
-      const mid = pointerMid();
-      if (pinch) {
-        if (pinch.dist > 0 && d > 0) setZoom(z * (d / pinch.dist), mid);
-        // ピンチしたまま指を平行移動したぶんも追従させる
-        panBy(mid.x - pinch.mid.x, mid.y - pinch.mid.y);
-      }
-      pinch = { dist: d, mid };
-      last = null;
-      return;
-    }
-
-    if (!last) return;
-    const dx = e.clientX - last.x;
-    const dy = e.clientY - last.y;
-    last = { x: e.clientX, y: e.clientY };
-    panBy(dx, dy);
-  }
-
-  function onUp(e) {
-    pointers.delete(e.pointerId);
-    if (pointers.size < 2) pinch = null;
-    if (pointers.size === 0) last = null;
-    else {
-      const p = [...pointers.values()][0];
-      last = { x: p.x, y: p.y };
-    }
-  }
-
-  function pointerDist() {
-    const [a, b] = [...pointers.values()];
-    return Math.hypot(a.x - b.x, a.y - b.y);
-  }
-
-  function pointerMid() {
-    const [a, b] = [...pointers.values()];
-    return toFrame((a.x + b.x) / 2, (a.y + b.y) / 2);
-  }
-
-  function onWheel(e) {
-    e.preventDefault();
-    setZoom(z * (e.deltaY < 0 ? 1.1 : 1 / 1.1), toFrame(e.clientX, e.clientY));
-  }
-
-  /* iOS（WebKit）のピンチ。preventDefault しないとページ全体が拡大してしまう。 */
-
-  function onGestureStart(e) {
-    e.preventDefault();
-    usingGesture = true;
-    zAtGestureStart = z;
-    pinch = null;
-  }
-
-  function onGestureChange(e) {
-    e.preventDefault();
-    if (!usingGesture) return;
-    setZoom(zAtGestureStart * (e.scale || 1));   // scale はジェスチャ開始時からの倍率
-  }
-
-  function onGestureEnd(e) {
-    e.preventDefault();
-    usingGesture = false;
-    pinch = null;
-    // 指が1本残っていれば、そこからドラッグを続けられるようにする
-    last = pointers.size === 1 ? { ...[...pointers.values()][0] } : null;
-  }
-
-  frame.addEventListener('pointerdown', onDown);
-  frame.addEventListener('pointermove', onMove);
-  frame.addEventListener('pointerup', onUp);
-  frame.addEventListener('pointercancel', onUp);
-  frame.addEventListener('wheel', onWheel, { passive: false });
-  frame.addEventListener('gesturestart', onGestureStart);
-  frame.addEventListener('gesturechange', onGestureChange);
-  frame.addEventListener('gestureend', onGestureEnd);
-
-  /* トリミング中はページ側のピンチズームを殺す。
-     枠の外に指が乗ってもページが拡大しないよう document に張り、destroy() で外す。
-     1本指は素通しなので、モーダル本文のスクロールは今までどおり効く。 */
-
-  const blockGesture = (e) => e.preventDefault();
-  const blockMultiTouch = (e) => { if (e.touches && e.touches.length > 1) e.preventDefault(); };
-  const docOpts = { capture: true, passive: false };
-
-  document.addEventListener('gesturestart', blockGesture, docOpts);
-  document.addEventListener('gesturechange', blockGesture, docOpts);
-  document.addEventListener('gestureend', blockGesture, docOpts);
-  document.addEventListener('touchstart', blockMultiTouch, docOpts);
-  document.addEventListener('touchmove', blockMultiTouch, docOpts);
+  // ドラッグ / ピンチ / ホイール。iOS の事情は gestures.js が吸収する。
+  const gestures = dragZoom(frame, {
+    onPan: panBy,
+    onZoom: (factor, focal) => setZoom(z * factor, focal),
+  });
 
   // DOM に入る / 画面幅が変わるたびに再レイアウト
   const ro = new ResizeObserver(() => layout());
@@ -299,11 +186,7 @@ export async function createCropper({ blob, crop } = {}) {
 
   function destroy() {
     ro.disconnect();
-    document.removeEventListener('gesturestart', blockGesture, docOpts);
-    document.removeEventListener('gesturechange', blockGesture, docOpts);
-    document.removeEventListener('gestureend', blockGesture, docOpts);
-    document.removeEventListener('touchstart', blockMultiTouch, docOpts);
-    document.removeEventListener('touchmove', blockMultiTouch, docOpts);
+    gestures.destroy();
     URL.revokeObjectURL(url);
   }
 

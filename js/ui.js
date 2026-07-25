@@ -1,5 +1,7 @@
 /** DOM ヘルパー・共通パーツ */
 
+import { dragZoom } from './gestures.js';
+
 /** タグ名 + 属性 + 子 から要素を作る。属性は on* でイベント、それ以外は setAttribute。 */
 export function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
@@ -142,12 +144,88 @@ export function confirmDialog(message, { okLabel = 'OK', danger = false } = {}) 
 
 /* ---------------- lightbox ---------------- */
 
+const LB_MAX = 6;
+
+/**
+ * 写真の拡大表示。
+ *
+ * ページ自体の拡大縮小はアプリ全体で止めている（lockPageZoom）ので、
+ * ここでは写真だけをピンチ／ホイールで拡大し、ドラッグで動かせるようにする。
+ * ダブルタップで等倍と拡大を行き来する。等倍のときだけタップで閉じる。
+ */
 export function lightbox(src) {
-  const close = () => box.remove();
-  const box = el('div', { class: 'lightbox', onclick: close },
-    el('img', { src, alt: '' }),
-    el('button', { class: 'x', 'aria-label': '閉じる' }, '✕')
+  let z = 1, tx = 0, ty = 0;
+  let dragged = 0;          // ドラッグ量。タップ判定に使う
+  let lastTap = 0;
+
+  const img = el('img', { src, alt: '', draggable: 'false' });
+
+  const close = () => { gestures.destroy(); box.remove(); };
+
+  /** 画像が枠の外へ行き過ぎないよう、移動量を収める */
+  function clamp() {
+    const w = img.clientWidth * z;
+    const h = img.clientHeight * z;
+    const maxX = Math.max(0, (w - window.innerWidth) / 2);
+    const maxY = Math.max(0, (h - window.innerHeight) / 2);
+    tx = Math.min(Math.max(tx, -maxX), maxX);
+    ty = Math.min(Math.max(ty, -maxY), maxY);
+  }
+
+  function apply() {
+    clamp();
+    img.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`;
+    box.classList.toggle('zoomed', z > 1);
+  }
+
+  /** focal（画面座標）を動かさずに拡大率を変える */
+  function zoomTo(next, focal) {
+    const z1 = Math.min(Math.max(next, 1), LB_MAX);
+    if (z1 === z) return;
+    const cx = focal ? focal.x - window.innerWidth / 2 : 0;
+    const cy = focal ? focal.y - window.innerHeight / 2 : 0;
+    const k = z1 / z;
+    tx = cx - (cx - tx) * k;
+    ty = cy - (cy - ty) * k;
+    z = z1;
+    if (z === 1) { tx = 0; ty = 0; }
+    apply();
+  }
+
+  const box = el('div', { class: 'lightbox' },
+    img,
+    el('button', { class: 'x', 'aria-label': '閉じる', onclick: close }, '✕')
   );
+
+  box.addEventListener('pointerup', (e) => {
+    if (e.target.closest('.x')) return;
+
+    const now = Date.now();
+    if (now - lastTap < 300) {          // ダブルタップ：等倍 ⇄ 拡大
+      lastTap = 0;
+      zoomTo(z > 1 ? 1 : 2.5, { x: e.clientX, y: e.clientY });
+      return;
+    }
+    lastTap = now;
+
+    // 等倍のまま、動かしていなければタップで閉じる
+    if (z === 1 && dragged < 8) setTimeout(() => { if (lastTap === now) close(); }, 300);
+    dragged = 0;
+  });
+
+  const gestures = dragZoom(box, {
+    onPan: (dx, dy) => {
+      if (z === 1) return;              // 等倍のときは動かさない（閉じる操作を邪魔しない）
+      dragged += Math.abs(dx) + Math.abs(dy);
+      tx += dx; ty += dy;
+      apply();
+    },
+    onZoom: (factor, focal) => {
+      const r = box.getBoundingClientRect();
+      zoomTo(z * factor, focal ? { x: focal.x + r.left, y: focal.y + r.top } : null);
+    },
+  });
+
   document.body.append(box);
 }
 

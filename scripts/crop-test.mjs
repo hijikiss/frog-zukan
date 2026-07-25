@@ -188,6 +188,7 @@ try {
 
     cr.element.remove();
     cr.destroy();
+    // ページ固定はアプリ全体（lockPageZoom）なので、トリミングを閉じても効いたまま
     const twoFingerAfterDestroy = touchEv(2);
 
     return {
@@ -215,7 +216,59 @@ try {
     Math.abs(touch.afterGesture.z - touch.zBeforeGesture * 1.5) < 0.1, `z=${touch.afterGesture.z}`);
   check('枠の外でも2本指はページに渡さない', touch.twoFinger === true);
   check('1本指のスクロールは妨げない', touch.oneFinger === false);
-  check('destroy 後は抑止を解除する', touch.twoFingerAfterDestroy === false);
+  check('トリミングを閉じてもページは固定のまま', touch.twoFingerAfterDestroy === true);
+
+  /* ---- 拡大表示（ライトボックス）---- */
+  // ページを固定した代わりに、写真そのものを拡大できる必要がある
+  const lb = await evalJs(`
+    const { lightbox } = await import('./js/ui.js');
+
+    const c = document.createElement('canvas'); c.width = 1200; c.height = 900;
+    const x = c.getContext('2d'); x.fillStyle = '#456'; x.fillRect(0, 0, 1200, 900);
+    lightbox(c.toDataURL('image/png'));
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+    const box = document.querySelector('.lightbox');
+    const img = box.querySelector('img');
+    const scaleOf = () => {
+      const t = img.style.transform.match(/scale\\(([\\d.]+)\\)/);
+      return t ? Number(t[1]) : 1;
+    };
+    const gesture = (type, scale) => {
+      const ev = new Event(type, { bubbles: true, cancelable: true });
+      Object.defineProperty(ev, 'scale', { value: scale });
+      box.dispatchEvent(ev);
+      return ev.defaultPrevented;
+    };
+
+    const before = scaleOf();
+    gesture('gesturestart', 1);
+    gesture('gesturechange', 3);
+    const afterPinch = scaleOf();
+    gesture('gestureend', 3);
+
+    // 拡大中は1本指ドラッグで動かせる（閉じない）
+    const pt = (type, px, py) => box.dispatchEvent(new PointerEvent(type, {
+      pointerId: 7, clientX: px, clientY: py, pointerType: 'touch', bubbles: true, cancelable: true,
+    }));
+    pt('pointerdown', 200, 300);
+    pt('pointermove', 260, 340);
+    pt('pointerup', 260, 340);
+    const moved = img.style.transform.includes('translate') && !/translate\\(0px, 0px\\)/.test(img.style.transform);
+    const stillOpen = !!document.querySelector('.lightbox');
+
+    document.querySelector('.lightbox .x').click();
+    const closed = !document.querySelector('.lightbox');
+    return { before, afterPinch, moved, stillOpen, closed };
+  `);
+
+  console.log('\n拡大表示');
+  console.log('  ' + JSON.stringify(lb));
+  console.log('');
+  check('写真をピンチで拡大できる', Math.abs(lb.afterPinch - lb.before * 3) < 0.1, `(${lb.afterPinch})`);
+  check('拡大中はドラッグで写真を動かせる', lb.moved);
+  check('拡大中のドラッグで閉じてしまわない', lb.stillOpen);
+  check('✕で閉じられる', lb.closed);
 
   console.log(`\n${passed} passed, ${failed} failed`);
   process.exitCode = failed ? 1 : 0;

@@ -2,6 +2,7 @@
 
 import * as sp from './species.js';
 import { group as groupOf, isGroup } from './groups.js';
+import { lockPageZoom } from './gestures.js';
 import { meta } from './db.js';
 import { el, clear, toast, revokeCached } from './ui.js';
 import * as homeView from './views/home.js';
@@ -151,6 +152,9 @@ window.addEventListener('hashchange', route);
 /* ---------------- 起動 ---------------- */
 
 async function main() {
+  // 画面は固定。拡大縮小は写真（トリミング・拡大表示）の中だけで効かせる。
+  lockPageZoom();
+
   await initTheme();
   view.append(el('div', { class: 'spinner' }));
 

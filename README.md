@@ -81,6 +81,7 @@ js/
   exif.js             EXIF パーサ（撮影日時・GPS）※外部ライブラリ不使用
   backup.js           JSON エクスポート / インポート
   cropper.js          正方形トリミングUI（ドラッグ移動・ピンチ/スライダー拡大）
+  gestures.js         ページ拡大の抑止と、写真のドラッグ/ピンチ（iOS の癖をここで吸収）
   ui.js               DOM ヘルパー・モーダル・トースト
   views/              home / list / detail / photo-editor / species-editor / facilities / settings
 scripts/
@@ -114,10 +115,13 @@ exif-js などを CDN から読むと、オフライン（＝PWA として使う
 カード・ギャラリー・詳細のヒーローに使います。縦長・横長の写真でもカードで被写体が切れません。
 元画像は残るので、写真をタップすれば全体を見られ、あとから枠を切り直すこともできます（枠の位置は `crop` として保存）。
 
-トリミング中のピンチは**画像だけ**を拡大し、ページは拡大しません。
-iOS Safari は `touch-action: none` ではページのピンチズームを止められず、ピンチが始まると pointer イベントも打ち切られるので、
-WebKit の `gesturestart` / `gesturechange` を `preventDefault` して自前のズームに繋いでいます（`js/cropper.js`）。
-枠の外に指が乗った場合に備えて、トリミング画面が開いている間だけ document 全体の 2本指操作も止めています（1本指のスクロールは素通し）。
+**画面は固定、拡大縮小は写真の中だけ。**
+アプリとして使うので、起動時に `lockPageZoom()` でページ自体の拡大縮小を止めています（`js/gestures.js`）。
+iOS Safari は `touch-action: none` でも viewport の `user-scalable=no` でもピンチズームを止められないため、
+WebKit 独自の `gesturestart` / `gesturechange` を `preventDefault` するのが唯一の方法です。
+そのぶん、**写真そのもの**はトリミング画面と拡大表示（写真をタップしたとき）でピンチ・ドラッグして見られます。
+どちらも同じ `dragZoom()` を使っていて、「iOS ではピンチ中に pointer イベントが打ち切られる」という厄介ごとは
+`js/gestures.js` の中だけで面倒を見ています。
 
 **観察ステータスは保存しない。**
 写真から都度導出しています。だから写真を消せばステータスも自動で戻り、不整合が起きません。

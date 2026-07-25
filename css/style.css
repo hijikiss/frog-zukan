@@ -60,6 +60,8 @@ body {
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
   overscroll-behavior-y: none;
+  /* ダブルタップでページが拡大するのを止める（スクロールとタップはそのまま） */
+  touch-action: manipulation;
 }
 
 button, input, select, textarea { font: inherit; color: inherit; }
@@ -971,12 +973,19 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   display: grid;
   place-items: center;
   animation: fade .15s;
+  overflow: hidden;
+  touch-action: none;            /* 拡大・移動は自前で受ける（js/ui.js） */
 }
 .lightbox img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  transform-origin: center center;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
 }
+.lightbox.zoomed { cursor: grab; }
 .lightbox .x {
   position: absolute;
   top: calc(var(--safe-top) + 10px);
