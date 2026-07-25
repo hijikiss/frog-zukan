@@ -197,6 +197,12 @@ try {
     const wr = wild.getBoundingClientRect();
     const hit = document.elementFromPoint(wr.left + wr.width / 2, wr.top + wr.height / 2);
 
+    // 横方向。overflow-y:auto だけだと overflow-x も auto 扱いになり、
+    // 中身がわずかでもはみ出すと横に動いてしまう
+    body.scrollLeft = 999;
+    const scrolledLeft = body.scrollLeft;
+    body.scrollLeft = 0;
+
     return {
       bodyVisibleH: Math.round(bodyR.height),
       frameH: Math.round(frameR.height),
@@ -204,6 +210,10 @@ try {
       scrollStartableH: Math.round(bodyR.height - covered),
       segVisible: segR.top >= bodyR.top && segR.bottom <= bodyR.bottom,
       segHit: !!(hit && wild.contains(hit)),
+      overflowX: getComputedStyle(body).overflowX,
+      scrolledLeft,
+      docScrollW: document.documentElement.scrollWidth,
+      docClientW: document.documentElement.clientWidth,
     };
   `);
   console.log(JSON.stringify(editor, null, 2));
@@ -213,6 +223,10 @@ try {
   check('枠が本文を覆い尽くさない（スクロールを始められる）',
     editor.frameCoversPct <= 75 && editor.scrollStartableH >= 150,
     `(枠が${editor.frameCoversPct}% / 余白${editor.scrollStartableH}px)`);
+  check('本文が横スクロールしない', editor.scrolledLeft === 0 && editor.overflowX === 'hidden',
+    `(scrollLeft=${editor.scrolledLeft} overflow-x=${editor.overflowX})`);
+  check('ページ自体も横に伸びていない', editor.docScrollW <= editor.docClientW,
+    `(${editor.docScrollW} / ${editor.docClientW})`);
 
   if (SHOT) {
     const img = await send('Page.captureScreenshot', { format: 'png' });

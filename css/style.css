@@ -401,7 +401,9 @@ html[data-theme="dark"] .home-ico { color: var(--green-500); }
 
 .card-img {
   position: relative;
-  aspect-ratio: 4 / 3;
+  /* 保存しているサムネは正方形（トリミング枠と同じ）。表示も正方形にして、
+     枠に合わせたとおりに見えるようにする。 */
+  aspect-ratio: 1 / 1;
   background: var(--surface-2);
   display: grid;
   place-items: center;
@@ -469,7 +471,8 @@ html[data-theme="dark"] .home-ico { color: var(--green-500); }
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--surface-2);
-  aspect-ratio: 4 / 3;
+  /* トリミング枠と同じ正方形。4:3 だと枠に合わせた上下が切れてしまう。 */
+  aspect-ratio: 1 / 1;
   display: grid;
   place-items: center;
   margin-bottom: 12px;
@@ -794,6 +797,10 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 .modal-body {
   padding: 14px;
   overflow-y: auto;
+  /* overflow-y だけを auto にすると、CSS の規則で overflow-x も auto 扱いになり、
+     中身がわずかでもはみ出すと横に動いてしまう（トリミング枠の画像は枠より大きい）。
+     横は動かさないので明示的に hidden にする。 */
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   flex: 1;
   /* min-height:auto（既定）だと本文が中身より縮まず、フォームが長いとモーダルが
