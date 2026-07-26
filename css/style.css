@@ -1051,6 +1051,96 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 }
 .section-title:first-child { margin-top: 2px; }
 
+/* ---------- 記録タブ（サマリー / ライフリスト） ---------- */
+.stats-seg button { padding: 10px 8px; font-size: 13.5px; }
+.stats-seg button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.stat-hero { text-align: center; }
+.stat-hero-num { line-height: 1.1; }
+.stat-hero-num b { font-size: 34px; font-weight: 800; }
+.stat-hero-num span { font-size: 15px; color: var(--text-dim); }
+.stat-hero-sub {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin: 4px 0 10px;
+}
+.stat-hero .browse-bar { height: 8px; }
+.stat-legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.stat-legend i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.stat-legend i.wild { background: var(--wild); }
+.stat-legend i.captive { background: var(--captive); }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+@media (max-width: 380px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+.stat-tile {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 11px 6px;
+  text-align: center;
+}
+.stat-tile-ico { font-size: 15px; display: block; }
+.stat-tile b {
+  display: block;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.stat-tile-label { font-size: 10.5px; color: var(--text-dim); }
+
+.row .stat-ico { color: var(--green-700); }
+html[data-theme="dark"] .row .stat-ico { color: var(--green-500); }
+.row .stat-ico svg { width: 76%; height: 76%; }
+.row .main .browse-bar { margin-top: 6px; }
+.stat-thumb {
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-2);
+  display: grid;
+  place-items: center;
+}
+.stat-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.stat-thumb svg { width: 62%; opacity: .3; }
+
+.timeline-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 16px 2px 8px;
+}
+.timeline-month {
+  font-size: 14px;
+  font-weight: 800;
+}
+.timeline-count { font-size: 11.5px; color: var(--text-dim); }
+.card-date {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  margin: 2px 0 0;
+}
+
 .toast {
   position: fixed;
   left: 50%;

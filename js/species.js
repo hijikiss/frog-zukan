@@ -121,8 +121,9 @@ export const sizeBand = bandOf;
 
 /* ---------------- 写真インデックス ---------------- */
 
-export async function refreshPhotoIndex() {
-  const all = await photos.all();
+/** preloaded を渡すと写真を読み直さずにインデックスを作る（読み込み済みの呼び出し元用） */
+export async function refreshPhotoIndex(preloaded) {
+  const all = preloaded || await photos.all();
   const idx = new Map();
   for (const p of all) {
     let e = idx.get(p.speciesId);

@@ -10,6 +10,7 @@ import * as listView from './views/list.js';
 import * as browseView from './views/browse.js';
 import * as detailView from './views/detail.js';
 import * as facilitiesView from './views/facilities.js';
+import * as statsView from './views/stats.js';
 import * as settingsView from './views/settings.js';
 
 const APP_TITLE = '爬虫類・両生類図鑑';
@@ -95,7 +96,12 @@ async function route() {
   const [head, arg] = parts;
 
   window.scrollTo({ top: 0 });
-  setActiveTab(head === 'facilities' || head === 'f' ? 'facilities' : head === 'settings' ? 'settings' : 'list');
+  setActiveTab(
+    head === 'facilities' || head === 'f' ? 'facilities'
+      : head === 'stats' ? 'stats'
+        : head === 'settings' ? 'settings'
+          : 'list'
+  );
 
   try {
     if (head === 's' && arg) {
@@ -132,6 +138,10 @@ async function route() {
     } else if (head === 'facilities') {
       setChrome('施設別', false, true);
       await facilitiesView.renderList(view);
+    } else if (head === 'stats') {
+      setChrome('記録', false, true);
+      await statsView.render(view);
+      paintProgress();   // 記録画面が写真インデックスを作り直すので、ヘッダーも数え直す
     } else if (head === 'settings') {
       setChrome('設定', false, false);
       await settingsView.render(view, { refresh });

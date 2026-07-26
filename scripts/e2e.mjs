@@ -232,7 +232,12 @@ try {
   check('カエルとヘビのタイルがある',
     home.tiles.includes('カエル') && home.tiles.includes('ヘビ'), JSON.stringify(home.tiles));
 
+  // カエルは階層（グループ→科→種）なので、まず階層の入口を確認してから全種一覧へ
   await goto('#/g/frog');
+  const subgroups = await evalJs(`return document.querySelectorAll('.browse-row').length;`);
+  check('カエルにグループの階層が出る', subgroups === 8, `(${subgroups})`);
+
+  await goto('#/g/frog/all');
   const total = await evalJs(`return document.querySelectorAll('.card').length;`);
   check('カエルの一覧に330種のカードが出る', total === 330, `(${total})`);
 
@@ -365,7 +370,7 @@ try {
 
   /* ---- 4. 一覧のバッジ・絞り込み ---- */
   console.log('\n一覧のバッジと絞り込み');
-  await goto('#/g/frog');
+  await goto('#/g/frog/all');
   await sleep(700);
   const badges = await evalJs(`
     return {
@@ -391,6 +396,37 @@ try {
   `);
   check('「野生で観察」で絞ると1種', filtered.count === 1, `(${filtered.count})`);
   check('絞り込み結果がニホンアカガエル', filtered.name === 'ニホンアカガエル', `(${filtered.name})`);
+
+  /* ---- 4.5 記録タブ（サマリー・ライフリスト） ---- */
+  console.log('\n記録タブ');
+  await goto('#/stats');
+  await sleep(700);
+  const stats = await evalJs(`
+    return {
+      hero: document.querySelector('.stat-hero-num')?.textContent,
+      tiles: [...document.querySelectorAll('.stat-tile')].map(e => e.textContent),
+      header: document.getElementById('progressText')?.textContent.replace(/\\s+/g, ''),
+    };
+  `);
+  check('サマリーに観察数が出る', /^2 \/ \d+種$/.test(stats.hero || ''), `(${stats.hero})`);
+  check('写真の枚数が出る', (stats.tiles[0] || '').includes('2'), JSON.stringify(stats.tiles));
+  check('ヘッダーの進捗もサマリーと揃う',
+    (stats.header || '').includes('2種観察済み'), `(${stats.header})`);
+
+  await clickText('.stats-seg button', 'ライフリスト');
+  await sleep(500);
+  const life = await evalJs(`
+    return {
+      cards: document.querySelectorAll('.card').length,
+      months: [...document.querySelectorAll('.timeline-month')].map(e => e.textContent),
+      dates: [...document.querySelectorAll('.card-date')].map(e => e.textContent),
+      wildBadges: document.querySelectorAll('.card .badge.wild').length,
+    };
+  `);
+  check('ライフリストに観察した2種が並ぶ', life.cards === 2, `(${life.cards})`);
+  check('初観察の月でまとまる', life.months.length >= 1, JSON.stringify(life.months));
+  check('初観察日が出る', life.dates.includes('2025/05/03'), JSON.stringify(life.dates));
+  check('野生で見た種にバッジが付く', life.wildBadges === 1, `(${life.wildBadges})`);
 
   /* ---- 5. エクスポート → 全消去 → インポート ---- */
   console.log('\nバックアップの往復');
