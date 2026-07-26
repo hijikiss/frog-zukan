@@ -525,6 +525,18 @@ html[data-theme="dark"] .browse-ico { color: var(--green-500); }
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* 横断検索の結果で「どのグループの種か」を示すバッジ */
+.card-group {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--green-700);
+  background: var(--surface-2);
+  border-radius: 99px;
+  padding: 1px 7px;
+  margin-bottom: 3px;
+}
+html[data-theme="dark"] .card-group { color: var(--green-500); }
 
 .badge {
   position: absolute;
@@ -640,6 +652,12 @@ html[data-theme="dark"] .browse-ico { color: var(--green-500); }
   padding-top: 1px;
 }
 .facts dd { margin: 0; }
+.facts-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.facts-link:active { opacity: .7; }
 
 .desc {
   margin: 12px 0 0;
@@ -731,6 +749,12 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 }
 .pill.wild { background: var(--wild); }
 .pill.captive { background: var(--captive); }
+.pill.cover {
+  left: auto;
+  right: 5px;
+  background: #e0a92f;
+  color: #241a00;
+}
 
 .empty-state {
   text-align: center;
@@ -791,6 +815,16 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
   margin-bottom: 5px;
 }
 .field .req { color: var(--danger); }
+.cover-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0;
+}
+.cover-toggle input { width: 18px; height: 18px; flex: 0 0 auto; }
 .field input[type="text"],
 .field input[type="number"],
 .field input[type="datetime-local"],

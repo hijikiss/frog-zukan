@@ -117,6 +117,7 @@ export async function save(rec) {
     crop: rec.crop || null,
     width: rec.width || null,
     height: rec.height || null,
+    cover: !!rec.cover,                           // 一覧のメイン写真に手動指定したか
     createdAt: rec.createdAt || now,
     updatedAt: now,
   };
@@ -125,6 +126,19 @@ export async function save(rec) {
 }
 
 export const remove = (id) => photos.remove(id);
+
+/**
+ * その種の「メイン写真」を1枚だけに設定する。
+ * on=true なら photoId をメインにして他を解除、on=false なら photoId のメイン指定を外す。
+ * 手動指定が無ければ species.js が自動（野生＞展示＞新しい順）で選ぶ。
+ */
+export async function setCover(speciesId, photoId, on = true) {
+  const list = await photos.bySpecies(speciesId);
+  for (const p of list) {
+    const want = on && p.id === photoId;
+    if (!!p.cover !== want) await photos.put({ ...p, cover: want });
+  }
+}
 
 /** 施設名の入力候補（過去に入力したもの、使用回数の多い順） */
 export async function facilityNames() {

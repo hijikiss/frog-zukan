@@ -231,27 +231,6 @@
     "zooDisplay": false
   },
   {
-    "id": "nidirana-okinavana",
-    "nameJa": "ヤエヤマハラブチガエル",
-    "nameSci": "Nidirana okinavana",
-    "nameEn": "Ryukyu Tip-nosed Frog",
-    "family": "アカガエル科",
-    "familySci": "Ranidae",
-    "sizeMm": [40, 55],
-    "description": "石垣島・西表島と台湾に分布する希少種。褐色の体に黒い斑紋があり、腹面に暗色のまだら模様が入ることが和名の由来。山地の湿地や細流沿いに生息し、オスは水際の泥に浅い巣穴を掘って「ポコッ」と響く声で鳴く。生息地が限られ環境省レッドリストで絶滅危惧II類。",
-    "tags": {
-      "habitat": ["地表棲", "半水棲"],
-      "origin": "在来",
-      "size": "中型",
-      "activity": ["夜行性"],
-      "toxic": false,
-      "region": ["日本", "東アジア"],
-      "breeding": "4〜9月",
-      "redlist": "絶滅危惧II類(VU)"
-    },
-    "zooDisplay": false
-  },
-  {
     "id": "microhyla-okinavensis",
     "nameJa": "ヒメアマガエル",
     "nameSci": "Microhyla okinavensis",

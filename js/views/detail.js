@@ -24,7 +24,9 @@ export async function render(view, id, { refresh }) {
   const status = sp.statusOf(id);
 
   /* ---- ヒーロー画像 ---- */
-  const cover = list.find((p) => p.context === 'wild') || list[0];
+  // 手動で選んだメイン写真があれば最優先。無ければ野生＞展示＞新しい順（カードと同じ規則）。
+  const cover = list.find((p) => p.cover) || list.find((p) => p.context === 'wild') || list[0];
+  const coverId = cover?.id;
   const hero = el('div', { class: 'hero' + (cover ? '' : ' empty') });
   if (cover) {
     // ヒーローはトリミング済みサムネ（生き物を枠の中心に据えた正方形）を表示し、
@@ -43,7 +45,10 @@ export async function render(view, id, { refresh }) {
   const t = s.tags;
   const facts = el('dl', { class: 'facts' },
     row('グループ', `${g.name}（${g.taxon}）`),
-    row('科', `${s.family}${s.familySci ? `（${s.familySci}）` : ''}`),
+    rowNode('科', el('a', {
+      class: 'facts-link',
+      href: `#/g/${s.group}/fam/${encodeURIComponent(s.family)}`,
+    }, `${s.family}${s.familySci ? `（${s.familySci}）` : ''}`)),
     row(g.lengthLabel, formatSize(s.sizeMm)),
     row('生息環境', t.habitat.join('・') || '不明'),
     row('活動時間', t.activity.join('・') || '不明'),
@@ -133,7 +138,9 @@ export async function render(view, id, { refresh }) {
     },
       el('div', { class: 'ph' },
         el('img', { src: blobUrlFor(p.thumb || p.blob), alt: '', loading: 'lazy' }),
-        el('span', { class: `pill ${p.context}`, text: p.context === 'wild' ? '野生' : '展示' })
+        el('span', { class: `pill ${p.context}`, text: p.context === 'wild' ? '野生' : '展示' }),
+        p.id === coverId && list.length > 1
+          ? el('span', { class: 'pill cover', text: '★ メイン' }) : null
       ),
       el('div', { class: 'photo-meta' },
         el('span', { class: 'where', text: where }),
@@ -145,6 +152,7 @@ export async function render(view, id, { refresh }) {
 }
 
 const row = (k, v) => [el('dt', { text: k }), el('dd', { text: v })];
+const rowNode = (k, node) => [el('dt', { text: k }), el('dd', {}, node)];
 
 function sortPhotos(a, b) {
   // 野生を先に、同条件なら新しい撮影日順

@@ -2,7 +2,8 @@
 
 import * as sp from '../species.js';
 import { group as groupOf, DEFAULT_GROUP } from '../groups.js';
-import { el, clear, blobUrlFor, silhouette } from '../ui.js';
+import { el, clear } from '../ui.js';
+import { speciesCard } from './card.js';
 
 // 画面を離れて戻ってきても絞り込みが消えないよう、グループごとに状態を覚えておく
 const states = new Map();
@@ -194,7 +195,8 @@ export function render(view, groupId = DEFAULT_GROUP, opts = {}) {
     }
 
     const grid = el('div', { class: 'grid' });
-    for (const s of list) grid.append(card(s, state));
+    const onNavigate = () => { state.scroll = window.scrollY; };
+    for (const s of list) grid.append(speciesCard(s, { onNavigate }));
     results.append(grid);
   }
 }
@@ -203,40 +205,4 @@ function toggleIn(arr, v) {
   const i = arr.indexOf(v);
   if (i >= 0) arr.splice(i, 1);
   else arr.push(v);
-}
-
-function card(s, state) {
-  const status = sp.statusOf(s.id);
-  const info = sp.photoInfo(s.id);
-
-  const imgBox = el('div', { class: 'card-img' + (info?.cover ? '' : ' empty') });
-  if (info?.cover) {
-    imgBox.append(el('img', { src: blobUrlFor(info.cover), alt: s.nameJa, loading: 'lazy' }));
-  } else {
-    imgBox.append(silhouette(s.group));
-  }
-
-  if (status !== 'unseen') {
-    imgBox.append(
-      el('span', {
-        class: `badge ${status}`,
-        text: status === 'wild' ? '野生' : '展示',
-      })
-    );
-  }
-  if (info && info.count > 1) {
-    imgBox.append(el('span', { class: 'badge-count', text: `${info.count}枚` }));
-  }
-
-  return el('a', {
-    class: 'card' + (status === 'unseen' ? ' unseen' : ''),
-    href: `#/s/${encodeURIComponent(s.id)}`,
-    onclick: () => { state.scroll = window.scrollY; },
-  },
-    imgBox,
-    el('div', { class: 'card-body' },
-      el('p', { class: 'card-ja', text: s.nameJa }),
-      el('p', { class: 'card-sci', text: s.nameSci })
-    )
-  );
 }

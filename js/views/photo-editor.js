@@ -180,6 +180,19 @@ export async function open({ speciesId, file, record, onSaved }) {
   });
   noteInput.value = init.note || '';
 
+  // メイン写真の指定は既存写真の編集時だけ（新規はまだ1枚目なので自動で表紙になる）
+  const coverInput = record ? el('input', { type: 'checkbox' }) : null;
+  if (coverInput) coverInput.checked = !!record.cover;
+  const coverBlock = record
+    ? el('div', { class: 'field' },
+        el('label', { class: 'cover-toggle' },
+          coverInput,
+          el('span', {}, 'この写真を一覧のメインにする'),
+        ),
+        el('div', { class: 'hint', text: '選ばないときは野生＞展示＞新しい順で自動的にメインを選びます。' })
+      )
+    : null;
+
   const contextArea = el('div', { class: 'field' });
 
   const segWild = el('button', {
@@ -232,7 +245,8 @@ export async function open({ speciesId, file, record, onSaved }) {
     el('div', { class: 'field' },
       el('label', {}, 'メモ'),
       noteInput
-    )
+    ),
+    coverBlock
   );
 
   /* ---------- 保存 ---------- */
@@ -303,8 +317,11 @@ export async function open({ speciesId, file, record, onSaved }) {
         crop,
         width: record?.width ?? prepared?.width,
         height: record?.height ?? prepared?.height,
+        cover: coverInput ? coverInput.checked : record?.cover,
       };
-      await photoStore.save(rec);
+      const saved = await photoStore.save(rec);
+      // メイン指定は1種につき1枚だけ。指定したら他の写真の指定を外す。
+      if (coverInput) await photoStore.setCover(saved.speciesId, saved.id, coverInput.checked);
       m.close();
       toast(record ? '更新しました' : '写真を登録しました');
       if (onSaved) onSaved();

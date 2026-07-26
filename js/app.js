@@ -1,7 +1,7 @@
 /** 起動・ルーティング・進捗表示 */
 
 import * as sp from './species.js';
-import { group as groupOf, isGroup, hasSubgroups, subgroupName } from './groups.js';
+import { group as groupOf, isGroup, hasSubgroups, subgroupName, subgroupOfFamily } from './groups.js';
 import { lockPageZoom } from './gestures.js';
 import { meta } from './db.js';
 import { el, clear, toast, revokeCached } from './ui.js';
@@ -57,9 +57,9 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () 
 
 /* ---------------- 進捗 ---------------- */
 
-/** groupId を渡すとそのグループの進捗、省略で全体 */
-function paintProgress(groupId) {
-  const { total, observed, wild, captive } = sp.progress(groupId);
+/** 種リストを渡すとその範囲の進捗、省略で全グループ合計 */
+function paintProgress(list) {
+  const { total, observed, wild, captive } = sp.progressFor(list || sp.all());
   progressText.innerHTML = '';
   progressText.append(
     `${total}種中 `,
@@ -108,20 +108,21 @@ async function route() {
       const [, , seg2, seg3] = parts;
       if (seg2 === 'sg' && seg3) {
         // レベル2：そのグループ（科の上のまとまり）に含まれる科の一覧
-        setChrome(subgroupName(g.id, seg3), true, true, g.id);
+        const list = sp.all(g.id).filter((s) => subgroupOfFamily(g.id, s.family) === seg3);
+        setChrome(subgroupName(g.id, seg3), true, true, list);
         browseView.renderFamilies(view, g.id, seg3);
       } else if (seg2 === 'fam' && seg3) {
         // レベル3：科でしぼった種の一覧
         const family = decodeURIComponent(seg3);
-        setChrome(family, true, true, g.id);
+        setChrome(family, true, true, sp.all(g.id).filter((s) => s.family === family));
         listView.render(view, g.id, { family });
       } else if (seg2 === 'all' || !hasSubgroups(g.id)) {
-        // 階層を使わない（他グループ）か、明示的に「すべてから探す」を選んだとき
-        setChrome(g.name, true, true, g.id);
+        // 階層を使わない（他グループ）か、明示的に「タグで絞り込む」を選んだとき
+        setChrome(g.name, true, true, sp.all(g.id));
         listView.render(view, g.id);
       } else {
         // レベル1：グループ（科の上のまとまり）の一覧
-        setChrome(g.name, true, true, g.id);
+        setChrome(g.name, true, true, sp.all(g.id));
         browseView.renderSubgroups(view, g.id);
       }
     } else if (head === 'f' && arg) {
@@ -147,11 +148,11 @@ async function route() {
   }
 }
 
-function setChrome(title, showBack, showProgress, groupId) {
+function setChrome(title, showBack, showProgress, progressList) {
   appTitle.textContent = title;
   backBtn.hidden = !showBack;
   progressStrip.style.display = showProgress ? '' : 'none';
-  if (showProgress) paintProgress(groupId);
+  if (showProgress) paintProgress(progressList);
 }
 
 function setActiveTab(name) {

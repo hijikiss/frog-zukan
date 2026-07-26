@@ -127,18 +127,25 @@ export async function refreshPhotoIndex() {
   for (const p of all) {
     let e = idx.get(p.speciesId);
     if (!e) {
-      e = { count: 0, hasWild: false, hasCaptive: false, cover: null, coverSort: '' };
+      e = { count: 0, hasWild: false, hasCaptive: false, cover: null, coverSort: '', manual: false };
       idx.set(p.speciesId, e);
     }
     e.count++;
     if (p.context === 'wild') e.hasWild = true;
     else e.hasCaptive = true;
 
-    // カバー写真は「野生 > 展示」、同条件なら新しい方
-    const sort = (p.context === 'wild' ? '1' : '0') + (p.takenAt || p.createdAt || '');
-    if (sort > e.coverSort) {
-      e.coverSort = sort;
+    if (p.cover) {
+      // 手動で選んだメイン写真は最優先（他の並びに負けない）
+      e.manual = true;
       e.cover = p.thumb || p.blob;
+      e.coverSort = '￿';
+    } else if (!e.manual) {
+      // 自動選択：「野生 > 展示」、同条件なら新しい方
+      const sort = (p.context === 'wild' ? '1' : '0') + (p.takenAt || p.createdAt || '');
+      if (sort > e.coverSort) {
+        e.coverSort = sort;
+        e.cover = p.thumb || p.blob;
+      }
     }
   }
   photoIndex = idx;
@@ -154,9 +161,8 @@ export function statusOf(speciesId) {
 
 export const photoInfo = (speciesId) => photoIndex.get(speciesId) || null;
 
-/** groupId 省略時は全グループ合計 */
-export function progress(groupId) {
-  const list = all(groupId);
+/** 与えた種リストの進捗を数える（グループ・グループ内まとまり・科など任意の範囲に使える） */
+export function progressFor(list) {
   let observed = 0;
   let wild = 0;
   for (const s of list) {
@@ -167,6 +173,9 @@ export function progress(groupId) {
   }
   return { total: list.length, observed, wild, captive: observed - wild };
 }
+
+/** groupId 省略時は全グループ合計 */
+export const progress = (groupId) => progressFor(all(groupId));
 
 /* ---------------- 取得 ---------------- */
 
