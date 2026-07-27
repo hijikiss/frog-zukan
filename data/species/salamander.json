@@ -5,6 +5,7 @@
   "nameJa": "アカサラマンダー",
   "nameSci": "Pseudotriton ruber",
   "nameEn": "Red Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -37,6 +38,7 @@
   "nameJa": "アメリカドウクツサラマンダー",
   "nameSci": "Eurycea lucifuga",
   "nameEn": "Cave Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -69,6 +71,7 @@
   "nameJa": "イタリアドウクツサラマンダー",
   "nameSci": "Speleomantes italicus",
   "nameEn": "Italian Cave Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -100,6 +103,7 @@
   "nameJa": "エンサティナ",
   "nameSci": "Ensatina eschscholtzii",
   "nameEn": "Ensatina",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -131,6 +135,7 @@
   "nameJa": "カリフォルニアホソサラマンダー",
   "nameSci": "Batrachoseps attenuatus",
   "nameEn": "California Slender Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -163,6 +168,7 @@
   "nameJa": "キノボリサラマンダー",
   "nameSci": "Aneides lugubris",
   "nameEn": "Arboreal Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -195,6 +201,7 @@
   "nameJa": "クロハラサラマンダー",
   "nameSci": "Desmognathus quadramaculatus",
   "nameEn": "Black-bellied Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -226,6 +233,7 @@
   "nameJa": "スプリングサラマンダー",
   "nameSci": "Gyrinophilus porphyriticus",
   "nameEn": "Spring Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -258,6 +266,7 @@
   "nameJa": "セアカサラマンダー",
   "nameSci": "Plethodon cinereus",
   "nameEn": "Eastern Red-backed Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -289,6 +298,7 @@
   "nameJa": "ダスキーサラマンダー",
   "nameSci": "Desmognathus fuscus",
   "nameEn": "Northern Dusky Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -321,6 +331,7 @@
   "nameJa": "テキサスブラインドサラマンダー",
   "nameSci": "Eurycea rathbuni",
   "nameEn": "Texas Blind Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -352,6 +363,7 @@
   "nameJa": "ネバリサラマンダー",
   "nameSci": "Plethodon glutinosus",
   "nameEn": "Northern Slimy Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -383,6 +395,7 @@
   "nameJa": "ミドリサラマンダー",
   "nameSci": "Aneides aeneus",
   "nameEn": "Green Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -415,6 +428,7 @@
   "nameJa": "メキシコキノボリサラマンダー",
   "nameSci": "Bolitoglossa mexicana",
   "nameEn": "Mexican Mushroom-tongue Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -447,6 +461,7 @@
   "nameJa": "ヨツユビサラマンダー",
   "nameSci": "Hemidactylium scutatum",
   "nameEn": "Four-toed Salamander",
+  "aliases": [],
   "family": "アメリカサンショウウオ科",
   "familySci": "Plethodontidae",
   "sizeMm": [
@@ -479,6 +494,7 @@
   "nameJa": "フタユビアンフューマ",
   "nameSci": "Amphiuma means",
   "nameEn": "Two-toed Amphiuma",
+  "aliases": [],
   "family": "アンフューマ科",
   "familySci": "Amphiumidae",
   "sizeMm": [
@@ -510,6 +526,7 @@
   "nameJa": "ミツユビアンフューマ",
   "nameSci": "Amphiuma tridactylum",
   "nameEn": "Three-toed Amphiuma",
+  "aliases": [],
   "family": "アンフューマ科",
   "familySci": "Amphiumidae",
   "sizeMm": [
@@ -541,6 +558,9 @@
   "nameJa": "オオサンショウウオ",
   "nameSci": "Andrias japonicus",
   "nameEn": "Japanese Giant Salamander",
+  "aliases": [
+   "ハンザキ"
+  ],
   "family": "オオサンショウウオ科",
   "familySci": "Cryptobranchidae",
   "sizeMm": [
@@ -573,6 +593,7 @@
   "nameJa": "スライゴオオサンショウウオ",
   "nameSci": "Andrias sligoi",
   "nameEn": "South China Giant Salamander",
+  "aliases": [],
   "family": "オオサンショウウオ科",
   "familySci": "Cryptobranchidae",
   "sizeMm": [
@@ -605,6 +626,7 @@
   "nameJa": "チュウゴクオオサンショウウオ",
   "nameSci": "Andrias davidianus",
   "nameEn": "Chinese Giant Salamander",
+  "aliases": [],
   "family": "オオサンショウウオ科",
   "familySci": "Cryptobranchidae",
   "sizeMm": [
@@ -637,6 +659,7 @@
   "nameJa": "オオサイレン",
   "nameSci": "Siren lacertina",
   "nameEn": "Greater Siren",
+  "aliases": [],
   "family": "サイレン科",
   "familySci": "Sirenidae",
   "sizeMm": [
@@ -668,6 +691,7 @@
   "nameJa": "コサイレン",
   "nameSci": "Siren intermedia",
   "nameEn": "Lesser Siren",
+  "aliases": [],
   "family": "サイレン科",
   "familySci": "Sirenidae",
   "sizeMm": [
@@ -699,6 +723,7 @@
   "nameJa": "ヒメサイレン",
   "nameSci": "Pseudobranchus striatus",
   "nameEn": "Northern Dwarf Siren",
+  "aliases": [],
   "family": "サイレン科",
   "familySci": "Sirenidae",
   "sizeMm": [
@@ -730,6 +755,7 @@
   "nameJa": "アカイシサンショウウオ",
   "nameSci": "Hynobius katoi",
   "nameEn": "Akaishi Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -762,6 +788,7 @@
   "nameJa": "アキサンショウウオ",
   "nameSci": "Hynobius akiensis",
   "nameEn": "Aki Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -794,6 +821,7 @@
   "nameJa": "アブサンショウウオ",
   "nameSci": "Hynobius abuensis",
   "nameEn": "Abu Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -826,6 +854,7 @@
   "nameJa": "アベサンショウウオ",
   "nameSci": "Hynobius abei",
   "nameEn": "Abe's Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -858,6 +887,7 @@
   "nameJa": "アマクササンショウウオ",
   "nameSci": "Hynobius amakusaensis",
   "nameEn": "Amakusa Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -890,6 +920,7 @@
   "nameJa": "アリサンサンショウウオ",
   "nameSci": "Hynobius arisanensis",
   "nameEn": "Alishan Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -922,6 +953,7 @@
   "nameJa": "イシヅチサンショウウオ",
   "nameSci": "Hynobius hirosei",
   "nameEn": "Ishizuchi Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -954,6 +986,7 @@
   "nameJa": "エゾサンショウウオ",
   "nameSci": "Hynobius retardatus",
   "nameEn": "Ezo Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -986,6 +1019,7 @@
   "nameJa": "オオイタサンショウウオ",
   "nameSci": "Hynobius dunni",
   "nameEn": "Oita Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1018,6 +1052,7 @@
   "nameJa": "オオスミサンショウウオ",
   "nameSci": "Hynobius osumiensis",
   "nameEn": "Osumi Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1050,6 +1085,7 @@
   "nameJa": "オオダイガハラサンショウウオ",
   "nameSci": "Hynobius boulengeri",
   "nameEn": "Odaigahara Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1082,6 +1118,7 @@
   "nameJa": "オキサンショウウオ",
   "nameSci": "Hynobius okiensis",
   "nameEn": "Oki Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1114,6 +1151,7 @@
   "nameJa": "カスミサンショウウオ",
   "nameSci": "Hynobius nebulosus",
   "nameEn": "Clouded Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1146,6 +1184,7 @@
   "nameJa": "キタオウシュウサンショウウオ",
   "nameSci": "Onychodactylus nipponoborealis",
   "nameEn": "Northern Japanese Clawed Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1178,6 +1217,7 @@
   "nameJa": "キタサンショウウオ",
   "nameSci": "Salamandrella keyserlingii",
   "nameEn": "Siberian Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1211,6 +1251,7 @@
   "nameJa": "クロサンショウウオ",
   "nameSci": "Hynobius nigrescens",
   "nameEn": "Japanese Black Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1243,6 +1284,7 @@
   "nameJa": "コガタブチサンショウウオ",
   "nameSci": "Hynobius stejnegeri",
   "nameEn": "Small Blotched Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1275,6 +1317,7 @@
   "nameJa": "サイシュウサンショウウオ",
   "nameSci": "Hynobius quelpaertensis",
   "nameEn": "Jeju Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1307,6 +1350,7 @@
   "nameJa": "サンインサンショウウオ",
   "nameSci": "Hynobius setoi",
   "nameEn": "San'in Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1339,6 +1383,7 @@
   "nameJa": "セイホウサンショウウオ",
   "nameSci": "Ranodon sibiricus",
   "nameEn": "Central Asian Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1371,6 +1416,7 @@
   "nameJa": "セトウチサンショウウオ",
   "nameSci": "Hynobius setouchi",
   "nameEn": "Setouchi Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1403,6 +1449,7 @@
   "nameJa": "タイワンサンショウウオ",
   "nameSci": "Hynobius formosanus",
   "nameEn": "Taiwan Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1435,6 +1482,7 @@
   "nameJa": "チュウゴクブチサンショウウオ",
   "nameSci": "Hynobius sematonotos",
   "nameEn": "Chugoku Blotched Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1467,6 +1515,7 @@
   "nameJa": "チョウセンサンショウウオ",
   "nameSci": "Hynobius leechii",
   "nameEn": "Korean Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1499,6 +1548,7 @@
   "nameJa": "ツクバハコネサンショウウオ",
   "nameSci": "Onychodactylus tsukubaensis",
   "nameEn": "Tsukuba Clawed Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1531,6 +1581,7 @@
   "nameJa": "ツシマサンショウウオ",
   "nameSci": "Hynobius tsuensis",
   "nameEn": "Tsushima Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1563,6 +1614,7 @@
   "nameJa": "トウキョウサンショウウオ",
   "nameSci": "Hynobius tokyoensis",
   "nameEn": "Tokyo Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1595,6 +1647,7 @@
   "nameJa": "トウホクサンショウウオ",
   "nameSci": "Hynobius lichenatus",
   "nameEn": "Tohoku Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1627,6 +1680,7 @@
   "nameJa": "トサシミズサンショウウオ",
   "nameSci": "Hynobius tosashimizuensis",
   "nameEn": "Tosashimizu Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1659,6 +1713,7 @@
   "nameJa": "ハクバサンショウウオ",
   "nameSci": "Hynobius hidamontanus",
   "nameEn": "Hakuba Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1691,6 +1746,7 @@
   "nameJa": "ハコネサンショウウオ",
   "nameSci": "Onychodactylus japonicus",
   "nameEn": "Japanese Clawed Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1723,6 +1779,7 @@
   "nameJa": "ハコネサンショウウオモドキ",
   "nameSci": "Onychodactylus fischeri",
   "nameEn": "Fischer's Clawed Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1755,6 +1812,7 @@
   "nameJa": "バンダイハコネサンショウウオ",
   "nameSci": "Onychodactylus intermedius",
   "nameEn": "Bandai Clawed Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1787,6 +1845,7 @@
   "nameJa": "ヒダサンショウウオ",
   "nameSci": "Hynobius kimurae",
   "nameEn": "Hida Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1819,6 +1878,7 @@
   "nameJa": "ヒョウガサンショウウオ",
   "nameSci": "Hynobius glacialis",
   "nameEn": "Nanhu Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1851,6 +1911,7 @@
   "nameJa": "ブチサンショウウオ",
   "nameSci": "Hynobius naevius",
   "nameEn": "Blotched Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1883,6 +1944,7 @@
   "nameJa": "ベッコウサンショウウオ",
   "nameSci": "Hynobius ikioi",
   "nameEn": "Tortoiseshell Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1915,6 +1977,7 @@
   "nameJa": "ホクリクサンショウウオ",
   "nameSci": "Hynobius takedai",
   "nameEn": "Hokuriku Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1947,6 +2010,7 @@
   "nameJa": "ミカワサンショウウオ",
   "nameSci": "Hynobius mikawaensis",
   "nameEn": "Mikawa Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -1979,6 +2043,7 @@
   "nameJa": "ヤマグチサンショウウオ",
   "nameSci": "Hynobius bakan",
   "nameEn": "Yamaguchi Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -2011,6 +2076,7 @@
   "nameJa": "ヤマトサンショウウオ",
   "nameSci": "Hynobius vandenburghi",
   "nameEn": "Yamato Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -2043,6 +2109,7 @@
   "nameJa": "リュウサンショウウオ",
   "nameSci": "Liua shihi",
   "nameEn": "Shih's Salamander",
+  "aliases": [],
   "family": "サンショウウオ科",
   "familySci": "Hynobiidae",
   "sizeMm": [
@@ -2075,6 +2142,7 @@
   "nameJa": "アンダーソンサラマンダー",
   "nameSci": "Ambystoma andersoni",
   "nameEn": "Anderson's Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2106,6 +2174,7 @@
   "nameJa": "カリフォルニアトラフサンショウウオ",
   "nameSci": "Ambystoma californiense",
   "nameEn": "California Tiger Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2138,6 +2207,7 @@
   "nameJa": "キボシサンショウウオ",
   "nameSci": "Ambystoma maculatum",
   "nameEn": "Spotted Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2170,6 +2240,7 @@
   "nameJa": "ジェファーソンサラマンダー",
   "nameSci": "Ambystoma jeffersonianum",
   "nameEn": "Jefferson Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2202,6 +2273,7 @@
   "nameJa": "スモールマウスサラマンダー",
   "nameSci": "Ambystoma texanum",
   "nameEn": "Small-mouthed Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2234,6 +2306,7 @@
   "nameJa": "テイラーサラマンダー",
   "nameSci": "Ambystoma taylori",
   "nameEn": "Taylor's Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2265,6 +2338,7 @@
   "nameJa": "デュメリルサラマンダー",
   "nameSci": "Ambystoma dumerilii",
   "nameEn": "Lake Patzcuaro Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2296,6 +2370,9 @@
   "nameJa": "トラフサンショウウオ",
   "nameSci": "Ambystoma tigrinum",
   "nameEn": "Eastern Tiger Salamander",
+  "aliases": [
+   "タイガーサラマンダー"
+  ],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2328,6 +2405,7 @@
   "nameJa": "ノースウェスタンサラマンダー",
   "nameSci": "Ambystoma gracile",
   "nameEn": "Northwestern Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2360,6 +2438,7 @@
   "nameJa": "ブルースポッテッドサラマンダー",
   "nameSci": "Ambystoma laterale",
   "nameEn": "Blue-spotted Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2392,6 +2471,7 @@
   "nameJa": "マーブルサラマンダー",
   "nameSci": "Ambystoma opacum",
   "nameEn": "Marbled Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2424,6 +2504,11 @@
   "nameJa": "メキシコサラマンダー",
   "nameSci": "Ambystoma mexicanum",
   "nameEn": "Axolotl",
+  "aliases": [
+   "ウーパールーパー",
+   "アホロートル",
+   "アシヨロイ"
+  ],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2455,6 +2540,7 @@
   "nameJa": "モールサラマンダー",
   "nameSci": "Ambystoma talpoideum",
   "nameEn": "Mole Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2487,6 +2573,7 @@
   "nameJa": "リングドサラマンダー",
   "nameSci": "Ambystoma annulatum",
   "nameEn": "Ringed Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2519,6 +2606,7 @@
   "nameJa": "ロングトウサラマンダー",
   "nameSci": "Ambystoma macrodactylum",
   "nameEn": "Long-toed Salamander",
+  "aliases": [],
   "family": "トラフサンショウウオ科",
   "familySci": "Ambystomatidae",
   "sizeMm": [
@@ -2551,6 +2639,7 @@
   "nameJa": "ホライモリ",
   "nameSci": "Proteus anguinus",
   "nameEn": "Olm",
+  "aliases": [],
   "family": "ホライモリ科",
   "familySci": "Proteidae",
   "sizeMm": [
@@ -2582,6 +2671,7 @@
   "nameJa": "マッドパピー",
   "nameSci": "Necturus maculosus",
   "nameEn": "Mudpuppy",
+  "aliases": [],
   "family": "ホライモリ科",
   "familySci": "Proteidae",
   "sizeMm": [

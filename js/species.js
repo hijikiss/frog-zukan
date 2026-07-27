@@ -102,6 +102,8 @@ function normalize(s) {
     group,
     family: s.family || '不明',
     familySci: s.familySci || '',
+    // 別名・流通名・旧学名。検索で当てるためのものなので、空文字は落としておく
+    aliases: Array.isArray(s.aliases) ? s.aliases.map((a) => String(a).trim()).filter(Boolean) : [],
     sizeMm: Array.isArray(s.sizeMm) && s.sizeMm.length === 2 ? s.sizeMm : null,
     tags: {
       habitat: t.habitat || [],
@@ -235,14 +237,28 @@ export function subgroups(groupId) {
 const kata = (s) =>
   String(s || '').replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
 
-const norm = (s) => kata(String(s || '').toLowerCase().trim());
+/** 全角の英数字・記号を半角に（施設の解説板を全角で書き写しても当たるように） */
+const han = (s) =>
+  String(s || '').replace(/[Ａ-Ｚａ-ｚ０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0));
+
+/**
+ * 検索用の正規化。
+ * ひらがな→カタカナ、全角→半角、小文字化に加えて、
+ * 区切り記号（中黒・空白・ハイフン）を落とす。「ミシシッピ・アカミミガメ」と
+ * 「ミシシッピアカミミガメ」、「Trachemys scripta」と「Trachemysscripta」を同じに扱うため。
+ */
+const norm = (s) => kata(han(String(s || '').toLowerCase())).replace(/[\s・･ー\-‐－_]/g, '');
+
+/** その種が名乗りうる全ての名前（別名・流通名・旧学名を含む） */
+const namesOf = (s) =>
+  [s.nameJa, s.nameSci, s.nameEn, s.family, s.familySci, ...(s.aliases || [])].join(' ');
 
 export function search(list, q) {
-  const query = norm(q);
-  if (!query) return list;
-  const terms = query.split(/\s+/).filter(Boolean);
+  if (!norm(q)) return list;
+  // 語の切れ目は元の文字列で判断する（正規化で空白を落とすため）
+  const terms = String(q).trim().split(/\s+/).map(norm).filter(Boolean);
   return list.filter((s) => {
-    const hay = norm([s.nameJa, s.nameSci, s.nameEn, s.family, s.familySci].join(' '));
+    const hay = norm(namesOf(s));
     return terms.every((t) => hay.includes(t));
   });
 }
@@ -290,7 +306,7 @@ export function sort(list, key) {
 
 /* ---------------- 編集 ---------------- */
 
-const FIELDS = ['nameJa', 'nameSci', 'nameEn', 'family', 'familySci', 'sizeMm', 'description', 'zooDisplay', 'tags', 'group'];
+const FIELDS = ['nameJa', 'nameSci', 'nameEn', 'aliases', 'family', 'familySci', 'sizeMm', 'description', 'zooDisplay', 'tags', 'group'];
 
 /** 種の編集を保存。frogs.json 由来の種なら差分だけ、自作種なら全体を保存する。 */
 export async function saveSpecies(id, patch) {

@@ -5,6 +5,7 @@
   "nameJa": "カッパーヘッド",
   "nameSci": "Agkistrodon contortrix",
   "nameEn": "Copperhead",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -38,6 +39,7 @@
   "nameJa": "ガボンアダー",
   "nameSci": "Bitis gabonica",
   "nameEn": "Gaboon Viper",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -69,6 +71,7 @@
   "nameJa": "サイガアダー",
   "nameSci": "Bitis nasicornis",
   "nameEn": "Rhinoceros Viper",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -101,6 +104,7 @@
   "nameJa": "サイドワインダー",
   "nameSci": "Crotalus cerastes",
   "nameEn": "Sidewinder",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -132,6 +136,9 @@
   "nameJa": "サキシマハブ",
   "nameSci": "Protobothrops elegans",
   "nameEn": "Sakishima Habu",
+  "aliases": [
+   "Trimeresurus elegans"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -164,6 +171,9 @@
   "nameJa": "タイワンハブ",
   "nameSci": "Protobothrops mucrosquamatus",
   "nameEn": "Brown Spotted Pit Viper",
+  "aliases": [
+   "Trimeresurus mucrosquamatus"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -197,6 +207,9 @@
   "nameJa": "ツシママムシ",
   "nameSci": "Gloydius tsushimaensis",
   "nameEn": "Tsushima Island Pit Viper",
+  "aliases": [
+   "Agkistrodon tsushimaensis"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -228,6 +241,9 @@
   "nameJa": "トカラハブ",
   "nameSci": "Protobothrops tokarensis",
   "nameEn": "Tokara Habu",
+  "aliases": [
+   "Trimeresurus tokarensis"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -259,6 +275,7 @@
   "nameJa": "ニシダイヤガラガラヘビ",
   "nameSci": "Crotalus atrox",
   "nameEn": "Western Diamondback Rattlesnake",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -292,6 +309,9 @@
   "nameJa": "ニホンマムシ",
   "nameSci": "Gloydius blomhoffii",
   "nameEn": "Japanese Pit Viper",
+  "aliases": [
+   "Agkistrodon blomhoffii"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -323,6 +343,7 @@
   "nameJa": "ヌママムシ",
   "nameSci": "Agkistrodon piscivorus",
   "nameEn": "Cottonmouth",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -356,6 +377,9 @@
   "nameJa": "ハブ",
   "nameSci": "Protobothrops flavoviridis",
   "nameEn": "Habu",
+  "aliases": [
+   "Trimeresurus flavoviridis"
+  ],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -388,6 +412,7 @@
   "nameJa": "パフアダー",
   "nameSci": "Bitis arietans",
   "nameEn": "Puff Adder",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -420,6 +445,7 @@
   "nameJa": "ヒガシダイヤガラガラヘビ",
   "nameSci": "Crotalus adamanteus",
   "nameEn": "Eastern Diamondback Rattlesnake",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -452,6 +478,7 @@
   "nameJa": "ヒメハブ",
   "nameSci": "Ovophis okinavensis",
   "nameEn": "Ryukyu Himehabu",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -484,6 +511,7 @@
   "nameJa": "フェルデランス",
   "nameSci": "Bothrops asper",
   "nameEn": "Terciopelo",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -516,6 +544,7 @@
   "nameJa": "ブッシュマスター",
   "nameSci": "Lachesis muta",
   "nameEn": "Bushmaster",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -548,6 +577,7 @@
   "nameJa": "マツゲハブ",
   "nameSci": "Bothriechis schlegelii",
   "nameEn": "Eyelash Viper",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -580,6 +610,7 @@
   "nameJa": "ラッセルクサリヘビ",
   "nameSci": "Daboia russelii",
   "nameEn": "Russell's Viper",
+  "aliases": [],
   "family": "クサリヘビ科",
   "familySci": "Viperidae",
   "sizeMm": [
@@ -612,6 +643,7 @@
   "nameJa": "アオマダラウミヘビ",
   "nameSci": "Laticauda colubrina",
   "nameEn": "Yellow-lipped Sea Krait",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -646,6 +678,7 @@
   "nameJa": "イイジマウミヘビ",
   "nameSci": "Emydocephalus ijimae",
   "nameEn": "Ijima's Sea Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -678,6 +711,7 @@
   "nameJa": "イワサキワモンベニヘビ",
   "nameSci": "Sinomicrurus iwasakii",
   "nameEn": "Iwasaki's Coral Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -711,6 +745,7 @@
   "nameJa": "インドコブラ",
   "nameSci": "Naja naja",
   "nameEn": "Indian Cobra",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -743,6 +778,7 @@
   "nameJa": "エジプトコブラ",
   "nameSci": "Naja haje",
   "nameEn": "Egyptian Cobra",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -776,6 +812,7 @@
   "nameJa": "エラブウミヘビ",
   "nameSci": "Laticauda semifasciata",
   "nameEn": "Erabu Sea Krait",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -810,6 +847,7 @@
   "nameJa": "キングコブラ",
   "nameSci": "Ophiophagus hannah",
   "nameEn": "King Cobra",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -843,6 +881,7 @@
   "nameJa": "グリーンマンバ",
   "nameSci": "Dendroaspis angusticeps",
   "nameEn": "Eastern Green Mamba",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -874,6 +913,7 @@
   "nameJa": "クロガシラウミヘビ",
   "nameSci": "Hydrophis melanocephalus",
   "nameEn": "Black-headed Sea Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -906,6 +946,7 @@
   "nameJa": "ケープコブラ",
   "nameSci": "Naja nivea",
   "nameEn": "Cape Cobra",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -938,6 +979,7 @@
   "nameJa": "セグロウミヘビ",
   "nameSci": "Hydrophis platurus",
   "nameEn": "Yellow-bellied Sea Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -972,6 +1014,7 @@
   "nameJa": "タイガースネーク",
   "nameSci": "Notechis scutatus",
   "nameEn": "Tiger Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1004,6 +1047,7 @@
   "nameJa": "タイコブラ",
   "nameSci": "Naja kaouthia",
   "nameEn": "Monocled Cobra",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1037,6 +1081,7 @@
   "nameJa": "タイパン",
   "nameSci": "Oxyuranus scutellatus",
   "nameEn": "Coastal Taipan",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1069,6 +1114,7 @@
   "nameJa": "デスアダー",
   "nameSci": "Acanthophis antarcticus",
   "nameEn": "Common Death Adder",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1100,6 +1146,7 @@
   "nameJa": "トウブブラウンスネーク",
   "nameSci": "Pseudonaja textilis",
   "nameEn": "Eastern Brown Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1131,6 +1178,7 @@
   "nameJa": "ナイリクタイパン",
   "nameSci": "Oxyuranus microlepidotus",
   "nameEn": "Inland Taipan",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1163,6 +1211,7 @@
   "nameJa": "ハイ",
   "nameSci": "Sinomicrurus japonicus",
   "nameEn": "Japanese Coral Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1195,6 +1244,7 @@
   "nameJa": "ヒガシサンゴヘビ",
   "nameSci": "Micrurus fulvius",
   "nameEn": "Eastern Coral Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1228,6 +1278,7 @@
   "nameJa": "ヒャン",
   "nameSci": "Sinomicrurus boettgeri",
   "nameEn": "Amami Coral Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1260,6 +1311,7 @@
   "nameJa": "ヒロオウミヘビ",
   "nameSci": "Laticauda laticaudata",
   "nameEn": "Blue-lipped Sea Krait",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1294,6 +1346,7 @@
   "nameJa": "ブラックマンバ",
   "nameSci": "Dendroaspis polylepis",
   "nameEn": "Black Mamba",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1326,6 +1379,7 @@
   "nameJa": "マダラウミヘビ",
   "nameSci": "Hydrophis cyanocinctus",
   "nameEn": "Annulated Sea Snake",
+  "aliases": [],
   "family": "コブラ科",
   "familySci": "Elapidae",
   "sizeMm": [
@@ -1360,6 +1414,7 @@
   "nameJa": "サンビームヘビ",
   "nameSci": "Xenopeltis unicolor",
   "nameEn": "Sunbeam Snake",
+  "aliases": [],
   "family": "サンビームヘビ科",
   "familySci": "Xenopeltidae",
   "sizeMm": [
@@ -1392,6 +1447,7 @@
   "nameJa": "イワサキセダカヘビ",
   "nameSci": "Pareas iwasakii",
   "nameEn": "Iwasaki's Snail-eater",
+  "aliases": [],
   "family": "セダカヘビ科",
   "familySci": "Pareidae",
   "sizeMm": [
@@ -1423,6 +1479,7 @@
   "nameJa": "アマミタカチホヘビ",
   "nameSci": "Achalinus werneri",
   "nameEn": "Amami Odd-scaled Snake",
+  "aliases": [],
   "family": "タカチホヘビ科",
   "familySci": "Xenodermatidae",
   "sizeMm": [
@@ -1454,6 +1511,7 @@
   "nameJa": "タカチホヘビ",
   "nameSci": "Achalinus spinalis",
   "nameEn": "Japanese Odd-scaled Snake",
+  "aliases": [],
   "family": "タカチホヘビ科",
   "familySci": "Xenodermatidae",
   "sizeMm": [
@@ -1485,6 +1543,7 @@
   "nameJa": "ヤエヤマタカチホヘビ",
   "nameSci": "Achalinus formosanus",
   "nameEn": "Formosan Odd-scaled Snake",
+  "aliases": [],
   "family": "タカチホヘビ科",
   "familySci": "Xenodermatidae",
   "sizeMm": [
@@ -1516,6 +1575,7 @@
   "nameJa": "アオダイショウ",
   "nameSci": "Elaphe climacophora",
   "nameEn": "Japanese Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1548,6 +1608,7 @@
   "nameJa": "アオナメラ",
   "nameSci": "Gonyosoma oxycephalum",
   "nameEn": "Red-tailed Green Ratsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1580,6 +1641,7 @@
   "nameJa": "アカマタ",
   "nameSci": "Lycodon semicarinatus",
   "nameEn": "Ryukyu Wolf Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1611,6 +1673,7 @@
   "nameJa": "アフリカタマゴヘビ",
   "nameSci": "Dasypeltis scabra",
   "nameEn": "Common Egg-eater",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1643,6 +1706,7 @@
   "nameJa": "アムールラットスネーク",
   "nameSci": "Elaphe schrenckii",
   "nameEn": "Amur Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1675,6 +1739,7 @@
   "nameJa": "アメリカガーターヘビ",
   "nameSci": "Thamnophis sirtalis",
   "nameEn": "Common Garter Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1707,6 +1772,7 @@
   "nameJa": "ガラスヒバァ",
   "nameSci": "Hebius pryeri",
   "nameEn": "Pryer's Keelback",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1740,6 +1806,7 @@
   "nameJa": "カリフォルニアキングスネーク",
   "nameSci": "Lampropeltis californiae",
   "nameEn": "California Kingsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1773,6 +1840,7 @@
   "nameJa": "カリフォルニアマウンテンキングスネーク",
   "nameSci": "Lampropeltis zonata",
   "nameEn": "California Mountain Kingsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1805,6 +1873,7 @@
   "nameJa": "キクザトサワヘビ",
   "nameSci": "Opisthotropis kikuzatoi",
   "nameEn": "Kikuzato's Stream Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1837,6 +1906,7 @@
   "nameJa": "グレートプレーンズラットスネーク",
   "nameSci": "Pantherophis emoryi",
   "nameEn": "Great Plains Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1869,6 +1939,7 @@
   "nameJa": "グレーバンドキングスネーク",
   "nameSci": "Lampropeltis alterna",
   "nameEn": "Gray-banded Kingsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1901,6 +1972,10 @@
   "nameJa": "コーンスネーク",
   "nameSci": "Pantherophis guttatus",
   "nameEn": "Corn Snake",
+  "aliases": [
+   "アカダイショウ",
+   "Elaphe guttata"
+  ],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1934,6 +2009,7 @@
   "nameJa": "ゴファースネーク",
   "nameSci": "Pituophis catenifer",
   "nameEn": "Gopher Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1966,6 +2042,7 @@
   "nameJa": "サキシマアオヘビ",
   "nameSci": "Cyclophiops herminae",
   "nameEn": "Sakishima Green Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -1997,6 +2074,7 @@
   "nameJa": "サキシマスジオ",
   "nameSci": "Orthriophis taeniurus schmackeri",
   "nameEn": "Sakishima Beauty Ratsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2030,6 +2108,7 @@
   "nameJa": "サキシマバイカダ",
   "nameSci": "Lycodon ruhstrati multifasciatus",
   "nameEn": "Sakishima Banded Wolf Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2062,6 +2141,7 @@
   "nameJa": "シマヘビ",
   "nameSci": "Elaphe quadrivirgata",
   "nameEn": "Japanese Four-lined Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2093,6 +2173,7 @@
   "nameJa": "ジムグリ",
   "nameSci": "Euprepiophis conspicillatus",
   "nameEn": "Japanese Forest Ratsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2125,6 +2206,7 @@
   "nameJa": "シロマダラ",
   "nameSci": "Lycodon orientalis",
   "nameEn": "Japanese Wolf Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2156,6 +2238,7 @@
   "nameJa": "セイブシシバナヘビ",
   "nameSci": "Heterodon nasicus",
   "nameEn": "Western Hognose Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2188,6 +2271,7 @@
   "nameJa": "タイワンスジオ",
   "nameSci": "Orthriophis taeniurus friesi",
   "nameEn": "Taiwan Beauty Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2221,6 +2305,7 @@
   "nameJa": "チェッカーガーターヘビ",
   "nameSci": "Thamnophis marcianus",
   "nameEn": "Checkered Garter Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2255,6 +2340,7 @@
   "nameJa": "テキサスラットスネーク",
   "nameSci": "Pantherophis obsoletus",
   "nameEn": "Texas Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2287,6 +2373,7 @@
   "nameJa": "デザートキングスネーク",
   "nameSci": "Lampropeltis splendida",
   "nameEn": "Desert Kingsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2320,6 +2407,7 @@
   "nameJa": "テングキノボリヘビ",
   "nameSci": "Rhynchophis boulengeri",
   "nameEn": "Rhinoceros Ratsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2352,6 +2440,7 @@
   "nameJa": "トランスペコスラットスネーク",
   "nameSci": "Bogertophis subocularis",
   "nameEn": "Trans-Pecos Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2384,6 +2473,7 @@
   "nameJa": "ヒバカリ",
   "nameSci": "Hebius vibakari",
   "nameEn": "Japanese Keelback",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2417,6 +2507,7 @@
   "nameJa": "ホウシャナメラ",
   "nameSci": "Coelognathus radiatus",
   "nameEn": "Radiated Rat Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2450,6 +2541,7 @@
   "nameJa": "ミヤコヒバァ",
   "nameSci": "Hebius concelarus",
   "nameEn": "Miyako Keelback",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2481,6 +2573,7 @@
   "nameJa": "ミヤラヒメヘビ",
   "nameSci": "Calamaria pfefferi",
   "nameEn": "Pfeffer's Reed Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2512,6 +2605,7 @@
   "nameJa": "ミルクスネーク",
   "nameSci": "Lampropeltis triangulum",
   "nameEn": "Milk Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2545,6 +2639,7 @@
   "nameJa": "メキシカンブラックキングスネーク",
   "nameSci": "Lampropeltis nigrita",
   "nameEn": "Mexican Black Kingsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2577,6 +2672,7 @@
   "nameJa": "ヤマカガシ",
   "nameSci": "Rhabdophis tigrinus",
   "nameEn": "Tiger Keelback",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2609,6 +2705,7 @@
   "nameJa": "ヨーロッパナメラ",
   "nameSci": "Zamenis longissimus",
   "nameEn": "Aesculapian Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2641,6 +2738,7 @@
   "nameJa": "ヨナグニシュウダ",
   "nameSci": "Elaphe carinata yonaguniensis",
   "nameEn": "Yonaguni King Ratsnake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2672,6 +2770,7 @@
   "nameJa": "ラフグリーンスネーク",
   "nameSci": "Opheodrys aestivus",
   "nameEn": "Rough Green Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2703,6 +2802,7 @@
   "nameJa": "リュウキュウアオヘビ",
   "nameSci": "Cyclophiops semicarinatus",
   "nameEn": "Ryukyu Green Snake",
+  "aliases": [],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2734,6 +2834,11 @@
   "nameJa": "アミメニシキヘビ",
   "nameSci": "Malayopython reticulatus",
   "nameEn": "Reticulated Python",
+  "aliases": [
+   "レティキュレートパイソン",
+   "レティック",
+   "Python reticulatus"
+  ],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2766,6 +2871,7 @@
   "nameJa": "インドニシキヘビ",
   "nameSci": "Python molurus",
   "nameEn": "Indian Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2799,6 +2905,7 @@
   "nameJa": "ウォマパイソン",
   "nameSci": "Aspidites ramsayi",
   "nameEn": "Woma Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2832,6 +2939,7 @@
   "nameJa": "オリーブパイソン",
   "nameSci": "Liasis olivaceus",
   "nameEn": "Olive Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2864,6 +2972,7 @@
   "nameJa": "カーペットパイソン",
   "nameSci": "Morelia spilota",
   "nameEn": "Carpet Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2896,6 +3005,10 @@
   "nameJa": "グリーンパイソン",
   "nameSci": "Morelia viridis",
   "nameEn": "Green Tree Python",
+  "aliases": [
+   "グリーンツリーパイソン",
+   "ミドリニシキヘビ"
+  ],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2928,6 +3041,7 @@
   "nameJa": "スポッテッドパイソン",
   "nameSci": "Antaresia maculosa",
   "nameEn": "Spotted Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2960,6 +3074,7 @@
   "nameJa": "チルドレンニシキヘビ",
   "nameSci": "Antaresia childreni",
   "nameEn": "Children's Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -2992,6 +3107,10 @@
   "nameJa": "ビルマニシキヘビ",
   "nameSci": "Python bivittatus",
   "nameEn": "Burmese Python",
+  "aliases": [
+   "ビルマパイソン",
+   "Python molurus bivittatus"
+  ],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3026,6 +3145,7 @@
   "nameJa": "ブラックヘッドパイソン",
   "nameSci": "Aspidites melanocephalus",
   "nameEn": "Black-headed Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3058,6 +3178,7 @@
   "nameJa": "ブラッドパイソン",
   "nameSci": "Python brongersmai",
   "nameEn": "Blood Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3090,6 +3211,10 @@
   "nameJa": "ボールニシキヘビ",
   "nameSci": "Python regius",
   "nameEn": "Ball Python",
+  "aliases": [
+   "ボールパイソン",
+   "ロイヤルパイソン"
+  ],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3122,6 +3247,7 @@
   "nameJa": "ホワイトリップパイソン",
   "nameSci": "Leiopython albertisii",
   "nameEn": "White-lipped Python",
+  "aliases": [],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3153,6 +3279,7 @@
   "nameJa": "アマゾンツリーボア",
   "nameSci": "Corallus hortulanus",
   "nameEn": "Amazon Tree Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3184,6 +3311,7 @@
   "nameJa": "エメラルドツリーボア",
   "nameSci": "Corallus caninus",
   "nameEn": "Emerald Tree Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3215,6 +3343,7 @@
   "nameJa": "オオアナコンダ",
   "nameSci": "Eunectes murinus",
   "nameEn": "Green Anaconda",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3248,6 +3377,7 @@
   "nameJa": "キイロアナコンダ",
   "nameSci": "Eunectes notaeus",
   "nameEn": "Yellow Anaconda",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3280,6 +3410,7 @@
   "nameJa": "ケニアスナボア",
   "nameSci": "Eryx colubrinus",
   "nameEn": "Kenyan Sand Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3312,6 +3443,7 @@
   "nameJa": "ニジボア",
   "nameSci": "Epicrates cenchria",
   "nameEn": "Brazilian Rainbow Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3343,6 +3475,10 @@
   "nameJa": "ボアコンストリクター",
   "nameSci": "Boa constrictor",
   "nameEn": "Boa Constrictor",
+  "aliases": [
+   "ボアコン",
+   "レッドテールボア"
+  ],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3377,6 +3513,7 @@
   "nameJa": "マダガスカルツリーボア",
   "nameSci": "Sanzinia madagascariensis",
   "nameEn": "Madagascar Tree Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3408,6 +3545,7 @@
   "nameJa": "マダガスカルボア",
   "nameSci": "Acrantophis madagascariensis",
   "nameEn": "Madagascar Ground Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3440,6 +3578,7 @@
   "nameJa": "ロージーボア",
   "nameSci": "Lichanura trivirgata",
   "nameEn": "Rosy Boa",
+  "aliases": [],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [
@@ -3473,6 +3612,7 @@
   "nameJa": "ブラーミニメクラヘビ",
   "nameSci": "Indotyphlops braminus",
   "nameEn": "Brahminy Blind Snake",
+  "aliases": [],
   "family": "メクラヘビ科",
   "familySci": "Typhlopidae",
   "sizeMm": [
@@ -3506,6 +3646,7 @@
   "nameJa": "アフリカハウススネーク",
   "nameSci": "Boaedon fuliginosus",
   "nameEn": "African House Snake",
+  "aliases": [],
   "family": "ラムプロフィス科",
   "familySci": "Lamprophiidae",
   "sizeMm": [

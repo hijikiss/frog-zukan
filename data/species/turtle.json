@@ -5,6 +5,7 @@
   "nameJa": "インドヤマガメ",
   "nameSci": "Melanochelys trijuga",
   "nameEn": "Indian Black Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -38,6 +39,10 @@
   "nameJa": "クサガメ",
   "nameSci": "Mauremys reevesii",
   "nameEn": "Reeves' Turtle",
+  "aliases": [
+   "ゼニガメ",
+   "Chinemys reevesii"
+  ],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -71,6 +76,7 @@
   "nameJa": "クロハラヤマガメ",
   "nameSci": "Siebenrockiella crassicollis",
   "nameEn": "Black Marsh Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -104,6 +110,7 @@
   "nameJa": "セマルハコガメ",
   "nameSci": "Cuora flavomarginata",
   "nameEn": "Yellow-margined Box Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -138,6 +145,7 @@
   "nameJa": "トゲヤマガメ",
   "nameSci": "Heosemys spinosa",
   "nameEn": "Spiny Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -170,6 +178,9 @@
   "nameJa": "ニホンイシガメ",
   "nameSci": "Mauremys japonica",
   "nameEn": "Japanese Pond Turtle",
+  "aliases": [
+   "イシガメ"
+  ],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -202,6 +213,7 @@
   "nameJa": "ノコヘリマルガメ",
   "nameSci": "Cyclemys dentata",
   "nameEn": "Asian Leaf Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -235,6 +247,7 @@
   "nameJa": "ハナガメ",
   "nameSci": "Mauremys sinensis",
   "nameEn": "Chinese Stripe-necked Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -268,6 +281,7 @@
   "nameJa": "ヒラセガメ",
   "nameSci": "Geoemyda spengleri",
   "nameEn": "Black-breasted Leaf Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -301,6 +315,7 @@
   "nameJa": "マレーハコガメ",
   "nameSci": "Cuora amboinensis",
   "nameEn": "Southeast Asian Box Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -334,6 +349,7 @@
   "nameJa": "ミスジハコガメ",
   "nameSci": "Cuora trifasciata",
   "nameEn": "Chinese Three-striped Box Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -367,6 +383,7 @@
   "nameJa": "ミナミイシガメ",
   "nameSci": "Mauremys mutica",
   "nameEn": "Yellow Pond Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -401,6 +418,7 @@
   "nameJa": "モエギハコガメ",
   "nameSci": "Cuora galbinifrons",
   "nameEn": "Indochinese Box Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -435,6 +453,7 @@
   "nameJa": "ヨツメイシガメ",
   "nameSci": "Sacalia quadriocellata",
   "nameEn": "Four-eyed Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -468,6 +487,7 @@
   "nameJa": "リュウキュウヤマガメ",
   "nameSci": "Geoemyda japonica",
   "nameEn": "Ryukyu Black-breasted Leaf Turtle",
+  "aliases": [],
   "family": "イシガメ科",
   "familySci": "Geoemydidae",
   "sizeMm": [
@@ -500,6 +520,7 @@
   "nameJa": "アオウミガメ",
   "nameSci": "Chelonia mydas",
   "nameEn": "Green Sea Turtle",
+  "aliases": [],
   "family": "ウミガメ科",
   "familySci": "Cheloniidae",
   "sizeMm": [
@@ -533,6 +554,7 @@
   "nameJa": "アカウミガメ",
   "nameSci": "Caretta caretta",
   "nameEn": "Loggerhead Sea Turtle",
+  "aliases": [],
   "family": "ウミガメ科",
   "familySci": "Cheloniidae",
   "sizeMm": [
@@ -565,6 +587,7 @@
   "nameJa": "タイマイ",
   "nameSci": "Eretmochelys imbricata",
   "nameEn": "Hawksbill Sea Turtle",
+  "aliases": [],
   "family": "ウミガメ科",
   "familySci": "Cheloniidae",
   "sizeMm": [
@@ -597,6 +620,7 @@
   "nameJa": "ヒメウミガメ",
   "nameSci": "Lepidochelys olivacea",
   "nameEn": "Olive Ridley Sea Turtle",
+  "aliases": [],
   "family": "ウミガメ科",
   "familySci": "Cheloniidae",
   "sizeMm": [
@@ -629,6 +653,7 @@
   "nameJa": "オサガメ",
   "nameSci": "Dermochelys coriacea",
   "nameEn": "Leatherback Sea Turtle",
+  "aliases": [],
   "family": "オサガメ科",
   "familySci": "Dermochelyidae",
   "sizeMm": [
@@ -661,6 +686,9 @@
   "nameJa": "カミツキガメ",
   "nameSci": "Chelydra serpentina",
   "nameEn": "Snapping Turtle",
+  "aliases": [
+   "スナッピングタートル"
+  ],
   "family": "カミツキガメ科",
   "familySci": "Chelydridae",
   "sizeMm": [
@@ -695,6 +723,9 @@
   "nameJa": "ワニガメ",
   "nameSci": "Macrochelys temminckii",
   "nameEn": "Alligator Snapping Turtle",
+  "aliases": [
+   "アリゲータースナッピングタートル"
+  ],
   "family": "カミツキガメ科",
   "familySci": "Chelydridae",
   "sizeMm": [
@@ -726,6 +757,10 @@
   "nameJa": "スッポンモドキ",
   "nameSci": "Carettochelys insculpta",
   "nameEn": "Pig-nosed Turtle",
+  "aliases": [
+   "ブタバナガメ",
+   "フライリバータートル"
+  ],
   "family": "スッポンモドキ科",
   "familySci": "Carettochelyidae",
   "sizeMm": [
@@ -758,6 +793,7 @@
   "nameJa": "トゲスッポン",
   "nameSci": "Apalone spinifera",
   "nameEn": "Spiny Softshell Turtle",
+  "aliases": [],
   "family": "スッポン科",
   "familySci": "Trionychidae",
   "sizeMm": [
@@ -789,6 +825,10 @@
   "nameJa": "ニホンスッポン",
   "nameSci": "Pelodiscus sinensis",
   "nameEn": "Chinese Softshell Turtle",
+  "aliases": [
+   "スッポン",
+   "Trionyx sinensis"
+  ],
   "family": "スッポン科",
   "familySci": "Trionychidae",
   "sizeMm": [
@@ -822,6 +862,7 @@
   "nameJa": "フロリダスッポン",
   "nameSci": "Apalone ferox",
   "nameEn": "Florida Softshell Turtle",
+  "aliases": [],
   "family": "スッポン科",
   "familySci": "Trionychidae",
   "sizeMm": [
@@ -853,6 +894,7 @@
   "nameJa": "マルスッポン",
   "nameSci": "Amyda cartilaginea",
   "nameEn": "Asiatic Softshell Turtle",
+  "aliases": [],
   "family": "スッポン科",
   "familySci": "Trionychidae",
   "sizeMm": [
@@ -885,6 +927,7 @@
   "nameJa": "カブトニオイガメ",
   "nameSci": "Sternotherus carinatus",
   "nameEn": "Razor-backed Musk Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -917,6 +960,7 @@
   "nameJa": "サソリドロガメ",
   "nameSci": "Kinosternon scorpioides",
   "nameEn": "Scorpion Mud Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -950,6 +994,7 @@
   "nameJa": "シロクチドロガメ",
   "nameSci": "Kinosternon leucostomum",
   "nameEn": "White-lipped Mud Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -983,6 +1028,7 @@
   "nameJa": "ハラガケガメ",
   "nameSci": "Claudius angustatus",
   "nameEn": "Narrow-bridged Musk Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -1015,6 +1061,7 @@
   "nameJa": "ヒメニオイガメ",
   "nameSci": "Sternotherus minor",
   "nameEn": "Loggerhead Musk Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -1047,6 +1094,7 @@
   "nameJa": "ミシシッピドロガメ",
   "nameSci": "Kinosternon subrubrum",
   "nameEn": "Eastern Mud Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -1079,6 +1127,7 @@
   "nameJa": "ミシシッピニオイガメ",
   "nameSci": "Sternotherus odoratus",
   "nameEn": "Common Musk Turtle",
+  "aliases": [],
   "family": "ドロガメ科",
   "familySci": "Kinosternidae",
   "sizeMm": [
@@ -1111,6 +1160,7 @@
   "nameJa": "キバラヨコクビガメ",
   "nameSci": "Podocnemis unifilis",
   "nameEn": "Yellow-spotted River Turtle",
+  "aliases": [],
   "family": "ナンベイヨコクビガメ科",
   "familySci": "Podocnemididae",
   "sizeMm": [
@@ -1142,6 +1192,7 @@
   "nameJa": "アメリカハコガメ",
   "nameSci": "Terrapene carolina",
   "nameEn": "Eastern Box Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1174,6 +1225,7 @@
   "nameJa": "キボシイシガメ",
   "nameSci": "Clemmys guttata",
   "nameEn": "Spotted Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1206,6 +1258,7 @@
   "nameJa": "ダイヤモンドガメ",
   "nameSci": "Malaclemys terrapin",
   "nameEn": "Diamondback Terrapin",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1238,6 +1291,7 @@
   "nameJa": "チズガメ",
   "nameSci": "Graptemys geographica",
   "nameEn": "Northern Map Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1270,6 +1324,7 @@
   "nameJa": "ニシキガメ",
   "nameSci": "Chrysemys picta",
   "nameEn": "Painted Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1302,6 +1357,7 @@
   "nameJa": "ニセチズガメ",
   "nameSci": "Graptemys pseudogeographica",
   "nameEn": "False Map Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1334,6 +1390,7 @@
   "nameJa": "ブランディングガメ",
   "nameSci": "Emys blandingii",
   "nameEn": "Blanding's Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1366,6 +1423,7 @@
   "nameJa": "フロリダアカハラガメ",
   "nameSci": "Pseudemys nelsoni",
   "nameEn": "Florida Red-bellied Cooter",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1398,6 +1456,11 @@
   "nameJa": "ミシシッピアカミミガメ",
   "nameSci": "Trachemys scripta",
   "nameEn": "Red-eared Slider",
+  "aliases": [
+   "ミドリガメ",
+   "アカミミガメ",
+   "Trachemys scripta elegans"
+  ],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1431,6 +1494,7 @@
   "nameJa": "ミシシッピチズガメ",
   "nameSci": "Graptemys kohnii",
   "nameEn": "Mississippi Map Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1463,6 +1527,7 @@
   "nameJa": "モリイシガメ",
   "nameSci": "Glyptemys insculpta",
   "nameEn": "Wood Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1495,6 +1560,7 @@
   "nameJa": "ヨーロッパヌマガメ",
   "nameSci": "Emys orbicularis",
   "nameEn": "European Pond Turtle",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1529,6 +1595,7 @@
   "nameJa": "リバークーター",
   "nameSci": "Pseudemys concinna",
   "nameEn": "River Cooter",
+  "aliases": [],
   "family": "ヌマガメ科",
   "familySci": "Emydidae",
   "sizeMm": [
@@ -1561,6 +1628,7 @@
   "nameJa": "アカハラマゲクビガメ",
   "nameSci": "Emydura subglobosa",
   "nameEn": "Red-bellied Short-necked Turtle",
+  "aliases": [],
   "family": "ヘビクビガメ科",
   "familySci": "Chelidae",
   "sizeMm": [
@@ -1593,6 +1661,7 @@
   "nameJa": "オーストラリアナガクビガメ",
   "nameSci": "Chelodina longicollis",
   "nameEn": "Eastern Snake-necked Turtle",
+  "aliases": [],
   "family": "ヘビクビガメ科",
   "familySci": "Chelidae",
   "sizeMm": [
@@ -1625,6 +1694,7 @@
   "nameJa": "ジーベンロックナガクビガメ",
   "nameSci": "Chelodina rugosa",
   "nameEn": "Siebenrock's Snake-necked Turtle",
+  "aliases": [],
   "family": "ヘビクビガメ科",
   "familySci": "Chelidae",
   "sizeMm": [
@@ -1657,6 +1727,7 @@
   "nameJa": "ヒラリーカエルガメ",
   "nameSci": "Phrynops hilarii",
   "nameEn": "Hilaire's Side-necked Turtle",
+  "aliases": [],
   "family": "ヘビクビガメ科",
   "familySci": "Chelidae",
   "sizeMm": [
@@ -1688,6 +1759,7 @@
   "nameJa": "マタマタ",
   "nameSci": "Chelus fimbriata",
   "nameEn": "Mata Mata",
+  "aliases": [],
   "family": "ヘビクビガメ科",
   "familySci": "Chelidae",
   "sizeMm": [
@@ -1719,6 +1791,7 @@
   "nameJa": "アフリカヨコクビガメ",
   "nameSci": "Pelomedusa subrufa",
   "nameEn": "African Helmeted Turtle",
+  "aliases": [],
   "family": "ヨコクビガメ科",
   "familySci": "Pelomedusidae",
   "sizeMm": [
@@ -1751,6 +1824,7 @@
   "nameJa": "アカアシガメ",
   "nameSci": "Chelonoidis carbonarius",
   "nameEn": "Red-footed Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1782,6 +1856,7 @@
   "nameJa": "アルダブラゾウガメ",
   "nameSci": "Aldabrachelys gigantea",
   "nameEn": "Aldabra Giant Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1813,6 +1888,7 @@
   "nameJa": "インドホシガメ",
   "nameSci": "Geochelone elegans",
   "nameEn": "Indian Star Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1844,6 +1920,7 @@
   "nameJa": "インプレッサムツアシガメ",
   "nameSci": "Manouria impressa",
   "nameEn": "Impressed Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1876,6 +1953,7 @@
   "nameJa": "エジプトリクガメ",
   "nameSci": "Testudo kleinmanni",
   "nameEn": "Egyptian Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1909,6 +1987,7 @@
   "nameJa": "エロンガータリクガメ",
   "nameSci": "Indotestudo elongata",
   "nameEn": "Elongated Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1942,6 +2021,7 @@
   "nameJa": "ガラパゴスゾウガメ",
   "nameSci": "Chelonoidis niger",
   "nameEn": "Galápagos Giant Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -1973,6 +2053,7 @@
   "nameJa": "キアシガメ",
   "nameSci": "Chelonoidis denticulatus",
   "nameEn": "Yellow-footed Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2004,6 +2085,7 @@
   "nameJa": "ギリシャリクガメ",
   "nameSci": "Testudo graeca",
   "nameEn": "Spur-thighed Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2038,6 +2120,7 @@
   "nameJa": "クモノスガメ",
   "nameSci": "Pyxis arachnoides",
   "nameEn": "Spider Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2069,6 +2152,11 @@
   "nameJa": "ケヅメリクガメ",
   "nameSci": "Centrochelys sulcata",
   "nameEn": "African Spurred Tortoise",
+  "aliases": [
+   "スルカタ",
+   "アフリカケヅメリクガメ",
+   "Geochelone sulcata"
+  ],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2101,6 +2189,7 @@
   "nameJa": "チャコリクガメ",
   "nameSci": "Chelonoidis chilensis",
   "nameEn": "Chaco Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2133,6 +2222,7 @@
   "nameJa": "パンケーキガメ",
   "nameSci": "Malacochersus tornieri",
   "nameEn": "Pancake Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2164,6 +2254,7 @@
   "nameJa": "ヒョウモンガメ",
   "nameSci": "Stigmochelys pardalis",
   "nameEn": "Leopard Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2195,6 +2286,7 @@
   "nameJa": "ビルマホシガメ",
   "nameSci": "Geochelone platynota",
   "nameEn": "Burmese Star Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2226,6 +2318,7 @@
   "nameJa": "ビルマムツアシガメ",
   "nameSci": "Manouria emys",
   "nameEn": "Asian Giant Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2258,6 +2351,7 @@
   "nameJa": "フチゾリリクガメ",
   "nameSci": "Testudo marginata",
   "nameEn": "Marginated Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2289,6 +2383,7 @@
   "nameJa": "ヘサキリクガメ",
   "nameSci": "Astrochelys yniphora",
   "nameEn": "Ploughshare Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2320,6 +2415,9 @@
   "nameJa": "ヘルマンリクガメ",
   "nameSci": "Testudo hermanni",
   "nameEn": "Hermann's Tortoise",
+  "aliases": [
+   "ヘルマン"
+  ],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2351,6 +2449,7 @@
   "nameJa": "ホウシャガメ",
   "nameSci": "Astrochelys radiata",
   "nameEn": "Radiated Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2382,6 +2481,7 @@
   "nameJa": "モリセオレガメ",
   "nameSci": "Kinixys homeana",
   "nameEn": "Home's Hinge-back Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [
@@ -2414,6 +2514,7 @@
   "nameJa": "ヨツユビリクガメ",
   "nameSci": "Testudo horsfieldii",
   "nameEn": "Russian Tortoise",
+  "aliases": [],
   "family": "リクガメ科",
   "familySci": "Testudinidae",
   "sizeMm": [

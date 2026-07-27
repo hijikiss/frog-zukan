@@ -5,6 +5,7 @@
   "nameJa": "アオオビイモリ",
   "nameSci": "Cynops cyanurus",
   "nameEn": "Blue-tailed Fire-bellied Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -38,6 +39,10 @@
   "nameJa": "アカハライモリ",
   "nameSci": "Cynops pyrrhogaster",
   "nameEn": "Japanese Fire-bellied Newt",
+  "aliases": [
+   "ニホンイモリ",
+   "イモリ"
+  ],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -71,6 +76,7 @@
   "nameJa": "アカハラタリカ",
   "nameSci": "Taricha rivularis",
   "nameEn": "Red-bellied Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -103,6 +109,7 @@
   "nameJa": "アカボシイモリ",
   "nameSci": "Notophthalmus viridescens",
   "nameEn": "Eastern Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -136,6 +143,7 @@
   "nameJa": "アナトリアイモリ",
   "nameSci": "Neurergus strauchii",
   "nameEn": "Strauch's Spotted Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -168,6 +176,7 @@
   "nameJa": "アマミシリケンイモリ",
   "nameSci": "Cynops ensicauda popei",
   "nameEn": "Amami Sword-tailed Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -200,6 +209,7 @@
   "nameJa": "アルプスイモリ",
   "nameSci": "Ichthyosaura alpestris",
   "nameEn": "Alpine Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -233,6 +243,7 @@
   "nameJa": "アルプスサラマンダー",
   "nameSci": "Salamandra atra",
   "nameEn": "Alpine Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -264,6 +275,7 @@
   "nameJa": "イタリアクシイモリ",
   "nameSci": "Triturus carnifex",
   "nameEn": "Italian Crested Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -296,6 +308,7 @@
   "nameJa": "イベリアトゲイモリ",
   "nameSci": "Pleurodeles waltl",
   "nameEn": "Iberian Ribbed Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -328,6 +341,7 @@
   "nameJa": "イボイモリ",
   "nameSci": "Echinotriton andersoni",
   "nameEn": "Anderson's Crocodile Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -360,6 +374,7 @@
   "nameJa": "オキナワシリケンイモリ",
   "nameSci": "Cynops ensicauda ensicauda",
   "nameEn": "Okinawa Sword-tailed Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -392,6 +407,7 @@
   "nameJa": "オビイモリ",
   "nameSci": "Ommatotriton vittatus",
   "nameEn": "Southern Banded Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -424,6 +440,7 @@
   "nameJa": "カイザーイモリ",
   "nameSci": "Neurergus kaiseri",
   "nameEn": "Kaiser's Spotted Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -456,6 +473,7 @@
   "nameJa": "カリフォルニアイモリ",
   "nameSci": "Taricha torosa",
   "nameEn": "California Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -489,6 +507,7 @@
   "nameJa": "キコウイボイモリ",
   "nameSci": "Tylototriton kweichowensis",
   "nameEn": "Kweichow Crocodile Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -521,6 +540,7 @@
   "nameJa": "キタアフリカファイアサラマンダー",
   "nameSci": "Salamandra algira",
   "nameEn": "North African Fire Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -553,6 +573,7 @@
   "nameJa": "キタオビイモリ",
   "nameSci": "Ommatotriton ophryticus",
   "nameEn": "Northern Banded Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -586,6 +607,7 @@
   "nameJa": "キタクシイモリ",
   "nameSci": "Triturus cristatus",
   "nameEn": "Northern Crested Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -618,6 +640,7 @@
   "nameJa": "キボシイモリ",
   "nameSci": "Neurergus crocatus",
   "nameEn": "Yellow-spotted Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -650,6 +673,7 @@
   "nameJa": "キンスジサラマンダー",
   "nameSci": "Chioglossa lusitanica",
   "nameEn": "Golden-striped Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -682,6 +706,7 @@
   "nameJa": "コルシカファイアサラマンダー",
   "nameSci": "Salamandra corsica",
   "nameEn": "Corsican Fire Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -714,6 +739,7 @@
   "nameJa": "ザライボイモリ",
   "nameSci": "Tylototriton asperrimus",
   "nameEn": "Black Knobby Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -747,6 +773,7 @@
   "nameJa": "ザラハダイモリ",
   "nameSci": "Taricha granulosa",
   "nameEn": "Rough-skinned Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -779,6 +806,7 @@
   "nameJa": "シエラネバダイモリ",
   "nameSci": "Taricha sierrae",
   "nameEn": "Sierra Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -812,6 +840,7 @@
   "nameJa": "スベイモリ",
   "nameSci": "Lissotriton vulgaris",
   "nameEn": "Smooth Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -845,6 +874,7 @@
   "nameJa": "タリアンイボイモリ",
   "nameSci": "Tylototriton taliangensis",
   "nameEn": "Taliang Knobby Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -877,6 +907,7 @@
   "nameJa": "チュウゴクイモリ",
   "nameSci": "Cynops orientalis",
   "nameEn": "Chinese Fire-bellied Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -910,6 +941,7 @@
   "nameJa": "チュウゴクコブイモリ",
   "nameSci": "Paramesotriton chinensis",
   "nameEn": "Chinese Warty Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -942,6 +974,7 @@
   "nameJa": "チンハイイボイモリ",
   "nameSci": "Echinotriton chinhaiensis",
   "nameEn": "Chinhai Spiny Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -974,6 +1007,7 @@
   "nameJa": "ドナウクシイモリ",
   "nameSci": "Triturus dobrogicus",
   "nameEn": "Danube Crested Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1006,6 +1040,7 @@
   "nameJa": "ハイナンイボイモリ",
   "nameSci": "Tylototriton hainanensis",
   "nameEn": "Hainan Knobby Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1038,6 +1073,7 @@
   "nameJa": "ヒマラヤイボイモリ",
   "nameSci": "Tylototriton verrucosus",
   "nameEn": "Himalayan Crocodile Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1072,6 +1108,7 @@
   "nameJa": "ヒメマダライモリ",
   "nameSci": "Triturus pygmaeus",
   "nameEn": "Southern Marbled Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1104,6 +1141,7 @@
   "nameJa": "ピレネーイモリ",
   "nameSci": "Calotriton asper",
   "nameEn": "Pyrenean Brook Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1137,6 +1175,9 @@
   "nameJa": "ファイアサラマンダー",
   "nameSci": "Salamandra salamandra",
   "nameEn": "Fire Salamander",
+  "aliases": [
+   "マダラサラマンダー"
+  ],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1168,6 +1209,7 @@
   "nameJa": "ブンケンイボイモリ",
   "nameSci": "Tylototriton wenxianensis",
   "nameEn": "Wenxian Knobby Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1200,6 +1242,7 @@
   "nameJa": "ボスカイモリ",
   "nameSci": "Lissotriton boscai",
   "nameEn": "Bosca's Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1232,6 +1275,7 @@
   "nameJa": "ホンコンイモリ",
   "nameSci": "Paramesotriton hongkongensis",
   "nameEn": "Hong Kong Warty Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1264,6 +1308,7 @@
   "nameJa": "マダライモリ",
   "nameSci": "Triturus marmoratus",
   "nameEn": "Marbled Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1296,6 +1341,7 @@
   "nameJa": "マンダリンイボイモリ",
   "nameSci": "Tylototriton shanjing",
   "nameEn": "Emperor Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1328,6 +1374,7 @@
   "nameJa": "ミズカキイモリ",
   "nameSci": "Lissotriton helveticus",
   "nameEn": "Palmate Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1360,6 +1407,7 @@
   "nameJa": "ミナミクシイモリ",
   "nameSci": "Triturus karelinii",
   "nameEn": "Southern Crested Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1393,6 +1441,7 @@
   "nameJa": "メガネサラマンダー",
   "nameSci": "Salamandrina terdigitata",
   "nameEn": "Spectacled Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1425,6 +1474,7 @@
   "nameJa": "ヤンイボイモリ",
   "nameSci": "Tylototriton yangi",
   "nameEn": "Tiannan Crocodile Newt",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [
@@ -1457,6 +1507,7 @@
   "nameJa": "リキアサラマンダー",
   "nameSci": "Lyciasalamandra luschani",
   "nameEn": "Luschan's Salamander",
+  "aliases": [],
   "family": "イモリ科",
   "familySci": "Salamandridae",
   "sizeMm": [

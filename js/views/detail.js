@@ -71,6 +71,9 @@ export async function render(view, id, { refresh }) {
     el('h2', { text: s.nameJa }),
     el('p', { class: 'sci', text: s.nameSci }),
     s.nameEn ? el('p', { class: 'en', text: s.nameEn }) : null,
+    s.aliases?.length
+      ? el('p', { class: 'aliases', text: `別名: ${s.aliases.join('、')}` })
+      : null,
     tags,
     facts,
     s.description ? el('p', { class: 'desc', text: s.description }) : null,

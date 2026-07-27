@@ -5,6 +5,7 @@
   "nameJa": "クチヒロカイマン",
   "nameSci": "Caiman latirostris",
   "nameEn": "Broad-snouted Caiman",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -37,6 +38,7 @@
   "nameJa": "クロカイマン",
   "nameSci": "Melanosuchus niger",
   "nameEn": "Black Caiman",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -69,6 +71,10 @@
   "nameJa": "コビトカイマン",
   "nameSci": "Paleosuchus palpebrosus",
   "nameEn": "Cuvier's Dwarf Caiman",
+  "aliases": [
+   "キュビエコビトカイマン",
+   "ドワーフカイマン"
+  ],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -101,6 +107,7 @@
   "nameJa": "ブラジルカイマン",
   "nameSci": "Paleosuchus trigonatus",
   "nameEn": "Schneider's Smooth-fronted Caiman",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -133,6 +140,10 @@
   "nameJa": "ミシシッピワニ",
   "nameSci": "Alligator mississippiensis",
   "nameEn": "American Alligator",
+  "aliases": [
+   "アメリカアリゲーター",
+   "アリゲーター"
+  ],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -166,6 +177,7 @@
   "nameJa": "メガネカイマン",
   "nameSci": "Caiman crocodilus",
   "nameEn": "Spectacled Caiman",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -199,6 +211,7 @@
   "nameJa": "ヤカレカイマン",
   "nameSci": "Caiman yacare",
   "nameEn": "Yacare Caiman",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -231,6 +244,7 @@
   "nameJa": "ヨウスコウワニ",
   "nameSci": "Alligator sinensis",
   "nameEn": "Chinese Alligator",
+  "aliases": [],
   "family": "アリゲーター科",
   "familySci": "Alligatoridae",
   "sizeMm": [
@@ -263,6 +277,10 @@
   "nameJa": "インドガビアル",
   "nameSci": "Gavialis gangeticus",
   "nameEn": "Gharial",
+  "aliases": [
+   "ガビアル",
+   "ガンジスガビアル"
+  ],
   "family": "ガビアル科",
   "familySci": "Gavialidae",
   "sizeMm": [
@@ -294,6 +312,7 @@
   "nameJa": "マレーガビアル",
   "nameSci": "Tomistoma schlegelii",
   "nameEn": "False Gharial",
+  "aliases": [],
   "family": "ガビアル科",
   "familySci": "Gavialidae",
   "sizeMm": [
@@ -326,6 +345,7 @@
   "nameJa": "アメリカワニ",
   "nameSci": "Crocodylus acutus",
   "nameEn": "American Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -360,6 +380,10 @@
   "nameJa": "イリエワニ",
   "nameSci": "Crocodylus porosus",
   "nameEn": "Saltwater Crocodile",
+  "aliases": [
+   "ソルトウォータークロコダイル",
+   "ソルティ"
+  ],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -395,6 +419,7 @@
   "nameJa": "オーストラリアワニ",
   "nameSci": "Crocodylus johnstoni",
   "nameEn": "Freshwater Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -427,6 +452,7 @@
   "nameJa": "オリノコワニ",
   "nameSci": "Crocodylus intermedius",
   "nameEn": "Orinoco Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -458,6 +484,7 @@
   "nameJa": "キューバワニ",
   "nameSci": "Crocodylus rhombifer",
   "nameEn": "Cuban Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -490,6 +517,7 @@
   "nameJa": "コビトワニ",
   "nameSci": "Osteolaemus tetraspis",
   "nameEn": "African Dwarf Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -522,6 +550,7 @@
   "nameJa": "シャムワニ",
   "nameSci": "Crocodylus siamensis",
   "nameEn": "Siamese Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -554,6 +583,7 @@
   "nameJa": "ナイルワニ",
   "nameSci": "Crocodylus niloticus",
   "nameEn": "Nile Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -587,6 +617,7 @@
   "nameJa": "ニシアフリカワニ",
   "nameSci": "Crocodylus suchus",
   "nameEn": "West African Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -619,6 +650,7 @@
   "nameJa": "ニューギニアワニ",
   "nameSci": "Crocodylus novaeguineae",
   "nameEn": "New Guinea Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -651,6 +683,7 @@
   "nameJa": "ヌマワニ",
   "nameSci": "Crocodylus palustris",
   "nameEn": "Mugger Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -683,6 +716,7 @@
   "nameJa": "フィリピンワニ",
   "nameSci": "Crocodylus mindorensis",
   "nameEn": "Philippine Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -715,6 +749,7 @@
   "nameJa": "ホソユビワニ",
   "nameSci": "Mecistops cataphractus",
   "nameEn": "Central African Slender-snouted Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [
@@ -747,6 +782,7 @@
   "nameJa": "モレレットワニ",
   "nameSci": "Crocodylus moreletii",
   "nameEn": "Morelet's Crocodile",
+  "aliases": [],
   "family": "クロコダイル科",
   "familySci": "Crocodylidae",
   "sizeMm": [

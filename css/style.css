@@ -604,6 +604,12 @@ html[data-theme="dark"] .card-group { color: var(--green-500); }
   font-size: 12.5px;
   margin: 1px 0 0;
 }
+.panel .aliases {
+  color: var(--text-dim);
+  font-size: 12px;
+  margin: 5px 0 0;
+  line-height: 1.5;
+}
 
 .section-head {
   display: flex;

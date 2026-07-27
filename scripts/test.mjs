@@ -285,6 +285,49 @@ test('学名・英名でも検索できる', () => {
   assert.ok(sp.search(frogs, 'poison').length >= 3);
 });
 
+test('展示名・通称（別名）で引ける', () => {
+  const hit = (list, q, name) => {
+    const r = sp.search(list, q);
+    assert.ok(r.some((s) => s.nameJa === name), `「${q}」→ ${name} が出ない（${r.length}件）`);
+  };
+  hit(byGroup.get('gecko'), 'レオパ', 'ヒョウモントカゲモドキ');
+  hit(byGroup.get('gecko'), 'レオパードゲッコー', 'ヒョウモントカゲモドキ');
+  hit(byGroup.get('salamander'), 'ウーパールーパー', 'メキシコサラマンダー');
+  hit(byGroup.get('salamander'), 'アホロートル', 'メキシコサラマンダー');
+  hit(byGroup.get('turtle'), 'ミドリガメ', 'ミシシッピアカミミガメ');
+  hit(byGroup.get('snake'), 'ボールパイソン', 'ボールニシキヘビ');
+  hit(byGroup.get('lizard'), 'フトアゴ', 'フトアゴヒゲトカゲ');
+});
+
+test('旧学名でも引ける（属が変わった種）', () => {
+  const hit = (list, q, name) => {
+    const r = sp.search(list, q);
+    assert.ok(r.some((s) => s.nameJa === name), `「${q}」→ ${name} が出ない（${r.length}件）`);
+  };
+  hit(frogs, 'Hyla japonica', 'ニホンアマガエル');
+  hit(frogs, 'Rana catesbeiana', 'ウシガエル');
+  hit(frogs, 'Rhacophorus arboreus', 'モリアオガエル');
+  hit(byGroup.get('snake'), 'Trimeresurus flavoviridis', 'ハブ');
+  hit(byGroup.get('lizard'), 'Eumeces japonicus', 'ニホントカゲ');
+});
+
+test('中黒・空白・全角のゆれを吸収する', () => {
+  const names = (q, list = byGroup.get('turtle')) => sp.search(list, q).map((s) => s.nameJa);
+  assert.ok(names('ミシシッピ・アカミミガメ').includes('ミシシッピアカミミガメ'), '中黒');
+  assert.ok(names('ミシシッピアカミミガメ').includes('ミシシッピアカミミガメ'), '素の名前');
+  assert.ok(sp.search(frogs, 'Ｄｅｎｄｒｏｂａｔｅｓ').length >= 4, '全角の学名');
+  // 長音のゆれ（ウーパールーパー / ウパルパ）
+  assert.ok(sp.search(byGroup.get('salamander'), 'ウーパールーパー').length >= 1);
+});
+
+test('別名は正式名と重複しない', () => {
+  for (const s of allSpecies) {
+    for (const a of s.aliases || []) {
+      assert.ok(![s.nameJa, s.nameSci, s.nameEn].includes(a), `${s.id}: 別名「${a}」が正式名と同じ`);
+    }
+  }
+});
+
 test('タグで絞り込める', () => {
   const toxic = sp.filter(frogs, { habitat: [], origin: [], size: [], activity: [], region: [], redlist: [], family: [], status: [], toxic: true, zooDisplay: false });
   assert.ok(toxic.length > 50 && toxic.every((s) => s.tags.toxic));

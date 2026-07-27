@@ -5,6 +5,7 @@
   "nameJa": "ガーゴイルゲッコー",
   "nameSci": "Rhacodactylus auriculatus",
   "nameEn": "Gargoyle Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -36,6 +37,7 @@
   "nameJa": "キスジイシヤモリ",
   "nameSci": "Strophurus taenicauda",
   "nameEn": "Golden-tailed Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -67,6 +69,11 @@
   "nameJa": "クレステッドゲッコー",
   "nameSci": "Correlophus ciliatus",
   "nameEn": "Crested Gecko",
+  "aliases": [
+   "オウカンミカドヤモリ",
+   "クレス",
+   "Rhacodactylus ciliatus"
+  ],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -98,6 +105,7 @@
   "nameJa": "サラシンミカドヤモリ",
   "nameSci": "Correlophus sarasinorum",
   "nameEn": "Sarasin's Giant Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -129,6 +137,7 @@
   "nameJa": "ツギオミカドヤモリ",
   "nameSci": "Rhacodactylus leachianus",
   "nameEn": "New Caledonian Giant Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -160,6 +169,7 @@
   "nameJa": "ツノミカドヤモリ",
   "nameSci": "Mniarogekko chahoua",
   "nameEn": "Mossy New Caledonian Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -191,6 +201,7 @@
   "nameJa": "ハスオビビロードヤモリ",
   "nameSci": "Oedura castelnaui",
   "nameEn": "Northern Velvet Gecko",
+  "aliases": [],
   "family": "イシヤモリ科",
   "familySci": "Diplodactylidae",
   "sizeMm": [
@@ -223,6 +234,7 @@
   "nameJa": "オニタマオヤモリ",
   "nameSci": "Nephrurus amyae",
   "nameEn": "Centralian Rough Knob-tailed Gecko",
+  "aliases": [],
   "family": "カワリオヤモリ科",
   "familySci": "Carphodactylidae",
   "sizeMm": [
@@ -255,6 +267,7 @@
   "nameJa": "オビタマオヤモリ",
   "nameSci": "Nephrurus levis",
   "nameEn": "Smooth Knob-tailed Gecko",
+  "aliases": [],
   "family": "カワリオヤモリ科",
   "familySci": "Carphodactylidae",
   "sizeMm": [
@@ -287,6 +300,7 @@
   "nameJa": "ナキツギオヤモリ",
   "nameSci": "Underwoodisaurus milii",
   "nameEn": "Thick-tailed Gecko",
+  "aliases": [],
   "family": "カワリオヤモリ科",
   "familySci": "Carphodactylidae",
   "sizeMm": [
@@ -319,6 +333,7 @@
   "nameJa": "トルキスタンスキンクヤモリ",
   "nameSci": "Teratoscincus scincus",
   "nameEn": "Common Wonder Gecko",
+  "aliases": [],
   "family": "チビヤモリ科",
   "familySci": "Sphaerodactylidae",
   "sizeMm": [
@@ -352,6 +367,7 @@
   "nameJa": "イヘヤトカゲモドキ",
   "nameSci": "Goniurosaurus toyamai",
   "nameEn": "Iheya Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -384,6 +400,7 @@
   "nameJa": "イラントカゲモドキ",
   "nameSci": "Eublepharis angramainyu",
   "nameEn": "Iranian Fat-tailed Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -416,6 +433,7 @@
   "nameJa": "インドトカゲモドキ",
   "nameSci": "Eublepharis hardwickii",
   "nameEn": "East Indian Leopard Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -447,6 +465,7 @@
   "nameJa": "オビトカゲモドキ",
   "nameSci": "Goniurosaurus splendens",
   "nameEn": "Banded Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -479,6 +498,7 @@
   "nameJa": "クメトカゲモドキ",
   "nameSci": "Goniurosaurus yamashinae",
   "nameEn": "Kumejima Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -511,6 +531,7 @@
   "nameJa": "クロイワトカゲモドキ",
   "nameSci": "Goniurosaurus kuroiwae",
   "nameEn": "Kuroiwa's Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -543,6 +564,7 @@
   "nameJa": "ケラマトカゲモドキ",
   "nameSci": "Goniurosaurus sengokui",
   "nameEn": "Kerama Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -575,6 +597,9 @@
   "nameJa": "ニシアフリカトカゲモドキ",
   "nameSci": "Hemitheconyx caudicinctus",
   "nameEn": "African Fat-tailed Gecko",
+  "aliases": [
+   "ニシアフ"
+  ],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -606,6 +631,7 @@
   "nameJa": "ハイナントカゲモドキ",
   "nameSci": "Goniurosaurus hainanensis",
   "nameEn": "Hainan Cave Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -638,6 +664,10 @@
   "nameJa": "ヒョウモントカゲモドキ",
   "nameSci": "Eublepharis macularius",
   "nameEn": "Leopard Gecko",
+  "aliases": [
+   "レオパードゲッコー",
+   "レオパ"
+  ],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -672,6 +702,7 @@
   "nameJa": "マダラトカゲモドキ",
   "nameSci": "Goniurosaurus orientalis",
   "nameEn": "Spotted Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -704,6 +735,7 @@
   "nameJa": "ヤンバルトカゲモドキ",
   "nameSci": "Goniurosaurus nebulozonatus",
   "nameEn": "Yambaru Ground Gecko",
+  "aliases": [],
   "family": "トカゲモドキ科",
   "familySci": "Eublepharidae",
   "sizeMm": [
@@ -736,6 +768,7 @@
   "nameJa": "ジカリーヒレアシトカゲ",
   "nameSci": "Lialis jicari",
   "nameEn": "New Guinea Snake-lizard",
+  "aliases": [],
   "family": "ヒレアシトカゲ科",
   "familySci": "Pygopodidae",
   "sizeMm": [
@@ -768,6 +801,7 @@
   "nameJa": "バートンヒレアシトカゲ",
   "nameSci": "Lialis burtonis",
   "nameEn": "Burton's Snake-lizard",
+  "aliases": [],
   "family": "ヒレアシトカゲ科",
   "familySci": "Pygopodidae",
   "sizeMm": [
@@ -800,6 +834,7 @@
   "nameJa": "アマミヤモリ",
   "nameSci": "Gekko vertebralis",
   "nameEn": "Amami Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -832,6 +867,7 @@
   "nameJa": "オオバクチヤモリ",
   "nameSci": "Geckolepis maculata",
   "nameEn": "Common Fish-scale Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -863,6 +899,7 @@
   "nameJa": "オオヒルヤモリ",
   "nameSci": "Phelsuma grandis",
   "nameEn": "Madagascar Giant Day Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -894,6 +931,7 @@
   "nameJa": "オオヘラオヤモリ",
   "nameSci": "Uroplatus fimbriatus",
   "nameEn": "Giant Leaf-tailed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -925,6 +963,7 @@
   "nameJa": "オガサワラヤモリ",
   "nameSci": "Lepidodactylus lugubris",
   "nameEn": "Mourning Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -958,6 +997,7 @@
   "nameJa": "オンナダケヤモリ",
   "nameSci": "Gehyra mutilata",
   "nameEn": "Stump-toed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -992,6 +1032,7 @@
   "nameJa": "キノボリヤモリ",
   "nameSci": "Hemidactylus platyurus",
   "nameEn": "Flat-tailed House Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1025,6 +1066,7 @@
   "nameJa": "クレメリヒルヤモリ",
   "nameSci": "Phelsuma klemmeri",
   "nameEn": "Neon Day Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1056,6 +1098,7 @@
   "nameJa": "グローブヤモリ",
   "nameSci": "Chondrodactylus angulifer",
   "nameEn": "Common Giant Ground Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1088,6 +1131,7 @@
   "nameJa": "コケヘラオヤモリ",
   "nameSci": "Uroplatus sikorae",
   "nameEn": "Mossy Leaf-tailed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1119,6 +1163,7 @@
   "nameJa": "サタンヘラオヤモリ",
   "nameSci": "Uroplatus phantasticus",
   "nameEn": "Satanic Leaf-tailed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1150,6 +1195,7 @@
   "nameJa": "スタンディングヒルヤモリ",
   "nameSci": "Phelsuma standingi",
   "nameEn": "Standing's Day Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1181,6 +1227,7 @@
   "nameJa": "ソメワケササクレヤモリ",
   "nameSci": "Paroedura picta",
   "nameEn": "Ocelot Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1212,6 +1259,7 @@
   "nameJa": "タカラヤモリ",
   "nameSci": "Gekko shibatai",
   "nameEn": "Takara Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1244,6 +1292,7 @@
   "nameJa": "タシロヤモリ",
   "nameSci": "Hemidactylus bowringii",
   "nameEn": "Oriental Leaf-toed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1277,6 +1326,7 @@
   "nameJa": "タワヤモリ",
   "nameSci": "Gekko tawaensis",
   "nameEn": "Tawa Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1309,6 +1359,7 @@
   "nameJa": "トッケイヤモリ",
   "nameSci": "Gekko gecko",
   "nameEn": "Tokay Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1341,6 +1392,7 @@
   "nameJa": "トビヤモリ",
   "nameSci": "Ptychozoon kuhli",
   "nameEn": "Kuhl's Flying Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1372,6 +1424,7 @@
   "nameJa": "ナミブスナヤモリ",
   "nameSci": "Pachydactylus rangei",
   "nameEn": "Namib Web-footed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1404,6 +1457,9 @@
   "nameJa": "ニホンヤモリ",
   "nameSci": "Gekko japonicus",
   "nameEn": "Schlegel's Japanese Gecko",
+  "aliases": [
+   "ヤモリ"
+  ],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1437,6 +1493,7 @@
   "nameJa": "ヒロオビヒルヤモリ",
   "nameSci": "Phelsuma laticauda",
   "nameEn": "Gold Dust Day Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1468,6 +1525,7 @@
   "nameJa": "ヘンケルヘラオヤモリ",
   "nameSci": "Uroplatus henkeli",
   "nameEn": "Henkel's Leaf-tailed Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1499,6 +1557,7 @@
   "nameJa": "ホオグロヤモリ",
   "nameSci": "Hemidactylus frenatus",
   "nameEn": "Common House Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1533,6 +1592,7 @@
   "nameJa": "ホワイトラインゲッコー",
   "nameSci": "Gekko vittatus",
   "nameEn": "White-lined Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1565,6 +1625,7 @@
   "nameJa": "ミナミヤモリ",
   "nameSci": "Gekko hokouensis",
   "nameEn": "Hokou Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1598,6 +1659,7 @@
   "nameJa": "ヤクヤモリ",
   "nameSci": "Gekko yakuensis",
   "nameEn": "Yakushima Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1630,6 +1692,7 @@
   "nameJa": "ヨツメヒルヤモリ",
   "nameSci": "Phelsuma quadriocellata",
   "nameEn": "Peacock Day Gecko",
+  "aliases": [],
   "family": "ヤモリ科",
   "familySci": "Gekkonidae",
   "sizeMm": [
@@ -1661,6 +1724,7 @@
   "nameJa": "カブラオヤモリ",
   "nameSci": "Thecadactylus rapicauda",
   "nameEn": "Turnip-tailed Gecko",
+  "aliases": [],
   "family": "ユビワレヤモリ科",
   "familySci": "Phyllodactylidae",
   "sizeMm": [
@@ -1694,6 +1758,7 @@
   "nameJa": "ヘルメットヤモリ",
   "nameSci": "Tarentola chazaliae",
   "nameEn": "Helmethead Gecko",
+  "aliases": [],
   "family": "ユビワレヤモリ科",
   "familySci": "Phyllodactylidae",
   "sizeMm": [

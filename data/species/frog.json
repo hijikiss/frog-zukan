@@ -5,6 +5,7 @@
   "nameJa": "アイフィンガーガエル",
   "nameSci": "Kurixalus eiffingeri",
   "nameEn": "Eiffinger's Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -37,6 +38,7 @@
   "nameJa": "アカアシトビガエル",
   "nameSci": "Rhacophorus rhodopus",
   "nameEn": "Red-webbed Treefrog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -70,6 +72,7 @@
   "nameJa": "アカゴケガエル",
   "nameSci": "Theloderma ryabovi",
   "nameEn": "Ryabov's Bug-eyed Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -101,6 +104,7 @@
   "nameJa": "アフリカアワガエル",
   "nameSci": "Chiromantis xerampelina",
   "nameEn": "Grey Foam-nest Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -132,6 +136,9 @@
   "nameJa": "アマミアオガエル",
   "nameSci": "Zhangixalus amamiensis",
   "nameEn": "Amami Green Tree Frog",
+  "aliases": [
+   "Rhacophorus amamiensis"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -163,6 +170,7 @@
   "nameJa": "オオアオガエル",
   "nameSci": "Rhacophorus dennysi",
   "nameEn": "Chinese Gliding Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -195,6 +203,9 @@
   "nameJa": "オキナワアオガエル",
   "nameSci": "Zhangixalus viridis",
   "nameEn": "Okinawa Green Tree Frog",
+  "aliases": [
+   "Rhacophorus viridis"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -226,6 +237,7 @@
   "nameJa": "カジカガエル",
   "nameSci": "Buergeria buergeri",
   "nameEn": "Kajika Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -258,6 +270,7 @@
   "nameJa": "コケガエル",
   "nameSci": "Theloderma asperum",
   "nameEn": "Bird Poop Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -290,6 +303,9 @@
   "nameJa": "シュレーゲルアオガエル",
   "nameSci": "Zhangixalus schlegelii",
   "nameEn": "Schlegel's Green Tree Frog",
+  "aliases": [
+   "Rhacophorus schlegelii"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -321,6 +337,7 @@
   "nameJa": "シロアゴガエル",
   "nameSci": "Polypedates leucomystax",
   "nameEn": "Common Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -353,6 +370,7 @@
   "nameJa": "セアカアワガエル",
   "nameSci": "Chiromantis rufescens",
   "nameEn": "African Foam-nest Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -384,6 +402,7 @@
   "nameJa": "タイワントゲアシガエル",
   "nameSci": "Kurixalus idiootocus",
   "nameEn": "Temple Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -416,6 +435,7 @@
   "nameJa": "トゲアシアオガエル",
   "nameSci": "Kurixalus odontotarsus",
   "nameEn": "Serrate-legged Small Treefrog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -448,6 +468,7 @@
   "nameJa": "ニシキゴケガエル",
   "nameSci": "Nyctixalus pictus",
   "nameEn": "Cinnamon Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -479,6 +500,7 @@
   "nameJa": "ヒョウモントビガエル",
   "nameSci": "Rhacophorus pardalis",
   "nameEn": "Harlequin Flying Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -510,6 +532,7 @@
   "nameJa": "フタイロゴケガエル",
   "nameSci": "Theloderma bicolor",
   "nameEn": "Chapa Bug-eyed Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -541,6 +564,11 @@
   "nameJa": "ベトナムゴケガエル",
   "nameSci": "Theloderma corticale",
   "nameEn": "Vietnamese Mossy Frog",
+  "aliases": [
+   "ベトナムコケガエル",
+   "コケガエル",
+   "モスフロッグ"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -573,6 +601,7 @@
   "nameJa": "ホシゴケガエル",
   "nameSci": "Theloderma stellatum",
   "nameEn": "Starry Bug-eyed Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -604,6 +633,7 @@
   "nameJa": "マラバルトビガエル",
   "nameSci": "Rhacophorus malabaricus",
   "nameEn": "Malabar Gliding Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -635,6 +665,7 @@
   "nameJa": "マレーアオガエル",
   "nameSci": "Polypedates macrotis",
   "nameEn": "Dark-eared Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -666,6 +697,7 @@
   "nameJa": "マレートビガエル",
   "nameSci": "Rhacophorus prominanus",
   "nameEn": "Malayan Flying Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -697,6 +729,7 @@
   "nameJa": "ミゾナシアオガエル",
   "nameSci": "Polypedates otilophus",
   "nameEn": "File-eared Tree Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -728,6 +761,7 @@
   "nameJa": "ミドリトビガエル",
   "nameSci": "Rhacophorus reinwardtii",
   "nameEn": "Reinwardt's Flying Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -759,6 +793,9 @@
   "nameJa": "モリアオガエル",
   "nameSci": "Zhangixalus arboreus",
   "nameEn": "Forest Green Tree Frog",
+  "aliases": [
+   "Rhacophorus arboreus"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -790,6 +827,9 @@
   "nameJa": "ヤエヤマアオガエル",
   "nameSci": "Zhangixalus owstoni",
   "nameEn": "Owston's Green Tree Frog",
+  "aliases": [
+   "Rhacophorus owstoni"
+  ],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -821,6 +861,7 @@
   "nameJa": "リュウキュウカジカガエル",
   "nameSci": "Buergeria japonica",
   "nameEn": "Ryukyu Kajika Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -854,6 +895,7 @@
   "nameJa": "ワラストビガエル",
   "nameSci": "Rhacophorus nigropalmatus",
   "nameEn": "Wallace's Flying Frog",
+  "aliases": [],
   "family": "アオガエル科",
   "familySci": "Rhacophoridae",
   "sizeMm": [
@@ -885,6 +927,7 @@
   "nameJa": "アカアシガエル",
   "nameSci": "Rana aurora",
   "nameEn": "Northern Red-legged Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -917,6 +960,7 @@
   "nameJa": "アマミアカガエル",
   "nameSci": "Rana kobai",
   "nameEn": "Amami Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -948,6 +992,7 @@
   "nameJa": "アマミイシカワガエル",
   "nameSci": "Odorrana splendida",
   "nameEn": "Amami Ishikawa's Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -980,6 +1025,7 @@
   "nameJa": "アマミハナサキガエル",
   "nameSci": "Odorrana amamiensis",
   "nameEn": "Amami Tip-nosed Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1012,6 +1058,9 @@
   "nameJa": "アメリカアカガエル",
   "nameSci": "Lithobates sylvaticus",
   "nameEn": "Wood Frog",
+  "aliases": [
+   "Rana sylvatica"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1044,6 +1093,9 @@
   "nameJa": "アメリカマダラガエル",
   "nameSci": "Lithobates palustris",
   "nameEn": "Pickerel Frog",
+  "aliases": [
+   "Rana palustris"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1076,6 +1128,11 @@
   "nameJa": "ウシガエル",
   "nameSci": "Lithobates catesbeianus",
   "nameEn": "American Bullfrog",
+  "aliases": [
+   "アメリカウシガエル",
+   "食用ガエル",
+   "Rana catesbeiana"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1109,6 +1166,7 @@
   "nameJa": "エゾアカガエル",
   "nameSci": "Rana pirica",
   "nameEn": "Ezo Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1141,6 +1199,7 @@
   "nameJa": "オオシュウハナサキガエル",
   "nameSci": "Odorrana graminea",
   "nameEn": "Large Odorous Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1174,6 +1233,7 @@
   "nameJa": "オオハナサキガエル",
   "nameSci": "Odorrana supranarina",
   "nameEn": "Owston's Green Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1206,6 +1266,7 @@
   "nameJa": "オキナワイシカワガエル",
   "nameSci": "Odorrana ishikawae",
   "nameEn": "Okinawa Ishikawa's Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1238,6 +1299,7 @@
   "nameJa": "オットンガエル",
   "nameSci": "Babina subaspera",
   "nameEn": "Otton Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1270,6 +1332,7 @@
   "nameJa": "カスケードアカガエル",
   "nameSci": "Rana cascadae",
   "nameEn": "Cascades Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1302,6 +1365,7 @@
   "nameJa": "コガタハナサキガエル",
   "nameSci": "Odorrana utsunomiyaorum",
   "nameEn": "Utsunomiya's Tip-nosed Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1333,6 +1397,9 @@
   "nameJa": "サドガエル",
   "nameSci": "Glandirana susurra",
   "nameEn": "Sado Wrinkled Frog",
+  "aliases": [
+   "Rana susurra"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1364,6 +1431,7 @@
   "nameJa": "シエラキアシガエル",
   "nameSci": "Rana sierrae",
   "nameEn": "Sierra Nevada Yellow-legged Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1396,6 +1464,7 @@
   "nameJa": "タゴガエル",
   "nameSci": "Rana tagoi",
   "nameEn": "Tago's Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1428,6 +1497,7 @@
   "nameJa": "チュウゴクタキガエル",
   "nameSci": "Amolops ricketti",
   "nameEn": "Rickett's Cascade Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1460,6 +1530,7 @@
   "nameJa": "チョウセンヤマアカガエル",
   "nameSci": "Rana uenoi",
   "nameEn": "Korean Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1492,6 +1563,7 @@
   "nameJa": "ツシマアカガエル",
   "nameSci": "Rana tsushimensis",
   "nameEn": "Tsushima Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1523,6 +1595,9 @@
   "nameJa": "ツチガエル",
   "nameSci": "Glandirana rugosa",
   "nameEn": "Japanese Wrinkled Frog",
+  "aliases": [
+   "Rana rugosa"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1555,6 +1630,7 @@
   "nameJa": "テバタガエル",
   "nameSci": "Staurois parvus",
   "nameEn": "Dwarf Splash Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1586,6 +1662,9 @@
   "nameJa": "トウキョウダルマガエル",
   "nameSci": "Pelophylax porosus porosus",
   "nameEn": "Tokyo Daruma Pond Frog",
+  "aliases": [
+   "Rana porosa porosa"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1618,6 +1697,9 @@
   "nameJa": "トノサマガエル",
   "nameSci": "Pelophylax nigromaculatus",
   "nameEn": "Black-spotted Pond Frog",
+  "aliases": [
+   "Rana nigromaculata"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1651,6 +1733,7 @@
   "nameJa": "トビアカガエル",
   "nameSci": "Rana dalmatina",
   "nameEn": "Agile Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1683,6 +1766,7 @@
   "nameJa": "ナガレタゴガエル",
   "nameSci": "Rana sakuraii",
   "nameEn": "Stream Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1715,6 +1799,9 @@
   "nameJa": "ナゴヤダルマガエル",
   "nameSci": "Pelophylax porosus brevipodus",
   "nameEn": "Nagoya Daruma Pond Frog",
+  "aliases": [
+   "Rana porosa brevipoda"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1747,6 +1834,7 @@
   "nameJa": "ニホンアカガエル",
   "nameSci": "Rana japonica",
   "nameEn": "Japanese Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1778,6 +1866,9 @@
   "nameJa": "ヌマトノサマガエル",
   "nameSci": "Pelophylax ridibundus",
   "nameEn": "Marsh Frog",
+  "aliases": [
+   "Rana ridibunda"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1812,6 +1903,7 @@
   "nameJa": "ネバタゴガエル",
   "nameSci": "Rana neba",
   "nameEn": "Neba Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1844,6 +1936,7 @@
   "nameJa": "ハナサキガエル",
   "nameSci": "Odorrana narina",
   "nameEn": "Okinawa Tip-nosed Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1876,6 +1969,9 @@
   "nameJa": "ヒョウガエル",
   "nameSci": "Lithobates pipiens",
   "nameEn": "Northern Leopard Frog",
+  "aliases": [
+   "Rana pipiens"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1909,6 +2005,9 @@
   "nameJa": "プールガエル",
   "nameSci": "Pelophylax lessonae",
   "nameEn": "Pool Frog",
+  "aliases": [
+   "Rana lessonae"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1941,6 +2040,9 @@
   "nameJa": "ブタガエル",
   "nameSci": "Lithobates grylio",
   "nameEn": "Pig Frog",
+  "aliases": [
+   "Rana grylio"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -1973,6 +2075,7 @@
   "nameJa": "ホルストガエル",
   "nameSci": "Babina holsti",
   "nameEn": "Holst's Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2005,6 +2108,9 @@
   "nameJa": "ミドリアカガエル",
   "nameSci": "Lithobates clamitans",
   "nameEn": "Green Frog",
+  "aliases": [
+   "Rana clamitans"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2037,6 +2143,7 @@
   "nameJa": "ミドリタンボガエル",
   "nameSci": "Hylarana erythraea",
   "nameEn": "Green Paddy Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2070,6 +2177,7 @@
   "nameJa": "ミドリハナサキガエル",
   "nameSci": "Odorrana hosii",
   "nameEn": "Hose's Rock Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2102,6 +2210,9 @@
   "nameJa": "ミナミヒョウガエル",
   "nameSci": "Lithobates sphenocephalus",
   "nameEn": "Southern Leopard Frog",
+  "aliases": [
+   "Rana sphenocephala"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2134,6 +2245,7 @@
   "nameJa": "ムーアガエル",
   "nameSci": "Rana arvalis",
   "nameEn": "Moor Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2168,6 +2280,7 @@
   "nameJa": "ヤエヤマハラブチガエル",
   "nameSci": "Nidirana okinavana",
   "nameEn": "Yaeyama Harpist Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2200,6 +2313,7 @@
   "nameJa": "ヤマアカガエル",
   "nameSci": "Rana ornativentris",
   "nameEn": "Montane Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2231,6 +2345,7 @@
   "nameJa": "ヨーロッパアカガエル",
   "nameSci": "Rana temporaria",
   "nameEn": "Common Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2264,6 +2379,9 @@
   "nameJa": "ヨーロッパショクヨウガエル",
   "nameSci": "Pelophylax esculentus",
   "nameEn": "Edible Frog",
+  "aliases": [
+   "Rana esculenta"
+  ],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2296,6 +2414,7 @@
   "nameJa": "リュウキュウアカガエル",
   "nameSci": "Rana ulma",
   "nameEn": "Ryukyu Brown Frog",
+  "aliases": [],
   "family": "アカガエル科",
   "familySci": "Ranidae",
   "sizeMm": [
@@ -2327,6 +2446,7 @@
   "nameJa": "アカアシアシナガガエル",
   "nameSci": "Kassina maculata",
   "nameEn": "Red-legged Kassina",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2359,6 +2479,7 @@
   "nameJa": "オオコガタアシナガガエル",
   "nameSci": "Afrixalus fornasini",
   "nameEn": "Greater Leaf-folding Frog",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2390,6 +2511,7 @@
   "nameJa": "キイロアシナガガエル",
   "nameSci": "Hyperolius viridiflavus",
   "nameEn": "Common Reed Frog",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2421,6 +2543,7 @@
   "nameJa": "シロボシマダガスカルアマガエル",
   "nameSci": "Heterixalus alboguttatus",
   "nameEn": "Starry Night Reed Frog",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2452,6 +2575,7 @@
   "nameJa": "セネガルアシナガガエル",
   "nameSci": "Kassina senegalensis",
   "nameEn": "Senegal Running Frog",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2483,6 +2607,7 @@
   "nameJa": "マダラアシナガガエル",
   "nameSci": "Hyperolius marmoratus",
   "nameEn": "Painted Reed Frog",
+  "aliases": [],
   "family": "アシナガガエル科",
   "familySci": "Hyperoliidae",
   "sizeMm": [
@@ -2514,6 +2639,9 @@
   "nameJa": "アフリカウシガエル",
   "nameSci": "Pyxicephalus adspersus",
   "nameEn": "African Bullfrog",
+  "aliases": [
+   "ピクシーフロッグ"
+  ],
   "family": "アフリカウシガエル科",
   "familySci": "Pyxicephalidae",
   "sizeMm": [
@@ -2546,6 +2674,7 @@
   "nameJa": "アフリカカワガエル",
   "nameSci": "Amietia delalandii",
   "nameEn": "Common River Frog",
+  "aliases": [],
   "family": "アフリカウシガエル科",
   "familySci": "Pyxicephalidae",
   "sizeMm": [
@@ -2579,6 +2708,7 @@
   "nameJa": "ヒメアフリカウシガエル",
   "nameSci": "Pyxicephalus edulis",
   "nameEn": "Edible Bullfrog",
+  "aliases": [],
   "family": "アフリカウシガエル科",
   "familySci": "Pyxicephalidae",
   "sizeMm": [
@@ -2611,6 +2741,7 @@
   "nameJa": "エメラルドアマガエルモドキ",
   "nameSci": "Espadarana prosoblepon",
   "nameEn": "Emerald Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2644,6 +2775,7 @@
   "nameJa": "オオアマガエルモドキ",
   "nameSci": "Centrolene geckoideum",
   "nameEn": "Giant Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2676,6 +2808,7 @@
   "nameJa": "キンテンアマガエルモドキ",
   "nameSci": "Hyalinobatrachium aureoguttatum",
   "nameEn": "Golden-flecked Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2709,6 +2842,7 @@
   "nameJa": "ツブアマガエルモドキ",
   "nameSci": "Cochranella granulosa",
   "nameEn": "Granular Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2741,6 +2875,7 @@
   "nameJa": "バレリオアマガエルモドキ",
   "nameSci": "Hyalinobatrachium valerioi",
   "nameEn": "Reticulated Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2774,6 +2909,7 @@
   "nameJa": "フライシュマンアマガエルモドキ",
   "nameSci": "Hyalinobatrachium fleischmanni",
   "nameEn": "Fleischmann's Glass Frog",
+  "aliases": [],
   "family": "アマガエルモドキ科",
   "familySci": "Centrolenidae",
   "sizeMm": [
@@ -2807,6 +2943,7 @@
   "nameJa": "アカハナアマガエル",
   "nameSci": "Scinax ruber",
   "nameEn": "Red-snouted Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2839,6 +2976,7 @@
   "nameJa": "アカボシアマガエル",
   "nameSci": "Boana punctata",
   "nameEn": "Polka-dot Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2870,6 +3008,7 @@
   "nameJa": "アカメミドリアマガエル",
   "nameSci": "Litoria chloris",
   "nameEn": "Red-eyed Tree Frog (Australian)",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2901,6 +3040,10 @@
   "nameJa": "アマゾンミルクフロッグ",
   "nameSci": "Trachycephalus resinifictrix",
   "nameEn": "Amazon Milk Frog",
+  "aliases": [
+   "ミルクガエル",
+   "アマゾンミルクガエル"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2932,6 +3075,7 @@
   "nameJa": "アミメミルクフロッグ",
   "nameSci": "Trachycephalus typhonius",
   "nameEn": "Veined Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2964,6 +3108,11 @@
   "nameJa": "アメリカアマガエル",
   "nameSci": "Dryophytes cinereus",
   "nameEn": "American Green Tree Frog",
+  "aliases": [
+   "グリーンツリーフロッグ",
+   "アメリカアオガエル",
+   "Hyla cinerea"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -2995,6 +3144,9 @@
   "nameJa": "アンダーソンアマガエル",
   "nameSci": "Dryophytes andersonii",
   "nameEn": "Pine Barrens Treefrog",
+  "aliases": [
+   "Hyla andersonii"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3026,6 +3178,10 @@
   "nameJa": "イエアメガエル",
   "nameSci": "Litoria caerulea",
   "nameEn": "White's Tree Frog",
+  "aliases": [
+   "ホワイトツリーフロッグ",
+   "Ranoidea caerulea"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3057,6 +3213,7 @@
   "nameJa": "イタリアアマガエル",
   "nameSci": "Hyla intermedia",
   "nameEn": "Italian Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3088,6 +3245,7 @@
   "nameJa": "オオイエアメガエル",
   "nameSci": "Litoria splendida",
   "nameEn": "Magnificent Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3120,6 +3278,7 @@
   "nameJa": "オオズツキガエル",
   "nameSci": "Osteopilus vastus",
   "nameEn": "Hispaniolan Giant Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3151,6 +3310,7 @@
   "nameJa": "オオホエアマガエル",
   "nameSci": "Boana boans",
   "nameEn": "Gladiator Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3182,6 +3342,7 @@
   "nameJa": "カジヤアマガエル",
   "nameSci": "Boana faber",
   "nameEn": "Blacksmith Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3213,6 +3374,7 @@
   "nameJa": "カブトアマガエル",
   "nameSci": "Triprion petasatus",
   "nameEn": "Yucatecan Casque-headed Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3244,6 +3406,7 @@
   "nameJa": "キタコオロギガエル",
   "nameSci": "Acris crepitans",
   "nameEn": "Northern Cricket Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3276,6 +3439,9 @@
   "nameJa": "キャニオンアマガエル",
   "nameSci": "Dryophytes arenicolor",
   "nameEn": "Canyon Treefrog",
+  "aliases": [
+   "Hyla arenicolor"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3308,6 +3474,7 @@
   "nameJa": "キューバズツキガエル",
   "nameSci": "Osteopilus septentrionalis",
   "nameEn": "Cuban Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3340,6 +3507,7 @@
   "nameJa": "キンスジアマガエル",
   "nameSci": "Litoria aurea",
   "nameEn": "Green and Golden Bell Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3373,6 +3541,9 @@
   "nameJa": "コエアマガエル",
   "nameSci": "Dryophytes avivoca",
   "nameEn": "Bird-voiced Treefrog",
+  "aliases": [
+   "Hyla avivoca"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3404,6 +3575,9 @@
   "nameJa": "コープハイイロアマガエル",
   "nameSci": "Dryophytes chrysoscelis",
   "nameEn": "Cope's Gray Treefrog",
+  "aliases": [
+   "Hyla chrysoscelis"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3435,6 +3609,7 @@
   "nameJa": "ジャイアントイエアメガエル",
   "nameSci": "Litoria infrafrenata",
   "nameEn": "White-lipped Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3466,6 +3641,7 @@
   "nameJa": "シロスジメキシコアマガエル",
   "nameSci": "Smilisca phaeota",
   "nameEn": "New Granada Cross-banded Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3498,6 +3674,7 @@
   "nameJa": "スナドケイアマガエル",
   "nameSci": "Dendropsophus ebraccatus",
   "nameEn": "Hourglass Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3530,6 +3707,7 @@
   "nameJa": "スプリングピーパー",
   "nameSci": "Pseudacris crucifer",
   "nameEn": "Spring Peeper",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3562,6 +3740,7 @@
   "nameJa": "ダイダイアシアマガエル",
   "nameSci": "Litoria gracilenta",
   "nameEn": "Graceful Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3593,6 +3772,7 @@
   "nameJa": "チチュウカイアマガエル",
   "nameSci": "Hyla meridionalis",
   "nameEn": "Mediterranean Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3625,6 +3805,7 @@
   "nameJa": "トウブヨーロッパアマガエル",
   "nameSci": "Hyla orientalis",
   "nameEn": "Eastern Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3656,6 +3837,7 @@
   "nameJa": "トゲカブトアマガエル",
   "nameSci": "Anotheca spinosa",
   "nameEn": "Crowned Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3687,6 +3869,7 @@
   "nameJa": "ニシコーラスガエル",
   "nameSci": "Pseudacris regilla",
   "nameEn": "Pacific Chorus Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3719,6 +3902,10 @@
   "nameJa": "ニホンアマガエル",
   "nameSci": "Dryophytes japonicus",
   "nameEn": "Japanese Tree Frog",
+  "aliases": [
+   "アマガエル",
+   "Hyla japonica"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3751,6 +3938,9 @@
   "nameJa": "ハイイロアマガエル",
   "nameSci": "Dryophytes versicolor",
   "nameEn": "Gray Treefrog",
+  "aliases": [
+   "Hyla versicolor"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3782,6 +3972,9 @@
   "nameJa": "ハロウエルアマガエル",
   "nameSci": "Dryophytes hallowellii",
   "nameEn": "Hallowell's Tree Frog",
+  "aliases": [
+   "Hyla hallowellii"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3813,6 +4006,7 @@
   "nameJa": "ブーレンジャーアマガエル",
   "nameSci": "Scinax boulengeri",
   "nameEn": "Boulenger's Snouted Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3845,6 +4039,7 @@
   "nameJa": "ベレイスアマガエル",
   "nameSci": "Dendropsophus leucophyllatus",
   "nameEn": "Bereis' Treefrog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3876,6 +4071,7 @@
   "nameJa": "ペロンアマガエル",
   "nameSci": "Litoria peronii",
   "nameEn": "Peron's Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3907,6 +4103,9 @@
   "nameJa": "ホエアマガエル",
   "nameSci": "Dryophytes gratiosus",
   "nameEn": "Barking Treefrog",
+  "aliases": [
+   "Hyla gratiosa"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3939,6 +4138,7 @@
   "nameJa": "メキシコアマガエル",
   "nameSci": "Smilisca baudinii",
   "nameEn": "Common Mexican Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -3971,6 +4171,7 @@
   "nameJa": "モーターバイクフロッグ",
   "nameSci": "Ranoidea moorei",
   "nameEn": "Motorbike Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -4003,6 +4204,7 @@
   "nameJa": "ヨーロッパアマガエル",
   "nameSci": "Hyla arborea",
   "nameEn": "European Tree Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -4034,6 +4236,9 @@
   "nameJa": "リスアマガエル",
   "nameSci": "Dryophytes squirellus",
   "nameEn": "Squirrel Treefrog",
+  "aliases": [
+   "Hyla squirella"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -4065,6 +4270,7 @@
   "nameJa": "ローゼンベルグアマガエル",
   "nameSci": "Boana rosenbergi",
   "nameEn": "Rosenberg's Gladiator Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -4097,6 +4303,7 @@
   "nameJa": "ロケットアマガエル",
   "nameSci": "Litoria nasuta",
   "nameEn": "Striped Rocket Frog",
+  "aliases": [],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
@@ -4129,6 +4336,7 @@
   "nameJa": "トウブスキアシガエル",
   "nameSci": "Scaphiopus holbrookii",
   "nameEn": "Eastern Spadefoot",
+  "aliases": [],
   "family": "アメリカスキアシガエル科",
   "familySci": "Scaphiopodidae",
   "sizeMm": [
@@ -4160,6 +4368,7 @@
   "nameJa": "ヒラタスキアシガエル",
   "nameSci": "Spea bombifrons",
   "nameEn": "Plains Spadefoot Toad",
+  "aliases": [],
   "family": "アメリカスキアシガエル科",
   "familySci": "Scaphiopodidae",
   "sizeMm": [
@@ -4191,6 +4400,7 @@
   "nameJa": "メキシコスキアシガエル",
   "nameSci": "Spea multiplicata",
   "nameEn": "Mexican Spadefoot Toad",
+  "aliases": [],
   "family": "アメリカスキアシガエル科",
   "familySci": "Scaphiopodidae",
   "sizeMm": [
@@ -4223,6 +4433,7 @@
   "nameJa": "オガエル",
   "nameSci": "Ascaphus truei",
   "nameEn": "Coastal Tailed Frog",
+  "aliases": [],
   "family": "オガエル科",
   "familySci": "Ascaphidae",
   "sizeMm": [
@@ -4255,6 +4466,7 @@
   "nameJa": "アオワキアマガエル",
   "nameSci": "Agalychnis annae",
   "nameEn": "Blue-sided Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4286,6 +4498,9 @@
   "nameJa": "アカメアマガエル",
   "nameSci": "Agalychnis callidryas",
   "nameEn": "Red-eyed Tree Frog",
+  "aliases": [
+   "レッドアイツリーフロッグ"
+  ],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4317,6 +4532,7 @@
   "nameJa": "カッショクアシアマガエル",
   "nameSci": "Agalychnis spurrelli",
   "nameEn": "Gliding Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4349,6 +4565,7 @@
   "nameJa": "カルカリファーアマガエル",
   "nameSci": "Cruziohyla calcarifer",
   "nameEn": "Splendid Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4381,6 +4598,7 @@
   "nameJa": "クロメアマガエル",
   "nameSci": "Agalychnis moreletii",
   "nameEn": "Morelet's Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4412,6 +4630,7 @@
   "nameJa": "ソバージュネコメガエル",
   "nameSci": "Phyllomedusa sauvagii",
   "nameEn": "Waxy Monkey Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4443,6 +4662,7 @@
   "nameJa": "トラアシネコメガエル",
   "nameSci": "Callimedusa tomopterna",
   "nameEn": "Tiger-striped Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4474,6 +4694,7 @@
   "nameJa": "ヒメネコメガエル",
   "nameSci": "Pithecopus azureus",
   "nameEn": "Orange-legged Monkey Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4505,6 +4726,7 @@
   "nameJa": "フタイロネコメガエル",
   "nameSci": "Phyllomedusa bicolor",
   "nameEn": "Giant Monkey Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4536,6 +4758,7 @@
   "nameJa": "フリンジアマガエル",
   "nameSci": "Cruziohyla craspedopus",
   "nameEn": "Fringed Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4567,6 +4790,7 @@
   "nameJa": "レムールアマガエル",
   "nameSci": "Agalychnis lemur",
   "nameEn": "Lemur Leaf Frog",
+  "aliases": [],
   "family": "カエルモドキ科",
   "familySci": "Phyllomedusidae",
   "sizeMm": [
@@ -4599,6 +4823,7 @@
   "nameJa": "アンデスフクロアマガエル",
   "nameSci": "Gastrotheca riobambae",
   "nameEn": "Riobamba Marsupial Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4631,6 +4856,7 @@
   "nameJa": "カブトカメガエル",
   "nameSci": "Hemiphractus scutatus",
   "nameEn": "Spix's Horned Treefrog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4663,6 +4889,7 @@
   "nameJa": "カメガエル",
   "nameSci": "Myobatrachus gouldii",
   "nameEn": "Turtle Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4694,6 +4921,7 @@
   "nameJa": "クサビガエル",
   "nameSci": "Notaden bennettii",
   "nameEn": "Holy Cross Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4725,6 +4953,7 @@
   "nameJa": "コモリチビガエル",
   "nameSci": "Crinia signifera",
   "nameEn": "Common Eastern Froglet",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4758,6 +4987,7 @@
   "nameJa": "コロボリーガエル",
   "nameSci": "Pseudophryne corroboree",
   "nameEn": "Southern Corroboree Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4789,6 +5019,7 @@
   "nameJa": "シマドロガエル",
   "nameSci": "Limnodynastes peronii",
   "nameEn": "Striped Marsh Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4821,6 +5052,7 @@
   "nameJa": "ツノフクロアマガエル",
   "nameSci": "Gastrotheca cornuta",
   "nameEn": "Horned Marsupial Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4853,6 +5085,7 @@
   "nameJa": "テングカメガエル",
   "nameSci": "Hemiphractus proboscideus",
   "nameEn": "Sumaco Horned Treefrog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4885,6 +5118,7 @@
   "nameJa": "ハアリフクロアマガエル",
   "nameSci": "Gastrotheca guentheri",
   "nameEn": "Guenther's Marsupial Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4916,6 +5150,7 @@
   "nameJa": "バンジョーガエル",
   "nameSci": "Limnodynastes dumerilii",
   "nameEn": "Eastern Banjo Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Myobatrachidae",
   "sizeMm": [
@@ -4948,6 +5183,7 @@
   "nameJa": "フクロアマガエル",
   "nameSci": "Gastrotheca marsupiata",
   "nameEn": "Marsupial Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -4980,6 +5216,7 @@
   "nameJa": "ボウレンジャーセオイガエル",
   "nameSci": "Cryptobatrachus boulengeri",
   "nameEn": "Boulenger's Backpack Frog",
+  "aliases": [],
   "family": "カメガエル科",
   "familySci": "Hemiphractidae",
   "sizeMm": [
@@ -5012,6 +5249,7 @@
   "nameJa": "イワコヤスガエル",
   "nameSci": "Craugastor augusti",
   "nameEn": "Barking Frog",
+  "aliases": [],
   "family": "クラウガストルガエル科",
   "familySci": "Craugastoridae",
   "sizeMm": [
@@ -5044,6 +5282,7 @@
   "nameJa": "フィッツィンガーコヤスガエル",
   "nameSci": "Craugastor fitzingeri",
   "nameEn": "Fitzinger's Robber Frog",
+  "aliases": [],
   "family": "クラウガストルガエル科",
   "familySci": "Craugastoridae",
   "sizeMm": [
@@ -5076,6 +5315,7 @@
   "nameJa": "アフリカオチバガエル",
   "nameSci": "Arthroleptis stenodactylus",
   "nameEn": "Common Squeaker",
+  "aliases": [],
   "family": "ケガエル科",
   "familySci": "Arthroleptidae",
   "sizeMm": [
@@ -5107,6 +5347,7 @@
   "nameJa": "ウルグルアフリカアマガエル",
   "nameSci": "Leptopelis uluguruensis",
   "nameEn": "Uluguru Forest Treefrog",
+  "aliases": [],
   "family": "ケガエル科",
   "familySci": "Arthroleptidae",
   "sizeMm": [
@@ -5138,6 +5379,7 @@
   "nameJa": "オオアフリカアマガエル",
   "nameSci": "Leptopelis vermiculatus",
   "nameEn": "Amani Forest Treefrog",
+  "aliases": [],
   "family": "ケガエル科",
   "familySci": "Arthroleptidae",
   "sizeMm": [
@@ -5169,6 +5411,7 @@
   "nameJa": "ケガエル",
   "nameSci": "Trichobatrachus robustus",
   "nameEn": "Hairy Frog",
+  "aliases": [],
   "family": "ケガエル科",
   "familySci": "Arthroleptidae",
   "sizeMm": [
@@ -5201,6 +5444,7 @@
   "nameJa": "マダラコガシラガエル",
   "nameSci": "Hemisus marmoratus",
   "nameEn": "Marbled Snout-burrower",
+  "aliases": [],
   "family": "コガシラガエル科",
   "familySci": "Hemisotidae",
   "sizeMm": [
@@ -5232,6 +5476,7 @@
   "nameJa": "オオコノハガエル",
   "nameSci": "Xenophrys major",
   "nameEn": "Great Himalayan Horned Frog",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5265,6 +5510,7 @@
   "nameJa": "カレハコノハガエル",
   "nameSci": "Brachytarsophrys carinense",
   "nameEn": "Burmese Horned Frog",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5298,6 +5544,7 @@
   "nameJa": "ジャワコノハガエル",
   "nameSci": "Megophrys montana",
   "nameEn": "Javan Horned Frog",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5329,6 +5576,7 @@
   "nameJa": "ジャワメガエル",
   "nameSci": "Leptobrachium hasseltii",
   "nameEn": "Hasselt's Toad",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5361,6 +5609,7 @@
   "nameJa": "ヒゲガエル",
   "nameSci": "Leptobrachium boringii",
   "nameEn": "Emei Moustache Toad",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5393,6 +5642,7 @@
   "nameJa": "ミツヅノコノハガエル",
   "nameSci": "Megophrys nasuta",
   "nameEn": "Malayan Horned Frog",
+  "aliases": [],
   "family": "コノハガエル科",
   "familySci": "Megophryidae",
   "sizeMm": [
@@ -5424,6 +5674,7 @@
   "nameJa": "コキーコヤスガエル",
   "nameSci": "Eleutherodactylus coqui",
   "nameEn": "Common Coqui",
+  "aliases": [],
   "family": "コヤスガエル科",
   "familySci": "Eleutherodactylidae",
   "sizeMm": [
@@ -5455,6 +5706,7 @@
   "nameJa": "コヤスガエル",
   "nameSci": "Eleutherodactylus planirostris",
   "nameEn": "Greenhouse Frog",
+  "aliases": [],
   "family": "コヤスガエル科",
   "familySci": "Eleutherodactylidae",
   "sizeMm": [
@@ -5487,6 +5739,7 @@
   "nameJa": "ゴライアスガエル",
   "nameSci": "Conraua goliath",
   "nameEn": "Goliath Frog",
+  "aliases": [],
   "family": "ゴライアスガエル科",
   "familySci": "Conrauidae",
   "sizeMm": [
@@ -5519,6 +5772,7 @@
   "nameJa": "イベリアサンバガエル",
   "nameSci": "Alytes cisternasii",
   "nameEn": "Iberian Midwife Toad",
+  "aliases": [],
   "family": "スイレンガエル科",
   "familySci": "Alytidae",
   "sizeMm": [
@@ -5551,6 +5805,7 @@
   "nameJa": "サンバガエル",
   "nameSci": "Alytes obstetricans",
   "nameEn": "Common Midwife Toad",
+  "aliases": [],
   "family": "スイレンガエル科",
   "familySci": "Alytidae",
   "sizeMm": [
@@ -5582,6 +5837,7 @@
   "nameJa": "マダラスイレンガエル",
   "nameSci": "Discoglossus pictus",
   "nameEn": "Mediterranean Painted Frog",
+  "aliases": [],
   "family": "スイレンガエル科",
   "familySci": "Alytidae",
   "sizeMm": [
@@ -5615,6 +5871,7 @@
   "nameJa": "イベリアスキアシガエル",
   "nameSci": "Pelobates cultripes",
   "nameEn": "Iberian Spadefoot Toad",
+  "aliases": [],
   "family": "スキアシガエル科",
   "familySci": "Pelobatidae",
   "sizeMm": [
@@ -5646,6 +5903,7 @@
   "nameJa": "ニンニクガエル",
   "nameSci": "Pelobates fuscus",
   "nameEn": "Common Spadefoot Toad",
+  "aliases": [],
   "family": "スキアシガエル科",
   "familySci": "Pelobatidae",
   "sizeMm": [
@@ -5677,6 +5935,7 @@
   "nameJa": "オオスズガエル",
   "nameSci": "Bombina maxima",
   "nameEn": "Yunnan Fire-bellied Toad",
+  "aliases": [],
   "family": "スズガエル科",
   "familySci": "Bombinatoridae",
   "sizeMm": [
@@ -5709,6 +5968,7 @@
   "nameJa": "キイロスズガエル",
   "nameSci": "Bombina variegata",
   "nameEn": "Yellow-bellied Toad",
+  "aliases": [],
   "family": "スズガエル科",
   "familySci": "Bombinatoridae",
   "sizeMm": [
@@ -5740,6 +6000,7 @@
   "nameJa": "スズガエル",
   "nameSci": "Bombina bombina",
   "nameEn": "European Fire-bellied Toad",
+  "aliases": [],
   "family": "スズガエル科",
   "familySci": "Bombinatoridae",
   "sizeMm": [
@@ -5772,6 +6033,9 @@
   "nameJa": "チョウセンスズガエル",
   "nameSci": "Bombina orientalis",
   "nameEn": "Oriental Fire-bellied Toad",
+  "aliases": [
+   "ファイアベリートード"
+  ],
   "family": "スズガエル科",
   "familySci": "Bombinatoridae",
   "sizeMm": [
@@ -5803,6 +6067,7 @@
   "nameJa": "フィリピンヒラタガエル",
   "nameSci": "Barbourula busuangensis",
   "nameEn": "Philippine Flat-headed Frog",
+  "aliases": [],
   "family": "スズガエル科",
   "familySci": "Bombinatoridae",
   "sizeMm": [
@@ -5835,6 +6100,7 @@
   "nameJa": "アスパーバジェットガエル",
   "nameSci": "Lepidobatrachus asper",
   "nameEn": "Rough Budgett's Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -5867,6 +6133,7 @@
   "nameJa": "アマゾンツノガエル",
   "nameSci": "Ceratophrys cornuta",
   "nameEn": "Amazonian Horned Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -5898,6 +6165,7 @@
   "nameJa": "カーチンガツノガエル",
   "nameSci": "Ceratophrys joazeirensis",
   "nameEn": "Caatinga Horned Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -5930,6 +6198,9 @@
   "nameJa": "クランウェルツノガエル",
   "nameSci": "Ceratophrys cranwelli",
   "nameEn": "Cranwell's Horned Frog",
+  "aliases": [
+   "クランウェル"
+  ],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -5962,6 +6233,7 @@
   "nameJa": "コロンビアツノガエル",
   "nameSci": "Ceratophrys calcarata",
   "nameEn": "Colombian Horned Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -5994,6 +6266,7 @@
   "nameJa": "チャコガエル",
   "nameSci": "Chacophrys pierottii",
   "nameEn": "Chacoan Burrowing Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6026,6 +6299,7 @@
   "nameJa": "バジェットガエル",
   "nameSci": "Lepidobatrachus laevis",
   "nameEn": "Budgett's Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6058,6 +6332,7 @@
   "nameJa": "ブラジルツノガエル",
   "nameSci": "Ceratophrys aurita",
   "nameEn": "Brazilian Horned Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6089,6 +6364,7 @@
   "nameJa": "ペルーツノガエル",
   "nameSci": "Ceratophrys stolzmanni",
   "nameEn": "Pacific Horned Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6121,6 +6397,10 @@
   "nameJa": "ベルツノガエル",
   "nameSci": "Ceratophrys ornata",
   "nameEn": "Argentine Horned Frog",
+  "aliases": [
+   "ベルツノ",
+   "アルゼンチンツノガエル"
+  ],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6153,6 +6433,7 @@
   "nameJa": "ラノスバジェットガエル",
   "nameSci": "Lepidobatrachus llanensis",
   "nameEn": "Llanos Frog",
+  "aliases": [],
   "family": "ツノガエル科",
   "familySci": "Ceratophryidae",
   "sizeMm": [
@@ -6185,6 +6466,7 @@
   "nameJa": "インドウシガエル",
   "nameSci": "Hoplobatrachus tigerinus",
   "nameEn": "Indian Bullfrog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6216,6 +6498,7 @@
   "nameJa": "インドスキッパーガエル",
   "nameSci": "Euphlyctis cyanophlyctis",
   "nameEn": "Indian Skipper Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6249,6 +6532,7 @@
   "nameJa": "インドヌマガエル",
   "nameSci": "Fejervarya limnocharis",
   "nameEn": "Indian Cricket Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6282,6 +6566,7 @@
   "nameJa": "インドミドリヌマガエル",
   "nameSci": "Euphlyctis hexadactylus",
   "nameEn": "Indian Green Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6315,6 +6600,7 @@
   "nameJa": "オオキバヌマガエル",
   "nameSci": "Limnonectes blythii",
   "nameEn": "Blyth's Giant River Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6347,6 +6633,7 @@
   "nameJa": "カニクイガエル",
   "nameSci": "Fejervarya cancrivora",
   "nameEn": "Crab-eating Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6378,6 +6665,7 @@
   "nameJa": "キバヌマガエル",
   "nameSci": "Limnonectes kuhlii",
   "nameEn": "Kuhl's Creek Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6410,6 +6698,7 @@
   "nameJa": "コモチキバヌマガエル",
   "nameSci": "Limnonectes larvaepartus",
   "nameEn": "Fanged Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6442,6 +6731,7 @@
   "nameJa": "サキシマヌマガエル",
   "nameSci": "Fejervarya sakishimensis",
   "nameEn": "Sakishima Rice Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6475,6 +6765,7 @@
   "nameJa": "ジャワキバヌマガエル",
   "nameSci": "Limnonectes macrodon",
   "nameEn": "Fanged River Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6507,6 +6798,7 @@
   "nameJa": "チュウゴクヌマガエル",
   "nameSci": "Hoplobatrachus rugulosus",
   "nameEn": "Chinese Edible Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6539,6 +6831,7 @@
   "nameJa": "トゲヌマガエル",
   "nameSci": "Quasipaa spinosa",
   "nameEn": "Chinese Spiny Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6572,6 +6865,7 @@
   "nameJa": "ナミエガエル",
   "nameSci": "Limnonectes namiyei",
   "nameEn": "Namiye's Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6604,6 +6898,7 @@
   "nameJa": "ヌマガエル",
   "nameSci": "Fejervarya kawamurai",
   "nameEn": "Japanese Rice Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6638,6 +6933,7 @@
   "nameJa": "ヒメヌマガエル",
   "nameSci": "Occidozyga lima",
   "nameEn": "Green Puddle Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6671,6 +6967,7 @@
   "nameJa": "ボルネオオオヌマガエル",
   "nameSci": "Limnonectes leporinus",
   "nameEn": "Giant River Frog",
+  "aliases": [],
   "family": "ヌマガエル科",
   "familySci": "Dicroglossidae",
   "sizeMm": [
@@ -6703,6 +7000,7 @@
   "nameJa": "アジアヒキガエル",
   "nameSci": "Bufo gargarizans",
   "nameEn": "Asiatic Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6735,6 +7033,7 @@
   "nameJa": "アズマヒキガエル",
   "nameSci": "Bufo japonicus formosus",
   "nameEn": "Eastern Japanese Common Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6766,6 +7065,7 @@
   "nameJa": "アフリカヒキガエル",
   "nameSci": "Sclerophrys regularis",
   "nameEn": "African Common Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6798,6 +7098,7 @@
   "nameJa": "アメリカヒキガエル",
   "nameSci": "Anaxyrus americanus",
   "nameEn": "American Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6830,6 +7131,7 @@
   "nameJa": "オークヒキガエル",
   "nameSci": "Anaxyrus quercicus",
   "nameEn": "Oak Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6862,6 +7164,7 @@
   "nameJa": "オオヒキガエル",
   "nameSci": "Rhinella marina",
   "nameEn": "Cane Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6895,6 +7198,7 @@
   "nameJa": "カメルーンヒキガエル",
   "nameSci": "Sclerophrys superciliaris",
   "nameEn": "Cameroon Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6926,6 +7230,7 @@
   "nameJa": "キノボリヒキガエル",
   "nameSci": "Pedostibes hosii",
   "nameEn": "Boulenger's Asian Tree Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6958,6 +7263,7 @@
   "nameJa": "キハンシコモチヒキガエル",
   "nameSci": "Nectophrynoides asperginis",
   "nameEn": "Kihansi Spray Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -6989,6 +7295,7 @@
   "nameJa": "キンイロヒキガエル",
   "nameSci": "Incilius periglenes",
   "nameEn": "Golden Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7021,6 +7328,7 @@
   "nameJa": "コロラドリバーヒキガエル",
   "nameSci": "Incilius alvarius",
   "nameEn": "Colorado River Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7053,6 +7361,7 @@
   "nameJa": "スムースサイドヒキガエル",
   "nameSci": "Rhaebo guttatus",
   "nameEn": "Smooth-sided Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7084,6 +7393,7 @@
   "nameJa": "ナガレヒキガエル",
   "nameSci": "Bufo torrenticola",
   "nameEn": "Japanese Stream Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7116,6 +7426,7 @@
   "nameJa": "ナタージャックヒキガエル",
   "nameSci": "Epidalea calamita",
   "nameEn": "Natterjack Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7148,6 +7459,7 @@
   "nameJa": "ニシアメリカヒキガエル",
   "nameSci": "Anaxyrus boreas",
   "nameEn": "Western Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7181,6 +7493,7 @@
   "nameJa": "ニシニンバコモチヒキガエル",
   "nameSci": "Nimbaphrynoides occidentalis",
   "nameEn": "Western Nimba Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7212,6 +7525,7 @@
   "nameJa": "ニホンヒキガエル",
   "nameSci": "Bufo japonicus",
   "nameEn": "Japanese Common Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7243,6 +7557,7 @@
   "nameJa": "パナマキンイロガエル",
   "nameSci": "Atelopus zeteki",
   "nameEn": "Panamanian Golden Frog",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7275,6 +7590,7 @@
   "nameJa": "ヒューストンヒキガエル",
   "nameSci": "Anaxyrus houstonensis",
   "nameEn": "Houston Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7307,6 +7623,7 @@
   "nameJa": "ヒョウモンヒキガエル",
   "nameSci": "Melanophryniscus stelzneri",
   "nameEn": "Bumblebee Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7338,6 +7655,7 @@
   "nameJa": "ファウラーヒキガエル",
   "nameSci": "Anaxyrus fowleri",
   "nameEn": "Fowler's Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7370,6 +7688,7 @@
   "nameJa": "ヘリグロヒキガエル",
   "nameSci": "Duttaphrynus melanostictus",
   "nameEn": "Asian Common Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7403,6 +7722,7 @@
   "nameJa": "マダラフキヤガマ",
   "nameSci": "Atelopus varius",
   "nameEn": "Variable Harlequin Frog",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7435,6 +7755,7 @@
   "nameJa": "ミドリヒキガエル",
   "nameSci": "Bufotes viridis",
   "nameEn": "European Green Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7468,6 +7789,7 @@
   "nameJa": "ミナミヒキガエル",
   "nameSci": "Anaxyrus terrestris",
   "nameEn": "Southern Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7500,6 +7822,7 @@
   "nameJa": "ミヤコヒキガエル",
   "nameSci": "Bufo gargarizans miyakonis",
   "nameEn": "Miyako Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7531,6 +7854,7 @@
   "nameJa": "ヨーロッパヒキガエル",
   "nameSci": "Bufo bufo",
   "nameEn": "Common Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7563,6 +7887,7 @@
   "nameJa": "ロココヒキガエル",
   "nameSci": "Rhinella schneideri",
   "nameEn": "Rococo Toad",
+  "aliases": [],
   "family": "ヒキガエル科",
   "familySci": "Bufonidae",
   "sizeMm": [
@@ -7595,6 +7920,9 @@
   "nameJa": "アフリカツメガエル",
   "nameSci": "Xenopus laevis",
   "nameEn": "African Clawed Frog",
+  "aliases": [
+   "ゼノパス"
+  ],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7627,6 +7955,7 @@
   "nameJa": "カルバリョコモリガエル",
   "nameSci": "Pipa carvalhoi",
   "nameEn": "Carvalho's Surinam Toad",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7658,6 +7987,7 @@
   "nameJa": "コビトコモリガエル",
   "nameSci": "Pipa parva",
   "nameEn": "Dwarf Surinam Toad",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7689,6 +8019,7 @@
   "nameJa": "コモリガエル",
   "nameSci": "Pipa pipa",
   "nameEn": "Surinam Toad",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7720,6 +8051,7 @@
   "nameJa": "ネッタイツメガエル",
   "nameSci": "Xenopus tropicalis",
   "nameEn": "Western Clawed Frog",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7751,6 +8083,7 @@
   "nameJa": "ヒメツメガエル",
   "nameSci": "Hymenochirus boettgeri",
   "nameEn": "Dwarf African Clawed Frog",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7783,6 +8116,7 @@
   "nameJa": "メルリンヒメツメガエル",
   "nameSci": "Pseudhymenochirus merlini",
   "nameEn": "Merlin's Dwarf Clawed Frog",
+  "aliases": [],
   "family": "ピパ科",
   "familySci": "Pipidae",
   "sizeMm": [
@@ -7814,6 +8148,7 @@
   "nameJa": "アカアシジムグリガエル",
   "nameSci": "Phrynomantis microps",
   "nameEn": "West African Rubber Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -7846,6 +8181,7 @@
   "nameJa": "アカスジジムグリガエル",
   "nameSci": "Phrynomantis bifasciatus",
   "nameEn": "Banded Rubber Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -7878,6 +8214,7 @@
   "nameJa": "アジアジムグリガエル",
   "nameSci": "Kaloula pulchra",
   "nameEn": "Asian Painted Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -7911,6 +8248,7 @@
   "nameJa": "アメリカヒメアマガエル",
   "nameSci": "Gastrophryne carolinensis",
   "nameEn": "Eastern Narrow-mouthed Toad",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -7943,6 +8281,7 @@
   "nameJa": "インドジムグリガエル",
   "nameSci": "Uperodon systoma",
   "nameEn": "Indian Balloon Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -7974,6 +8313,7 @@
   "nameJa": "オリーブヒメアマガエル",
   "nameSci": "Gastrophryne olivacea",
   "nameEn": "Western Narrow-mouthed Toad",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8006,6 +8346,7 @@
   "nameJa": "ゴットレイヒメアマガエル",
   "nameSci": "Scaphiophryne gottlebei",
   "nameEn": "Malagasy Rainbow Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8038,6 +8379,7 @@
   "nameJa": "サンショクトマトガエル",
   "nameSci": "Dyscophus insularis",
   "nameEn": "Antsouhy Tomato Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8070,6 +8412,7 @@
   "nameJa": "スジヒメアマガエル",
   "nameSci": "Kalophrynus pleurostigma",
   "nameEn": "Black-spotted Sticky Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8101,6 +8444,7 @@
   "nameJa": "チョウセンジムグリガエル",
   "nameSci": "Kaloula borealis",
   "nameEn": "Boreal Digging Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8132,6 +8476,7 @@
   "nameJa": "トマトガエル",
   "nameSci": "Dyscophus antongilii",
   "nameEn": "Tomato Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8163,6 +8508,7 @@
   "nameJa": "ニセトマトガエル",
   "nameSci": "Dyscophus guineti",
   "nameEn": "False Tomato Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8194,6 +8540,7 @@
   "nameJa": "ヒメアマガエル",
   "nameSci": "Microhyla okinavensis",
   "nameEn": "Okinawa Narrow-mouthed Toad",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8225,6 +8572,7 @@
   "nameJa": "フクロアマガエル",
   "nameSci": "Glyphoglossus molossus",
   "nameEn": "Balloon Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8256,6 +8604,7 @@
   "nameJa": "マダラヒメアマガエル",
   "nameSci": "Scaphiophryne marmorata",
   "nameEn": "Green Marbled Burrowing Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8288,6 +8637,7 @@
   "nameJa": "ミナミヒメアマガエル",
   "nameSci": "Microhyla pulchra",
   "nameEn": "Beautiful Pygmy Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8320,6 +8670,7 @@
   "nameJa": "メキシコジムグリガエル",
   "nameSci": "Hypopachus variolosus",
   "nameEn": "Sheep Frog",
+  "aliases": [],
   "family": "ヒメアマガエル科",
   "familySci": "Microhylidae",
   "sizeMm": [
@@ -8353,6 +8704,7 @@
   "nameJa": "オオヒラアシガエル",
   "nameSci": "Cornufer guppyi",
   "nameEn": "Giant Webbed Frog",
+  "aliases": [],
   "family": "ヒラアシガエル科",
   "familySci": "Ceratobatrachidae",
   "sizeMm": [
@@ -8385,6 +8737,7 @@
   "nameJa": "ソロモンヒラアシガエル",
   "nameSci": "Cornufer guentheri",
   "nameEn": "Guenther's Wrinkled Ground Frog",
+  "aliases": [],
   "family": "ヒラアシガエル科",
   "familySci": "Ceratobatrachidae",
   "sizeMm": [
@@ -8416,6 +8769,7 @@
   "nameJa": "クロフクラガエル",
   "nameSci": "Breviceps fuscus",
   "nameEn": "Black Rain Frog",
+  "aliases": [],
   "family": "フクラガエル科",
   "familySci": "Brevicipitidae",
   "sizeMm": [
@@ -8447,6 +8801,7 @@
   "nameJa": "サバクフクラガエル",
   "nameSci": "Breviceps macrops",
   "nameEn": "Desert Rain Frog",
+  "aliases": [],
   "family": "フクラガエル科",
   "familySci": "Brevicipitidae",
   "sizeMm": [
@@ -8478,6 +8833,7 @@
   "nameJa": "フクラガエル",
   "nameSci": "Breviceps adspersus",
   "nameEn": "Common Rain Frog",
+  "aliases": [],
   "family": "フクラガエル科",
   "familySci": "Brevicipitidae",
   "sizeMm": [
@@ -8509,6 +8865,7 @@
   "nameJa": "モザンビークフクラガエル",
   "nameSci": "Breviceps mossambicus",
   "nameEn": "Mozambique Rain Frog",
+  "aliases": [],
   "family": "フクラガエル科",
   "familySci": "Brevicipitidae",
   "sizeMm": [
@@ -8540,6 +8897,7 @@
   "nameJa": "ブタバナガエル",
   "nameSci": "Nasikabatrachus sahyadrensis",
   "nameEn": "Purple Frog",
+  "aliases": [],
   "family": "ブタバナガエル科",
   "familySci": "Nasikabatrachidae",
   "sizeMm": [
@@ -8571,6 +8929,7 @@
   "nameJa": "アオアシマンテラ",
   "nameSci": "Mantella expectata",
   "nameEn": "Blue-legged Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8603,6 +8962,7 @@
   "nameJa": "キイロマダガスカルアオガエル",
   "nameSci": "Boophis luteus",
   "nameEn": "Yellow Bright-eyed Frog",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8635,6 +8995,7 @@
   "nameJa": "キイロマンテラ",
   "nameSci": "Mantella crocea",
   "nameEn": "Yellow Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8666,6 +9027,7 @@
   "nameJa": "キノボリマンテラ",
   "nameSci": "Mantella laevigata",
   "nameEn": "Climbing Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8697,6 +9059,7 @@
   "nameJa": "キンイロマンテラ",
   "nameSci": "Mantella aurantiaca",
   "nameEn": "Golden Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8728,6 +9091,7 @@
   "nameJa": "タコノキマダガスカルガエル",
   "nameSci": "Guibemantis pulcher",
   "nameEn": "Pandanus Frog",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8759,6 +9123,7 @@
   "nameJa": "バロンマンテラ",
   "nameSci": "Mantella baroni",
   "nameEn": "Baron's Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8791,6 +9156,7 @@
   "nameJa": "ベツィレオマンテラ",
   "nameSci": "Mantella betsileo",
   "nameEn": "Betsileo Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8822,6 +9188,7 @@
   "nameJa": "ベルンハルトマンテラ",
   "nameSci": "Mantella bernhardi",
   "nameEn": "Bernhard's Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8853,6 +9220,7 @@
   "nameJa": "マダガスカルアオガエル",
   "nameSci": "Boophis madagascariensis",
   "nameEn": "Madagascar Bright-eyed Frog",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8885,6 +9253,7 @@
   "nameJa": "マダガスカルトビガエル",
   "nameSci": "Aglyptodactylus madagascariensis",
   "nameEn": "Madagascar Jumping Frog",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8916,6 +9285,7 @@
   "nameJa": "マダガスカルマンテラ",
   "nameSci": "Mantella madagascariensis",
   "nameEn": "Madagascan Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8948,6 +9318,7 @@
   "nameJa": "ミドリマダガスカルアオガエル",
   "nameSci": "Boophis viridis",
   "nameEn": "Green Bright-eyed Frog",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -8980,6 +9351,7 @@
   "nameJa": "ミドリマンテラ",
   "nameSci": "Mantella viridis",
   "nameEn": "Green Mantella",
+  "aliases": [],
   "family": "マンテラ科",
   "familySci": "Mantellidae",
   "sizeMm": [
@@ -9012,6 +9384,7 @@
   "nameJa": "ホホステッターマムシガエル",
   "nameSci": "Leiopelma hochstetteri",
   "nameEn": "Hochstetter's Frog",
+  "aliases": [],
   "family": "ムカシガエル科",
   "familySci": "Leiopelmatidae",
   "sizeMm": [
@@ -9044,6 +9417,7 @@
   "nameJa": "メキシコジムグリガエル",
   "nameSci": "Rhinophrynus dorsalis",
   "nameEn": "Mexican Burrowing Toad",
+  "aliases": [],
   "family": "ムカシガエル科",
   "familySci": "Rhinophrynidae",
   "sizeMm": [
@@ -9076,6 +9450,7 @@
   "nameJa": "コガネロケットガエル",
   "nameSci": "Anomaloglossus beebei",
   "nameEn": "Golden Rocket Frog",
+  "aliases": [],
   "family": "ヤドクガエルモドキ科",
   "familySci": "Aromobatidae",
   "sizeMm": [
@@ -9107,6 +9482,7 @@
   "nameJa": "サパロヤドクガエルモドキ",
   "nameSci": "Allobates zaparo",
   "nameEn": "Sanguine Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエルモドキ科",
   "familySci": "Aromobatidae",
   "sizeMm": [
@@ -9138,6 +9514,7 @@
   "nameJa": "タラマンカヤドクガエルモドキ",
   "nameSci": "Allobates talamancae",
   "nameEn": "Talamanca Rocket Frog",
+  "aliases": [],
   "family": "ヤドクガエルモドキ科",
   "familySci": "Aromobatidae",
   "sizeMm": [
@@ -9170,6 +9547,7 @@
   "nameJa": "フェモラリスヤドクガエルモドキ",
   "nameSci": "Allobates femoralis",
   "nameEn": "Brilliant-thighed Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエルモドキ科",
   "familySci": "Aromobatidae",
   "sizeMm": [
@@ -9201,6 +9579,11 @@
   "nameJa": "アイゾメヤドクガエル",
   "nameSci": "Dendrobates tinctorius",
   "nameEn": "Dyeing Poison Frog",
+  "aliases": [
+   "コバルトヤドクガエル",
+   "アズレウス",
+   "Dendrobates azureus"
+  ],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9232,6 +9615,7 @@
   "nameJa": "アシグロフキヤガエル",
   "nameSci": "Phyllobates aurotaenia",
   "nameEn": "Kokoe Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9263,6 +9647,7 @@
   "nameJa": "アマゾンコガタヤドクガエル",
   "nameSci": "Ranitomeya amazonica",
   "nameEn": "Amazonian Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9294,6 +9679,7 @@
   "nameJa": "アミメヤドクガエル",
   "nameSci": "Ranitomeya reticulata",
   "nameEn": "Reticulated Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9326,6 +9712,7 @@
   "nameJa": "アンソニーヤドクガエル",
   "nameSci": "Epipedobates anthonyi",
   "nameEn": "Anthony's Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9358,6 +9745,7 @@
   "nameJa": "イチゴヤドクガエル",
   "nameSci": "Oophaga pumilio",
   "nameEn": "Strawberry Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9390,6 +9778,7 @@
   "nameJa": "キイロフキヤガエル",
   "nameSci": "Phyllobates bicolor",
   "nameEn": "Black-legged Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9421,6 +9810,7 @@
   "nameJa": "キオビフキヤガエル",
   "nameSci": "Phyllobates vittatus",
   "nameEn": "Golfo Dulce Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9453,6 +9843,7 @@
   "nameJa": "キオビヤドクガエル",
   "nameSci": "Dendrobates leucomelas",
   "nameEn": "Yellow-banded Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9485,6 +9876,7 @@
   "nameJa": "キンスジヤドクガエル",
   "nameSci": "Dendrobates truncatus",
   "nameEn": "Yellow-striped Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9516,6 +9908,7 @@
   "nameJa": "コバルトヤドクガエル",
   "nameSci": "Dendrobates azureus",
   "nameEn": "Blue Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9547,6 +9940,7 @@
   "nameJa": "サンショクヤドクガエル",
   "nameSci": "Epipedobates tricolor",
   "nameEn": "Phantasmal Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9578,6 +9972,7 @@
   "nameJa": "シルバーストーンヤドクガエル",
   "nameSci": "Ameerega silverstonei",
   "nameEn": "Silverstone's Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9609,6 +10004,7 @@
   "nameJa": "シルバティカヤドクガエル",
   "nameSci": "Oophaga sylvatica",
   "nameEn": "Diablito Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9640,6 +10036,7 @@
   "nameJa": "ソラアオヤドクガエル",
   "nameSci": "Hyloxalus azureiventris",
   "nameEn": "Sky-blue Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9671,6 +10068,7 @@
   "nameJa": "ナゾヤドクガエル",
   "nameSci": "Excidobates mysteriosus",
   "nameEn": "Marañón Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9703,6 +10101,7 @@
   "nameJa": "バスレリヤドクガエル",
   "nameSci": "Ameerega bassleri",
   "nameEn": "Bassler's Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9735,6 +10134,7 @@
   "nameJa": "パナマロケットガエル",
   "nameSci": "Colostethus panamansis",
   "nameEn": "Panama Rocket Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9768,6 +10168,7 @@
   "nameJa": "バリアビリスヤドクガエル",
   "nameSci": "Ranitomeya variabilis",
   "nameEn": "Splash-back Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9799,6 +10200,7 @@
   "nameJa": "ファンタスティックヤドクガエル",
   "nameSci": "Ranitomeya fantastica",
   "nameEn": "Fantastic Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9830,6 +10232,7 @@
   "nameJa": "フロテーターロケットガエル",
   "nameSci": "Silverstoneia flotator",
   "nameEn": "Rainforest Rocket Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9862,6 +10265,7 @@
   "nameJa": "ベネディクタヤドクガエル",
   "nameSci": "Ranitomeya benedicta",
   "nameEn": "Blessed Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9893,6 +10297,7 @@
   "nameJa": "ベントリマクラータヤドクガエル",
   "nameSci": "Ranitomeya ventrimaculata",
   "nameEn": "Amazonian Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9924,6 +10329,7 @@
   "nameJa": "マダラヤドクガエル",
   "nameSci": "Dendrobates auratus",
   "nameEn": "Green-and-black Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9957,6 +10363,7 @@
   "nameJa": "マネシヤドクガエル",
   "nameSci": "Ranitomeya imitator",
   "nameEn": "Mimic Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -9988,6 +10395,7 @@
   "nameJa": "ミイロヤドクガエル",
   "nameSci": "Oophaga histrionica",
   "nameEn": "Harlequin Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -10020,6 +10428,7 @@
   "nameJa": "ミスジヤドクガエル",
   "nameSci": "Ameerega trivittata",
   "nameEn": "Three-striped Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -10051,6 +10460,7 @@
   "nameJa": "ミルクヤドクガエル",
   "nameSci": "Adelphobates galactonotus",
   "nameEn": "Splash-backed Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -10082,6 +10492,10 @@
   "nameJa": "モウドクフキヤガエル",
   "nameSci": "Phyllobates terribilis",
   "nameEn": "Golden Poison Frog",
+  "aliases": [
+   "ゴールデンポイズンフロッグ",
+   "ゴールデンポイズンダートフロッグ"
+  ],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -10113,6 +10527,7 @@
   "nameJa": "レーマンヤドクガエル",
   "nameSci": "Oophaga lehmanni",
   "nameEn": "Lehmann's Poison Frog",
+  "aliases": [],
   "family": "ヤドクガエル科",
   "familySci": "Dendrobatidae",
   "sizeMm": [
@@ -10145,6 +10560,7 @@
   "nameJa": "クヌーセンユビナガガエル",
   "nameSci": "Leptodactylus knudseni",
   "nameEn": "Knudsen's Thin-toed Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10176,6 +10592,7 @@
   "nameJa": "クビエコガエル",
   "nameSci": "Physalaemus cuvieri",
   "nameEn": "Barker Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10207,6 +10624,7 @@
   "nameJa": "クロセユビナガガエル",
   "nameSci": "Leptodactylus melanonotus",
   "nameEn": "Black-backed Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10240,6 +10658,7 @@
   "nameJa": "チリヨツメガエル",
   "nameSci": "Pleurodema thaul",
   "nameEn": "Chile Four-eyed Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10272,6 +10691,7 @@
   "nameJa": "トゥンガラガエル",
   "nameSci": "Engystomops pustulosus",
   "nameEn": "Túngara Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10304,6 +10724,7 @@
   "nameJa": "マウンテンチキン",
   "nameSci": "Leptodactylus fallax",
   "nameEn": "Mountain Chicken",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10335,6 +10756,7 @@
   "nameJa": "マダラユビナガガエル",
   "nameSci": "Leptodactylus latrans",
   "nameEn": "Butter Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10367,6 +10789,7 @@
   "nameJa": "ミナミアメリカウシガエル",
   "nameSci": "Leptodactylus pentadactylus",
   "nameEn": "Smoky Jungle Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10399,6 +10822,7 @@
   "nameJa": "ヨツメガエル",
   "nameSci": "Physalaemus nattereri",
   "nameEn": "Cuyaba Dwarf Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [
@@ -10431,6 +10855,7 @@
   "nameJa": "ラビリンスユビナガガエル",
   "nameSci": "Leptodactylus labyrinthicus",
   "nameEn": "Labyrinth Frog",
+  "aliases": [],
   "family": "ユビナガガエル科",
   "familySci": "Leptodactylidae",
   "sizeMm": [

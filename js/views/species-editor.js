@@ -39,6 +39,10 @@ export function open({ species, groupId, onSaved }) {
   const desc = el('textarea', { rows: 5 });
   desc.value = s.description || '';
 
+  // 別名は「読点・改行区切り」で編集する（展示名や通称を足せるように）
+  const aliasInput = el('textarea', { rows: 2 });
+  aliasInput.value = (s.aliases || []).join('、');
+
   const originSel = select(sp.ORIGINS, t.origin);
   const redlistSel = select(sp.REDLIST, t.redlist);
 
@@ -89,6 +93,11 @@ export function open({ species, groupId, onSaved }) {
     field('和名 *', f.nameJa),
     field('学名 *', f.nameSci),
     field('英名', f.nameEn),
+    el('div', { class: 'field' },
+      el('label', {}, '別名・展示名'),
+      aliasInput,
+      el('div', { class: 'hint', text: '読点（、）か改行で区切ります。施設の解説板やショップの呼び名を入れておくと、その名前でも検索できます。' })
+    ),
     el('div', { style: 'display:flex;gap:8px' },
       el('div', { style: 'flex:1' }, field('科（和名）', f.family)),
       el('div', { style: 'flex:1' }, field('科（学名）', f.familySci))
@@ -158,6 +167,7 @@ export function open({ species, groupId, onSaved }) {
       nameJa,
       nameSci,
       nameEn: f.nameEn.value.trim(),
+      aliases: [...new Set(aliasInput.value.split(/[、,\n]/).map((a) => a.trim()).filter(Boolean))],
       family: f.family.value.trim() || '不明',
       familySci: f.familySci.value.trim(),
       sizeMm,

@@ -24,6 +24,43 @@ const REDLIST_FIX = {
   'nectophrynoides-asperginis': '野生絶滅(EW)', // キハンシコモチヒキガエル：野生絶滅
 };
 
+// 別名・流通名・旧学名は data/aliases.json（種id → 名前の配列）にまとめてある。
+// 巨大な parts ファイルを触らずに「展示で見かける呼び名」を足せるようにするため。
+const ALIAS_FILE = join(ROOT, 'data', 'aliases.json');
+const aliasMap = existsSync(ALIAS_FILE) ? JSON.parse(readFileSync(ALIAS_FILE, 'utf8')) : {};
+const aliasUsed = new Set();
+
+/**
+ * 属が変わった種の旧学名。解説板や図鑑は旧名のままのことが多いので、
+ * 「Hyla japonica」で引いてもニホンアマガエルに当たるように自動で別名を作る。
+ *
+ * 注意: 学名の種小名は属の性に合わせて語尾が変わる。
+ * Hyla（女性）と Dryophytes（男性）では japonica / japonicus と違うので、
+ * 性が変わる組み合わせだけ toFeminine を立てて -us を -a に直す。
+ */
+const GENUS_SYNONYMS = [
+  { from: 'Dryophytes', to: 'Hyla', toFeminine: true },        // アマガエル類
+  { from: 'Lithobates', to: 'Rana', toFeminine: true },        // ウシガエルなど
+  { from: 'Pelophylax', to: 'Rana', toFeminine: true },        // トノサマガエルなど
+  { from: 'Glandirana', to: 'Rana' },                          // ツチガエル（どちらも女性）
+  { from: 'Zhangixalus', to: 'Rhacophorus' },                  // モリアオガエルなど
+  { from: 'Plestiodon', to: 'Eumeces' },                       // ニホントカゲなど
+  { from: 'Protobothrops', to: 'Trimeresurus' },               // ハブなど
+  { from: 'Gloydius', to: 'Agkistrodon' },                     // マムシなど
+];
+
+function oldScientificNames(nameSci) {
+  const [genus, ...rest] = String(nameSci).trim().split(/\s+/);
+  if (!rest.length) return [];
+  return GENUS_SYNONYMS
+    .filter((r) => r.from === genus)
+    .map((r) => {
+      // 亜種名まで性が一致する（Pelophylax porosus porosus → Rana porosa porosa）
+      const epithets = r.toFeminine ? rest.map((w) => w.replace(/us$/, 'a')) : rest;
+      return [r.to, ...epithets].join(' ');
+    });
+}
+
 const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
 const targets = only.length ? GROUPS.filter((g) => only.includes(g.id)) : GROUPS;
 if (only.length && targets.length !== only.length) {
@@ -157,12 +194,20 @@ function clean(s, where0, g) {
   const len = [...s.description].length;
   if (len < 40 || len > 220) warnings.push(`${where}: description が ${len}字`);
 
+  // 別名は aliases.json と種データの両方から集めて、正式名と重複するものは落とす
+  if (aliasMap[s.id]) aliasUsed.add(s.id);
+  const official = [s.nameJa, s.nameSci, s.nameEn].map((x) => (x || '').trim());
+  const aliases = [...new Set([...(s.aliases || []), ...(aliasMap[s.id] || []), ...oldScientificNames(s.nameSci)]
+    .map((a) => String(a).trim())
+    .filter((a) => a && !official.includes(a)))];
+
   return {
     id: s.id,
     group: g.id,
     nameJa: s.nameJa.trim(),
     nameSci: s.nameSci.trim(),
     nameEn: (s.nameEn || '').trim(),
+    aliases,
     family: s.family.trim(),
     familySci: (s.familySci || '').trim(),
     sizeMm,
@@ -183,6 +228,14 @@ function clean(s, where0, g) {
 
 /* ---- レポート ---- */
 
+// 全グループを作ったときだけ、使われなかった別名（id の打ち間違い）を報告する
+if (!only.length) {
+  for (const id of Object.keys(aliasMap)) {
+    if (id.startsWith('_')) continue;   // _comment などの覚え書き
+    if (!aliasUsed.has(id)) warnings.push(`aliases.json: 「${id}」という種はありません`);
+  }
+}
+
 console.log('\n=== data/species ===');
 let grand = 0;
 for (const { g, out } of report) {
@@ -194,7 +247,8 @@ for (const { g, out } of report) {
     `  外来 ${String(count((s) => s.tags.origin === '外来')).padStart(2)}` +
     `  国外 ${String(count((s) => s.tags.origin === '国外')).padStart(4)}` +
     `  国内展示 ${String(count((s) => s.zooDisplay)).padStart(3)}` +
-    `  科 ${String(new Set(out.map((s) => s.family)).size).padStart(2)}`
+    `  科 ${String(new Set(out.map((s) => s.family)).size).padStart(2)}` +
+    `  別名 ${String(count((s) => s.aliases.length)).padStart(3)}`
   );
 }
 console.log(`${'合計'.padEnd(8, '　')} ${String(grand).padStart(4)}種`);
