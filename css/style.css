@@ -1130,6 +1130,18 @@ html[data-theme="dark"] .tag.rl { background: #2c2338; color: #c0a5dc; }
 }
 .unknown-actions .btn { flex: 1; padding: 6px 4px; }
 
+/* 名前が分からない写真を他のアプリ（Googleレンズ等）に渡すボタン */
+.btn.lookup {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 7px 4px;
+  border-style: dashed;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+.picker-preview + .btn.lookup { margin: -4px 0 10px; }
+
 /* 種を選ぶモーダル */
 .picker-preview {
   width: 100%;

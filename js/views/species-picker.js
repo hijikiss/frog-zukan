@@ -7,17 +7,18 @@
 
 import * as sp from '../species.js';
 import { group as groupOf } from '../groups.js';
-import { UNIDENTIFIED } from '../photos.js';
-import { el, modal, blobUrlFor, silhouette } from '../ui.js';
+import { UNIDENTIFIED, facilitySummary } from '../photos.js';
+import { el, modal, blobUrlFor, silhouette, canShareImage, shareImage } from '../ui.js';
 
 const MAX_ROWS = 40;   // 全813種を一度に並べると重いので、検索前は最近見た種だけ出す
 
 /**
  * @param opts.allowUnknown 「あとで同定する」を出すか
  * @param opts.preview      上に出す写真（Blob）
+ * @param opts.facility     施設名。渡すとその施設で前に登録した種を先頭に出す
  * @returns {Promise<string|null>} 選ばれた種の id、'__unidentified__'、閉じたら null
  */
-export function pickSpecies({ allowUnknown = false, preview = null, title = '種を選ぶ' } = {}) {
+export function pickSpecies({ allowUnknown = false, preview = null, facility = '', title = '種を選ぶ' } = {}) {
   return new Promise((resolve) => {
     let done = false;
     const finish = (value) => {
@@ -38,6 +39,13 @@ export function pickSpecies({ allowUnknown = false, preview = null, title = '種
 
     const body = el('div', {},
       preview ? el('div', { class: 'picker-preview' }, el('img', { src: blobUrlFor(preview), alt: '' })) : null,
+      // 名前が分からないときの逃げ道。渡す先はユーザーが選ぶ（アプリ自身は送信しない）。
+      preview && canShareImage()
+        ? el('button', {
+            class: 'btn sm lookup',
+            onclick: () => shareImage(preview),
+          }, '🔎 他のアプリで調べる')
+        : null,
       el('div', { class: 'searchrow', style: 'margin-bottom:8px' },
         el('div', { class: 'search' }, input)
       ),
@@ -52,8 +60,30 @@ export function pickSpecies({ allowUnknown = false, preview = null, title = '種
     ].filter(Boolean);
 
     const m = modal({ title, body, footer, onClose: () => finish(null) });
+
+    // その施設で前に登録した種を先頭に出す。読み込みは非同期なので、届いたら並べ直す。
+    let facilitySpecies = new Set();
+    if (facility) {
+      facilitySummary()
+        .then((rows) => {
+          const f = rows.find((r) => r.name === facility);
+          if (!f || !f.speciesIds.length || done) return;
+          facilitySpecies = new Set(f.speciesIds);
+          paint();
+        })
+        .catch(() => { /* 出せなくても検索はできる */ });
+    }
+
     paint();
     setTimeout(() => input.focus(), 50);
+
+    /** 写真を登録したことがある種（＝また使う可能性が高い）。同じ施設の種を先に。 */
+    function recentlyUsed() {
+      const rank = (s) => (facilitySpecies.has(s.id) ? 0 : 1);
+      return sp.all()
+        .filter((s) => sp.photoInfo(s.id))
+        .sort((a, b) => rank(a) - rank(b) || a.nameJa.localeCompare(b.nameJa, 'ja'));
+    }
 
     function paint() {
       const q = input.value.trim();
@@ -65,6 +95,10 @@ export function pickSpecies({ allowUnknown = false, preview = null, title = '種
           el('span', { class: 'big' }, '🔎'),
           q ? '見つかりませんでした。' : '名前で検索してください。'));
         return;
+      }
+      if (!q && facilitySpecies.size) {
+        results.append(el('div', { class: 'hint', style: 'padding:8px 12px',
+          text: `${facility}で前に登録した種を先に出しています。` }));
       }
 
       for (const s of list.slice(0, MAX_ROWS)) {
@@ -88,13 +122,6 @@ export function pickSpecies({ allowUnknown = false, preview = null, title = '種
       }
     }
   });
-}
-
-/** 写真を登録したことがある種（＝また使う可能性が高い）を先に見せる */
-function recentlyUsed() {
-  return sp.all()
-    .filter((s) => sp.photoInfo(s.id))
-    .sort((a, b) => a.nameJa.localeCompare(b.nameJa, 'ja'));
 }
 
 function thumb(s) {

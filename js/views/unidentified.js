@@ -7,7 +7,7 @@ import * as sp from '../species.js';
 import * as photoStore from '../photos.js';
 import * as photoEditor from './photo-editor.js';
 import { pickSpecies } from './species-picker.js';
-import { el, clear, blobUrlFor, formatDate, toast } from '../ui.js';
+import { el, clear, blobUrlFor, formatDate, toast, canShareImage, shareImage } from '../ui.js';
 
 export async function render(view, { refresh }) {
   clear(view);
@@ -26,6 +26,7 @@ export async function render(view, { refresh }) {
     el('p', { class: 'browse-lead', text: `${list.length}枚の写真の名前がまだ決まっていません。写真をタップして種を選べます。` })
   );
 
+  const canShare = canShareImage();
   const grid = el('div', { class: 'grid' });
   for (const p of list) grid.append(card(p));
   view.append(grid);
@@ -49,7 +50,14 @@ export async function render(view, { refresh }) {
         el('div', { class: 'unknown-actions' },
           el('button', { class: 'btn sm primary', onclick: () => assign(p) }, '種を決める'),
           el('button', { class: 'btn sm', onclick: () => photoEditor.edit(p.id, refresh) }, '編集')
-        )
+        ),
+        // 共有シートに渡せる端末でだけ出す。トリミング前の元画像の方が調べやすい。
+        canShare
+          ? el('button', {
+              class: 'btn sm lookup',
+              onclick: () => shareImage(p.blob),
+            }, '🔎 他のアプリで調べる')
+          : null
       )
     );
   }
@@ -58,6 +66,7 @@ export async function render(view, { refresh }) {
     const speciesId = await pickSpecies({
       title: 'この写真の生き物は？',
       preview: p.thumb || p.blob,
+      facility: p.context === 'captive' ? p.facility : '',
     });
     if (!speciesId) return;
 

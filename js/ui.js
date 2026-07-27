@@ -42,6 +42,38 @@ export function toast(msg) {
   toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
+/* ---------------- 写真を他のアプリに渡す ---------------- */
+
+/**
+ * 端末の共有シートに写真を渡せるか。
+ * ファイル共有は対応がまちまち（PC の Chrome は不可、iOS/Android はだいたい可）なので、
+ * 出す前に必ずこれで確かめる。アプリ自身が送信するわけではなく、
+ * 渡すかどうか・どのアプリに渡すかは毎回ユーザーが選ぶ。
+ */
+export function canShareImage() {
+  if (!navigator.canShare || !navigator.share) return false;
+  try {
+    return navigator.canShare({ files: [new File([''], 'x.jpg', { type: 'image/jpeg' })] });
+  } catch {
+    return false;
+  }
+}
+
+/** 写真を共有シートに渡す（Google レンズなどで調べてもらう用） */
+export async function shareImage(blob, { title = 'この生き物は？' } = {}) {
+  if (!blob) return false;
+  const file = new File([blob], 'photo.jpg', { type: blob.type || 'image/jpeg' });
+  try {
+    await navigator.share({ files: [file], title });
+    return true;
+  } catch (err) {
+    // ユーザーが共有シートを閉じただけなら黙って戻る
+    if (err && err.name === 'AbortError') return false;
+    toast('この端末では写真を渡せませんでした');
+    return false;
+  }
+}
+
 /* ---------------- 更新バー ---------------- */
 
 let updateBarShown = false;
