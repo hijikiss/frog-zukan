@@ -1008,7 +1008,9 @@
   "nameJa": "サバンナモニター",
   "nameSci": "Varanus exanthematicus",
   "nameEn": "Savannah Monitor",
-  "aliases": [],
+  "aliases": [
+   "サバンナオオトカゲ"
+  ],
   "family": "オオトカゲ科",
   "familySci": "Varanidae",
   "sizeMm": [

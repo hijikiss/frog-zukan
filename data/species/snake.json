@@ -1806,7 +1806,9 @@
   "nameJa": "カリフォルニアキングスネーク",
   "nameSci": "Lampropeltis californiae",
   "nameEn": "California Kingsnake",
-  "aliases": [],
+  "aliases": [
+   "カリフォルニアキングヘビ"
+  ],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2605,7 +2607,9 @@
   "nameJa": "ミルクスネーク",
   "nameSci": "Lampropeltis triangulum",
   "nameEn": "Milk Snake",
-  "aliases": [],
+  "aliases": [
+   "ミルクヘビ"
+  ],
   "family": "ナミヘビ科",
   "familySci": "Colubridae",
   "sizeMm": [
@@ -2972,7 +2976,9 @@
   "nameJa": "カーペットパイソン",
   "nameSci": "Morelia spilota",
   "nameEn": "Carpet Python",
-  "aliases": [],
+  "aliases": [
+   "カーペットニシキヘビ"
+  ],
   "family": "ニシキヘビ科",
   "familySci": "Pythonidae",
   "sizeMm": [
@@ -3443,7 +3449,9 @@
   "nameJa": "ニジボア",
   "nameSci": "Epicrates cenchria",
   "nameEn": "Brazilian Rainbow Boa",
-  "aliases": [],
+  "aliases": [
+   "レインボーボア"
+  ],
   "family": "ボア科",
   "familySci": "Boidae",
   "sizeMm": [

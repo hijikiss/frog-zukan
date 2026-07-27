@@ -3041,6 +3041,7 @@
   "nameSci": "Trachycephalus resinifictrix",
   "nameEn": "Amazon Milk Frog",
   "aliases": [
+   "ジュウジメドクアマガエル",
    "ミルクガエル",
    "アマゾンミルクガエル"
   ],
@@ -3075,7 +3076,10 @@
   "nameJa": "アミメミルクフロッグ",
   "nameSci": "Trachycephalus typhonius",
   "nameEn": "Veined Tree Frog",
-  "aliases": [],
+  "aliases": [
+   "アミメドクアマガエル",
+   "ミルキーフロッグ"
+  ],
   "family": "アマガエル科",
   "familySci": "Hylidae",
   "sizeMm": [
