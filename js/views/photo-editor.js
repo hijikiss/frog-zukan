@@ -3,6 +3,7 @@
 import * as photoStore from '../photos.js';
 import { photos as photoDb } from '../db.js';
 import { createCropper } from '../cropper.js';
+import { pickSpecies } from './species-picker.js';
 import {
   el, modal, toast, confirmDialog,
   toLocalInput, fromLocalInput, formatDate,
@@ -329,6 +330,22 @@ export async function open({ speciesId, file, record, onSaved }) {
       toast(err.message || '保存に失敗しました');
       saveBtn.disabled = false;
     }
+  }
+}
+
+/**
+ * 写真を起点に登録する（現場で撮ってから、あとで種を決める流れ）。
+ * 1枚ずつ「種を選ぶ」→ 登録モーダル。種が分からなければ未同定のまま置いておける。
+ */
+export async function addPhotos(files, { onSaved } = {}) {
+  for (const file of files) {
+    const speciesId = await pickSpecies({
+      title: 'この写真の生き物は？',
+      allowUnknown: true,
+      preview: file,
+    });
+    if (!speciesId) continue;   // キャンセルされた写真は飛ばす
+    await open({ speciesId, file, onSaved });
   }
 }
 

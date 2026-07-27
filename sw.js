@@ -9,7 +9,7 @@
  * アプリを更新したら CACHE のバージョンを上げること。
  */
 
-const CACHE = 'frog-zukan-v10';
+const CACHE = 'frog-zukan-v11';
 
 const ASSETS = [
   './',
@@ -42,6 +42,8 @@ const ASSETS = [
   './js/views/detail.js',
   './js/views/facilities.js',
   './js/views/stats.js',
+  './js/views/species-picker.js',
+  './js/views/unidentified.js',
   './js/views/settings.js',
   './js/views/photo-editor.js',
   './js/views/species-editor.js',
@@ -53,12 +55,19 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', (e) => {
+  // ここで skipWaiting しない：開いている画面が急に新旧まざったコードで動くのを避ける。
+  // 新しい版は「待機中」のまま置いておき、アプリが更新を知らせて、
+  // ユーザーが「更新」を押したときに下の message で有効化する。
   e.waitUntil(
     caches.open(CACHE)
       // 1ファイルでも 404 だと addAll 全体が失敗するので、個別に入れる
       .then((c) => Promise.all(ASSETS.map((u) => c.add(u).catch(() => null))))
-      .then(() => self.skipWaiting())
   );
+});
+
+// アプリから「更新して」と言われたら、待機をやめて新しい版に切り替える
+self.addEventListener('message', (e) => {
+  if (e.data === 'skip-waiting') self.skipWaiting();
 });
 
 self.addEventListener('activate', (e) => {

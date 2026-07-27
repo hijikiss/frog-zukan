@@ -2,6 +2,8 @@
 
 import * as sp from '../species.js';
 import { GROUPS } from '../groups.js';
+import * as photoStore from '../photos.js';
+import * as photoEditor from './photo-editor.js';
 import { silhouette } from '../icons.js';
 import { el, clear } from '../ui.js';
 import { speciesCard } from './card.js';
@@ -9,9 +11,10 @@ import { speciesCard } from './card.js';
 // 検索文字を覚えておく（ホームに戻っても消えない）
 let query = '';
 
-export function render(view) {
+export async function render(view, { refresh } = {}) {
   clear(view);
   const body = el('div');
+  const unknownCount = (await photoStore.unidentified()).length;
 
   const input = el('input', {
     type: 'search',
@@ -43,6 +46,9 @@ export function render(view) {
     const grid = el('div', { class: 'home-grid' });
     for (const g of GROUPS) grid.append(tile(g));
     const total = sp.progress();
+    // append は null を「null」という文字にしてしまうので、出すものだけ渡す
+    body.append(photoButton());
+    if (unknownCount) body.append(unknownNotice(unknownCount));
     body.append(
       el('p', { class: 'home-lead', text: '見たい生き物を選ぶか、上でまとめて検索できます。' }),
       grid,
@@ -54,6 +60,39 @@ export function render(view) {
         '種）'
       )
     );
+  }
+
+  /** 写真を起点に記録する（撮ってから種を決める流れ） */
+  function photoButton() {
+    const input = el('input', {
+      type: 'file',
+      accept: 'image/*',
+      multiple: true,
+      style: 'display:none',
+      onchange: async (e) => {
+        const files = [...e.target.files];
+        e.target.value = '';
+        await photoEditor.addPhotos(files, { onSaved: refresh });
+      },
+    });
+    return el('div', {},
+      el('button', { class: 'photo-first', onclick: () => input.click() },
+        el('span', { class: 'ico' }, '📷'),
+        el('span', { class: 'main' },
+          el('span', { class: 't' }, '写真から記録する'),
+          el('span', { class: 's' }, '撮った写真を選んで、あとから種を決められます')
+        )
+      ),
+      input
+    );
+  }
+
+  // paint() から呼ぶので、巻き上げが効く関数宣言にしておく（const だと初期化前に呼ばれる）
+  function unknownNotice(n) {
+    return el('a', { class: 'unknown-notice', href: '#/unidentified' },
+      el('span', { class: 'ico' }, '🔍'),
+      el('span', { class: 'main' }, `未同定の写真が${n}枚あります`),
+      el('span', { class: 'chev' }, '›'));
   }
 }
 

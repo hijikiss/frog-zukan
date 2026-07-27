@@ -11,6 +11,14 @@ import { parseExif } from './exif.js';
 
 const FULL_MAX = 1600;
 
+/**
+ * 種がまだ決まっていない写真に使う speciesId。
+ * 実在の種 id（英小文字とハイフン）と衝突しない形にしてあるので、
+ * 図鑑の集計（sp.get が見つけられない）には自然と混ざらない。
+ */
+export const UNIDENTIFIED = '__unidentified__';
+export const isUnidentified = (speciesId) => speciesId === UNIDENTIFIED;
+
 /** ファイルから EXIF を読む（撮影日時・GPS） */
 export async function readExif(file) {
   if (!file || !/jpe?g/i.test(file.type)) return null;
@@ -140,6 +148,23 @@ export async function setCover(speciesId, photoId, on = true) {
   }
 }
 
+/** まだ種を決めていない写真（新しい順） */
+export async function unidentified() {
+  const all = await photos.all();
+  return all
+    .filter((p) => isUnidentified(p.speciesId))
+    .sort((a, b) => (b.takenAt || b.createdAt || '').localeCompare(a.takenAt || a.createdAt || ''));
+}
+
+/** 未同定の写真に種を決める（写真の他の内容はそのまま） */
+export async function assignSpecies(photoId, speciesId) {
+  const rec = await photos.get(photoId);
+  if (!rec) return null;
+  const updated = { ...rec, speciesId, updatedAt: new Date().toISOString() };
+  await photos.put(updated);
+  return updated;
+}
+
 /** 施設名の入力候補（過去に入力したもの、使用回数の多い順） */
 export async function facilityNames() {
   const all = await photos.all();
@@ -164,7 +189,8 @@ export async function facilitySummary() {
       map.set(p.facility, { name: p.facility, species: new Set(), photoCount: 0, lastVisit: null });
     }
     const f = map.get(p.facility);
-    f.species.add(p.speciesId);
+    // 未同定は「◯種」に数えない（種が決まってから数える）
+    if (!isUnidentified(p.speciesId)) f.species.add(p.speciesId);
     f.photoCount++;
     const t = p.takenAt || p.createdAt;
     if (t && (!f.lastVisit || t > f.lastVisit)) f.lastVisit = t;

@@ -42,6 +42,36 @@ export function toast(msg) {
   toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
+/* ---------------- 更新バー ---------------- */
+
+let updateBarShown = false;
+
+/** 新しい版が用意できたことを知らせる。押されたら onUpdate を呼ぶ。 */
+export function updateBar(onUpdate) {
+  if (updateBarShown) return;
+  updateBarShown = true;
+
+  const btn = el('button', { class: 'btn sm primary' }, '更新');
+  const bar = el('div', { class: 'update-bar', role: 'status' },
+    el('span', { class: 'update-text', text: '新しいバージョンがあります' }),
+    btn,
+    el('button', {
+      class: 'update-close',
+      'aria-label': '閉じる',
+      onclick: () => { bar.remove(); updateBarShown = false; },
+    }, '✕')
+  );
+
+  btn.addEventListener('click', () => {
+    btn.disabled = true;
+    btn.textContent = '更新中…';
+    onUpdate();
+  });
+
+  document.body.append(bar);
+  requestAnimationFrame(() => bar.classList.add('show'));
+}
+
 /* ---------------- modal ---------------- */
 
 /**

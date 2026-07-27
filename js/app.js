@@ -4,13 +4,14 @@ import * as sp from './species.js';
 import { group as groupOf, isGroup, hasSubgroups, subgroupName, subgroupOfFamily } from './groups.js';
 import { lockPageZoom } from './gestures.js';
 import { meta } from './db.js';
-import { el, clear, toast, revokeCached } from './ui.js';
+import { el, clear, toast, revokeCached, updateBar } from './ui.js';
 import * as homeView from './views/home.js';
 import * as listView from './views/list.js';
 import * as browseView from './views/browse.js';
 import * as detailView from './views/detail.js';
 import * as facilitiesView from './views/facilities.js';
 import * as statsView from './views/stats.js';
+import * as unidentifiedView from './views/unidentified.js';
 import * as settingsView from './views/settings.js';
 
 const APP_TITLE = '爬虫類・両生類図鑑';
@@ -142,12 +143,15 @@ async function route() {
       setChrome('記録', false, true);
       await statsView.render(view);
       paintProgress();   // 記録画面が写真インデックスを作り直すので、ヘッダーも数え直す
+    } else if (head === 'unidentified') {
+      setChrome('未同定の写真', true, false);
+      await unidentifiedView.render(view, { refresh });
     } else if (head === 'settings') {
       setChrome('設定', false, false);
       await settingsView.render(view, { refresh });
     } else {
       setChrome(APP_TITLE, false, true);
-      homeView.render(view);
+      await homeView.render(view, { refresh });
     }
   } catch (err) {
     console.error(err);
@@ -201,9 +205,61 @@ async function main() {
   paintProgress();
   await route();
 
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js').catch(() => { /* 失敗しても通常動作する */ });
+  initServiceWorker();
+}
+
+/* ---------------- 更新の検知 ---------------- */
+
+/**
+ * 新しい版が用意できたら教える。
+ *
+ * sw.js は install しても待機したままにしてある（画面が新旧まざったコードで動かないように）。
+ * ここで待機中の版を見つけたらバーを出し、「更新」を押されたら skip-waiting を送って
+ * 切り替え完了（controllerchange）で1度だけ再読み込みする。
+ */
+function initServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (reloading) return;   // 再読み込みは1回だけ（ループ防止）
+    reloading = true;
+    location.reload();
+  });
+
+  // 起動処理（種データの読み込み）を待つ間に load は済んでしまうので、
+  // 「まだなら待つ、済んでいればすぐ」の両方を面倒みる。
+  // ここを load 待ちだけにすると登録自体が走らず、オフラインで動かなくなる。
+  if (document.readyState === 'complete') register();
+  else window.addEventListener('load', register, { once: true });
+
+  async function register() {
+    let reg;
+    try {
+      reg = await navigator.serviceWorker.register('./sw.js');
+    } catch {
+      return;   // 登録できなくてもアプリ自体は動く
+    }
+
+    const notify = () => {
+      // controller が無いのは初回インストール。まだ「更新」ではないので黙っておく。
+      if (!navigator.serviceWorker.controller) return;
+      updateBar(() => reg.waiting?.postMessage('skip-waiting'));
+    };
+
+    if (reg.waiting) notify();
+    reg.addEventListener('updatefound', () => {
+      const sw = reg.installing;
+      if (!sw) return;
+      sw.addEventListener('statechange', () => {
+        if (sw.state === 'installed') notify();
+      });
+    });
+
+    // ホーム画面から使うと画面を開きっぱなしにしがちなので、
+    // 戻ってきたタイミングで新しい版が出ていないか確かめる。
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') reg.update().catch(() => { /* 圏外など */ });
     });
   }
 }
